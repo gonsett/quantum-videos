@@ -98,6 +98,7 @@ import { VideoPipeline, DUR_PIPE } from "./pipeline-rc/Video";
 import { VideoRacha, DUR_RACHA } from "./racha-rc/Video";
 import { VideoLibreto, DUR_LIBRETO } from "./libreto-rc/Video";
 import { MuestraSilencio, DUR_SIL_MUESTRA } from "./silencio-rc/Muestra";
+import { VideoSilencio, DUR_SILENCIO } from "./silencio-rc/Video";
 import { SettersGozCompleto, TOTAL_COMPLETO } from "./setters-goz/Completo";
 import { AnuncioSetters, TOTAL_ANUNCIO } from "./setters-goz/Anuncio";
 import { SettersVideo, DURACION_SETTERS } from "./setters-rc/video";
@@ -442,6 +443,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="Racha-RC-Video" component={VideoRacha} durationInFrames={DUR_RACHA} fps={60} width={1080} height={1920} />
       <Composition id="Libreto-RC-Video" component={VideoLibreto} durationInFrames={DUR_LIBRETO} fps={60} width={1080} height={1920} />
       <Composition id="Silencio-RC-Muestra" component={MuestraSilencio} durationInFrames={DUR_SIL_MUESTRA} fps={60} width={1080} height={1920} />
+      <Composition id="Silencio-RC-Video" component={VideoSilencio} durationInFrames={DUR_SILENCIO} fps={60} width={1080} height={1920} />
       <Composition id="Setters-Goz-Completo" component={SettersGozCompleto} durationInFrames={TOTAL_COMPLETO} fps={60} width={1080} height={1920} />
       <Composition id="Setters-Anuncio" component={AnuncioSetters} durationInFrames={TOTAL_ANUNCIO} fps={60} width={1080} height={1920} />
       <Composition id="Setters-RC" component={SettersVideo} durationInFrames={DURACION_SETTERS} fps={30} width={1080} height={1920} />

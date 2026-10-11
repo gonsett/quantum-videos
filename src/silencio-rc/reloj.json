@@ -1,0 +1,25 @@
+{
+  "_nota": "Lectura del cronómetro en segundos de voz (0 = arranca la voz). Cada tramo: [s0, lectura0, s1, lectura1, paso]. paso=1: corre a saltos de 1/5 (y suena un tic por salto); paso=0: barrido continuo (rebobinado o puesta a cero). Entre tramos, la aguja queda quieta. Lo leen Video.tsx y generar-sonido-silencio-video.py.",
+  "tramos": [
+    [1.85, 0, 2.85, 1, 1],
+    [2.85, 1, 3.85, 2, 1],
+    [3.85, 2, 4.3, 2.4, 1],
+    [4.3, 2.4, 7.4, 3.2, 1],
+    [7.4, 3.2, 10.18, 4.0, 1],
+    [10.18, 4.0, 11.6, 4.2, 1],
+    [14.9, 4.2, 16.0, 0, 0],
+    [23.4, 0, 28.4, 5.0, 1],
+    [28.4, 5.0, 29.8, 5.4, 1],
+    [29.8, 5.4, 31.9, 5.8, 1],
+    [32.4, 5.8, 32.6, 0, 0],
+    [32.62, 0, 33.4, 3.1, 1],
+    [33.4, 3.1, 33.56, 0, 0],
+    [33.58, 0, 35.0, 5.4, 1],
+    [35.38, 5.4, 35.56, 0, 0],
+    [35.58, 0, 38.1, 6.6, 1],
+    [38.1, 6.6, 39.3, 6.8, 1],
+    [39.3, 6.8, 40.32, 7.0, 1]
+  ],
+  "rounds": [32.6, 33.56, 35.58],
+  "frena": [11.6, 40.32]
+}
