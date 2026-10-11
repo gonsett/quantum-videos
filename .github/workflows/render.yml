@@ -1,0 +1,77 @@
+# Render repartido: el video se divide en N tramos que se renderizan en paralelo (una máquina cada uno),
+# el audio se renderiza aparte y al final se unen sin recodificar el video.
+# Se lanza con: gh workflow run render.yml -f composicion=Libreto-RC-Video -f cuadros=2227
+name: Render
+on:
+  workflow_dispatch:
+    inputs:
+      composicion: { description: "ID de la composición (Root.tsx)", required: true }
+      cuadros: { description: "durationInFrames de la composición", required: true }
+      partes: { description: "tramos en paralelo (máx. 19: el plan gratis corre 20 trabajos a la vez)", default: "19" }
+      salida: { description: "nombre del mp4", default: "video.mp4" }
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      tramos: ${{ steps.p.outputs.tramos }}
+    steps:
+      - id: p
+        run: |
+          node -e '
+            const total = +process.argv[1], n = Math.max(1, Math.min(+process.argv[2], total));
+            const t = []; for (let i = 0; i < n; i++) {
+              const a = Math.floor(total * i / n), b = Math.floor(total * (i + 1) / n) - 1;
+              if (b >= a) t.push({ i: String(i).padStart(2, "0"), a, b });
+            }
+            console.log("tramos=" + JSON.stringify(t));
+          ' "${{ inputs.cuadros }}" "${{ inputs.partes }}" >> "$GITHUB_OUTPUT"
+
+  video:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix:
+        tramo: ${{ fromJson(needs.plan.outputs.tramos) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci --no-audit --no-fund
+      - run: npx remotion browser ensure
+      - name: Render del tramo ${{ matrix.tramo.i }} (${{ matrix.tramo.a }}-${{ matrix.tramo.b }})
+        run: npx remotion render "${{ inputs.composicion }}" "tramo-${{ matrix.tramo.i }}.mp4" --frames=${{ matrix.tramo.a }}-${{ matrix.tramo.b }} --muted --concurrency=100% --log=verbose 2>&1 | grep -vE "google-fonts|network requests" | tail -40
+      - run: test -s "tramo-${{ matrix.tramo.i }}.mp4"
+      - uses: actions/upload-artifact@v4
+        with: { name: "tramo-${{ matrix.tramo.i }}", path: "tramo-${{ matrix.tramo.i }}.mp4", retention-days: 1, compression-level: 0 }
+
+  audio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci --no-audit --no-fund
+      - run: npx remotion browser ensure
+      - run: npx remotion render "${{ inputs.composicion }}" audio.wav --codec=wav --concurrency=100%
+      - uses: actions/upload-artifact@v4
+        with: { name: audio, path: audio.wav, retention-days: 1 }
+
+  unir:
+    needs: [video, audio]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { path: piezas, merge-multiple: true }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Unir tramos + audio con limitador a -1 dB
+        run: |
+          cd piezas
+          ls tramo-*.mp4 | sort | sed "s/.*/file '&'/" > lista.txt
+          ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i lista.txt -c copy video-mudo.mp4
+          ffmpeg -hide_banner -loglevel error -i video-mudo.mp4 -i audio.wav -map 0:v -map 1:a -c:v copy \
+            -af "alimiter=limit=0.89" -c:a aac -b:a 320k -shortest -movflags +faststart "../${{ inputs.salida }}"
+          ffprobe -v error -show_entries format=duration -of csv=p=0 "../${{ inputs.salida }}"
+      - uses: actions/upload-artifact@v4
+        with: { name: final, path: "${{ inputs.salida }}", retention-days: 7, compression-level: 0 }
