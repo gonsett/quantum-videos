@@ -1,0 +1,63 @@
+{
+  "_nota": "Reparto de leads. Pantallas de datos construidas con la gramatica de Padron AGIP (rotulo/enunciado/cuerpo/libro/remate), no recortes de captura.",
+  "_voz": "Gemini TTS Callirrhoe acelerada 1.4x con atempo.",
+  "fps": 30,
+  "escenas": [
+    {
+      "id": "01-rapido",
+      "voz": "01-rapido",
+      "durationInFrames": 130,
+      "vozDelay": 12,
+      "_voz_seg": 3.6
+    },
+    {
+      "id": "02-libre",
+      "voz": "02-libre",
+      "durationInFrames": 167,
+      "vozDelay": 4,
+      "_voz_seg": 5.03
+    },
+    {
+      "id": "03-sinasignar",
+      "voz": "03-sinasignar",
+      "durationInFrames": 172,
+      "vozDelay": 4,
+      "_voz_seg": 4.87
+    },
+    {
+      "id": "04-entra",
+      "voz": "04-entra",
+      "durationInFrames": 140,
+      "vozDelay": 4,
+      "_voz_seg": 4.13
+    },
+    {
+      "id": "05-ofrece",
+      "voz": "05-ofrece",
+      "durationInFrames": 144,
+      "vozDelay": 4,
+      "_voz_seg": 4.07
+    },
+    {
+      "id": "06-empate",
+      "voz": "06-empate",
+      "durationInFrames": 214,
+      "vozDelay": 4,
+      "_voz_seg": 6.6
+    },
+    {
+      "id": "07-nadie",
+      "voz": "07-nadie",
+      "durationInFrames": 190,
+      "vozDelay": 4,
+      "_voz_seg": 5.8
+    },
+    {
+      "id": "08-cierre",
+      "voz": "08-cierre",
+      "durationInFrames": 196,
+      "vozDelay": 4,
+      "_voz_seg": 5.27
+    }
+  ]
+}

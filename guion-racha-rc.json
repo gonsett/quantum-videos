@@ -1,0 +1,10 @@
+{
+  "_nota": "La mala racha (10/10/2026): dolor del closer, ~35 s, lenguaje 'el calendario' (ver src/racha-rc). Una sola toma corrida para que no haya huecos entre frases.",
+  "_instruccion_voz": "Una closer de ventas rioplatense hablándole a un colega que está pasando una mala racha: tono de charla natural, cercana y honesta, como quien entiende lo que el otro siente porque le pasó. Empieza bajo y comprensivo, y a partir de 'Se sale practicando' se abre y gana confianza, sin exagerar. Nada de locutora, nada de tono de anuncio ni de publicidad, nada dramático. Ritmo de conversación normal: las frases se encadenan sin pausas largas entre una y otra. La palabra 'roleplay' y 'closers' se dicen con pronunciación en inglés natural.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    {"id": "toma-a", "texto": "Dos semanas sin cerrar. Y empezás a entrar a cada llamada pensando en la anterior. El prospecto no sabe de tu racha... pero la escucha. Apurás el precio. Bajás el tono. Cedés antes de que te lo pidan. Y la racha se alimenta sola. Con leads reales no salís de ahí: cada llamada que perdés pesa más que la anterior. Se sale practicando, donde perder no cuesta nada. En Ring Closers hacés roleplay con otros closers, con la objeción que te está matando, las veces que haga falta. Hasta que la llamada vuelve a ser tuya. Ring Closers. Practicá con closers. Cerrá con clientes."},
+    {"id": "toma-b", "texto": "Dos semanas sin cerrar. Y empezás a entrar a cada llamada pensando en la anterior. El prospecto no sabe de tu racha... pero la escucha. Apurás el precio. Bajás el tono. Cedés antes de que te lo pidan. Y la racha se alimenta sola. Con leads reales no salís de ahí: cada llamada que perdés pesa más que la anterior. Se sale practicando, donde perder no cuesta nada. En Ring Closers hacés roleplay con otros closers, con la objeción que te está matando, las veces que haga falta. Hasta que la llamada vuelve a ser tuya. Ring Closers. Practicá con closers. Cerrá con clientes."}
+  ]
+}

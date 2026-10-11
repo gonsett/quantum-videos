@@ -1,0 +1,15 @@
+{
+  "_nota": "Actualizaciones RC #1: Oficina 3D. 35 s, motion elevado (ver src/oficina-rc).",
+  "_instruccion_voz": "Una mujer rioplatense que trabaja en ventas contándole una novedad a un colega, en tono de charla natural, cálida y cercana, con entusiasmo contenido. Nada de locutora, nada de tono de anuncio ni de publicidad: voz normal, relajada, velocidad de conversación normal. Las palabras en inglés (roleplay, closers, Zoom, Ring Closers) se dicen con pronunciación en inglés natural.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    {"id": "01-vivo", "texto": "Tu oficina, ahora en vivo."},
+    {"id": "02-equipo", "texto": "Ves a todo tu equipo en tiempo real: quién está en llamada, quién en roleplay, quién está libre."},
+    {"id": "03-dia", "texto": "Tocás a cualquiera y ves su día: llamadas, cierres, lo que cobró."},
+    {"id": "04-toque", "texto": "Y lo llamás con un toque. Sin Zoom, sin links."},
+    {"id": "05-canales", "texto": "Canales del equipo y salas de voz abiertas, todo adentro de Ring Closers."},
+    {"id": "06-recreo", "texto": "Hasta el recreo."},
+    {"id": "07-lugar", "texto": "Tu equipo, en un solo lugar."}
+  ]
+}

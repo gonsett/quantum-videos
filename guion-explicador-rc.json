@@ -1,0 +1,22 @@
+{
+  "_nota": "Explicador simple de Ring Closers: qué es, cómo funciona, rango/cinturones, currículum y ofertas de trabajo. Video nuevo y distinto del comercial (guion-ringclosers.json) y del Reel v2/v3 (guion-rc-v2.json) — sin gancho de venta, tono directo de explicación.",
+  "_reglas": "Voz Callirrhoe sin excepcion. Ritmo NATURAL (atempo 1.0) — NUNCA acelerar para entrar en un target de duracion. El video dura lo que la voz natural necesite.",
+  "_instruccion_voz": "Lee esto en español rioplatense, con voz clara y calma, como quien explica algo simple a un colega. Frases cortas, ritmo natural sin apurar ni una sola sílaba. Nada de tono publicitario ni de gancho — es una explicación, no una venta.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    { "id": "01-que-es", "texto": "¿Qué es Ring Closers? Una app para entrenar como closer de ventas.", "pausa": 0.5 },
+    { "id": "02-problema", "texto": "Practicar solo, sin sistema, se abandona a la tercera semana.", "pausa": 0.4 },
+    { "id": "03-arma", "texto": "Ring Closers te arma tres roleplays por semana, según tu disponibilidad." },
+    { "id": "04-tercios", "texto": "Uno con alguien de menor nivel. Uno de tu nivel. Uno de mayor nivel." },
+    { "id": "05-afuera", "texto": "Vos peleás afuera, por Zoom o Meet.", "pausa": 0.4 },
+    { "id": "06-rango", "texto": "Cada semana que cumplís, sumás puntos y subís de rango." },
+    { "id": "07-cinturon", "texto": "De Aficionado a Leyenda, con cinturón digital en cada nivel.", "pausa": 0.4 },
+    { "id": "08-ranking", "texto": "Hay un ranking público, y los directores comerciales lo miran." },
+    { "id": "09-curriculum", "texto": "Podés cargar tu currículum: empresas, tasa de cierre, tu mejor cash collect." },
+    { "id": "10-ofertas", "texto": "Y hay ofertas de trabajo reales, publicadas ahí mismo.", "pausa": 0.4 },
+    { "id": "11-postular", "texto": "Las ves, te postulás, y el director te contacta directo.", "pausa": 0.4 },
+    { "id": "12-cierre", "texto": "Todo en un solo lugar.", "pausa": 0.4 },
+    { "id": "13-cta", "texto": "Ring Closers. Subite al ring.", "ritmo": 2.4 }
+  ]
+}

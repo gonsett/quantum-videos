@@ -1,0 +1,13 @@
+08-tasa        REVISAR
+  guion: Medís tu tasa de agenda. Y tu show rate.
+  oído (gemini-3.5-transcribe): Medí tu tasa de agenda y tu show rate.  <-- REVISAR: de más: medi; faltan: medis
+  oído (cf:whisper-large-v3-turbo): Me di tu tasa de agenda y tu show rate.  <-- REVISAR: de más: me di; faltan: medis
+  sin respuesta: gemini-3.5-flash
+
+09-fathom      REVISAR
+  guion: Subís la grabación de Fathom y repasás cada llamada.
+  oído (gemini-3.5-transcribe): Subí la grabación de Fathom y repasás cada llamada.  <-- REVISAR: de más: subi; faltan: subis
+  oído (cf:whisper-large-v3-turbo): Subís la grabación de FADOM y repasás cada llamada.  <-- REVISAR: de más: fadom; faltan: fathom
+  sin respuesta: gemini-3.5-flash
+
+2 toma(s) para revisar o sin verificar de 2

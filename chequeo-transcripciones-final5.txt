@@ -1,0 +1,15 @@
+08-ranking       guion:  Hay un ranking público, y los directores comerciales lo miran.
+                 google: ERROR: HTTP Error 429: Too Many Requests
+
+09-curriculum    guion:  Podés cargar tu currículum: empresas, tasa de cierre, tu mejor cash collect.
+                 google: ERROR: HTTP Error 429: Too Many Requests
+
+10-ofertas       guion:  Y hay ofertas de trabajo reales, publicadas ahí mismo.
+                 google: ERROR: HTTP Error 429: Too Many Requests
+
+12-cierre        guion:  Todo en un solo lugar.
+                 google: ERROR: HTTP Error 429: Too Many Requests
+
+13-cta           guion:  Ring Closers. Subite al ring.
+                 google: ERROR: HTTP Error 429: Too Many Requests
+

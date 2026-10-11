@@ -1,0 +1,16 @@
+{
+  "_nota": "Estructura del cuarto video de Ring Closers (racha/logros/rank-up). Aire natural, sin acelerar la voz.",
+  "guion": "guion-racha-rc.json",
+  "voz": "public/voz-racha-rc-final",
+  "salida": "timeline-racha-rc.json",
+  "fps": 30,
+  "estructura": [
+    { "id": "s1-gancho", "voces": ["01-gancho", "02-pregunta"], "entrada": 6, "entre": 10, "cola": 14 },
+    { "id": "s2-problema", "voces": ["03-problema", "04-giro"], "entrada": 4, "entre": 12, "cola": 14 },
+    { "id": "s3-racha", "voces": ["05-racha"], "entrada": 6, "cola": 14 },
+    { "id": "s4-logro", "voces": ["06-logro"], "entrada": 6, "cola": 14 },
+    { "id": "s5-rankup", "voces": ["07-rankup"], "entrada": 8, "cola": 18 },
+    { "id": "s6-cierre", "voces": ["08-cierre"], "entrada": 6, "cola": 14 },
+    { "id": "s7-cta", "voces": ["09-cta"], "entrada": 8, "cola": 40 }
+  ]
+}

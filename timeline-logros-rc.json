@@ -1,0 +1,454 @@
+{
+  "fps": 30,
+  "total": 1366,
+  "escenas": [
+    {
+      "id": "e1-gancho",
+      "from": 0,
+      "durationInFrames": 149,
+      "clips": [
+        {
+          "voz": "01-gancho",
+          "enEscena": 3,
+          "cuadros": 140,
+          "palabras": [
+            {
+              "palabra": "Mirá",
+              "cuadro": 13
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 22
+            },
+            {
+              "palabra": "que",
+              "cuadro": 26
+            },
+            {
+              "palabra": "pasa",
+              "cuadro": 33
+            },
+            {
+              "palabra": "en",
+              "cuadro": 42
+            },
+            {
+              "palabra": "un",
+              "cuadro": 46
+            },
+            {
+              "palabra": "año",
+              "cuadro": 51
+            },
+            {
+              "palabra": "de",
+              "cuadro": 58
+            },
+            {
+              "palabra": "roleplays.",
+              "cuadro": 62
+            },
+            {
+              "palabra": "En",
+              "cuadro": 83
+            },
+            {
+              "palabra": "treinta",
+              "cuadro": 100
+            },
+            {
+              "palabra": "segundos.",
+              "cuadro": 115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e2-dia-uno",
+      "from": 149,
+      "durationInFrames": 218,
+      "clips": [
+        {
+          "voz": "02-dia-uno",
+          "enEscena": 2,
+          "cuadros": 210,
+          "palabras": [
+            {
+              "palabra": "Día",
+              "cuadro": 2
+            },
+            {
+              "palabra": "uno:",
+              "cuadro": 8
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 14
+            },
+            {
+              "palabra": "primer",
+              "cuadro": 18
+            },
+            {
+              "palabra": "combate.",
+              "cuadro": 45
+            },
+            {
+              "palabra": "Esa",
+              "cuadro": 59
+            },
+            {
+              "palabra": "misma",
+              "cuadro": 65
+            },
+            {
+              "palabra": "semana,",
+              "cuadro": 98
+            },
+            {
+              "palabra": "alguien",
+              "cuadro": 110
+            },
+            {
+              "palabra": "te",
+              "cuadro": 134
+            },
+            {
+              "palabra": "pone",
+              "cuadro": 138
+            },
+            {
+              "palabra": "cinco",
+              "cuadro": 146
+            },
+            {
+              "palabra": "estrellas.",
+              "cuadro": 156
+            },
+            {
+              "palabra": "Noqueaste.",
+              "cuadro": 187
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e3-semana",
+      "from": 367,
+      "durationInFrames": 147,
+      "clips": [
+        {
+          "voz": "03-semana",
+          "enEscena": 2,
+          "cuadros": 135,
+          "palabras": [
+            {
+              "palabra": "Cumplís",
+              "cuadro": 9
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 25
+            },
+            {
+              "palabra": "primera",
+              "cuadro": 30
+            },
+            {
+              "palabra": "semana.",
+              "cuadro": 45
+            },
+            {
+              "palabra": "Y",
+              "cuadro": 71
+            },
+            {
+              "palabra": "ya",
+              "cuadro": 73
+            },
+            {
+              "palabra": "llevás",
+              "cuadro": 78
+            },
+            {
+              "palabra": "diez",
+              "cuadro": 91
+            },
+            {
+              "palabra": "peleas",
+              "cuadro": 100
+            },
+            {
+              "palabra": "encima.",
+              "cuadro": 114
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4-racha",
+      "from": 514,
+      "durationInFrames": 162,
+      "clips": [
+        {
+          "voz": "04-racha",
+          "enEscena": 14,
+          "cuadros": 130,
+          "palabras": [
+            {
+              "palabra": "Tres",
+              "cuadro": 21
+            },
+            {
+              "palabra": "semanas",
+              "cuadro": 30
+            },
+            {
+              "palabra": "seguidas.",
+              "cuadro": 46
+            },
+            {
+              "palabra": "Eso",
+              "cuadro": 72
+            },
+            {
+              "palabra": "ya",
+              "cuadro": 78
+            },
+            {
+              "palabra": "no",
+              "cuadro": 83
+            },
+            {
+              "palabra": "es",
+              "cuadro": 87
+            },
+            {
+              "palabra": "suerte:",
+              "cuadro": 92
+            },
+            {
+              "palabra": "es",
+              "cuadro": 111
+            },
+            {
+              "palabra": "costumbre.",
+              "cuadro": 115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e5-acelera",
+      "from": 676,
+      "durationInFrames": 273,
+      "clips": [
+        {
+          "voz": "05-acelera",
+          "enEscena": 4,
+          "cuadros": 265,
+          "palabras": [
+            {
+              "palabra": "Un",
+              "cuadro": 11
+            },
+            {
+              "palabra": "mes.",
+              "cuadro": 16
+            },
+            {
+              "palabra": "Tu",
+              "cuadro": 25
+            },
+            {
+              "palabra": "primera",
+              "cuadro": 44
+            },
+            {
+              "palabra": "compra.",
+              "cuadro": 64
+            },
+            {
+              "palabra": "Diez",
+              "cuadro": 82
+            },
+            {
+              "palabra": "mil",
+              "cuadro": 105
+            },
+            {
+              "palabra": "cerrados",
+              "cuadro": 114
+            },
+            {
+              "palabra": "en",
+              "cuadro": 137
+            },
+            {
+              "palabra": "objeciones.",
+              "cuadro": 143
+            },
+            {
+              "palabra": "Tres",
+              "cuadro": 196
+            },
+            {
+              "palabra": "meses.",
+              "cuadro": 207
+            },
+            {
+              "palabra": "Cincuenta",
+              "cuadro": 233
+            },
+            {
+              "palabra": "mil.",
+              "cuadro": 260
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e6-rafaga",
+      "from": 949,
+      "durationInFrames": 186,
+      "clips": [
+        {
+          "voz": "06-rafaga",
+          "enEscena": 2,
+          "cuadros": 172,
+          "palabras": [
+            {
+              "palabra": "Seis",
+              "cuadro": 10
+            },
+            {
+              "palabra": "meses.",
+              "cuadro": 22
+            },
+            {
+              "palabra": "Diez",
+              "cuadro": 37
+            },
+            {
+              "palabra": "semanas",
+              "cuadro": 58
+            },
+            {
+              "palabra": "sin",
+              "cuadro": 79
+            },
+            {
+              "palabra": "fallar.",
+              "cuadro": 88
+            },
+            {
+              "palabra": "Cien",
+              "cuadro": 117
+            },
+            {
+              "palabra": "mil.",
+              "cuadro": 129
+            },
+            {
+              "palabra": "Un",
+              "cuadro": 151
+            },
+            {
+              "palabra": "año.",
+              "cuadro": 157
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e7-cierre",
+      "from": 1135,
+      "durationInFrames": 231,
+      "clips": [
+        {
+          "voz": "07-cierre",
+          "enEscena": 8,
+          "cuadros": 148,
+          "palabras": [
+            {
+              "palabra": "Catorce",
+              "cuadro": 14
+            },
+            {
+              "palabra": "trofeos.",
+              "cuadro": 33
+            },
+            {
+              "palabra": "Y",
+              "cuadro": 53
+            },
+            {
+              "palabra": "el",
+              "cuadro": 55
+            },
+            {
+              "palabra": "primero",
+              "cuadro": 71
+            },
+            {
+              "palabra": "sale",
+              "cuadro": 90
+            },
+            {
+              "palabra": "con",
+              "cuadro": 101
+            },
+            {
+              "palabra": "un",
+              "cuadro": 109
+            },
+            {
+              "palabra": "solo",
+              "cuadro": 115
+            },
+            {
+              "palabra": "roleplay.",
+              "cuadro": 126
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "01-gancho",
+      "desde": 3
+    },
+    {
+      "voz": "02-dia-uno",
+      "desde": 151
+    },
+    {
+      "voz": "03-semana",
+      "desde": 369
+    },
+    {
+      "voz": "04-racha",
+      "desde": 528
+    },
+    {
+      "voz": "05-acelera",
+      "desde": 680
+    },
+    {
+      "voz": "06-rafaga",
+      "desde": 951
+    },
+    {
+      "voz": "07-cierre",
+      "desde": 1143
+    }
+  ]
+}

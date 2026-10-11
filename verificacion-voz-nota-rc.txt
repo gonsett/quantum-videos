@@ -1,0 +1,13 @@
+01-cv          OK (3 de 3 oídos)
+  guion: Tu CV dice lo que vos querés que diga. Cualquiera escribe: excelente manejo de objeciones.
+  oído (gemini-3.5-flash): Tu CV dice lo que vos querés que diga. Cualquiera escribe excelente manejo de objeciones.
+  oído (gemini-3.5-transcribe): Tu CV dice lo que vos querés que diga. Cualquiera escribe excelente manejo de objeciones.
+  oído (cf:whisper-large-v3-turbo): Tu CV dice lo que vos querés que diga. Cualquiera escribe excelente manejo de objeciones.
+
+06-director    OK (3 de 3 oídos)
+  guion: Un día, un director lo abre. No lee lo que dijiste. Lee lo que dijeron de vos.
+  oído (gemini-3.5-flash): Un día un director lo abre. No lee lo que dijiste. Lee lo que dijeron de vos.
+  oído (gemini-3.5-transcribe): Un día un director lo abre. No lee lo que dijiste, lee lo que dijeron de vos.
+  oído (cf:whisper-large-v3-turbo): Un día, un director lo abre. No lee lo que dijiste, lee lo que dijeron de vos.
+
+0 toma(s) para revisar o sin verificar de 2

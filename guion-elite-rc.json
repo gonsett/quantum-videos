@@ -1,0 +1,15 @@
+{
+  "_nota": "Ring Closers para closers de élite. Guion v2 aprobado por Javier el 19/09/2026. El gancho arranca con sus palabras: '¿Sos closer y tenés un nivel altísimo? Con más razón tenés que usar Ring Closers.' Tres verbos: afilás, te conocen, te buscan. Sin 'gratis'. Sin cinturones en pantalla.",
+  "_reglas": "Voz Charon a velocidad de conversación normal (objetivo 14-16 caracteres por segundo de habla, medido). Sin pausas dramáticas. Verificar cada toma con dos transcriptores antes de montar.",
+  "_instruccion_voz": "Locutor profesional masculino, en español rioplatense, con energía y seguridad. Hablá a velocidad de conversación normal, ágil y fluida: sin arrastrar las palabras, sin pausas largas ni dramáticas, como un narrador deportivo sereno que sabe lo que dice. Frases cortas y directas, con énfasis natural en las palabras clave.",
+  "voz": "Charon",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    { "id": "01-gancho", "texto": "¿Sos closer y tenés un nivel altísimo? Con más razón tenés que usar Ring Closers." },
+    { "id": "02-puente", "texto": "Porque arriba, la diferencia está en el detalle." },
+    { "id": "03-afilas", "texto": "Uno: afilás. Roleplay con closers de tu altura, y con alguno mejor." },
+    { "id": "04-conocen", "texto": "Dos: te conocen. Tu lugar en el ranking es público." },
+    { "id": "05-buscan", "texto": "Tres: te buscan. Los directores comerciales recorren ese ranking, y si les interesás, te mandan una propuesta." },
+    { "id": "06-cierre", "texto": "Vos entrená. Que te busquen, sin mover un dedo." }
+  ]
+}

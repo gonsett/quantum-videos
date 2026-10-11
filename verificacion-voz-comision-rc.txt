@@ -1,0 +1,55 @@
+01-grupo       REVISAR
+  guion: Sos closer. Llega el primero de mes y mandás al grupo cuánto comisionaste.
+  oído (gemini-3.5-transcribe): Schachclauser, llegas el primero de mes y mandas al grupo cuánto comisionaste.  <-- REVISAR: de más: schachclauser llegas; faltan: sos closer llega
+  oído (cf:whisper-large-v3-turbo): Sos Closer, llega el primero de mes y mandas al grupo cuanto comisionaste.
+  sin respuesta: gemini-3.5-flash
+
+02-record      OK (2 de 3 oídos)
+  guion: Todos te felicitan. Récord.
+  oído (gemini-3.5-transcribe): Todos te felicitan. Record.
+  oído (cf:whisper-large-v3-turbo): ¡Todos te felicitan! ¡Record!
+  sin respuesta: gemini-3.5-flash
+
+03-mesa        OK (2 de 3 oídos)
+  guion: Pero nadie te pregunta lo otro: ¿cuánto dejaste sobre la mesa?
+  oído (gemini-3.5-transcribe): Pero nadie te pregunta lo otro. ¿Cuánto dejaste sobre la mesa?
+  oído (cf:whisper-large-v3-turbo): Pero nadie te pregunta lo otro. ¿Cuánto dejaste sobre la mesa?
+  sin respuesta: gemini-3.5-flash
+
+04-objeciones  OK (2 de 3 oídos)
+  guion: El “lo tengo que pensar” que no supiste dar vuelta. El “es caro”. El “lo tengo que hablar con mi pareja”.
+  oído (gemini-3.5-transcribe): Él lo tengo que pensar que no supiste dar vuelta. Él es caro. Él lo tengo que hablar con mi pareja.
+  oído (cf:whisper-large-v3-turbo): El lo tengo que pensar que no supiste dar vuelta. El es caro. El lo tengo que hablar con mi pareja.
+  sin respuesta: gemini-3.5-flash
+
+05-venta       OK (2 de 3 oídos)
+  guion: Cada una era una venta. Y se fue.
+  oído (gemini-3.5-transcribe): Cada una era una venta y se fue.
+  oído (cf:whisper-large-v3-turbo): Cada una era una venta. Y se fue.
+  sin respuesta: gemini-3.5-flash
+
+06-antes       OK (2 de 3 oídos)
+  guion: Esas objeciones no se aprenden en la llamada que vale plata. Se entrenan antes.
+  oído (gemini-3.5-transcribe): Esas objeciones no se aprenden en la llamada que vale plata, se entrenan antes.
+  oído (cf:whisper-large-v3-turbo): Esas objeciones no se aprenden en la llamada que vale plata. Se entrenan antes.
+  sin respuesta: gemini-3.5-flash
+
+07-ring        OK (2 de 3 oídos)
+  guion: En Ring Closers, otro closer te las tira en un roleplay. Respondés, te equivocás, y te puntúa.
+  oído (gemini-3.5-transcribe): En Ring Closers, otro closer te las tira en un roleplay, respondés, te equivocás y te puntúa.
+  oído (cf:whisper-large-v3-turbo): En Ring Closers, otro closer te las tira en un roleplay. Respondes, te equivocas y te puntúa.
+  sin respuesta: gemini-3.5-flash
+
+08-otro        OK (2 de 3 oídos)
+  guion: El mes que viene, el número que mandás al grupo es otro.
+  oído (gemini-3.5-transcribe): El mes que viene el número que mandas al grupo es otro.
+  oído (cf:whisper-large-v3-turbo): El mes que viene, el número que mandas al grupo es otro.
+  sin respuesta: gemini-3.5-flash
+
+09-cierre      OK (2 de 3 oídos)
+  guion: Ring Closers.
+  oído (gemini-3.5-transcribe): ring closers
+  oído (cf:whisper-large-v3-turbo): Bring closers.
+  sin respuesta: gemini-3.5-flash
+
+9 toma(s) para revisar o sin verificar de 9

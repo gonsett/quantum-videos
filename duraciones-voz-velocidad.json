@@ -1,0 +1,38 @@
+[
+  {
+    "id": "01-escribe",
+    "segundos": 3.691
+  },
+  {
+    "id": "02-contesta",
+    "segundos": 3.931
+  },
+  {
+    "id": "03-compro",
+    "segundos": 4.942
+  },
+  {
+    "id": "04-noperdiste",
+    "segundos": 6.571
+  },
+  {
+    "id": "05-pregunta",
+    "segundos": 6.371
+  },
+  {
+    "id": "06-dato",
+    "segundos": 3.771
+  },
+  {
+    "id": "07-tarde",
+    "segundos": 3.651
+  },
+  {
+    "id": "08-primero",
+    "segundos": 6.691
+  },
+  {
+    "id": "09-cierre",
+    "segundos": 2.971
+  }
+]

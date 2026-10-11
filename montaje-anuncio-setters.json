@@ -1,0 +1,90 @@
+{
+  "_nota": "Anuncio Ring Setters (04/10/2026): reusa 10 tomas verificadas de voz-setters-rc; sin pausas entre escenas.",
+  "guion": "guion-anuncio-setters.json",
+  "voz": "public/voz-anuncio-setters",
+  "salida": "timeline-anuncio-setters.json",
+  "fps": 30,
+  "tiempos": "whisper",
+  "estructura": [
+    {
+      "id": "a01",
+      "voces": [
+        "01-anios"
+      ],
+      "entrada": 24,
+      "cola": 2
+    },
+    {
+      "id": "a02",
+      "voces": [
+        "02-cierre"
+      ],
+      "entrada": 2,
+      "cola": 2
+    },
+    {
+      "id": "a03",
+      "voces": [
+        "03-llego"
+      ],
+      "entrada": 2,
+      "cola": 2
+    },
+    {
+      "id": "a04",
+      "voces": [
+        "04-practica"
+      ],
+      "entrada": 2,
+      "cola": 2
+    },
+    {
+      "id": "a05",
+      "voces": [
+        "07-verdad"
+      ],
+      "entrada": 2,
+      "cola": 2
+    },
+    {
+      "id": "a06",
+      "voces": [
+        "12-tabla"
+      ],
+      "entrada": 2,
+      "cola": 2
+    },
+    {
+      "id": "a07",
+      "voces": [
+        "13-carnet"
+      ],
+      "entrada": 2,
+      "cola": 2
+    },
+    {
+      "id": "a08",
+      "voces": [
+        "14-ofertas"
+      ],
+      "entrada": 2,
+      "cola": 2
+    },
+    {
+      "id": "a09",
+      "voces": [
+        "15-ring"
+      ],
+      "entrada": 2,
+      "cola": 2
+    },
+    {
+      "id": "a10",
+      "voces": [
+        "16-abierto"
+      ],
+      "entrada": 2,
+      "cola": 75
+    }
+  ]
+}

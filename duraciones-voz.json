@@ -1,0 +1,34 @@
+[
+  {
+    "id": "01-gancho",
+    "segundos": 6.123
+  },
+  {
+    "id": "02-pregunta",
+    "segundos": 3.52
+  },
+  {
+    "id": "03-espera",
+    "segundos": 4.629
+  },
+  {
+    "id": "04-golpe",
+    "segundos": 6.251
+  },
+  {
+    "id": "05-automlead",
+    "segundos": 4.949
+  },
+  {
+    "id": "06-regla",
+    "segundos": 7.019
+  },
+  {
+    "id": "07-capacidades",
+    "segundos": 8.939
+  },
+  {
+    "id": "08-cierre",
+    "segundos": 7.381
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "_nota": "Video de Ring Closers sobre los estilos: 'Elegis como entras al ring'. Tema nuevo, sale de la seccion 'Tu esquina, tu estilo' de la landing, que no uso ningun video anterior. Descripciones y rangos de desbloqueo tomados de lib/ranks.ts.",
+  "_ritmo": "Voz a velocidad natural: sin atempo, solo se recortan silencios muertos. Javier marco que el Reel anterior sonaba apurado y no humano.",
+  "_instruccion_voz": "Lee esto en espanol rioplatense, a un ritmo natural y tranquilo, con seguridad. Como una closer que le muestra algo que le gusta a otro closer, de igual a igual. Deja respirar cada nombre de estilo. Nada de apuro, nada de tono de publicidad.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-2.5-flash-preview-tts",
+  "segmentos": [
+    {
+      "id": "01-avatar",
+      "texto": "En Ring Closers no elegís un avatar. Elegís cómo entrás al ring."
+    },
+    {
+      "id": "02-guardias",
+      "texto": "Guardia clásica. El básico: sólido y directo. Guardia cruzada. Defensivo, los dos guantes en alto."
+    },
+    {
+      "id": "03-zurdo",
+      "texto": "Zurdo. Guardia invertida: difícil de leer."
+    },
+    {
+      "id": "04-contragolpe",
+      "texto": "Contragolpe. Pega justo cuando el otro bajó la guardia."
+    },
+    {
+      "id": "05-desbloquea",
+      "texto": "Ese no lo tenés de entrada: se desbloquea en Contendiente."
+    },
+    {
+      "id": "06-noqueador",
+      "texto": "El noqueador, recién en Campeón. Una mano que termina peleas.",
+      "umbral": -28,
+      "ritmo": 1.56,
+      "_por_que": "Salio a 1.2 pal/s, la mitad que el resto, con un segundo de respiracion despues de 'El noqueador'. Se recorta con umbral -28 y se lleva a 1.3x. El cupo del modelo ya estaba gastado para regenerarla."
+    },
+    {
+      "id": "07-prueba",
+      "texto": "No son cosméticos. Son la prueba de que llegaste."
+    },
+    {
+      "id": "08-comodo",
+      "texto": "Y a esos rangos no se llega peleando con el que es cómodo."
+    },
+    {
+      "id": "09-miedo",
+      "texto": "Se llega cumpliendo tus tres peleas cada semana, incluida la que te da miedo."
+    },
+    {
+      "id": "10-cta",
+      "texto": "Ring Closers. Gratis. Elegí tu guardia."
+    }
+  ]
+}

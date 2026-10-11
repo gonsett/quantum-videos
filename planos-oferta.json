@@ -1,0 +1,10 @@
+{
+ "estilo": "High-end commercial product photography, single object centered in the frame and occupying about 45 percent of the width, isolated on a pure seamless white studio background (#ffffff), soft diffused top light, subtle soft contact shadow directly beneath the object, crisp realistic materials and reflections, ultra detailed, vertical 9:16 composition with lots of empty white space above and below, no text, no letters, no logos, no watermark, no props.",
+ "planos": [
+  {"id": "megafono", "prompt": "A vintage chrome and cream-enamel handheld megaphone with a black pistol grip, seen in three-quarter view, slightly worn metal."},
+  {"id": "reloj", "prompt": "An elegant antique hourglass with a dark walnut wood frame and brass fittings, fine white sand half fallen to the bottom bulb."},
+  {"id": "sobres", "prompt": "A neat stack of about thirty cream paper envelopes tied with a thin red-and-white baker's twine bow, seen in three-quarter view from above."},
+  {"id": "llave", "prompt": "A large ornate antique brass skeleton key standing diagonally, polished warm brass with fine engraved details."},
+  {"id": "check", "prompt": "A glossy 3D check mark symbol made of polished translucent emerald green glass, thick rounded shape, seen in slight three-quarter view, soft refraction."}
+ ]
+}

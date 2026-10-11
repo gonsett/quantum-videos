@@ -1,0 +1,15 @@
+{
+  "_nota": "Ya empezó sin vos. Voz desde el cuadro 3 (regla: el gancho habla en el primer medio segundo). Un solo plano que baja por la arena: e1 estandartes, e2 ring, e3 progreso, e4 ofertas, e5 ranking en negro, e6 placa.",
+  "guion": "guion-comunidades-rc.json",
+  "voz": "public/voz-comunidades-rc",
+  "salida": "timeline-comunidades-rc.json",
+  "fps": 30,
+  "estructura": [
+    { "id": "e1-gancho", "voces": ["00-gancho", "01-adentro"], "entrada": 3, "cola": 8 },
+    { "id": "e2-entrenan", "voces": ["02-entrenan"], "entrada": 4, "cola": 8 },
+    { "id": "e3-mejoran", "voces": ["03-mejoran"], "entrada": 4, "cola": 8 },
+    { "id": "e4-ofertas", "voces": ["04-ofertas"], "entrada": 4, "cola": 12 },
+    { "id": "e5-ranking", "voces": ["05-ranking"], "entrada": 10, "cola": 14 },
+    { "id": "e6-cierre", "voces": ["06-cierre"], "entrada": 6, "cola": 60 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_nota": "La nota que no podés comprar. Una escena por toma; 08-cierre reutiliza el 'Ring Closers' de Escuchate (misma voz y modelo) por cuota agotada.",
+  "guion": "guion-nota-rc.json",
+  "voz": "public/voz-nota-rc",
+  "salida": "timeline-nota-rc.json",
+  "fps": 30,
+  "tiempos": "whisper",
+  "estructura": [
+    { "id": "e1-cv", "voces": ["01-cv"], "entrada": 4, "cola": 8 },
+    { "id": "e2-otro", "voces": ["02-otro"], "entrada": 2, "cola": 10 },
+    { "id": "e3-puntua", "voces": ["03-puntua"], "entrada": 4, "cola": 8 },
+    { "id": "e4-nadie", "voces": ["04-nadie"], "entrada": 4, "cola": 10 },
+    { "id": "e5-suma", "voces": ["05-suma"], "entrada": 4, "cola": 10 },
+    { "id": "e6-director", "voces": ["06-director"], "entrada": 4, "cola": 14 },
+    { "id": "e7-entrena", "voces": ["07-entrena"], "entrada": 6, "cola": 12 },
+    { "id": "e8-cierre", "voces": ["08-cierre"], "entrada": 6, "cola": 60 }
+  ]
+}

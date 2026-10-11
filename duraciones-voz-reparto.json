@@ -1,0 +1,34 @@
+[
+  {
+    "id": "01-rapido",
+    "segundos": 5.04
+  },
+  {
+    "id": "02-libre",
+    "segundos": 7.08
+  },
+  {
+    "id": "03-sinasignar",
+    "segundos": 6.84
+  },
+  {
+    "id": "04-entra",
+    "segundos": 5.8
+  },
+  {
+    "id": "05-ofrece",
+    "segundos": 5.72
+  },
+  {
+    "id": "06-empate",
+    "segundos": 9.28
+  },
+  {
+    "id": "07-nadie",
+    "segundos": 8.12
+  },
+  {
+    "id": "08-cierre",
+    "segundos": 7.36
+  }
+]

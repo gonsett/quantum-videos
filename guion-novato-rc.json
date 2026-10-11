@@ -1,0 +1,33 @@
+{
+  "_nota": "Ring Closers para closers novatos (en 0). Guion aprobado por Javier el 19/09/2026. El gancho arranca con SUS palabras: 'Si sos un closer novato que recién comienza y no sabés cómo o con quién practicar... escuchá esto.' (solo tildes y voseo). Estructura nueva: responde las dos dudas del gancho, cómo y con quién.",
+  "_reglas": "Voz Charon a velocidad de conversación normal (objetivo 14-16 caracteres por segundo de habla, medido). Sin pausas dramáticas. Verificar cada toma con dos transcriptores antes de montar.",
+  "_instruccion_voz": "Locutor profesional masculino, en español rioplatense, con energía y cercanía. Hablá a velocidad de conversación normal, ágil y fluida: sin arrastrar las palabras, sin pausas largas ni dramáticas, como un narrador deportivo sereno que le habla directo a alguien que recién empieza. Frases cortas y directas, con énfasis natural en las palabras clave.",
+  "voz": "Charon",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    {
+      "id": "01-gancho",
+      "texto": "Si sos un closer novato que recién comienza, y no sabés cómo o con quién practicar. Escuchá esto."
+    },
+    {
+      "id": "02-como",
+      "texto": "Cómo. Roleplay. Una llamada de venta de práctica, con otro closer real."
+    },
+    {
+      "id": "03-conquien",
+      "texto": "Con quién: Ring Closers te lo arma. Elegís tu nivel, marcás tus horarios, y te propone rivales."
+    },
+    {
+      "id": "04-mas",
+      "texto": "De tu nivel, y también de los que saben más. Ahí se aprende rápido."
+    },
+    {
+      "id": "05-primero",
+      "texto": "Todos los que hoy están arriba en el ranking, alguna vez hicieron su primer roleplay."
+    },
+    {
+      "id": "06-cierre",
+      "texto": "Hacé el tuyo. Tu primer combate empieza acá."
+    }
+  ]
+}

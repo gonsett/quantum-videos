@@ -1,0 +1,93 @@
+{
+  "_nota": "Quinto comercial. Estructura calcada de KAYN (@kayn.marketing.co), decodificada de tres guiones completos y el texto en pantalla de doce posts: titulo-maxima, lineas de 2-5 palabras, triada, paralelismo, apotegma, CTA. Cada linea es una tarjeta de subtitulo sincronizada a la voz.",
+  "_titulo": "La velocidad le gana a la persuasion",
+  "_instruccion_voz": "Leé esto en español rioplatense, con tono tajante y seguro. Ritmo pausado, frases cortas, sin entusiasmo comercial. Como quien afirma un hecho incómodo que el otro no quiere escuchar. No suenes alegre.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    {
+      "id": "01-escribe",
+      "texto": "Un cliente escribe a las once de la noche.",
+      "lineas": [
+        "Un cliente escribe",
+        "a las once de la noche."
+      ],
+      "imagen": "A single smartphone lying on a dark surface, its screen glowing warm gold in total darkness, one unread message notification"
+    },
+    {
+      "id": "02-contesta",
+      "texto": "Tu vendedor contesta al otro día a las nueve.",
+      "lineas": [
+        "Tu vendedor contesta",
+        "al otro día a las nueve."
+      ],
+      "imagen": "A single elegant wall clock showing early morning, cold pale light entering from one side"
+    },
+    {
+      "id": "03-compro",
+      "texto": "Para entonces, ya compró en otro lado.",
+      "lineas": [
+        "Para entonces",
+        "ya compró en otro lado."
+      ],
+      "imagen": "A single door closing, warm golden light escaping through the narrowing gap"
+    },
+    {
+      "id": "04-noperdiste",
+      "texto": "No lo perdiste por precio. No lo perdiste por producto. Lo perdiste por hora.",
+      "lineas": [
+        "No lo perdiste por precio.",
+        "No lo perdiste por producto.",
+        "Lo perdiste por hora."
+      ],
+      "imagen": "A single pristine price tag hanging on a thin string, untouched, isolated"
+    },
+    {
+      "id": "05-pregunta",
+      "texto": "Un lead nuevo hace una sola pregunta: ¿hay alguien del otro lado?",
+      "lineas": [
+        "Un lead nuevo",
+        "hace una sola pregunta:",
+        "¿hay alguien del otro lado?"
+      ],
+      "imagen": "A single empty chair in a vast dark room, one faint spotlight from above"
+    },
+    {
+      "id": "06-dato",
+      "texto": "Tres segundos contra tres horas.",
+      "lineas": [
+        "Tres segundos",
+        "contra tres horas."
+      ],
+      "imagen": "A single precision stopwatch, gold case, caught mid-tick, dramatic side lighting"
+    },
+    {
+      "id": "07-tarde",
+      "texto": "Contestar tarde es no contestar.",
+      "lineas": [
+        "Contestar tarde",
+        "es no contestar."
+      ],
+      "imagen": "A single sealed envelope covered in a thin layer of dust, never opened"
+    },
+    {
+      "id": "08-primero",
+      "texto": "El primero que responde no es el que mejor vende. Es el único que llegó a tiempo.",
+      "lineas": [
+        "El primero que responde",
+        "no es el que mejor vende.",
+        "Es el único",
+        "que llegó a tiempo."
+      ],
+      "imagen": "A single gold finish line ribbon stretched across darkness, just broken"
+    },
+    {
+      "id": "09-cierre",
+      "texto": "Agendá tu diagnóstico.",
+      "lineas": [
+        "Agendá tu diagnóstico."
+      ],
+      "imagen": "A single open door with warm golden light pouring through, inviting, clean geometry"
+    }
+  ]
+}

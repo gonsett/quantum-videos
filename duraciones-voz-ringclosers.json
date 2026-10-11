@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01-gancho",
+    "segundos": 3.56
+  },
+  {
+    "id": "02-comodidad",
+    "segundos": 4.4
+  },
+  {
+    "id": "03-rapido",
+    "segundos": 5.56
+  },
+  {
+    "id": "04-tercera",
+    "segundos": 9.0
+  },
+  {
+    "id": "05-arma",
+    "segundos": 4.08
+  },
+  {
+    "id": "06-rivales",
+    "segundos": 9.56
+  },
+  {
+    "id": "07-afuera",
+    "segundos": 9.76
+  },
+  {
+    "id": "08-equipo",
+    "segundos": 7.88
+  },
+  {
+    "id": "09-reales",
+    "segundos": 3.48
+  },
+  {
+    "id": "10-cta",
+    "segundos": 7.84
+  }
+]

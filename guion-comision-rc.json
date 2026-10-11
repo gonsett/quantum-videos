@@ -1,0 +1,44 @@
+{
+ "_nota": "Lo que dejaste sobre la mesa (02/10/2026): objeciones que se entrenan en roleplay entre closers, con puntaje del rival. Montos inventados.",
+ "_instruccion_voz": "Una closer de ventas rioplatense contándole algo a un colega, en tono de charla natural y cercana, con un toque de complicidad. Nada de locutora, nada de tono de anuncio ni de tráiler: voz normal, relajada pero con ganas, velocidad de conversación normal, sin pausas dramáticas.",
+ "voz": "Callirrhoe",
+ "modelo": "gemini-2.5-flash-preview-tts",
+ "segmentos": [
+  {
+   "id": "01-grupo",
+   "texto": "Sos closer. Llega el primero de mes y mandás al grupo cuánto comisionaste."
+  },
+  {
+   "id": "02-record",
+   "texto": "Todos te felicitan. Récord."
+  },
+  {
+   "id": "03-mesa",
+   "texto": "Pero nadie te pregunta lo otro: ¿cuánto dejaste sobre la mesa?"
+  },
+  {
+   "id": "04-objeciones",
+   "texto": "El “lo tengo que pensar” que no supiste dar vuelta. El “es caro”. El “lo tengo que hablar con mi pareja”."
+  },
+  {
+   "id": "05-venta",
+   "texto": "Cada una era una venta. Y se fue."
+  },
+  {
+   "id": "06-antes",
+   "texto": "Esas objeciones no se aprenden en la llamada que vale plata. Se entrenan antes."
+  },
+  {
+   "id": "07-ring",
+   "texto": "En Ring Closers, otro closer te las tira en un roleplay. Respondés, te equivocás, y te puntúa."
+  },
+  {
+   "id": "08-otro",
+   "texto": "El mes que viene, el número que mandás al grupo es otro."
+  },
+  {
+   "id": "09-cierre",
+   "texto": "Ring Closers."
+  }
+ ]
+}

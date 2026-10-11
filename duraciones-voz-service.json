@@ -1,0 +1,34 @@
+[
+  {
+    "id": "01-cerrado",
+    "segundos": 3.541
+  },
+  {
+    "id": "02-consulta",
+    "segundos": 4.032
+  },
+  {
+    "id": "03-asistente",
+    "segundos": 6.165
+  },
+  {
+    "id": "04-horarios",
+    "segundos": 5.781
+  },
+  {
+    "id": "05-cargado",
+    "segundos": 7.211
+  },
+  {
+    "id": "06-limite",
+    "segundos": 8.469
+  },
+  {
+    "id": "07-porque",
+    "segundos": 5.909
+  },
+  {
+    "id": "08-cierre",
+    "segundos": 4.373
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "_nota": "Video para directores comerciales. Generado por armar-montaje-directores.mjs: cada escena arranca en un beat (múltiplos de 15 cuadros).",
+  "guion": "guion-directores-rc.json",
+  "voz": "public/voz-directores-rc-final",
+  "salida": "timeline-directores-rc.json",
+  "fps": 30,
+  "estructura": [
+    {
+      "id": "e1-gancho",
+      "voces": [
+        "01-gancho"
+      ],
+      "entrada": 3,
+      "cola": 17
+    },
+    {
+      "id": "e2-grupo",
+      "voces": [
+        "02-grupo"
+      ],
+      "entrada": 4,
+      "cola": 18
+    },
+    {
+      "id": "e3-hambre",
+      "voces": [
+        "03-hambre"
+      ],
+      "entrada": 4,
+      "cola": 16
+    },
+    {
+      "id": "e4-calidad",
+      "voces": [
+        "04-calidad"
+      ],
+      "entrada": 4,
+      "cola": 6
+    },
+    {
+      "id": "e5-rango",
+      "voces": [
+        "05-rango"
+      ],
+      "entrada": 4,
+      "cola": 7
+    },
+    {
+      "id": "e6-cierre",
+      "voces": [
+        "06-cierre"
+      ],
+      "entrada": 4,
+      "cola": 103
+    }
+  ]
+}

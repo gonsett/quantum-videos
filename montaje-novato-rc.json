@@ -1,0 +1,57 @@
+{
+  "_nota": "Video para closers de novatos. Generado por armar-montaje-novato.mjs: cada escena arranca en un beat (múltiplos de 15 cuadros).",
+  "guion": "guion-novato-rc.json",
+  "voz": "public/voz-novato-rc-final",
+  "salida": "timeline-novato-rc.json",
+  "fps": 30,
+  "estructura": [
+    {
+      "id": "e1-gancho",
+      "voces": [
+        "01-gancho"
+      ],
+      "entrada": 3,
+      "cola": 17
+    },
+    {
+      "id": "e2-como",
+      "voces": [
+        "02-como"
+      ],
+      "entrada": 4,
+      "cola": 21
+    },
+    {
+      "id": "e3-conquien",
+      "voces": [
+        "03-conquien"
+      ],
+      "entrada": 4,
+      "cola": 17
+    },
+    {
+      "id": "e4-mas",
+      "voces": [
+        "04-mas"
+      ],
+      "entrada": 4,
+      "cola": 15
+    },
+    {
+      "id": "e5-primero",
+      "voces": [
+        "05-primero"
+      ],
+      "entrada": 4,
+      "cola": 17
+    },
+    {
+      "id": "e6-cierre",
+      "voces": [
+        "06-cierre"
+      ],
+      "entrada": 4,
+      "cola": 88
+    }
+  ]
+}

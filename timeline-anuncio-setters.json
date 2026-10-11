@@ -1,0 +1,588 @@
+{
+  "fps": 30,
+  "total": 1308,
+  "escenas": [
+    {
+      "id": "a01",
+      "from": 0,
+      "durationInFrames": 119,
+      "clips": [
+        {
+          "voz": "01-anios",
+          "enEscena": 24,
+          "cuadros": 93,
+          "palabras": [
+            {
+              "palabra": "Durante",
+              "cuadro": 24
+            },
+            {
+              "palabra": "años,",
+              "cuadro": 40
+            },
+            {
+              "palabra": "todo",
+              "cuadro": 56
+            },
+            {
+              "palabra": "fue",
+              "cuadro": 69
+            },
+            {
+              "palabra": "para",
+              "cuadro": 82
+            },
+            {
+              "palabra": "los",
+              "cuadro": 88
+            },
+            {
+              "palabra": "closers.",
+              "cuadro": 94
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a02",
+      "from": 119,
+      "durationInFrames": 87,
+      "clips": [
+        {
+          "voz": "02-cierre",
+          "enEscena": 2,
+          "cuadros": 83,
+          "palabras": [
+            {
+              "palabra": "Pero",
+              "cuadro": 2
+            },
+            {
+              "palabra": "ninguna",
+              "cuadro": 10
+            },
+            {
+              "palabra": "venta",
+              "cuadro": 27
+            },
+            {
+              "palabra": "empieza",
+              "cuadro": 43
+            },
+            {
+              "palabra": "en",
+              "cuadro": 52
+            },
+            {
+              "palabra": "el",
+              "cuadro": 56
+            },
+            {
+              "palabra": "cierre.",
+              "cuadro": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a03",
+      "from": 206,
+      "durationInFrames": 133,
+      "clips": [
+        {
+          "voz": "03-llego",
+          "enEscena": 2,
+          "cuadros": 129,
+          "palabras": [
+            {
+              "palabra": "Empieza",
+              "cuadro": 2
+            },
+            {
+              "palabra": "con",
+              "cuadro": 19
+            },
+            {
+              "palabra": "alguien",
+              "cuadro": 28
+            },
+            {
+              "palabra": "que",
+              "cuadro": 36
+            },
+            {
+              "palabra": "consigue",
+              "cuadro": 42
+            },
+            {
+              "palabra": "la",
+              "cuadro": 54
+            },
+            {
+              "palabra": "cita.",
+              "cuadro": 58
+            },
+            {
+              "palabra": "Llegó",
+              "cuadro": 87
+            },
+            {
+              "palabra": "Ring",
+              "cuadro": 100
+            },
+            {
+              "palabra": "Setters.",
+              "cuadro": 111
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a04",
+      "from": 339,
+      "durationInFrames": 116,
+      "clips": [
+        {
+          "voz": "04-practica",
+          "enEscena": 2,
+          "cuadros": 112,
+          "palabras": [
+            {
+              "palabra": "Practicás",
+              "cuadro": 2
+            },
+            {
+              "palabra": "tus",
+              "cuadro": 18
+            },
+            {
+              "palabra": "llamadas",
+              "cuadro": 23
+            },
+            {
+              "palabra": "con",
+              "cuadro": 36
+            },
+            {
+              "palabra": "otros",
+              "cuadro": 42
+            },
+            {
+              "palabra": "setters,",
+              "cuadro": 51
+            },
+            {
+              "palabra": "todas",
+              "cuadro": 79
+            },
+            {
+              "palabra": "las",
+              "cuadro": 84
+            },
+            {
+              "palabra": "semanas.",
+              "cuadro": 93
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a05",
+      "from": 455,
+      "durationInFrames": 186,
+      "clips": [
+        {
+          "voz": "07-verdad",
+          "enEscena": 2,
+          "cuadros": 182,
+          "palabras": [
+            {
+              "palabra": "Y",
+              "cuadro": 2
+            },
+            {
+              "palabra": "al",
+              "cuadro": 7
+            },
+            {
+              "palabra": "terminar,",
+              "cuadro": 12
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 37
+            },
+            {
+              "palabra": "compañero",
+              "cuadro": 40
+            },
+            {
+              "palabra": "te",
+              "cuadro": 55
+            },
+            {
+              "palabra": "dice",
+              "cuadro": 59
+            },
+            {
+              "palabra": "la",
+              "cuadro": 67
+            },
+            {
+              "palabra": "verdad:",
+              "cuadro": 73
+            },
+            {
+              "palabra": "si",
+              "cuadro": 105
+            },
+            {
+              "palabra": "esa",
+              "cuadro": 109
+            },
+            {
+              "palabra": "cita,",
+              "cuadro": 115
+            },
+            {
+              "palabra": "de",
+              "cuadro": 129
+            },
+            {
+              "palabra": "verdad,",
+              "cuadro": 139
+            },
+            {
+              "palabra": "iba",
+              "cuadro": 163
+            },
+            {
+              "palabra": "a",
+              "cuadro": 171
+            },
+            {
+              "palabra": "ir.",
+              "cuadro": 174
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a06",
+      "from": 641,
+      "durationInFrames": 128,
+      "clips": [
+        {
+          "voz": "12-tabla",
+          "enEscena": 2,
+          "cuadros": 124,
+          "palabras": [
+            {
+              "palabra": "Subís",
+              "cuadro": 2
+            },
+            {
+              "palabra": "en",
+              "cuadro": 22
+            },
+            {
+              "palabra": "la",
+              "cuadro": 26
+            },
+            {
+              "palabra": "tabla",
+              "cuadro": 29
+            },
+            {
+              "palabra": "de",
+              "cuadro": 40
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 43
+            },
+            {
+              "palabra": "comunidad,",
+              "cuadro": 47
+            },
+            {
+              "palabra": "y",
+              "cuadro": 61
+            },
+            {
+              "palabra": "ganás",
+              "cuadro": 78
+            },
+            {
+              "palabra": "trofeos",
+              "cuadro": 87
+            },
+            {
+              "palabra": "de",
+              "cuadro": 101
+            },
+            {
+              "palabra": "setter.",
+              "cuadro": 107
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a07",
+      "from": 769,
+      "durationInFrames": 115,
+      "clips": [
+        {
+          "voz": "13-carnet",
+          "enEscena": 2,
+          "cuadros": 111,
+          "palabras": [
+            {
+              "palabra": "Tu",
+              "cuadro": 2
+            },
+            {
+              "palabra": "carnet",
+              "cuadro": 7
+            },
+            {
+              "palabra": "y",
+              "cuadro": 22
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 28
+            },
+            {
+              "palabra": "CV",
+              "cuadro": 33
+            },
+            {
+              "palabra": "quedan",
+              "cuadro": 52
+            },
+            {
+              "palabra": "a",
+              "cuadro": 60
+            },
+            {
+              "palabra": "la",
+              "cuadro": 63
+            },
+            {
+              "palabra": "vista",
+              "cuadro": 66
+            },
+            {
+              "palabra": "de",
+              "cuadro": 79
+            },
+            {
+              "palabra": "los",
+              "cuadro": 84
+            },
+            {
+              "palabra": "directores.",
+              "cuadro": 87
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a08",
+      "from": 884,
+      "durationInFrames": 130,
+      "clips": [
+        {
+          "voz": "14-ofertas",
+          "enEscena": 2,
+          "cuadros": 126,
+          "palabras": [
+            {
+              "palabra": "Y",
+              "cuadro": 2
+            },
+            {
+              "palabra": "te",
+              "cuadro": 7
+            },
+            {
+              "palabra": "llegan",
+              "cuadro": 12
+            },
+            {
+              "palabra": "ofertas",
+              "cuadro": 25
+            },
+            {
+              "palabra": "de",
+              "cuadro": 38
+            },
+            {
+              "palabra": "trabajo",
+              "cuadro": 43
+            },
+            {
+              "palabra": "pensadas",
+              "cuadro": 58
+            },
+            {
+              "palabra": "para",
+              "cuadro": 81
+            },
+            {
+              "palabra": "setters.",
+              "cuadro": 98
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a09",
+      "from": 1014,
+      "durationInFrames": 142,
+      "clips": [
+        {
+          "voz": "15-ring",
+          "enEscena": 2,
+          "cuadros": 138,
+          "palabras": [
+            {
+              "palabra": "Los",
+              "cuadro": 2
+            },
+            {
+              "palabra": "closers",
+              "cuadro": 12
+            },
+            {
+              "palabra": "ya",
+              "cuadro": 28
+            },
+            {
+              "palabra": "tenían",
+              "cuadro": 34
+            },
+            {
+              "palabra": "su",
+              "cuadro": 46
+            },
+            {
+              "palabra": "ring.",
+              "cuadro": 54
+            },
+            {
+              "palabra": "Ahora",
+              "cuadro": 73
+            },
+            {
+              "palabra": "los",
+              "cuadro": 85
+            },
+            {
+              "palabra": "setters",
+              "cuadro": 93
+            },
+            {
+              "palabra": "tienen",
+              "cuadro": 105
+            },
+            {
+              "palabra": "el",
+              "cuadro": 112
+            },
+            {
+              "palabra": "suyo.",
+              "cuadro": 118
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "from": 1156,
+      "durationInFrames": 152,
+      "clips": [
+        {
+          "voz": "16-abierto",
+          "enEscena": 2,
+          "cuadros": 75,
+          "palabras": [
+            {
+              "palabra": "Ring",
+              "cuadro": 2
+            },
+            {
+              "palabra": "Setters.",
+              "cuadro": 13
+            },
+            {
+              "palabra": "Ya",
+              "cuadro": 40
+            },
+            {
+              "palabra": "está",
+              "cuadro": 45
+            },
+            {
+              "palabra": "abierto.",
+              "cuadro": 49
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "01-anios",
+      "desde": 24
+    },
+    {
+      "voz": "02-cierre",
+      "desde": 121
+    },
+    {
+      "voz": "03-llego",
+      "desde": 208
+    },
+    {
+      "voz": "04-practica",
+      "desde": 341
+    },
+    {
+      "voz": "07-verdad",
+      "desde": 457
+    },
+    {
+      "voz": "12-tabla",
+      "desde": 643
+    },
+    {
+      "voz": "13-carnet",
+      "desde": 771
+    },
+    {
+      "voz": "14-ofertas",
+      "desde": 886
+    },
+    {
+      "voz": "15-ring",
+      "desde": 1016
+    },
+    {
+      "voz": "16-abierto",
+      "desde": 1158
+    }
+  ]
+}

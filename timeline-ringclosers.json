@@ -1,0 +1,650 @@
+{
+  "fps": 30,
+  "total": 1731,
+  "escenas": [
+    {
+      "id": "r1-gancho",
+      "round": 1,
+      "from": 0,
+      "durationInFrames": 137,
+      "clips": [
+        {
+          "voz": "01-gancho",
+          "enEscena": 16,
+          "cuadros": 97,
+          "palabras": [
+            {
+              "palabra": "La",
+              "cuadro": 16
+            },
+            {
+              "palabra": "pelea",
+              "cuadro": 21
+            },
+            {
+              "palabra": "que",
+              "cuadro": 32
+            },
+            {
+              "palabra": "evitás...",
+              "cuadro": 40
+            },
+            {
+              "palabra": "es",
+              "cuadro": 54
+            },
+            {
+              "palabra": "la",
+              "cuadro": 79
+            },
+            {
+              "palabra": "que",
+              "cuadro": 83
+            },
+            {
+              "palabra": "te",
+              "cuadro": 91
+            },
+            {
+              "palabra": "falta.",
+              "cuadro": 95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r2-comodidad",
+      "round": 2,
+      "from": 137,
+      "durationInFrames": 266,
+      "clips": [
+        {
+          "voz": "02-comodidad",
+          "enEscena": 6,
+          "cuadros": 98,
+          "palabras": [
+            {
+              "palabra": "Sin",
+              "cuadro": 6
+            },
+            {
+              "palabra": "sistema,",
+              "cuadro": 12
+            },
+            {
+              "palabra": "elegís",
+              "cuadro": 26
+            },
+            {
+              "palabra": "por",
+              "cuadro": 49
+            },
+            {
+              "palabra": "comodidad,",
+              "cuadro": 55
+            },
+            {
+              "palabra": "no",
+              "cuadro": 84
+            },
+            {
+              "palabra": "por",
+              "cuadro": 88
+            },
+            {
+              "palabra": "nivel.",
+              "cuadro": 94
+            }
+          ]
+        },
+        {
+          "voz": "03-rapido",
+          "enEscena": 114,
+          "cuadros": 144,
+          "palabras": [
+            {
+              "palabra": "Le",
+              "cuadro": 114
+            },
+            {
+              "palabra": "escribís",
+              "cuadro": 118
+            },
+            {
+              "palabra": "al",
+              "cuadro": 136
+            },
+            {
+              "palabra": "que",
+              "cuadro": 140
+            },
+            {
+              "palabra": "te",
+              "cuadro": 147
+            },
+            {
+              "palabra": "contesta",
+              "cuadro": 151
+            },
+            {
+              "palabra": "rápido.",
+              "cuadro": 168
+            },
+            {
+              "palabra": "Nunca",
+              "cuadro": 194
+            },
+            {
+              "palabra": "al",
+              "cuadro": 204
+            },
+            {
+              "palabra": "que",
+              "cuadro": 209
+            },
+            {
+              "palabra": "más",
+              "cuadro": 215
+            },
+            {
+              "palabra": "te",
+              "cuadro": 222
+            },
+            {
+              "palabra": "haría",
+              "cuadro": 226
+            },
+            {
+              "palabra": "mejorar.",
+              "cuadro": 237
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r2-tercera",
+      "round": 2,
+      "from": 403,
+      "durationInFrames": 237,
+      "clips": [
+        {
+          "voz": "04-tercera",
+          "enEscena": 6,
+          "cuadros": 201,
+          "palabras": [
+            {
+              "palabra": "Funciona",
+              "cuadro": 6
+            },
+            {
+              "palabra": "la",
+              "cuadro": 23
+            },
+            {
+              "palabra": "primera",
+              "cuadro": 28
+            },
+            {
+              "palabra": "semana.",
+              "cuadro": 43
+            },
+            {
+              "palabra": "A",
+              "cuadro": 66
+            },
+            {
+              "palabra": "la",
+              "cuadro": 68
+            },
+            {
+              "palabra": "tercera,",
+              "cuadro": 72
+            },
+            {
+              "palabra": "nadie",
+              "cuadro": 95
+            },
+            {
+              "palabra": "arma",
+              "cuadro": 106
+            },
+            {
+              "palabra": "nada",
+              "cuadro": 115
+            },
+            {
+              "palabra": "y",
+              "cuadro": 123
+            },
+            {
+              "palabra": "la",
+              "cuadro": 132
+            },
+            {
+              "palabra": "práctica",
+              "cuadro": 136
+            },
+            {
+              "palabra": "se",
+              "cuadro": 153
+            },
+            {
+              "palabra": "corta",
+              "cuadro": 158
+            },
+            {
+              "palabra": "sola.",
+              "cuadro": 168
+            },
+            {
+              "palabra": "Sin",
+              "cuadro": 187
+            },
+            {
+              "palabra": "avisar.",
+              "cuadro": 194
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r3-solucion",
+      "round": 3,
+      "from": 640,
+      "durationInFrames": 530,
+      "clips": [
+        {
+          "voz": "05-arma",
+          "enEscena": 10,
+          "cuadros": 102,
+          "palabras": [
+            {
+              "palabra": "Ring",
+              "cuadro": 10
+            },
+            {
+              "palabra": "Closers",
+              "cuadro": 20
+            },
+            {
+              "palabra": "te",
+              "cuadro": 36
+            },
+            {
+              "palabra": "arma",
+              "cuadro": 41
+            },
+            {
+              "palabra": "las",
+              "cuadro": 57
+            },
+            {
+              "palabra": "tres",
+              "cuadro": 64
+            },
+            {
+              "palabra": "peleas",
+              "cuadro": 74
+            },
+            {
+              "palabra": "de",
+              "cuadro": 88
+            },
+            {
+              "palabra": "la",
+              "cuadro": 93
+            },
+            {
+              "palabra": "semana.",
+              "cuadro": 98
+            }
+          ]
+        },
+        {
+          "voz": "06-rivales",
+          "enEscena": 120,
+          "cuadros": 179,
+          "palabras": [
+            {
+              "palabra": "Un",
+              "cuadro": 120
+            },
+            {
+              "palabra": "rival",
+              "cuadro": 124
+            },
+            {
+              "palabra": "por",
+              "cuadro": 134
+            },
+            {
+              "palabra": "debajo,",
+              "cuadro": 141
+            },
+            {
+              "palabra": "uno",
+              "cuadro": 153
+            },
+            {
+              "palabra": "a",
+              "cuadro": 170
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 172
+            },
+            {
+              "palabra": "nivel,",
+              "cuadro": 176
+            },
+            {
+              "palabra": "uno",
+              "cuadro": 187
+            },
+            {
+              "palabra": "por",
+              "cuadro": 204
+            },
+            {
+              "palabra": "encima.",
+              "cuadro": 210
+            },
+            {
+              "palabra": "Cruzando",
+              "cuadro": 222
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 250
+            },
+            {
+              "palabra": "disponibilidad",
+              "cuadro": 254
+            },
+            {
+              "palabra": "real.",
+              "cuadro": 283
+            }
+          ]
+        },
+        {
+          "voz": "07-afuera",
+          "enEscena": 307,
+          "cuadros": 193,
+          "palabras": [
+            {
+              "palabra": "Vos",
+              "cuadro": 307
+            },
+            {
+              "palabra": "peleás",
+              "cuadro": 314
+            },
+            {
+              "palabra": "afuera,",
+              "cuadro": 327
+            },
+            {
+              "palabra": "por",
+              "cuadro": 354
+            },
+            {
+              "palabra": "Zoom",
+              "cuadro": 361
+            },
+            {
+              "palabra": "o",
+              "cuadro": 370
+            },
+            {
+              "palabra": "Meet.",
+              "cuadro": 372
+            },
+            {
+              "palabra": "Cumplís,",
+              "cuadro": 381
+            },
+            {
+              "palabra": "subís",
+              "cuadro": 408
+            },
+            {
+              "palabra": "de",
+              "cuadro": 430
+            },
+            {
+              "palabra": "rango.",
+              "cuadro": 434
+            },
+            {
+              "palabra": "No",
+              "cuadro": 457
+            },
+            {
+              "palabra": "cumplís,",
+              "cuadro": 461
+            },
+            {
+              "palabra": "bajás.",
+              "cuadro": 488
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r4-honestidad",
+      "round": 4,
+      "from": 1170,
+      "durationInFrames": 330,
+      "clips": [
+        {
+          "voz": "08-equipo",
+          "enEscena": 16,
+          "cuadros": 197,
+          "palabras": [
+            {
+              "palabra": "Esto",
+              "cuadro": 16
+            },
+            {
+              "palabra": "no",
+              "cuadro": 25
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 29
+            },
+            {
+              "palabra": "armó",
+              "cuadro": 33
+            },
+            {
+              "palabra": "un",
+              "cuadro": 47
+            },
+            {
+              "palabra": "equipo",
+              "cuadro": 51
+            },
+            {
+              "palabra": "de",
+              "cuadro": 64
+            },
+            {
+              "palabra": "producto.",
+              "cuadro": 69
+            },
+            {
+              "palabra": "Lo",
+              "cuadro": 86
+            },
+            {
+              "palabra": "armó",
+              "cuadro": 107
+            },
+            {
+              "palabra": "un",
+              "cuadro": 116
+            },
+            {
+              "palabra": "closer,",
+              "cuadro": 120
+            },
+            {
+              "palabra": "para",
+              "cuadro": 133
+            },
+            {
+              "palabra": "su",
+              "cuadro": 158
+            },
+            {
+              "palabra": "propio",
+              "cuadro": 162
+            },
+            {
+              "palabra": "grupo",
+              "cuadro": 175
+            },
+            {
+              "palabra": "de",
+              "cuadro": 186
+            },
+            {
+              "palabra": "práctica.",
+              "cuadro": 190
+            }
+          ]
+        },
+        {
+          "voz": "09-reales",
+          "enEscena": 229,
+          "cuadros": 79,
+          "palabras": [
+            {
+              "palabra": "Hoy",
+              "cuadro": 236
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 260
+            },
+            {
+              "palabra": "usan",
+              "cuadro": 265
+            },
+            {
+              "palabra": "closers",
+              "cuadro": 275
+            },
+            {
+              "palabra": "reales.",
+              "cuadro": 293
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r5-cierre",
+      "round": 5,
+      "from": 1500,
+      "durationInFrames": 231,
+      "clips": [
+        {
+          "voz": "10-cta",
+          "enEscena": 12,
+          "cuadros": 171,
+          "palabras": [
+            {
+              "palabra": "Ring",
+              "cuadro": 12
+            },
+            {
+              "palabra": "Closers.",
+              "cuadro": 22
+            },
+            {
+              "palabra": "Gratis.",
+              "cuadro": 40
+            },
+            {
+              "palabra": "Sin",
+              "cuadro": 67
+            },
+            {
+              "palabra": "tarjeta,",
+              "cuadro": 86
+            },
+            {
+              "palabra": "sin",
+              "cuadro": 104
+            },
+            {
+              "palabra": "vueltas.",
+              "cuadro": 122
+            },
+            {
+              "palabra": "Subite",
+              "cuadro": 140
+            },
+            {
+              "palabra": "al",
+              "cuadro": 167
+            },
+            {
+              "palabra": "ring.",
+              "cuadro": 172
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "01-gancho",
+      "desde": 16
+    },
+    {
+      "voz": "02-comodidad",
+      "desde": 143
+    },
+    {
+      "voz": "03-rapido",
+      "desde": 251
+    },
+    {
+      "voz": "04-tercera",
+      "desde": 409
+    },
+    {
+      "voz": "05-arma",
+      "desde": 650
+    },
+    {
+      "voz": "06-rivales",
+      "desde": 760
+    },
+    {
+      "voz": "07-afuera",
+      "desde": 947
+    },
+    {
+      "voz": "08-equipo",
+      "desde": 1186
+    },
+    {
+      "voz": "09-reales",
+      "desde": 1399
+    },
+    {
+      "voz": "10-cta",
+      "desde": 1512
+    }
+  ]
+}

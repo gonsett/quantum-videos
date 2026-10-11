@@ -1,0 +1,17 @@
+{
+  "_nota": "Estructura del video de estilos. Aire natural: la voz no se acelera, y cada guante tiene tiempo de verse.",
+  "guion": "guion-estilos-rc.json",
+  "voz": "public/voz-estilos-rc-final",
+  "salida": "timeline-estilos-rc.json",
+  "fps": 30,
+  "estructura": [
+    { "id": "e1-avatar", "voces": ["01-avatar"], "entrada": 6, "cola": 12 },
+    { "id": "e2-guardias", "voces": ["02-guardias"], "entrada": 4, "cola": 10 },
+    { "id": "e3-zurdo", "voces": ["03-zurdo"], "entrada": 4, "cola": 10 },
+    { "id": "e4-contragolpe", "voces": ["04-contragolpe", "05-desbloquea"], "entrada": 4, "entre": 8, "cola": 18 },
+    { "id": "e5-noqueador", "voces": ["06-noqueador"], "entrada": 4, "cola": 12 },
+    { "id": "e6-prueba", "voces": ["07-prueba"], "entrada": 6, "cola": 12 },
+    { "id": "e7-camino", "voces": ["08-comodo", "09-miedo"], "entrada": 6, "entre": 8, "cola": 14 },
+    { "id": "e8-cta", "voces": ["10-cta"], "entrada": 8, "cola": 40 }
+  ]
+}

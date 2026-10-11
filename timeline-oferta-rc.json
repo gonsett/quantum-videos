@@ -1,0 +1,393 @@
+{
+  "fps": 30,
+  "total": 1189,
+  "escenas": [
+    {
+      "id": "e1-gancho",
+      "from": 0,
+      "durationInFrames": 285,
+      "clips": [
+        {
+          "voz": "00-antes",
+          "enEscena": 3,
+          "cuadros": 120,
+          "palabras": [
+            {
+              "palabra": "Publicaste",
+              "cuadro": 12
+            },
+            {
+              "palabra": "una",
+              "cuadro": 34
+            },
+            {
+              "palabra": "búsqueda",
+              "cuadro": 40
+            },
+            {
+              "palabra": "de",
+              "cuadro": 58
+            },
+            {
+              "palabra": "closers.",
+              "cuadro": 62
+            },
+            {
+              "palabra": "Y",
+              "cuadro": 91
+            },
+            {
+              "palabra": "te",
+              "cuadro": 93
+            },
+            {
+              "palabra": "llegaron...",
+              "cuadro": 97
+            }
+          ]
+        },
+        {
+          "voz": "01-gancho",
+          "enEscena": 123,
+          "cuadros": 140,
+          "palabras": [
+            {
+              "palabra": "Cien",
+              "cuadro": 132
+            },
+            {
+              "palabra": "postulantes.",
+              "cuadro": 145
+            },
+            {
+              "palabra": "Ninguno",
+              "cuadro": 195
+            },
+            {
+              "palabra": "sabe",
+              "cuadro": 218
+            },
+            {
+              "palabra": "cerrar.",
+              "cuadro": 231
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e2-grupo",
+      "from": 285,
+      "durationInFrames": 222,
+      "clips": [
+        {
+          "voz": "02-grupo",
+          "enEscena": 4,
+          "cuadros": 208,
+          "palabras": [
+            {
+              "palabra": "Eso",
+              "cuadro": 13
+            },
+            {
+              "palabra": "pasa",
+              "cuadro": 19
+            },
+            {
+              "palabra": "cuando",
+              "cuadro": 28
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 41
+            },
+            {
+              "palabra": "oferta",
+              "cuadro": 45
+            },
+            {
+              "palabra": "vive",
+              "cuadro": 58
+            },
+            {
+              "palabra": "en",
+              "cuadro": 67
+            },
+            {
+              "palabra": "un",
+              "cuadro": 71
+            },
+            {
+              "palabra": "grupo:",
+              "cuadro": 75
+            },
+            {
+              "palabra": "en",
+              "cuadro": 86
+            },
+            {
+              "palabra": "dos",
+              "cuadro": 91
+            },
+            {
+              "palabra": "horas",
+              "cuadro": 97
+            },
+            {
+              "palabra": "quedó",
+              "cuadro": 121
+            },
+            {
+              "palabra": "enterrada,",
+              "cuadro": 132
+            },
+            {
+              "palabra": "y",
+              "cuadro": 151
+            },
+            {
+              "palabra": "te",
+              "cuadro": 153
+            },
+            {
+              "palabra": "escribe",
+              "cuadro": 158
+            },
+            {
+              "palabra": "cualquiera.",
+              "cuadro": 180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e3-criterio",
+      "from": 507,
+      "durationInFrames": 314,
+      "clips": [
+        {
+          "voz": "03-criterio",
+          "enEscena": 4,
+          "cuadros": 300,
+          "palabras": [
+            {
+              "palabra": "En",
+              "cuadro": 13
+            },
+            {
+              "palabra": "Ring",
+              "cuadro": 18
+            },
+            {
+              "palabra": "Closers,",
+              "cuadro": 28
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 45
+            },
+            {
+              "palabra": "oferta",
+              "cuadro": 56
+            },
+            {
+              "palabra": "es",
+              "cuadro": 71
+            },
+            {
+              "palabra": "otra",
+              "cuadro": 76
+            },
+            {
+              "palabra": "cosa.",
+              "cuadro": 86
+            },
+            {
+              "palabra": "Visible.",
+              "cuadro": 96
+            },
+            {
+              "palabra": "Filtrada.",
+              "cuadro": 125
+            },
+            {
+              "palabra": "Probada.",
+              "cuadro": 151
+            },
+            {
+              "palabra": "Cada",
+              "cuadro": 178
+            },
+            {
+              "palabra": "postulante",
+              "cuadro": 188
+            },
+            {
+              "palabra": "llega",
+              "cuadro": 230
+            },
+            {
+              "palabra": "con",
+              "cuadro": 243
+            },
+            {
+              "palabra": "su",
+              "cuadro": 250
+            },
+            {
+              "palabra": "currículum",
+              "cuadro": 255
+            },
+            {
+              "palabra": "de",
+              "cuadro": 280
+            },
+            {
+              "palabra": "ring.",
+              "cuadro": 285
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4-rango",
+      "from": 821,
+      "durationInFrames": 168,
+      "clips": [
+        {
+          "voz": "04-rango",
+          "enEscena": 6,
+          "cuadros": 146,
+          "palabras": [
+            {
+              "palabra": "Y",
+              "cuadro": 15
+            },
+            {
+              "palabra": "el",
+              "cuadro": 17
+            },
+            {
+              "palabra": "que",
+              "cuadro": 21
+            },
+            {
+              "palabra": "no",
+              "cuadro": 27
+            },
+            {
+              "palabra": "llega",
+              "cuadro": 31
+            },
+            {
+              "palabra": "al",
+              "cuadro": 42
+            },
+            {
+              "palabra": "rango",
+              "cuadro": 46
+            },
+            {
+              "palabra": "que",
+              "cuadro": 56
+            },
+            {
+              "palabra": "pediste,",
+              "cuadro": 62
+            },
+            {
+              "palabra": "ni",
+              "cuadro": 77
+            },
+            {
+              "palabra": "siquiera",
+              "cuadro": 91
+            },
+            {
+              "palabra": "se",
+              "cuadro": 107
+            },
+            {
+              "palabra": "puede",
+              "cuadro": 111
+            },
+            {
+              "palabra": "postular.",
+              "cuadro": 122
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e5-cierre",
+      "from": 989,
+      "durationInFrames": 200,
+      "clips": [
+        {
+          "voz": "05-cierre",
+          "enEscena": 6,
+          "cuadros": 128,
+          "palabras": [
+            {
+              "palabra": "No",
+              "cuadro": 14
+            },
+            {
+              "palabra": "publiques",
+              "cuadro": 20
+            },
+            {
+              "palabra": "una",
+              "cuadro": 47
+            },
+            {
+              "palabra": "oferta.",
+              "cuadro": 56
+            },
+            {
+              "palabra": "Abrí",
+              "cuadro": 86
+            },
+            {
+              "palabra": "una",
+              "cuadro": 97
+            },
+            {
+              "palabra": "puerta.",
+              "cuadro": 106
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "00-antes",
+      "desde": 3
+    },
+    {
+      "voz": "01-gancho",
+      "desde": 123
+    },
+    {
+      "voz": "02-grupo",
+      "desde": 289
+    },
+    {
+      "voz": "03-criterio",
+      "desde": 511
+    },
+    {
+      "voz": "04-rango",
+      "desde": 827
+    },
+    {
+      "voz": "05-cierre",
+      "desde": 995
+    }
+  ]
+}

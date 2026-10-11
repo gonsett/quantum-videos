@@ -1,0 +1,10 @@
+{
+  "_nota": "Actualizaciones RC #2: Pipeline del director. ~30 s, motion elevado (ver src/pipeline-rc). Una sola toma corrida para que no haya huecos entre frases.",
+  "_instruccion_voz": "Una mujer rioplatense que trabaja en ventas contándole una novedad a un colega director comercial, en tono de charla natural, cálida y segura, con entusiasmo contenido. Nada de locutora, nada de tono de anuncio ni de publicidad. Ritmo ágil y fluido: las frases se encadenan sin pausas largas entre una y otra, como quien cuenta algo de corrido. Las palabras en inglés (closers, Pipeline) se dicen con pronunciación en inglés natural.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    {"id": "toma-a", "texto": "Encontrar closers ya no es el problema. El problema es seguirles el rastro. Ahora cada closer tiene su tarjeta, y avanza sola: lo seguís, le escribís, le ofrecés. Vos no cargás nada. Y cuando firma, ya es parte de tu equipo. Pipeline del director. Ya disponible."},
+    {"id": "toma-b", "texto": "Encontrar closers ya no es el problema. El problema es seguirles el rastro. Ahora cada closer tiene su tarjeta, y avanza sola: lo seguís, le escribís, le ofrecés. Vos no cargás nada. Y cuando firma, ya es parte de tu equipo. Pipeline del director. Ya disponible."}
+  ]
+}

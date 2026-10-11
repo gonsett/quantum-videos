@@ -1,0 +1,15 @@
+{
+  "_nota": "Tercer comercial: recorrido por el panel real. Estructura del video de referencia de Padron AGIP: alterna escenas oscuras de dato con escenas claras de producto.",
+  "_voz": "Kokoro ef_dora. Total locucion 39.83s. Las escenas de producto llevan margen extra: hay que darle tiempo al ojo para leer una captura.",
+  "fps": 30,
+  "escenas": [
+    { "id": "espera",    "voz": "01-espera",    "durationInFrames": 165, "vozDelay": 24, "_voz_seg": 3.41 },
+    { "id": "contraste", "voz": "02-contraste", "durationInFrames": 220, "vozDelay": 6,  "_voz_seg": 6.36 },
+    { "id": "pulso",     "voz": "03-pulso",     "durationInFrames": 195, "vozDelay": 6,  "_voz_seg": 4.59 },
+    { "id": "leads",     "voz": "04-leads",     "durationInFrames": 185, "vozDelay": 6,  "_voz_seg": 3.73 },
+    { "id": "score",     "voz": "05-score",     "durationInFrames": 280, "vozDelay": 6,  "_voz_seg": 8.04 },
+    { "id": "autos",     "voz": "06-autos",     "durationInFrames": 175, "vozDelay": 6,  "_voz_seg": 3.31 },
+    { "id": "alerta",    "voz": "07-alerta",    "durationInFrames": 250, "vozDelay": 6,  "_voz_seg": 7.06 },
+    { "id": "cierre",    "voz": "08-cierre",    "durationInFrames": 200, "vozDelay": 6,  "_voz_seg": 3.33 }
+  ]
+}

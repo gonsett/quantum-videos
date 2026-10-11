@@ -1,0 +1,31 @@
+01-que-es      OK
+  guion: ¿Qué es Ring Closers? Un ring donde los closers se entrenan entre sí.
+  oído : ¿Qué es Ring Closers? Un ring donde los closers se entrenan entre sí. (gemini-3.5-flash)
+
+02-problema    OK
+  guion: Practicar siempre con los mismos dos te frena, y organizarlo a mano, nadie lo sostiene.
+  oído : Practicar siempre con los mismos dos te frena y organizarlo a mano nadie lo sostiene. (gemini-3.5-transcribe)
+
+03-solucion    OK
+  guion: Ring Closers te arma tres roleplays por semana: uno por debajo, uno igual, uno por encima.
+  oído : Ring closers te arma tres roleplays por semana. Uno por debajo, uno igual, uno por encima. (gemini-3.5-flash)
+
+04-juego       OK
+  guion: Porque hay algo en juego: cumplís, subís de rango; te falta una, perdés puntos.
+  oído : Porque hay algo en juego. Cumplís. Subiste rango. Te falta una. Perdés puntos. (gemini-3.5-transcribe)
+
+05-evaluan     OK
+  guion: Porque otros closers te evalúan: tu nivel es real.
+  oído : Porque otros closers te evalúan, tu nivel es real. (gemini-3.5-transcribe)
+
+06-ven         SIN VERIFICAR
+  guion: Porque arriba te ven: directores comerciales buscan closers, y podés postularte a ofertas.
+  oído : ERROR (gemini-3.5-transcribe HTTP 429) (-)
+  ERROR (gemini-3.5-transcribe HTTP 429)
+
+07-cierre      SIN VERIFICAR
+  guion: Lo armó un closer. Subite al ring.
+  oído : ERROR (gemini-3.5-transcribe HTTP 429) (-)
+  ERROR (gemini-3.5-transcribe HTTP 429)
+
+2 toma(s) para revisar o sin verificar de 7

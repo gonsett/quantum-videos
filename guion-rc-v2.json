@@ -1,0 +1,20 @@
+{
+  "_nota": "Reel de Ring Closers v2, formato nativo 9:16. Gancho y guion completamente nuevos respecto de guion-ringclosers.json y guion-reel-rc.json — no reusar esos dos.",
+  "_reglas": "Voz Callirrhoe sin excepcion. Ritmo NATURAL (atempo 1.0) — NUNCA acelerar para entrar en un target de duracion. El video dura lo que la voz natural necesite. Quien armo el producto va en tercera persona si aparece.",
+  "_instruccion_voz": "Lee esto en espanol rioplatense, con voz firme y segura, de par a par entre closers. Frases cortas, peso real en cada palabra, ritmo natural sin apurar ni una sola silaba. Nada de tono de locutor publicitario.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    { "id": "01-gancho", "texto": "Sos closer. Y no estás mejorando.", "pausa": 0.7 },
+    { "id": "02-mismos", "texto": "Practicás siempre con los mismos dos." },
+    { "id": "03-nunca", "texto": "Nunca con el que sabe menos. Nunca con el que te haría mejorar de verdad." },
+    { "id": "04-repetis", "texto": "Repetís tu propio nivel, semana tras semana. Por eso no subís.", "pausa": 0.5 },
+    { "id": "05-obliga", "texto": "Ring Closers te obliga a pelear las tres franjas: uno por debajo, uno igual, uno por encima." },
+    { "id": "06-cada", "texto": "Cada semana. Sin opción de elegir cómodo." },
+    { "id": "07-cumplis", "texto": "Cumplís las tres, sumás. Te falta una, bajás de rango.", "pausa": 0.4 },
+    { "id": "08-mirando", "texto": "Y mientras subís, alguien más está mirando." },
+    { "id": "09-directores", "texto": "Directores comerciales buscan closers directo en el ranking." },
+    { "id": "10-oportunidad", "texto": "Cuanto más alto tu rango, más real la oportunidad.", "pausa": 0.5 },
+    { "id": "11-cta", "texto": "Ring Closers. Gratis. Sin tarjeta, sin vueltas. Subite al ring.", "ritmo": 2.4, "pausa": 0.5 }
+  ]
+}

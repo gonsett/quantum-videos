@@ -1,0 +1,16 @@
+{
+  "_nota": "Ring Closers 'qué es / qué problema resuelve / por qué usarlo'. La entrada de e2 y e4 es la carátula del round (título escrito + campana). La cola de e7 deja sonar las campanadas.",
+  "guion": "guion-que-es-rc.json",
+  "voz": "public/voz-que-es-rc",
+  "salida": "timeline-que-es-rc.json",
+  "fps": 30,
+  "estructura": [
+    { "id": "e1-que-es", "voces": ["01-que-es"], "entrada": 14, "cola": 20 },
+    { "id": "e2-problema", "voces": ["02-problema"], "entrada": 52, "cola": 20 },
+    { "id": "e3-solucion", "voces": ["03-solucion"], "entrada": 6, "cola": 20 },
+    { "id": "e4-juego", "voces": ["04-juego"], "entrada": 52, "cola": 20 },
+    { "id": "e5-evaluan", "voces": ["05-evaluan"], "entrada": 6, "cola": 20 },
+    { "id": "e6-ven", "voces": ["06-ven"], "entrada": 6, "cola": 22 },
+    { "id": "e7-cierre", "voces": ["07-cierre"], "entrada": 22, "cola": 100 }
+  ]
+}

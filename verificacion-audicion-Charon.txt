@@ -1,0 +1,6 @@
+audicion       SIN VERIFICAR
+  guion: Secreto de closer número uno. El cinturón no se gana una vez. Se defiende cada semana.
+  oído : ERROR (gemini-3.5-transcribe HTTP 429) (-)
+  ERROR (gemini-3.5-transcribe HTTP 429)
+
+1 toma(s) para revisar o sin verificar de 1

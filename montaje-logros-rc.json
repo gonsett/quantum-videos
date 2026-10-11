@@ -1,0 +1,17 @@
+{
+  "_nota": "Un año en treinta segundos (Logros). Una escena por toma; un solo plano continuo (la sala no corta).",
+  "guion": "guion-logros-rc.json",
+  "voz": "public/voz-logros-rc-25",
+  "salida": "timeline-logros-rc.json",
+  "fps": 30,
+  
+  "estructura": [
+    { "id": "e1-gancho", "voces": ["01-gancho"], "entrada": 3, "cola": 6 },
+    { "id": "e2-dia-uno", "voces": ["02-dia-uno"], "entrada": 2, "cola": 6 },
+    { "id": "e3-semana", "voces": ["03-semana"], "entrada": 2, "cola": 10 },
+    { "id": "e4-racha", "voces": ["04-racha"], "entrada": 14, "cola": 18 },
+    { "id": "e5-acelera", "voces": ["05-acelera"], "entrada": 4, "cola": 4 },
+    { "id": "e6-rafaga", "voces": ["06-rafaga"], "entrada": 2, "cola": 12 },
+    { "id": "e7-cierre", "voces": ["07-cierre"], "entrada": 8, "cola": 75 }
+  ]
+}

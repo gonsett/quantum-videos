@@ -1,0 +1,452 @@
+{
+  "fps": 30,
+  "total": 1080,
+  "escenas": [
+    {
+      "id": "e1-gancho",
+      "from": 0,
+      "durationInFrames": 210,
+      "clips": [
+        {
+          "voz": "01-gancho",
+          "enEscena": 3,
+          "cuadros": 190,
+          "palabras": [
+            {
+              "palabra": "Si",
+              "cuadro": 3
+            },
+            {
+              "palabra": "sos",
+              "cuadro": 8
+            },
+            {
+              "palabra": "un",
+              "cuadro": 14
+            },
+            {
+              "palabra": "closer",
+              "cuadro": 22
+            },
+            {
+              "palabra": "novato",
+              "cuadro": 29
+            },
+            {
+              "palabra": "que",
+              "cuadro": 44
+            },
+            {
+              "palabra": "recién",
+              "cuadro": 49
+            },
+            {
+              "palabra": "comienza,",
+              "cuadro": 62
+            },
+            {
+              "palabra": "y",
+              "cuadro": 77
+            },
+            {
+              "palabra": "no",
+              "cuadro": 91
+            },
+            {
+              "palabra": "sabés",
+              "cuadro": 97
+            },
+            {
+              "palabra": "cómo",
+              "cuadro": 106
+            },
+            {
+              "palabra": "o",
+              "cuadro": 116
+            },
+            {
+              "palabra": "con",
+              "cuadro": 122
+            },
+            {
+              "palabra": "quién",
+              "cuadro": 127
+            },
+            {
+              "palabra": "practicar.",
+              "cuadro": 132
+            },
+            {
+              "palabra": "Escuchá",
+              "cuadro": 162
+            },
+            {
+              "palabra": "esto.",
+              "cuadro": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e2-como",
+      "from": 210,
+      "durationInFrames": 165,
+      "clips": [
+        {
+          "voz": "02-como",
+          "enEscena": 4,
+          "cuadros": 140,
+          "palabras": [
+            {
+              "palabra": "Cómo.",
+              "cuadro": 4
+            },
+            {
+              "palabra": "Roleplay.",
+              "cuadro": 24
+            },
+            {
+              "palabra": "Una",
+              "cuadro": 51
+            },
+            {
+              "palabra": "llamada",
+              "cuadro": 55
+            },
+            {
+              "palabra": "de",
+              "cuadro": 66
+            },
+            {
+              "palabra": "venta",
+              "cuadro": 71
+            },
+            {
+              "palabra": "de",
+              "cuadro": 78
+            },
+            {
+              "palabra": "práctica,",
+              "cuadro": 81
+            },
+            {
+              "palabra": "con",
+              "cuadro": 104
+            },
+            {
+              "palabra": "otro",
+              "cuadro": 107
+            },
+            {
+              "palabra": "closer",
+              "cuadro": 113
+            },
+            {
+              "palabra": "real.",
+              "cuadro": 123
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e3-conquien",
+      "from": 375,
+      "durationInFrames": 210,
+      "clips": [
+        {
+          "voz": "03-conquien",
+          "enEscena": 4,
+          "cuadros": 189,
+          "palabras": [
+            {
+              "palabra": "Con",
+              "cuadro": 4
+            },
+            {
+              "palabra": "quién:",
+              "cuadro": 8
+            },
+            {
+              "palabra": "Ring",
+              "cuadro": 30
+            },
+            {
+              "palabra": "Closers",
+              "cuadro": 38
+            },
+            {
+              "palabra": "te",
+              "cuadro": 53
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 57
+            },
+            {
+              "palabra": "arma.",
+              "cuadro": 62
+            },
+            {
+              "palabra": "Elegís",
+              "cuadro": 82
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 91
+            },
+            {
+              "palabra": "nivel,",
+              "cuadro": 94
+            },
+            {
+              "palabra": "marcás",
+              "cuadro": 114
+            },
+            {
+              "palabra": "tus",
+              "cuadro": 124
+            },
+            {
+              "palabra": "horarios,",
+              "cuadro": 128
+            },
+            {
+              "palabra": "y",
+              "cuadro": 141
+            },
+            {
+              "palabra": "te",
+              "cuadro": 150
+            },
+            {
+              "palabra": "propone",
+              "cuadro": 155
+            },
+            {
+              "palabra": "rivales.",
+              "cuadro": 168
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4-mas",
+      "from": 585,
+      "durationInFrames": 150,
+      "clips": [
+        {
+          "voz": "04-mas",
+          "enEscena": 4,
+          "cuadros": 131,
+          "palabras": [
+            {
+              "palabra": "De",
+              "cuadro": 4
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 9
+            },
+            {
+              "palabra": "nivel,",
+              "cuadro": 13
+            },
+            {
+              "palabra": "y",
+              "cuadro": 33
+            },
+            {
+              "palabra": "también",
+              "cuadro": 38
+            },
+            {
+              "palabra": "de",
+              "cuadro": 48
+            },
+            {
+              "palabra": "los",
+              "cuadro": 55
+            },
+            {
+              "palabra": "que",
+              "cuadro": 59
+            },
+            {
+              "palabra": "saben",
+              "cuadro": 62
+            },
+            {
+              "palabra": "más.",
+              "cuadro": 70
+            },
+            {
+              "palabra": "Ahí",
+              "cuadro": 91
+            },
+            {
+              "palabra": "se",
+              "cuadro": 95
+            },
+            {
+              "palabra": "aprende",
+              "cuadro": 101
+            },
+            {
+              "palabra": "rápido.",
+              "cuadro": 112
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e5-primero",
+      "from": 735,
+      "durationInFrames": 165,
+      "clips": [
+        {
+          "voz": "05-primero",
+          "enEscena": 4,
+          "cuadros": 144,
+          "palabras": [
+            {
+              "palabra": "Todos",
+              "cuadro": 4
+            },
+            {
+              "palabra": "los",
+              "cuadro": 10
+            },
+            {
+              "palabra": "que",
+              "cuadro": 17
+            },
+            {
+              "palabra": "hoy",
+              "cuadro": 21
+            },
+            {
+              "palabra": "están",
+              "cuadro": 26
+            },
+            {
+              "palabra": "arriba",
+              "cuadro": 32
+            },
+            {
+              "palabra": "en",
+              "cuadro": 42
+            },
+            {
+              "palabra": "el",
+              "cuadro": 47
+            },
+            {
+              "palabra": "ranking,",
+              "cuadro": 50
+            },
+            {
+              "palabra": "alguna",
+              "cuadro": 73
+            },
+            {
+              "palabra": "vez",
+              "cuadro": 80
+            },
+            {
+              "palabra": "hicieron",
+              "cuadro": 87
+            },
+            {
+              "palabra": "su",
+              "cuadro": 100
+            },
+            {
+              "palabra": "primer",
+              "cuadro": 107
+            },
+            {
+              "palabra": "roleplay.",
+              "cuadro": 117
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e6-cierre",
+      "from": 900,
+      "durationInFrames": 180,
+      "clips": [
+        {
+          "voz": "06-cierre",
+          "enEscena": 4,
+          "cuadros": 88,
+          "palabras": [
+            {
+              "palabra": "Hacé",
+              "cuadro": 4
+            },
+            {
+              "palabra": "el",
+              "cuadro": 12
+            },
+            {
+              "palabra": "tuyo.",
+              "cuadro": 17
+            },
+            {
+              "palabra": "Tu",
+              "cuadro": 35
+            },
+            {
+              "palabra": "primer",
+              "cuadro": 37
+            },
+            {
+              "palabra": "combate",
+              "cuadro": 45
+            },
+            {
+              "palabra": "empieza",
+              "cuadro": 60
+            },
+            {
+              "palabra": "acá.",
+              "cuadro": 76
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "01-gancho",
+      "desde": 3
+    },
+    {
+      "voz": "02-como",
+      "desde": 214
+    },
+    {
+      "voz": "03-conquien",
+      "desde": 379
+    },
+    {
+      "voz": "04-mas",
+      "desde": 589
+    },
+    {
+      "voz": "05-primero",
+      "desde": 739
+    },
+    {
+      "voz": "06-cierre",
+      "desde": 904
+    }
+  ]
+}

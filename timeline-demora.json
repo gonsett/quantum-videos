@@ -1,0 +1,56 @@
+{
+  "_nota": "No te eligen por el precio. Duraciones provisorias: las recalcula calcular-timeline.mjs con la voz ya acelerada.",
+  "_voz": "Gemini TTS Callirrhoe acelerada 1.4x con atempo.",
+  "fps": 30,
+  "escenas": [
+    {
+      "id": "01-hook",
+      "voz": "01-hook",
+      "durationInFrames": 243,
+      "vozDelay": 8,
+      "_voz_seg": 7.43
+    },
+    {
+      "id": "02-otro",
+      "voz": "02-otro",
+      "durationInFrames": 112,
+      "vozDelay": 2,
+      "_voz_seg": 3.24
+    },
+    {
+      "id": "03-noche",
+      "voz": "03-noche",
+      "durationInFrames": 218,
+      "vozDelay": 2,
+      "_voz_seg": 6.77
+    },
+    {
+      "id": "04-reframe",
+      "voz": "04-reframe",
+      "durationInFrames": 218,
+      "vozDelay": 2,
+      "_voz_seg": 6.77
+    },
+    {
+      "id": "05-ahora",
+      "voz": "05-ahora",
+      "durationInFrames": 189,
+      "vozDelay": 2,
+      "_voz_seg": 5.81
+    },
+    {
+      "id": "06-diferencia",
+      "voz": "06-diferencia",
+      "durationInFrames": 126,
+      "vozDelay": 2,
+      "_voz_seg": 3.71
+    },
+    {
+      "id": "07-cta",
+      "voz": "07-cta",
+      "durationInFrames": 179,
+      "vozDelay": 2,
+      "_voz_seg": 5.5
+    }
+  ]
+}

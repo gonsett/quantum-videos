@@ -1,0 +1,57 @@
+{
+  "_nota": "Video para closers de veteranos. Generado por armar-montaje-veteranos.mjs: cada escena arranca en un beat (múltiplos de 15 cuadros).",
+  "guion": "guion-veteranos-rc.json",
+  "voz": "public/voz-veteranos-rc-final",
+  "salida": "timeline-veteranos-rc.json",
+  "fps": 30,
+  "estructura": [
+    {
+      "id": "e1-gancho",
+      "voces": [
+        "01-gancho"
+      ],
+      "entrada": 3,
+      "cola": 6
+    },
+    {
+      "id": "e2-hueso",
+      "voces": [
+        "02-hueso"
+      ],
+      "entrada": 4,
+      "cola": 12
+    },
+    {
+      "id": "e3-ring",
+      "voces": [
+        "03-ring"
+      ],
+      "entrada": 4,
+      "cola": 4
+    },
+    {
+      "id": "e4-simple",
+      "voces": [
+        "04-simple"
+      ],
+      "entrada": 4,
+      "cola": 8
+    },
+    {
+      "id": "e5-trayectoria",
+      "voces": [
+        "05-trayectoria"
+      ],
+      "entrada": 4,
+      "cola": 4
+    },
+    {
+      "id": "e6-cierre",
+      "voces": [
+        "06-cierre"
+      ],
+      "entrada": 4,
+      "cola": 102
+    }
+  ]
+}

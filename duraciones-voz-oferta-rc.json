@@ -1,0 +1,26 @@
+[
+  {
+    "id": "00-antes",
+    "segundos": 4.0
+  },
+  {
+    "id": "01-gancho",
+    "segundos": 4.64
+  },
+  {
+    "id": "02-grupo",
+    "segundos": 6.92
+  },
+  {
+    "id": "03-criterio",
+    "segundos": 10.0
+  },
+  {
+    "id": "04-rango",
+    "segundos": 4.84
+  },
+  {
+    "id": "05-cierre",
+    "segundos": 4.24
+  }
+]

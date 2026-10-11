@@ -1,0 +1,12 @@
+{
+ "_nota": "Lo que dejaste sobre la mesa (02/10/2026): prueba corta de voz.",
+ "_instruccion_voz": "Una closer de ventas rioplatense contándole algo a un colega, en tono de charla natural y cercana, con un toque de complicidad. Nada de locutora, nada de tono de anuncio ni de tráiler: voz normal, relajada pero con ganas, velocidad de conversación normal, sin pausas dramáticas.",
+ "voz": "Callirrhoe",
+ "modelo": "gemini-3.1-flash-tts-preview",
+ "segmentos": [
+  {
+   "id": "01-prueba",
+   "texto": "Sos closer. Llega principio de mes y mandás al grupo cuánto comisionaste. Todos te felicitan. Récord."
+  }
+ ]
+}

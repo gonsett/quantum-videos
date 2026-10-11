@@ -1,0 +1,7 @@
+00-prueba      REVISAR
+  guion: Mirá lo que pasa en un año de roleplays. En treinta segundos. Día uno: tu primer combate. Esa misma semana, alguien te pone cinco estrellas. Noqueaste.
+  oído (gemini-3.5-flash): Mira lo que pasa en un año de roleplays, en 30 segundos. Día uno, tu primer combate. Esa misma semana, alguien te pone cinco estrellas. Noqueaste.  <-- REVISAR: de más: 30; faltan: treinta
+  oído (gemini-3.5-transcribe): Mira lo que pasa en un año de roleplays en 30 segundos. Día 1, tu primer combate. Esa misma semana alguien te pone cinco estrellas. Noqueaste.  <-- REVISAR: de más: 30; faltan: treinta
+  sin respuesta: cf:whisper-large-v3-turbo
+
+1 toma(s) para revisar o sin verificar de 1

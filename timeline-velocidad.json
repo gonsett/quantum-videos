@@ -1,0 +1,79 @@
+{
+  "_nota": "Quinto comercial. Estructura KAYN: una linea de texto = una tarjeta de subtitulo sincronizada a la voz. Ilustraciones FLUX.1 schnell (Cloudflare, Apache 2.0).",
+  "_voz": "Gemini TTS Callirrhoe, modelo gemini-2.5-flash-preview-tts. El 3.1 agoto su cuota diaria de 10 requests.",
+  "fps": 30,
+  "escenas": [
+    {
+      "id": "01-escribe",
+      "voz": "01-escribe",
+      "durationInFrames": 150,
+      "vozDelay": 24,
+      "vozFrames": 110,
+      "_voz_seg": 3.691
+    },
+    {
+      "id": "02-contesta",
+      "voz": "02-contesta",
+      "durationInFrames": 141,
+      "vozDelay": 6,
+      "vozFrames": 117,
+      "_voz_seg": 3.931
+    },
+    {
+      "id": "03-compro",
+      "voz": "03-compro",
+      "durationInFrames": 172,
+      "vozDelay": 6,
+      "vozFrames": 148,
+      "_voz_seg": 4.942
+    },
+    {
+      "id": "04-noperdiste",
+      "voz": "04-noperdiste",
+      "durationInFrames": 221,
+      "vozDelay": 6,
+      "vozFrames": 197,
+      "_voz_seg": 6.571
+    },
+    {
+      "id": "05-pregunta",
+      "voz": "05-pregunta",
+      "durationInFrames": 215,
+      "vozDelay": 6,
+      "vozFrames": 191,
+      "_voz_seg": 6.371
+    },
+    {
+      "id": "06-dato",
+      "voz": "06-dato",
+      "durationInFrames": 137,
+      "vozDelay": 6,
+      "vozFrames": 113,
+      "_voz_seg": 3.771
+    },
+    {
+      "id": "07-tarde",
+      "voz": "07-tarde",
+      "durationInFrames": 133,
+      "vozDelay": 6,
+      "vozFrames": 109,
+      "_voz_seg": 3.651
+    },
+    {
+      "id": "08-primero",
+      "voz": "08-primero",
+      "durationInFrames": 224,
+      "vozDelay": 6,
+      "vozFrames": 200,
+      "_voz_seg": 6.691
+    },
+    {
+      "id": "09-cierre",
+      "voz": "09-cierre",
+      "durationInFrames": 141,
+      "vozDelay": 6,
+      "vozFrames": 89,
+      "_voz_seg": 2.971
+    }
+  ]
+}

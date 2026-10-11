@@ -1,0 +1,16 @@
+{
+  "_nota": "Cuarto comercial: fuga de cartera. Ilustracion 3D generada por codigo. Mecanismo: objetos que se van contra objetos anclados a una estructura.",
+  "_voz": "Gemini TTS, voz Callirrhoe, modelo gemini-3.1-flash-tts-preview. Total locucion 46.12s.",
+  "_render": "3D por software (sin GPU): ~0.5s por frame medido. 1785 frames = ~15 min.",
+  "fps": 30,
+  "escenas": [
+    { "id": "renuncia",     "voz": "01-renuncia",     "durationInFrames": 175, "vozDelay": 24, "_voz_seg": 3.83 },
+    { "id": "telefono",     "voz": "02-telefono",     "durationInFrames": 130, "vozDelay": 6,  "_voz_seg": 2.27 },
+    { "id": "cartera",      "voz": "03-cartera",      "durationInFrames": 175, "vozDelay": 6,  "_voz_seg": 4.13 },
+    { "id": "ochentaiseis", "voz": "04-ochentaiseis", "durationInFrames": 215, "vozDelay": 6,  "_voz_seg": 5.63 },
+    { "id": "todo",         "voz": "05-todo",         "durationInFrames": 340, "vozDelay": 6,  "_voz_seg": 10.07 },
+    { "id": "fuga",         "voz": "06-fuga",         "durationInFrames": 210, "vozDelay": 6,  "_voz_seg": 5.5 },
+    { "id": "sistema",      "voz": "07-sistema",      "durationInFrames": 255, "vozDelay": 6,  "_voz_seg": 6.83 },
+    { "id": "cierre",       "voz": "08-cierre",       "durationInFrames": 285, "vozDelay": 6,  "_voz_seg": 7.73 }
+  ]
+}

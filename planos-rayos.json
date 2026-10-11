@@ -1,0 +1,61 @@
+{
+ "estilo": "Photorealistic editorial photograph, shot on 35mm film, warm natural light, soft shadows, shallow depth of field, rich muted colors, documentary magazine style, vertical 9:16 composition, no text, no letters, no logos, no watermark.",
+ "planos": [
+  {
+   "id": "hoja",
+   "prompt": "Top-down view of a single blank white notebook page with faint blue ruled lines lying flat on a dark walnut wooden desk, a black fountain pen and a cup of espresso at the edges, empty paper in the center."
+  },
+  {
+   "id": "cuadricula",
+   "prompt": "Top-down view of a blank sheet of cream graph paper with a fine grid, lying on a wooden desk, soft window light, paper fills most of the frame, empty paper."
+  },
+  {
+   "id": "orador",
+   "prompt": "Confident salesman in a navy suit speaking and gesturing in a modern glass meeting room, clients listening across the table, cinematic."
+  },
+  {
+   "id": "puerta",
+   "prompt": "A hand opening a heavy wooden office door, warm light spilling through the gap into a dark corridor, cinematic."
+  },
+  {
+   "id": "simulador",
+   "prompt": "Airline pilot in white shirt with epaulettes practicing inside a full flight simulator cockpit, glowing instrument panels, dark room, cinematic."
+  },
+  {
+   "id": "avion",
+   "prompt": "Commercial airliner taking off at golden hour, passengers boarding stairs in the foreground, cinematic."
+  },
+  {
+   "id": "llamada",
+   "prompt": "Stressed young salesman on a phone call at his desk in an open office, hand on forehead, laptop open, late afternoon light."
+  },
+  {
+   "id": "quema",
+   "prompt": "Close-up of a stack of paper index cards catching fire on a dark desk, flames and embers, dramatic lighting."
+  },
+  {
+   "id": "ring",
+   "prompt": "Empty boxing ring in a dark gym at night, single spotlight on the canvas, ropes in the foreground, cinematic."
+  },
+  {
+   "id": "gimnasio",
+   "prompt": "Boxer training alone hitting a heavy bag in an old gym at night, sweat, dramatic side light, cinematic."
+  },
+  {
+   "id": "firma",
+   "prompt": "Close-up of two businessmen shaking hands over a signed contract on a wooden table, pen on the paper, warm light."
+  },
+  {
+   "id": "diario",
+   "prompt": "Close-up of a folded printed broadsheet newspaper page with columns of small text, lying on a wooden table, top-down, shallow depth of field."
+  },
+  {
+   "id": "hojasuelta",
+   "prompt": "Top-down view of a single torn-out lined notebook page, slightly wrinkled, lying rotated about 10 degrees on a dark weathered wooden table, the page occupies the middle of the frame, blank paper, moody low light."
+  },
+  {
+   "id": "pano",
+   "prompt": "Top-down view of an empty dark green felt table surface with a few scattered torn paper scraps and a brass key at the edges, moody low light, empty center."
+  }
+ ]
+}

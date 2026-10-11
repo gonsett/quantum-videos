@@ -1,0 +1,39 @@
+{
+  "voz": "es-UY-MateoNeural",
+  "rate": "-4%",
+  "pitch": "-2Hz",
+  "segmentos": [
+    {
+      "id": "01-gancho",
+      "texto": "Sábado, once y cuarenta y siete de la noche. Alguien pregunta por una camioneta que tenés publicada."
+    },
+    {
+      "id": "02-pregunta",
+      "texto": "¿Cuánto tarda tu concesionaria en contestar ese mensaje?"
+    },
+    {
+      "id": "03-espera",
+      "texto": "Hoy queda en el celular de alguien. Y nadie lo ve hasta el lunes a las ocho de la mañana."
+    },
+    {
+      "id": "04-golpe",
+      "texto": "Treinta y dos horas y trece minutos. Para entonces ese cliente ya está hablando con otra concesionaria."
+    },
+    {
+      "id": "05-automlead",
+      "texto": "Con AutomLead, tres segundos. Respondido, cualificado, y con un vendedor encima."
+    },
+    {
+      "id": "06-regla",
+      "texto": "Todo el sistema se apoya en una sola regla: un lead no puede quedar sin dueño. Si ningún vendedor lo toma, se asigna igual."
+    },
+    {
+      "id": "07-capacidades",
+      "texto": "Contesta a los tres segundos, siempre. Puntúa cada consulta con una cuenta que podés auditar. Y te muestra cuánto tarda de verdad cada vendedor en responder."
+    },
+    {
+      "id": "08-cierre",
+      "texto": "¿Cuántas consultas se te enfriaron este mes sin que te enteres? Agendá tu diagnóstico. Funciona sobre tu número de WhatsApp actual."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_nota": "Placeholder minimo: este proyecto (racha-rc, 'cuarto video de Ring Closers') nunca tuvo voz generada (public/voz-racha-rc-final no existe) y bloqueaba el bundler para TODO el proyecto de Remotion, incluyendo compilaciones no relacionadas. Este archivo solo evita el crash de import estatico en src/racha-rc/timeline.ts -- no es un timeline real, no renderiza contenido valido. Regenerar con `node montaje.mjs montaje-racha-rc.json` una vez que exista voz real en public/voz-racha-rc-final.",
+  "fps": 30,
+  "total": 630,
+  "escenas": [
+    { "id": "s1-gancho", "round": 1, "from": 0, "durationInFrames": 90, "clips": [] },
+    { "id": "s2-problema", "round": 2, "from": 90, "durationInFrames": 90, "clips": [] },
+    { "id": "s3-racha", "round": 3, "from": 180, "durationInFrames": 90, "clips": [] },
+    { "id": "s4-logro", "round": 4, "from": 270, "durationInFrames": 90, "clips": [] },
+    { "id": "s5-rankup", "round": 5, "from": 360, "durationInFrames": 90, "clips": [] },
+    { "id": "s6-cierre", "round": 6, "from": 450, "durationInFrames": 90, "clips": [] },
+    { "id": "s7-cta", "round": 7, "from": 540, "durationInFrames": 90, "clips": [] }
+  ],
+  "clips": []
+}

@@ -1,0 +1,64 @@
+{
+  "_nota": "Linea de tiempo del segundo comercial (agenda de service). Fuente unica: la leen src/timeline-service.ts y generar-musica-service.mjs.",
+  "_voz": "Kokoro ef_dora. Total locucion 45.48s. Cada escena deja margen para cerrar sus animaciones despues de la frase.",
+  "fps": 30,
+  "escenas": [
+    {
+      "id": "cerrado",
+      "voz": "01-cerrado",
+      "durationInFrames": 175,
+      "vozDelay": 24,
+      "_voz_seg": 3.54,
+      "_nota": "La persiana baja hasta el frame 138: la escena tiene que pasarlo"
+    },
+    {
+      "id": "consulta",
+      "voz": "02-consulta",
+      "durationInFrames": 140,
+      "vozDelay": 4,
+      "_voz_seg": 4.03
+    },
+    {
+      "id": "asistente",
+      "voz": "03-asistente",
+      "durationInFrames": 205,
+      "vozDelay": 6,
+      "_voz_seg": 6.17
+    },
+    {
+      "id": "horarios",
+      "voz": "04-horarios",
+      "durationInFrames": 195,
+      "vozDelay": 6,
+      "_voz_seg": 5.78
+    },
+    {
+      "id": "cargado",
+      "voz": "05-cargado",
+      "durationInFrames": 240,
+      "vozDelay": 6,
+      "_voz_seg": 7.21
+    },
+    {
+      "id": "limite",
+      "voz": "06-limite",
+      "durationInFrames": 280,
+      "vozDelay": 6,
+      "_voz_seg": 8.47
+    },
+    {
+      "id": "porque",
+      "voz": "07-porque",
+      "durationInFrames": 200,
+      "vozDelay": 6,
+      "_voz_seg": 5.91
+    },
+    {
+      "id": "cierre",
+      "voz": "08-cierre",
+      "durationInFrames": 210,
+      "vozDelay": 6,
+      "_voz_seg": 4.37
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+02-problema    OK
+  guion: Practicar siempre con los mismos dos te frena, y organizarlo a mano, nadie lo sostiene.
+  oído : Practicar siempre con los mismos dos te frena. Y organizarlo a mano, nadie lo sostiene. (cf:whisper-large-v3-turbo)
+
+0 toma(s) para revisar o sin verificar de 1

@@ -1,0 +1,37 @@
+{
+  "_nota": "Septimo comercial: no te eligen por el precio, te pierden por la demora. La prueba ya no es el alcance del reel: es la misma linea de tiempo de la escena 03 resuelta, y la cifra sale de la aritmetica de esa historia.",
+  "_guion_original": "Cinco beats de Javier (hook, diagnostico, reframe, prueba, CTA) partidos en siete segmentos para que el montaje respire igual que el de reparto.",
+  "_instruccion_voz": "Lee esto en espanol rioplatense, con tono firme y claro. Ritmo pausado, sin entusiasmo comercial. Como quien senala algo incomodo que el otro no habia visto.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    {
+      "id": "01-hook",
+      "texto": "Ese cliente que te escribió por WhatsApp preguntando el precio y nunca más contestaste. No se fue a otro lado por el precio."
+    },
+    {
+      "id": "02-otro",
+      "texto": "Se fue porque otro concesionario le contestó en cinco minutos."
+    },
+    {
+      "id": "03-noche",
+      "texto": "Vos ibas a responderle a la noche, cuando cerraste y te acordaste. Para esa hora ya había firmado en otro lado."
+    },
+    {
+      "id": "04-reframe",
+      "texto": "No estás perdiendo clientes por el precio del auto. Estás perdiendo clientes por el tiempo que tarda tu WhatsApp en contestar."
+    },
+    {
+      "id": "05-ahora",
+      "texto": "Con AutomLead la consulta se asigna sola al vendedor libre. A las diez y dieciséis, Martín ya responde."
+    },
+    {
+      "id": "06-diferencia",
+      "texto": "Mismo cliente, mismo día. La diferencia son diez horas y media."
+    },
+    {
+      "id": "07-cta",
+      "texto": "Andá al perfil. Ahí te muestro cómo un concesionario deja de perder clientes por tardar en contestar."
+    }
+  ]
+}

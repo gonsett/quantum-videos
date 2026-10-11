@@ -1,0 +1,38 @@
+01-gancho      REVISAR
+  guion: Mirá lo que pasa en un año de roleplays. En treinta segundos.
+  oído (gemini-3.5-flash): Mira lo que pasa en un año de roleplays. En 30 segundos.  <-- REVISAR: de más: 30; faltan: treinta
+  oído (gemini-3.5-transcribe): Mira lo que pasa en un año de roleplay en 30 segundos.  <-- REVISAR: de más: roleplay 30; faltan: roleplays treinta
+  sin respuesta: cf:whisper-large-v3-turbo
+
+02-dia-uno     OK (1 de 3 oídos)
+  guion: Día uno: tu primer combate. Esa misma semana, alguien te pone cinco estrellas. Noqueaste.
+  oído (gemini-3.5-transcribe): Día uno, tu primer combate. Esa misma semana alguien te pone cinco estrellas. Noqueaste.
+  sin respuesta: gemini-3.5-flash, cf:whisper-large-v3-turbo
+
+03-semana      REVISAR
+  guion: Cumplís tu primera semana. Y ya llevás diez peleas encima.
+  oído (gemini-3.5-flash): Cumpliste tu primera semana y ya llevas 10 peleas encima.  <-- REVISAR: de más: cumpliste; faltan: cumplis
+  oído (gemini-3.5-transcribe): Cumplís tu primera semana y ya llevás 10 peleas encima.
+  sin respuesta: cf:whisper-large-v3-turbo
+
+04-racha       OK (1 de 3 oídos)
+  guion: Tres semanas seguidas. Eso ya no es suerte: es costumbre.
+  oído (gemini-3.5-transcribe): Tres semanas seguidas, eso ya no es suerte, es costumbre.
+  sin respuesta: gemini-3.5-flash, cf:whisper-large-v3-turbo
+
+05-acelera     REVISAR
+  guion: Un mes. Tu primera compra. Diez mil cerrados en objeciones. Tres meses. Cincuenta mil.
+  oído (gemini-3.5-transcribe): Un mes, tu primera compra, 10.000 cerrados en objeciones. Tres meses, 50.000.  <-- REVISAR: de más: 00cero 50 00cero; faltan: mil cincuenta mil
+  sin respuesta: gemini-3.5-flash, cf:whisper-large-v3-turbo
+
+06-rafaga      REVISAR
+  guion: Seis meses. Diez semanas sin fallar. Cien mil. Un año.
+  oído (gemini-3.5-transcribe): seis meses, 10 semanas sin fallar, 100.000, un año  <-- REVISAR: de más: diezcero 00cero; faltan: cien mil
+  sin respuesta: gemini-3.5-flash, cf:whisper-large-v3-turbo
+
+07-cierre      REVISAR
+  guion: Catorce trofeos. Y el primero sale con un solo roleplay.
+  oído (gemini-3.5-transcribe): 14 trofeos y el primero sale con un solo roleplay.  <-- REVISAR: de más: 14; faltan: catorce
+  sin respuesta: gemini-3.5-flash, cf:whisper-large-v3-turbo
+
+7 toma(s) para revisar o sin verificar de 7

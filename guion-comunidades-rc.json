@@ -1,0 +1,15 @@
+{
+  "_nota": "Ya empezó sin vos (27/09/2026), para closers: las comunidades Elite Closers, Five Stars y S&P ya usan Ring Closers (confirmado por Javier). Tres ideas: te estás quedando afuera, acá mejorás de verdad, acá están las mejores ofertas. S&P se escribe 'Ese y Pe' para que el TTS lo pronuncie.",
+  "_instruccion_voz": "Locutor profesional masculino, en español rioplatense, voz grave con energía y tensión, como el narrador de un tráiler deportivo que te hace sentir que te estás perdiendo algo grande. Ritmo ágil, frases cortas con golpe, sin arrastrar palabras.",
+  "voz": "Charon",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    { "id": "00-gancho", "texto": "Elite Closers. Five Stars. Ese y Pe." },
+    { "id": "01-adentro", "texto": "Mientras vos scrolleás, ellos ya están adentro." },
+    { "id": "02-entrenan", "texto": "Cada semana pelean roleplays con otro closer del otro lado. Y cada pelea deja una nota." },
+    { "id": "03-mejoran", "texto": "Lo que te trababa la primera semana, en la cuarta te sale solo. Y se ve en tus números." },
+    { "id": "04-ofertas", "texto": "Y lo que nadie te cuenta: los directores publican sus mejores ofertas acá adentro. Y eligen por rango." },
+    { "id": "05-ranking", "texto": "El ranking ya arrancó. Tu nombre... todavía no está." },
+    { "id": "06-cierre", "texto": "Entrá al ring." }
+  ]
+}

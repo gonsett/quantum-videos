@@ -1,0 +1,7 @@
+01-prueba      REVISAR
+  guion: Sos closer. Llega principio de mes y mandás al grupo cuánto comisionaste. Todos te felicitan. Récord.
+  oído (gemini-3.5-transcribe): Sos closer, llega a principio de mes y mandás al grupo cuánto comisionaste, todos te felicitan, récord.  <-- REVISAR: de más: a
+  oído (cf:whisper-large-v3-turbo): Sos Closer. Llega a principio de mes y mandás al grupo cuánto comisionaste. Todos te felicitan. Récord.  <-- REVISAR: de más: a
+  sin respuesta: gemini-3.5-flash
+
+1 toma(s) para revisar o sin verificar de 1

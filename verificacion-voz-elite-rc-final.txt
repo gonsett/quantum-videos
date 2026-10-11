@@ -1,0 +1,37 @@
+01-gancho      REVISAR
+  guion: ¿Sos closer y tenés un nivel altísimo? Con más razón tenés que usar Ring Closers.
+  oído (gemini-3.5-flash): Sos closer y tenés un nivel altísimo? Con más razón tenés que usar Ring Closers.
+  oído (gemini-3.5-transcribe): Son closer y tenés un nivel altísimo, con más razón tenés que usar Ring Closer.  <-- REVISAR: de más: son; faltan: sos
+  oído (cf:whisper-large-v3-turbo): ¿Sos closer y tenés un nivel altísimo? Con más razón tenés que usar ring closers.
+
+02-puente      OK (3 de 3 oídos)
+  guion: Porque arriba, la diferencia está en el detalle.
+  oído (gemini-3.5-flash): porque arriba la diferencia está en el detalle
+  oído (gemini-3.5-transcribe): Porque arriba la diferencia está en el detalle.
+  oído (cf:whisper-large-v3-turbo): porque arriba la diferencia está en el detalle.
+
+03-afilas      REVISAR
+  guion: Uno: afilás. Roleplay con closers de tu altura, y con alguno mejor.
+  oído (gemini-3.5-flash): Uno, afilás, roleplay con closers de tu altura y con alguno mejor.
+  oído (gemini-3.5-transcribe): Uno, afilás. Roleplay con closers de tu altura y con alguno mejor.
+  oído (cf:whisper-large-v3-turbo): 1. Afilás. Roleplay con closers de tu altura y con alguno mejor.  <-- REVISAR: de más: 1; faltan: uno
+
+04-conocen     OK (3 de 3 oídos)
+  guion: Dos: te conocen. Tu lugar en el ranking es público.
+  oído (gemini-3.5-flash): dos te conocen tu lugar en el ranking es público
+  oído (gemini-3.5-transcribe): Dos, te conocen. Tu lugar en el ranking es público.
+  oído (cf:whisper-large-v3-turbo): Dos, te conocen. Tu lugar en el ranking es público.
+
+05-buscan      REVISAR
+  guion: Tres: te buscan. Los directores comerciales recorren ese ranking, y si les interesás, te mandan una propuesta.
+  oído (gemini-3.5-flash): Tres, te buscan. Los directores comerciales recorren ese ranking y si les interesás, te mandan una propuesta.
+  oído (gemini-3.5-transcribe): Tres, te buscan. Los directores comerciales recorren ese ranking y, si les interesás, te mandan una propuesta.
+  oído (cf:whisper-large-v3-turbo): 3. Te buscan. Los directores comerciales recorren ese ranking y si les interesas, te mandan una propuesta.  <-- REVISAR: de más: 3; faltan: tres
+
+06-cierre      OK (3 de 3 oídos)
+  guion: Vos entrená. Que te busquen, sin mover un dedo.
+  oído (gemini-3.5-flash): Vos entrená, que te busquen, sin mover un dedo.
+  oído (gemini-3.5-transcribe): Vos entrená, que te busquen, sin mover un dedo.
+  oído (cf:whisper-large-v3-turbo): Vos entrená, que te busquen sin mover un dedo.
+
+3 toma(s) para revisar o sin verificar de 6

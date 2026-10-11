@@ -1,0 +1,32 @@
+{
+  "_nota": "Secreto de contratación #1 (26/09/2026), formato Kayn con piel Ring Closers. Para directores: una oferta en un grupo se entierra y atrae a cualquiera; en Ring Closers queda visible 24/7, se postulan con currículum y el rango mínimo se exige (rank_too_low). No repetir el ángulo de 'La firma' (hambre/calidad/rango como lista).",
+  "_instruccion_voz": "Locutor profesional masculino, en español rioplatense, voz grave, firme y con autoridad, como el narrador de un tráiler de negocios que le habla a un dueño de empresa. Ritmo ágil y seguro, frases cortas con peso, sin arrastrar palabras ni pausas largas.",
+  "voz": "Charon",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    {
+      "id": "00-antes",
+      "texto": "Publicaste una búsqueda de closers. Y te llegaron..."
+    },
+    {
+      "id": "01-gancho",
+      "texto": "Cien postulantes. Ninguno sabe cerrar."
+    },
+    {
+      "id": "02-grupo",
+      "texto": "Eso pasa cuando tu oferta vive en un grupo: en dos horas quedó enterrada, y te escribe cualquiera."
+    },
+    {
+      "id": "03-criterio",
+      "texto": "En Ring Closers, tu oferta es otra cosa. Visible. Filtrada. Probada. Cada postulante llega con su currículum de ring."
+    },
+    {
+      "id": "04-rango",
+      "texto": "Y el que no llega al rango que pediste, ni siquiera se puede postular."
+    },
+    {
+      "id": "05-cierre",
+      "texto": "No publiques una oferta. Abrí una puerta."
+    }
+  ]
+}

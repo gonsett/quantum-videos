@@ -1,0 +1,44 @@
+01-gancho      OK (3 de 3 oídos)
+  guion: El último closer que contrataste hablaba como un campeón en la entrevista. Al mes, no había cerrado nada.
+  oído (gemini-3.5-flash): El último closer que contrataste hablaba como un campeón en la entrevista. Al mes no había cerrado nada.
+  oído (gemini-3.5-transcribe): El último closer que contrataste hablaba como un campeón en la entrevista. Al mes, no había cerrado nada.
+  oído (cf:whisper-large-v3-turbo): El último closer que contrataste hablaba como un campeón en la entrevista. Al mes no había cerrado nada.
+
+02-grupo       OK (3 de 3 oídos)
+  guion: Porque lo sacaste de un grupo donde todos dicen lo mismo.
+  oído (gemini-3.5-flash): porque lo sacaste de un grupo donde todos dicen lo mismo
+  oído (gemini-3.5-transcribe): Porque lo sacaste de un grupo donde todos dicen lo mismo.
+  oído (cf:whisper-large-v3-turbo): Porque lo sacaste de un grupo donde todos dicen lo mismo.
+
+03-hambre      REVISAR
+  guion: En Ring Closers no ves lo que dice. Ves lo que hace: cuántas semanas seguidas entrena. Eso es hambre.
+  oído (gemini-3.5-flash): En Ring Closers no ves lo que dice, ves lo que hace, cuántas semanas seguidas entrena. Eso es hambre.
+  oído (gemini-3.5-transcribe): En Ring Closers no ves lo que dice, ves lo que hace. ¿Cuántas semanas seguidas entrena? Eso es hambre.
+  oído (cf:whisper-large-v3-turbo): En Ring Closers no ves lo que dice, ves lo que hace, cuántas semanas seguidas se entrena. Eso es hambre.  <-- REVISAR: de más: se
+
+04-calidad     OK (3 de 3 oídos)
+  guion: Cómo lo calificaron los closers que pelearon contra él. Eso es calidad.
+  oído (gemini-3.5-flash): ¿Cómo lo calificaron los clóuserrs que pelearon contra él? Eso es calidad.
+  oído (gemini-3.5-transcribe): ¿Cómo lo calificaron los closers que pelearon contra él? Eso es calidad.
+  oído (cf:whisper-large-v3-turbo): ¿Cómo lo calificaron los closers que pelearon contra él? Eso es calidad.
+
+05-rango       OK (3 de 3 oídos)
+  guion: Su rango, ganado en el ring. Y si busca full-time o part-time.
+  oído (gemini-3.5-flash): Su rango ganado en el ring. ¿Y si busca full-time o part-time?
+  oído (gemini-3.5-transcribe): Su rango ganado en el ring y si busca full time o part time.
+  oído (cf:whisper-large-v3-turbo): su rango ganado en el ring y si busca full time o part time.
+
+06-cierre      OK (3 de 3 oídos)
+  guion: Dejá de contratar promesas. Contratá closers probados. Link en la bio.
+  oído (gemini-3.5-flash): Deja de contratar promesas contratá closers probados Link en la bio
+  oído (gemini-3.5-transcribe): Deja de contratar promesas. Contrata closers probados. Link en la bio.
+  oído (cf:whisper-large-v3-turbo): Deja de contratar promesas. Contratá closers probados. Link en la bio.
+
+1 toma(s) para revisar o sin verificar de 6
+Traceback (most recent call last):
+  File "C:\Users\Javier\Desktop\Copia de espacio-de-trabajo-claude\automlead-video\verificar-voz.py", line 211, in <module>
+    main()
+  File "C:\Users\Javier\Desktop\Copia de espacio-de-trabajo-claude\automlead-video\verificar-voz.py", line 205, in main
+    with io.open(os.path.join(AQUI, "verificacion-%s.txt" % carpeta), "w", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Javier\\Desktop\\Copia de espacio-de-trabajo-claude\\automlead-video\\verificacion-public/voz-directores-rc.txt'

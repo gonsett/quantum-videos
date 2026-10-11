@@ -1,0 +1,470 @@
+{
+  "fps": 30,
+  "total": 803,
+  "escenas": [
+    {
+      "id": "s1-gancho",
+      "from": 0,
+      "durationInFrames": 98,
+      "clips": [
+        {
+          "voz": "01-gancho",
+          "enEscena": 3,
+          "cuadros": 90,
+          "palabras": [
+            {
+              "palabra": "Si",
+              "cuadro": 10
+            },
+            {
+              "palabra": "no",
+              "cuadro": 13
+            },
+            {
+              "palabra": "tenés",
+              "cuadro": 16
+            },
+            {
+              "palabra": "agenda,",
+              "cuadro": 24
+            },
+            {
+              "palabra": "siempre",
+              "cuadro": 33
+            },
+            {
+              "palabra": "terminás",
+              "cuadro": 44
+            },
+            {
+              "palabra": "peleando",
+              "cuadro": 57
+            },
+            {
+              "palabra": "con",
+              "cuadro": 69
+            },
+            {
+              "palabra": "los",
+              "cuadro": 74
+            },
+            {
+              "palabra": "mismos",
+              "cuadro": 78
+            },
+            {
+              "palabra": "dos.",
+              "cuadro": 88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2-problema",
+      "from": 98,
+      "durationInFrames": 177,
+      "clips": [
+        {
+          "voz": "02-rapido",
+          "enEscena": 2,
+          "cuadros": 99,
+          "palabras": [
+            {
+              "palabra": "Le",
+              "cuadro": 2
+            },
+            {
+              "palabra": "escribís",
+              "cuadro": 6
+            },
+            {
+              "palabra": "al",
+              "cuadro": 21
+            },
+            {
+              "palabra": "que",
+              "cuadro": 24
+            },
+            {
+              "palabra": "contesta",
+              "cuadro": 30
+            },
+            {
+              "palabra": "rápido,",
+              "cuadro": 45
+            },
+            {
+              "palabra": "nunca",
+              "cuadro": 56
+            },
+            {
+              "palabra": "al",
+              "cuadro": 65
+            },
+            {
+              "palabra": "que",
+              "cuadro": 69
+            },
+            {
+              "palabra": "te",
+              "cuadro": 75
+            },
+            {
+              "palabra": "haría",
+              "cuadro": 78
+            },
+            {
+              "palabra": "mejorar.",
+              "cuadro": 88
+            }
+          ]
+        },
+        {
+          "voz": "03-tercera",
+          "enEscena": 106,
+          "cuadros": 65,
+          "palabras": [
+            {
+              "palabra": "A",
+              "cuadro": 106
+            },
+            {
+              "palabra": "la",
+              "cuadro": 108
+            },
+            {
+              "palabra": "tercera",
+              "cuadro": 113
+            },
+            {
+              "palabra": "semana,",
+              "cuadro": 128
+            },
+            {
+              "palabra": "nadie",
+              "cuadro": 141
+            },
+            {
+              "palabra": "arma",
+              "cuadro": 152
+            },
+            {
+              "palabra": "nada.",
+              "cuadro": 161
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-regla",
+      "from": 275,
+      "durationInFrames": 149,
+      "clips": [
+        {
+          "voz": "04-regla",
+          "enEscena": 3,
+          "cuadros": 140,
+          "palabras": [
+            {
+              "palabra": "Un",
+              "cuadro": 3
+            },
+            {
+              "palabra": "tercio",
+              "cuadro": 7
+            },
+            {
+              "palabra": "por",
+              "cuadro": 17
+            },
+            {
+              "palabra": "debajo:",
+              "cuadro": 23
+            },
+            {
+              "palabra": "enseñás.",
+              "cuadro": 34
+            },
+            {
+              "palabra": "Un",
+              "cuadro": 46
+            },
+            {
+              "palabra": "tercio",
+              "cuadro": 50
+            },
+            {
+              "palabra": "a",
+              "cuadro": 61
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 63
+            },
+            {
+              "palabra": "nivel:",
+              "cuadro": 66
+            },
+            {
+              "palabra": "rivalidad.",
+              "cuadro": 75
+            },
+            {
+              "palabra": "Un",
+              "cuadro": 92
+            },
+            {
+              "palabra": "tercio",
+              "cuadro": 95
+            },
+            {
+              "palabra": "por",
+              "cuadro": 106
+            },
+            {
+              "palabra": "encima:",
+              "cuadro": 112
+            },
+            {
+              "palabra": "masterclass.",
+              "cuadro": 123
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4-solucion",
+      "from": 424,
+      "durationInFrames": 173,
+      "clips": [
+        {
+          "voz": "05-arma",
+          "enEscena": 2,
+          "cuadros": 75,
+          "palabras": [
+            {
+              "palabra": "Ring",
+              "cuadro": 2
+            },
+            {
+              "palabra": "Closers",
+              "cuadro": 8
+            },
+            {
+              "palabra": "te",
+              "cuadro": 19
+            },
+            {
+              "palabra": "arma",
+              "cuadro": 22
+            },
+            {
+              "palabra": "las",
+              "cuadro": 28
+            },
+            {
+              "palabra": "tres,",
+              "cuadro": 33
+            },
+            {
+              "palabra": "cruzando",
+              "cuadro": 39
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 52
+            },
+            {
+              "palabra": "disponibilidad.",
+              "cuadro": 55
+            }
+          ]
+        },
+        {
+          "voz": "06-rango",
+          "enEscena": 81,
+          "cuadros": 84,
+          "palabras": [
+            {
+              "palabra": "Peleás",
+              "cuadro": 81
+            },
+            {
+              "palabra": "afuera.",
+              "cuadro": 93
+            },
+            {
+              "palabra": "Tu",
+              "cuadro": 105
+            },
+            {
+              "palabra": "rival",
+              "cuadro": 109
+            },
+            {
+              "palabra": "te",
+              "cuadro": 119
+            },
+            {
+              "palabra": "califica",
+              "cuadro": 123
+            },
+            {
+              "palabra": "y",
+              "cuadro": 138
+            },
+            {
+              "palabra": "subís",
+              "cuadro": 140
+            },
+            {
+              "palabra": "de",
+              "cuadro": 150
+            },
+            {
+              "palabra": "rango.",
+              "cuadro": 154
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5-confianza",
+      "from": 597,
+      "durationInFrames": 104,
+      "clips": [
+        {
+          "voz": "07-closer",
+          "enEscena": 6,
+          "cuadros": 92,
+          "palabras": [
+            {
+              "palabra": "No",
+              "cuadro": 6
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 10
+            },
+            {
+              "palabra": "armó",
+              "cuadro": 15
+            },
+            {
+              "palabra": "un",
+              "cuadro": 23
+            },
+            {
+              "palabra": "equipo",
+              "cuadro": 28
+            },
+            {
+              "palabra": "de",
+              "cuadro": 41
+            },
+            {
+              "palabra": "producto.",
+              "cuadro": 45
+            },
+            {
+              "palabra": "Lo",
+              "cuadro": 67
+            },
+            {
+              "palabra": "armó",
+              "cuadro": 72
+            },
+            {
+              "palabra": "un",
+              "cuadro": 80
+            },
+            {
+              "palabra": "closer.",
+              "cuadro": 85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6-cta",
+      "from": 701,
+      "durationInFrames": 102,
+      "clips": [
+        {
+          "voz": "08-cta",
+          "enEscena": 3,
+          "cuadros": 65,
+          "palabras": [
+            {
+              "palabra": "Gratis.",
+              "cuadro": 3
+            },
+            {
+              "palabra": "Sin",
+              "cuadro": 17
+            },
+            {
+              "palabra": "tarjeta.",
+              "cuadro": 25
+            },
+            {
+              "palabra": "Link",
+              "cuadro": 41
+            },
+            {
+              "palabra": "en",
+              "cuadro": 51
+            },
+            {
+              "palabra": "la",
+              "cuadro": 56
+            },
+            {
+              "palabra": "bio.",
+              "cuadro": 61
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "01-gancho",
+      "desde": 3
+    },
+    {
+      "voz": "02-rapido",
+      "desde": 100
+    },
+    {
+      "voz": "03-tercera",
+      "desde": 204
+    },
+    {
+      "voz": "04-regla",
+      "desde": 278
+    },
+    {
+      "voz": "05-arma",
+      "desde": 426
+    },
+    {
+      "voz": "06-rango",
+      "desde": 505
+    },
+    {
+      "voz": "07-closer",
+      "desde": 603
+    },
+    {
+      "voz": "08-cta",
+      "desde": 704
+    }
+  ]
+}

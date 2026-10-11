@@ -1,0 +1,19 @@
+{
+  "_nota": "Lo que dejaste sobre la mesa (02/10/2026). Una escena por toma.",
+  "guion": "guion-comision-rc.json",
+  "voz": "public/voz-comision-rc",
+  "salida": "timeline-comision-rc.json",
+  "fps": 30,
+  "tiempos": "whisper",
+  "estructura": [
+    { "id": "e1-grupo", "voces": ["01-grupo"], "entrada": 8, "cola": 6 },
+    { "id": "e2-record", "voces": ["02-record"], "entrada": 2, "cola": 12 },
+    { "id": "e3-mesa", "voces": ["03-mesa"], "entrada": 4, "cola": 16 },
+    { "id": "e4-objeciones", "voces": ["04-objeciones"], "entrada": 4, "cola": 14 },
+    { "id": "e5-venta", "voces": ["05-venta"], "entrada": 4, "cola": 18 },
+    { "id": "e6-antes", "voces": ["06-antes"], "entrada": 6, "cola": 18 },
+    { "id": "e7-ring", "voces": ["07-ring"], "entrada": 6, "cola": 14 },
+    { "id": "e8-otro", "voces": ["08-otro"], "entrada": 4, "cola": 16 },
+    { "id": "e9-cierre", "voces": ["09-cierre"], "entrada": 8, "cola": 66 }
+  ]
+}

@@ -1,0 +1,590 @@
+{
+  "fps": 30,
+  "total": 1765,
+  "escenas": [
+    {
+      "id": "e1-avatar",
+      "from": 0,
+      "durationInFrames": 191,
+      "clips": [
+        {
+          "voz": "01-avatar",
+          "enEscena": 6,
+          "cuadros": 173,
+          "palabras": [
+            {
+              "palabra": "En",
+              "cuadro": 6
+            },
+            {
+              "palabra": "Ring",
+              "cuadro": 11
+            },
+            {
+              "palabra": "Closers",
+              "cuadro": 22
+            },
+            {
+              "palabra": "no",
+              "cuadro": 41
+            },
+            {
+              "palabra": "elegís",
+              "cuadro": 47
+            },
+            {
+              "palabra": "un",
+              "cuadro": 71
+            },
+            {
+              "palabra": "avatar.",
+              "cuadro": 76
+            },
+            {
+              "palabra": "Elegís",
+              "cuadro": 92
+            },
+            {
+              "palabra": "cómo",
+              "cuadro": 125
+            },
+            {
+              "palabra": "entrás",
+              "cuadro": 141
+            },
+            {
+              "palabra": "al",
+              "cuadro": 157
+            },
+            {
+              "palabra": "ring.",
+              "cuadro": 163
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e2-guardias",
+      "from": 191,
+      "durationInFrames": 291,
+      "clips": [
+        {
+          "voz": "02-guardias",
+          "enEscena": 4,
+          "cuadros": 277,
+          "palabras": [
+            {
+              "palabra": "Guardia",
+              "cuadro": 4
+            },
+            {
+              "palabra": "clásica.",
+              "cuadro": 21
+            },
+            {
+              "palabra": "El",
+              "cuadro": 37
+            },
+            {
+              "palabra": "básico:",
+              "cuadro": 59
+            },
+            {
+              "palabra": "sólido",
+              "cuadro": 73
+            },
+            {
+              "palabra": "y",
+              "cuadro": 102
+            },
+            {
+              "palabra": "directo.",
+              "cuadro": 104
+            },
+            {
+              "palabra": "Guardia",
+              "cuadro": 127
+            },
+            {
+              "palabra": "cruzada.",
+              "cuadro": 160
+            },
+            {
+              "palabra": "Defensivo,",
+              "cuadro": 177
+            },
+            {
+              "palabra": "los",
+              "cuadro": 216
+            },
+            {
+              "palabra": "dos",
+              "cuadro": 237
+            },
+            {
+              "palabra": "guantes",
+              "cuadro": 244
+            },
+            {
+              "palabra": "en",
+              "cuadro": 261
+            },
+            {
+              "palabra": "alto.",
+              "cuadro": 265
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e3-zurdo",
+      "from": 482,
+      "durationInFrames": 144,
+      "clips": [
+        {
+          "voz": "03-zurdo",
+          "enEscena": 4,
+          "cuadros": 130,
+          "palabras": [
+            {
+              "palabra": "Zurdo.",
+              "cuadro": 4
+            },
+            {
+              "palabra": "Guardia",
+              "cuadro": 18
+            },
+            {
+              "palabra": "invertida:",
+              "cuadro": 54
+            },
+            {
+              "palabra": "difícil",
+              "cuadro": 92
+            },
+            {
+              "palabra": "de",
+              "cuadro": 111
+            },
+            {
+              "palabra": "leer.",
+              "cuadro": 117
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4-contragolpe",
+      "from": 626,
+      "durationInFrames": 303,
+      "clips": [
+        {
+          "voz": "04-contragolpe",
+          "enEscena": 4,
+          "cuadros": 137,
+          "palabras": [
+            {
+              "palabra": "Contragolpe.",
+              "cuadro": 4
+            },
+            {
+              "palabra": "Pega",
+              "cuadro": 29
+            },
+            {
+              "palabra": "justo",
+              "cuadro": 63
+            },
+            {
+              "palabra": "cuando",
+              "cuadro": 75
+            },
+            {
+              "palabra": "el",
+              "cuadro": 89
+            },
+            {
+              "palabra": "otro",
+              "cuadro": 93
+            },
+            {
+              "palabra": "bajó",
+              "cuadro": 102
+            },
+            {
+              "palabra": "la",
+              "cuadro": 112
+            },
+            {
+              "palabra": "guardia.",
+              "cuadro": 116
+            }
+          ]
+        },
+        {
+          "voz": "05-desbloquea",
+          "enEscena": 149,
+          "cuadros": 136,
+          "palabras": [
+            {
+              "palabra": "Ese",
+              "cuadro": 157
+            },
+            {
+              "palabra": "no",
+              "cuadro": 164
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 169
+            },
+            {
+              "palabra": "tenés",
+              "cuadro": 174
+            },
+            {
+              "palabra": "de",
+              "cuadro": 186
+            },
+            {
+              "palabra": "entrada:",
+              "cuadro": 190
+            },
+            {
+              "palabra": "se",
+              "cuadro": 207
+            },
+            {
+              "palabra": "desbloquea",
+              "cuadro": 212
+            },
+            {
+              "palabra": "en",
+              "cuadro": 246
+            },
+            {
+              "palabra": "Contendiente.",
+              "cuadro": 251
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e5-noqueador",
+      "from": 929,
+      "durationInFrames": 200,
+      "clips": [
+        {
+          "voz": "06-noqueador",
+          "enEscena": 4,
+          "cuadros": 184,
+          "palabras": [
+            {
+              "palabra": "El",
+              "cuadro": 4
+            },
+            {
+              "palabra": "noqueador,",
+              "cuadro": 9
+            },
+            {
+              "palabra": "recién",
+              "cuadro": 46
+            },
+            {
+              "palabra": "en",
+              "cuadro": 63
+            },
+            {
+              "palabra": "Campeón.",
+              "cuadro": 68
+            },
+            {
+              "palabra": "Una",
+              "cuadro": 87
+            },
+            {
+              "palabra": "mano",
+              "cuadro": 124
+            },
+            {
+              "palabra": "que",
+              "cuadro": 135
+            },
+            {
+              "palabra": "termina",
+              "cuadro": 152
+            },
+            {
+              "palabra": "peleas.",
+              "cuadro": 171
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e6-prueba",
+      "from": 1129,
+      "durationInFrames": 129,
+      "clips": [
+        {
+          "voz": "07-prueba",
+          "enEscena": 6,
+          "cuadros": 111,
+          "palabras": [
+            {
+              "palabra": "No",
+              "cuadro": 6
+            },
+            {
+              "palabra": "son",
+              "cuadro": 11
+            },
+            {
+              "palabra": "cosméticos.",
+              "cuadro": 17
+            },
+            {
+              "palabra": "Son",
+              "cuadro": 40
+            },
+            {
+              "palabra": "la",
+              "cuadro": 62
+            },
+            {
+              "palabra": "prueba",
+              "cuadro": 67
+            },
+            {
+              "palabra": "de",
+              "cuadro": 80
+            },
+            {
+              "palabra": "que",
+              "cuadro": 85
+            },
+            {
+              "palabra": "llegaste.",
+              "cuadro": 92
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e7-camino",
+      "from": 1258,
+      "durationInFrames": 333,
+      "clips": [
+        {
+          "voz": "08-comodo",
+          "enEscena": 6,
+          "cuadros": 126,
+          "palabras": [
+            {
+              "palabra": "Y",
+              "cuadro": 6
+            },
+            {
+              "palabra": "a",
+              "cuadro": 8
+            },
+            {
+              "palabra": "esos",
+              "cuadro": 11
+            },
+            {
+              "palabra": "rangos",
+              "cuadro": 21
+            },
+            {
+              "palabra": "no",
+              "cuadro": 35
+            },
+            {
+              "palabra": "se",
+              "cuadro": 40
+            },
+            {
+              "palabra": "llega",
+              "cuadro": 55
+            },
+            {
+              "palabra": "peleando",
+              "cuadro": 67
+            },
+            {
+              "palabra": "con",
+              "cuadro": 87
+            },
+            {
+              "palabra": "el",
+              "cuadro": 94
+            },
+            {
+              "palabra": "que",
+              "cuadro": 99
+            },
+            {
+              "palabra": "es",
+              "cuadro": 106
+            },
+            {
+              "palabra": "cómodo.",
+              "cuadro": 111
+            }
+          ]
+        },
+        {
+          "voz": "09-miedo",
+          "enEscena": 140,
+          "cuadros": 179,
+          "palabras": [
+            {
+              "palabra": "Se",
+              "cuadro": 146
+            },
+            {
+              "palabra": "llega",
+              "cuadro": 151
+            },
+            {
+              "palabra": "cumpliendo",
+              "cuadro": 163
+            },
+            {
+              "palabra": "tus",
+              "cuadro": 192
+            },
+            {
+              "palabra": "tres",
+              "cuadro": 199
+            },
+            {
+              "palabra": "peleas",
+              "cuadro": 208
+            },
+            {
+              "palabra": "cada",
+              "cuadro": 223
+            },
+            {
+              "palabra": "semana,",
+              "cuadro": 232
+            },
+            {
+              "palabra": "incluida",
+              "cuadro": 247
+            },
+            {
+              "palabra": "la",
+              "cuadro": 280
+            },
+            {
+              "palabra": "que",
+              "cuadro": 285
+            },
+            {
+              "palabra": "te",
+              "cuadro": 292
+            },
+            {
+              "palabra": "da",
+              "cuadro": 297
+            },
+            {
+              "palabra": "miedo.",
+              "cuadro": 301
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e8-cta",
+      "from": 1591,
+      "durationInFrames": 174,
+      "clips": [
+        {
+          "voz": "10-cta",
+          "enEscena": 8,
+          "cuadros": 126,
+          "palabras": [
+            {
+              "palabra": "Ring",
+              "cuadro": 8
+            },
+            {
+              "palabra": "Closers.",
+              "cuadro": 19
+            },
+            {
+              "palabra": "Gratis.",
+              "cuadro": 38
+            },
+            {
+              "palabra": "Elegí",
+              "cuadro": 69
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 103
+            },
+            {
+              "palabra": "guardia.",
+              "cuadro": 109
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "01-avatar",
+      "desde": 6
+    },
+    {
+      "voz": "02-guardias",
+      "desde": 195
+    },
+    {
+      "voz": "03-zurdo",
+      "desde": 486
+    },
+    {
+      "voz": "04-contragolpe",
+      "desde": 630
+    },
+    {
+      "voz": "05-desbloquea",
+      "desde": 775
+    },
+    {
+      "voz": "06-noqueador",
+      "desde": 933
+    },
+    {
+      "voz": "07-prueba",
+      "desde": 1135
+    },
+    {
+      "voz": "08-comodo",
+      "desde": 1264
+    },
+    {
+      "voz": "09-miedo",
+      "desde": 1398
+    },
+    {
+      "voz": "10-cta",
+      "desde": 1599
+    }
+  ]
+}

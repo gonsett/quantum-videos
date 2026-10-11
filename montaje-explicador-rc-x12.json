@@ -1,0 +1,15 @@
+{
+  "_nota": "Estructura del explicador simple de Ring Closers (qué es, cómo funciona, rango, currículum y ofertas).",
+  "guion": "guion-explicador-rc.json",
+  "voz": "public/voz-explicador-rc-x12",
+  "salida": "timeline-explicador-rc-x12.json",
+  "fps": 30,
+  "estructura": [
+    { "id": "s1-que-es", "voces": ["01-que-es"], "entrada": 6, "cola": 15 },
+    { "id": "s2-problema", "voces": ["02-problema"], "entrada": 10, "cola": 12 },
+    { "id": "s3-solucion", "voces": ["03-arma", "04-tercios", "05-afuera"], "entrada": 6, "entre": 8, "cola": 12 },
+    { "id": "s4-rango", "voces": ["06-rango", "07-cinturon"], "entrada": 8, "entre": 8, "cola": 12 },
+    { "id": "s5-ofertas", "voces": ["08-ranking", "09-curriculum", "10-ofertas", "11-postular"], "entrada": 8, "entre": 10, "cola": 12 },
+    { "id": "s6-cierre", "voces": ["12-cierre", "13-cta"], "entrada": 8, "entre": 10, "cola": 40 }
+  ]
+}

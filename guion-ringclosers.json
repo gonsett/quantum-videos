@@ -1,0 +1,19 @@
+{
+  "_nota": "Comercial de Ring Closers, 45-60 s. Independiente de AutomLead: otra marca, otra paleta (negro + esmeralda + platino). Vive en este proyecto solo porque aca estan las herramientas de voz, musica y mezcla.",
+  "_decisiones": "Beat 3 muestra 295 -> 340 pts (Prospecto -> Contendiente) con una semana de 5+4+3 estrellas = +45, que es lo que calcula el cron real (lib/ranks.ts: Contendiente desde 300). Beat 4 en tercera persona para no poner en boca de una voz sintetica un testimonio en primera persona del fundador.",
+  "_instruccion_voz": "Lee esto en espanol rioplatense, con voz firme y segura, sin gritar y sin entusiasmo publicitario. Como una entrenadora de box que tambien cierra ventas: habla de par a par, frases cortas, con peso en cada palabra y pausas donde importan.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    { "id": "01-gancho", "texto": "La pelea que evitás... es la que te falta.", "pausa": 0.8 },
+    { "id": "02-comodidad", "texto": "Sin sistema, elegís por comodidad, no por nivel." },
+    { "id": "03-rapido", "texto": "Le escribís al que te contesta rápido. Nunca al que más te haría mejorar." },
+    { "id": "04-tercera", "texto": "Funciona la primera semana. A la tercera, nadie arma nada y la práctica se corta sola. Sin avisar." },
+    { "id": "05-arma", "texto": "Ring Closers te arma las tres peleas de la semana." },
+    { "id": "06-rivales", "texto": "Un rival por debajo, uno a tu nivel, uno por encima. Cruzando tu disponibilidad real." },
+    { "id": "07-afuera", "texto": "Vos peleás afuera, por Zoom o Meet. Cumplís, subís de rango. No cumplís, bajás." },
+    { "id": "08-equipo", "texto": "Esto no lo armó un equipo de producto. Lo armó un closer, para su propio grupo de práctica.", "pausa": 0.55 },
+    { "id": "09-reales", "texto": "Hoy lo usan closers reales.", "ritmo": 2.6 },
+    { "id": "10-cta", "texto": "Ring Closers. Gratis. Sin tarjeta, sin vueltas. Subite al ring.", "ritmo": 2.6, "pausa": 0.5 }
+  ]
+}

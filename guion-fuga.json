@@ -1,0 +1,42 @@
+{
+  "_nota": "Cuarto comercial: la fuga de cartera cuando se va un vendedor. Estilo KAYN: frases cortas y tajantes sobre ilustracion 3D. Mecanismo visual: objetos que se van contra objetos que quedan en una estructura.",
+  "_voz_objetivo": "Gemini TTS, voz Callirrhoe. Kokoro ef_dora queda como marcador hasta tener la API key.",
+  "_tono": "Tajante. Frases cortas. Sin adornos. Cada linea es una afirmacion, no una explicacion.",
+  "voz": "Callirrhoe",
+  "segmentos": [
+    {
+      "id": "01-renuncia",
+      "texto": "Tu mejor vendedor renuncia un martes."
+    },
+    {
+      "id": "02-telefono",
+      "texto": "Se lleva el teléfono."
+    },
+    {
+      "id": "03-cartera",
+      "texto": "Y con el teléfono, se lleva tu cartera."
+    },
+    {
+      "id": "04-ochentaiseis",
+      "texto": "Ochenta y seis clientes que hablaron con él. No con vos."
+    },
+    {
+      "id": "05-todo",
+      "texto": "Cada charla, cada precio que tiró, cada auto que prometió. En un WhatsApp que ya no controlás."
+    },
+    {
+      "id": "06-fuga",
+      "texto": "Eso no es rotación de personal. Es fuga de activos."
+    },
+    {
+      "id": "07-sistema",
+      "texto": "Con AutomLead, la conversación es de la empresa. No del celular de nadie."
+    },
+    {
+      "id": "08-cierre",
+      "texto": "El vendedor se va. Los clientes se quedan. Agendá tu diagnóstico."
+    }
+  ],
+  "_instruccion_voz": "Leé esto en español rioplatense, con tono tajante y seguro. Ritmo pausado, frases cortas, sin entusiasmo comercial. Como quien afirma un hecho incómodo que el otro no quiere escuchar. No suenes alegre.",
+  "modelo": "gemini-3.1-flash-tts-preview"
+}

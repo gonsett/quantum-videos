@@ -1,0 +1,578 @@
+{
+  "fps": 30,
+  "total": 1501,
+  "escenas": [
+    {
+      "id": "e1-grupo",
+      "from": 0,
+      "durationInFrames": 165,
+      "clips": [
+        {
+          "voz": "01-grupo",
+          "enEscena": 8,
+          "cuadros": 151,
+          "palabras": [
+            {
+              "palabra": "Sos",
+              "cuadro": 16
+            },
+            {
+              "palabra": "closer.",
+              "cuadro": 24
+            },
+            {
+              "palabra": "Llega",
+              "cuadro": 51
+            },
+            {
+              "palabra": "el",
+              "cuadro": 57
+            },
+            {
+              "palabra": "primero",
+              "cuadro": 61
+            },
+            {
+              "palabra": "de",
+              "cuadro": 69
+            },
+            {
+              "palabra": "mes",
+              "cuadro": 74
+            },
+            {
+              "palabra": "y",
+              "cuadro": 93
+            },
+            {
+              "palabra": "mandás",
+              "cuadro": 95
+            },
+            {
+              "palabra": "al",
+              "cuadro": 106
+            },
+            {
+              "palabra": "grupo",
+              "cuadro": 110
+            },
+            {
+              "palabra": "cuánto",
+              "cuadro": 117
+            },
+            {
+              "palabra": "comisionaste.",
+              "cuadro": 126
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e2-record",
+      "from": 165,
+      "durationInFrames": 99,
+      "clips": [
+        {
+          "voz": "02-record",
+          "enEscena": 2,
+          "cuadros": 85,
+          "palabras": [
+            {
+              "palabra": "Todos",
+              "cuadro": 9
+            },
+            {
+              "palabra": "te",
+              "cuadro": 16
+            },
+            {
+              "palabra": "felicitan.",
+              "cuadro": 20
+            },
+            {
+              "palabra": "Récord.",
+              "cuadro": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e3-mesa",
+      "from": 264,
+      "durationInFrames": 166,
+      "clips": [
+        {
+          "voz": "03-mesa",
+          "enEscena": 4,
+          "cuadros": 146,
+          "palabras": [
+            {
+              "palabra": "Pero",
+              "cuadro": 12
+            },
+            {
+              "palabra": "nadie",
+              "cuadro": 17
+            },
+            {
+              "palabra": "te",
+              "cuadro": 28
+            },
+            {
+              "palabra": "pregunta",
+              "cuadro": 35
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 49
+            },
+            {
+              "palabra": "otro:",
+              "cuadro": 56
+            },
+            {
+              "palabra": "¿cuánto",
+              "cuadro": 91
+            },
+            {
+              "palabra": "dejaste",
+              "cuadro": 101
+            },
+            {
+              "palabra": "sobre",
+              "cuadro": 115
+            },
+            {
+              "palabra": "la",
+              "cuadro": 122
+            },
+            {
+              "palabra": "mesa?",
+              "cuadro": 127
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4-objeciones",
+      "from": 430,
+      "durationInFrames": 246,
+      "clips": [
+        {
+          "voz": "04-objeciones",
+          "enEscena": 4,
+          "cuadros": 228,
+          "palabras": [
+            {
+              "palabra": "El",
+              "cuadro": 9
+            },
+            {
+              "palabra": "“lo",
+              "cuadro": 18
+            },
+            {
+              "palabra": "tengo",
+              "cuadro": 29
+            },
+            {
+              "palabra": "que",
+              "cuadro": 41
+            },
+            {
+              "palabra": "pensar”",
+              "cuadro": 46
+            },
+            {
+              "palabra": "que",
+              "cuadro": 62
+            },
+            {
+              "palabra": "no",
+              "cuadro": 72
+            },
+            {
+              "palabra": "supiste",
+              "cuadro": 78
+            },
+            {
+              "palabra": "dar",
+              "cuadro": 91
+            },
+            {
+              "palabra": "vuelta.",
+              "cuadro": 96
+            },
+            {
+              "palabra": "El",
+              "cuadro": 125
+            },
+            {
+              "palabra": "“es",
+              "cuadro": 129
+            },
+            {
+              "palabra": "caro”.",
+              "cuadro": 137
+            },
+            {
+              "palabra": "El",
+              "cuadro": 163
+            },
+            {
+              "palabra": "“lo",
+              "cuadro": 170
+            },
+            {
+              "palabra": "tengo",
+              "cuadro": 183
+            },
+            {
+              "palabra": "que",
+              "cuadro": 192
+            },
+            {
+              "palabra": "hablar",
+              "cuadro": 197
+            },
+            {
+              "palabra": "con",
+              "cuadro": 203
+            },
+            {
+              "palabra": "mi",
+              "cuadro": 209
+            },
+            {
+              "palabra": "pareja”.",
+              "cuadro": 213
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e5-venta",
+      "from": 676,
+      "durationInFrames": 124,
+      "clips": [
+        {
+          "voz": "05-venta",
+          "enEscena": 4,
+          "cuadros": 102,
+          "palabras": [
+            {
+              "palabra": "Cada",
+              "cuadro": 12
+            },
+            {
+              "palabra": "una",
+              "cuadro": 19
+            },
+            {
+              "palabra": "era",
+              "cuadro": 29
+            },
+            {
+              "palabra": "una",
+              "cuadro": 40
+            },
+            {
+              "palabra": "venta.",
+              "cuadro": 49
+            },
+            {
+              "palabra": "Y",
+              "cuadro": 82
+            },
+            {
+              "palabra": "se",
+              "cuadro": 85
+            },
+            {
+              "palabra": "fue.",
+              "cuadro": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e6-antes",
+      "from": 800,
+      "durationInFrames": 196,
+      "clips": [
+        {
+          "voz": "06-antes",
+          "enEscena": 6,
+          "cuadros": 172,
+          "palabras": [
+            {
+              "palabra": "Esas",
+              "cuadro": 14
+            },
+            {
+              "palabra": "objeciones",
+              "cuadro": 25
+            },
+            {
+              "palabra": "no",
+              "cuadro": 47
+            },
+            {
+              "palabra": "se",
+              "cuadro": 63
+            },
+            {
+              "palabra": "aprenden",
+              "cuadro": 68
+            },
+            {
+              "palabra": "en",
+              "cuadro": 83
+            },
+            {
+              "palabra": "la",
+              "cuadro": 87
+            },
+            {
+              "palabra": "llamada",
+              "cuadro": 90
+            },
+            {
+              "palabra": "que",
+              "cuadro": 102
+            },
+            {
+              "palabra": "vale",
+              "cuadro": 107
+            },
+            {
+              "palabra": "plata.",
+              "cuadro": 113
+            },
+            {
+              "palabra": "Se",
+              "cuadro": 138
+            },
+            {
+              "palabra": "entrenan",
+              "cuadro": 142
+            },
+            {
+              "palabra": "antes.",
+              "cuadro": 155
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e7-ring",
+      "from": 996,
+      "durationInFrames": 244,
+      "clips": [
+        {
+          "voz": "07-ring",
+          "enEscena": 6,
+          "cuadros": 224,
+          "palabras": [
+            {
+              "palabra": "En",
+              "cuadro": 14
+            },
+            {
+              "palabra": "Ring",
+              "cuadro": 20
+            },
+            {
+              "palabra": "Closers,",
+              "cuadro": 29
+            },
+            {
+              "palabra": "otro",
+              "cuadro": 60
+            },
+            {
+              "palabra": "closer",
+              "cuadro": 68
+            },
+            {
+              "palabra": "te",
+              "cuadro": 81
+            },
+            {
+              "palabra": "las",
+              "cuadro": 90
+            },
+            {
+              "palabra": "tira",
+              "cuadro": 95
+            },
+            {
+              "palabra": "en",
+              "cuadro": 101
+            },
+            {
+              "palabra": "un",
+              "cuadro": 104
+            },
+            {
+              "palabra": "roleplay.",
+              "cuadro": 109
+            },
+            {
+              "palabra": "Respondés,",
+              "cuadro": 138
+            },
+            {
+              "palabra": "te",
+              "cuadro": 171
+            },
+            {
+              "palabra": "equivocás,",
+              "cuadro": 173
+            },
+            {
+              "palabra": "y",
+              "cuadro": 203
+            },
+            {
+              "palabra": "te",
+              "cuadro": 205
+            },
+            {
+              "palabra": "puntúa.",
+              "cuadro": 209
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e8-otro",
+      "from": 1240,
+      "durationInFrames": 138,
+      "clips": [
+        {
+          "voz": "08-otro",
+          "enEscena": 4,
+          "cuadros": 118,
+          "palabras": [
+            {
+              "palabra": "El",
+              "cuadro": 12
+            },
+            {
+              "palabra": "mes",
+              "cuadro": 15
+            },
+            {
+              "palabra": "que",
+              "cuadro": 20
+            },
+            {
+              "palabra": "viene,",
+              "cuadro": 24
+            },
+            {
+              "palabra": "el",
+              "cuadro": 42
+            },
+            {
+              "palabra": "número",
+              "cuadro": 50
+            },
+            {
+              "palabra": "que",
+              "cuadro": 57
+            },
+            {
+              "palabra": "mandás",
+              "cuadro": 61
+            },
+            {
+              "palabra": "al",
+              "cuadro": 71
+            },
+            {
+              "palabra": "grupo",
+              "cuadro": 75
+            },
+            {
+              "palabra": "es",
+              "cuadro": 97
+            },
+            {
+              "palabra": "otro.",
+              "cuadro": 102
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e9-cierre",
+      "from": 1378,
+      "durationInFrames": 123,
+      "clips": [
+        {
+          "voz": "09-cierre",
+          "enEscena": 8,
+          "cuadros": 49,
+          "palabras": [
+            {
+              "palabra": "Ring",
+              "cuadro": 16
+            },
+            {
+              "palabra": "Closers.",
+              "cuadro": 24
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "01-grupo",
+      "desde": 8
+    },
+    {
+      "voz": "02-record",
+      "desde": 167
+    },
+    {
+      "voz": "03-mesa",
+      "desde": 268
+    },
+    {
+      "voz": "04-objeciones",
+      "desde": 434
+    },
+    {
+      "voz": "05-venta",
+      "desde": 680
+    },
+    {
+      "voz": "06-antes",
+      "desde": 806
+    },
+    {
+      "voz": "07-ring",
+      "desde": 1002
+    },
+    {
+      "voz": "08-otro",
+      "desde": 1244
+    },
+    {
+      "voz": "09-cierre",
+      "desde": 1386
+    }
+  ]
+}

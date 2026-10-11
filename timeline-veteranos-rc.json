@@ -1,0 +1,444 @@
+{
+  "fps": 30,
+  "total": 1020,
+  "escenas": [
+    {
+      "id": "e1-gancho",
+      "from": 0,
+      "durationInFrames": 150,
+      "clips": [
+        {
+          "voz": "01-gancho",
+          "enEscena": 3,
+          "cuadros": 141,
+          "palabras": [
+            {
+              "palabra": "Cada",
+              "cuadro": 3
+            },
+            {
+              "palabra": "objeción",
+              "cuadro": 9
+            },
+            {
+              "palabra": "nueva",
+              "cuadro": 26
+            },
+            {
+              "palabra": "que",
+              "cuadro": 35
+            },
+            {
+              "palabra": "probás",
+              "cuadro": 40
+            },
+            {
+              "palabra": "en",
+              "cuadro": 53
+            },
+            {
+              "palabra": "una",
+              "cuadro": 62
+            },
+            {
+              "palabra": "llamada",
+              "cuadro": 67
+            },
+            {
+              "palabra": "real,",
+              "cuadro": 77
+            },
+            {
+              "palabra": "la",
+              "cuadro": 101
+            },
+            {
+              "palabra": "pagás",
+              "cuadro": 105
+            },
+            {
+              "palabra": "con",
+              "cuadro": 117
+            },
+            {
+              "palabra": "un",
+              "cuadro": 124
+            },
+            {
+              "palabra": "lead.",
+              "cuadro": 128
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e2-hueso",
+      "from": 150,
+      "durationInFrames": 210,
+      "clips": [
+        {
+          "voz": "02-hueso",
+          "enEscena": 4,
+          "cuadros": 194,
+          "palabras": [
+            {
+              "palabra": "Ir",
+              "cuadro": 4
+            },
+            {
+              "palabra": "al",
+              "cuadro": 9
+            },
+            {
+              "palabra": "hueso",
+              "cuadro": 12
+            },
+            {
+              "palabra": "funciona.",
+              "cuadro": 21
+            },
+            {
+              "palabra": "Pero",
+              "cuadro": 52
+            },
+            {
+              "palabra": "ir",
+              "cuadro": 56
+            },
+            {
+              "palabra": "al",
+              "cuadro": 60
+            },
+            {
+              "palabra": "hueso",
+              "cuadro": 63
+            },
+            {
+              "palabra": "cuesta:",
+              "cuadro": 74
+            },
+            {
+              "palabra": "cada",
+              "cuadro": 100
+            },
+            {
+              "palabra": "llamada",
+              "cuadro": 105
+            },
+            {
+              "palabra": "que",
+              "cuadro": 120
+            },
+            {
+              "palabra": "sale",
+              "cuadro": 125
+            },
+            {
+              "palabra": "mal",
+              "cuadro": 132
+            },
+            {
+              "palabra": "es",
+              "cuadro": 152
+            },
+            {
+              "palabra": "una",
+              "cuadro": 156
+            },
+            {
+              "palabra": "venta",
+              "cuadro": 161
+            },
+            {
+              "palabra": "que",
+              "cuadro": 171
+            },
+            {
+              "palabra": "no",
+              "cuadro": 175
+            },
+            {
+              "palabra": "vuelve.",
+              "cuadro": 179
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e3-ring",
+      "from": 360,
+      "durationInFrames": 210,
+      "clips": [
+        {
+          "voz": "03-ring",
+          "enEscena": 4,
+          "cuadros": 202,
+          "palabras": [
+            {
+              "palabra": "Ring",
+              "cuadro": 4
+            },
+            {
+              "palabra": "Closers",
+              "cuadro": 12
+            },
+            {
+              "palabra": "te",
+              "cuadro": 27
+            },
+            {
+              "palabra": "deja",
+              "cuadro": 34
+            },
+            {
+              "palabra": "probar,",
+              "cuadro": 43
+            },
+            {
+              "palabra": "fallar",
+              "cuadro": 66
+            },
+            {
+              "palabra": "y",
+              "cuadro": 86
+            },
+            {
+              "palabra": "ajustar",
+              "cuadro": 88
+            },
+            {
+              "palabra": "con",
+              "cuadro": 111
+            },
+            {
+              "palabra": "otro",
+              "cuadro": 115
+            },
+            {
+              "palabra": "closer",
+              "cuadro": 123
+            },
+            {
+              "palabra": "de",
+              "cuadro": 135
+            },
+            {
+              "palabra": "verdad,",
+              "cuadro": 140
+            },
+            {
+              "palabra": "antes",
+              "cuadro": 162
+            },
+            {
+              "palabra": "de",
+              "cuadro": 168
+            },
+            {
+              "palabra": "que",
+              "cuadro": 172
+            },
+            {
+              "palabra": "te",
+              "cuadro": 175
+            },
+            {
+              "palabra": "cueste",
+              "cuadro": 178
+            },
+            {
+              "palabra": "plata.",
+              "cuadro": 185
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4-simple",
+      "from": 570,
+      "durationInFrames": 135,
+      "clips": [
+        {
+          "voz": "04-simple",
+          "enEscena": 4,
+          "cuadros": 123,
+          "palabras": [
+            {
+              "palabra": "Sin",
+              "cuadro": 4
+            },
+            {
+              "palabra": "sistemas",
+              "cuadro": 11
+            },
+            {
+              "palabra": "raros.",
+              "cuadro": 23
+            },
+            {
+              "palabra": "Marcás",
+              "cuadro": 51
+            },
+            {
+              "palabra": "cuándo",
+              "cuadro": 63
+            },
+            {
+              "palabra": "podés,",
+              "cuadro": 71
+            },
+            {
+              "palabra": "y",
+              "cuadro": 91
+            },
+            {
+              "palabra": "te",
+              "cuadro": 93
+            },
+            {
+              "palabra": "llega",
+              "cuadro": 96
+            },
+            {
+              "palabra": "con",
+              "cuadro": 104
+            },
+            {
+              "palabra": "quién.",
+              "cuadro": 111
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e5-trayectoria",
+      "from": 705,
+      "durationInFrames": 135,
+      "clips": [
+        {
+          "voz": "05-trayectoria",
+          "enEscena": 4,
+          "cuadros": 127,
+          "palabras": [
+            {
+              "palabra": "Y",
+              "cuadro": 4
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 9
+            },
+            {
+              "palabra": "trayectoria,",
+              "cuadro": 14
+            },
+            {
+              "palabra": "con",
+              "cuadro": 45
+            },
+            {
+              "palabra": "tus",
+              "cuadro": 48
+            },
+            {
+              "palabra": "números,",
+              "cuadro": 55
+            },
+            {
+              "palabra": "queda",
+              "cuadro": 79
+            },
+            {
+              "palabra": "guardada",
+              "cuadro": 85
+            },
+            {
+              "palabra": "en",
+              "cuadro": 101
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 105
+            },
+            {
+              "palabra": "perfil.",
+              "cuadro": 109
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e6-cierre",
+      "from": 840,
+      "durationInFrames": 180,
+      "clips": [
+        {
+          "voz": "06-cierre",
+          "enEscena": 4,
+          "cuadros": 74,
+          "palabras": [
+            {
+              "palabra": "Practicá",
+              "cuadro": 4
+            },
+            {
+              "palabra": "donde",
+              "cuadro": 15
+            },
+            {
+              "palabra": "no",
+              "cuadro": 25
+            },
+            {
+              "palabra": "te",
+              "cuadro": 29
+            },
+            {
+              "palabra": "cuesta,",
+              "cuadro": 32
+            },
+            {
+              "palabra": "un",
+              "cuadro": 55
+            },
+            {
+              "palabra": "lead.",
+              "cuadro": 58
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "01-gancho",
+      "desde": 3
+    },
+    {
+      "voz": "02-hueso",
+      "desde": 154
+    },
+    {
+      "voz": "03-ring",
+      "desde": 364
+    },
+    {
+      "voz": "04-simple",
+      "desde": 574
+    },
+    {
+      "voz": "05-trayectoria",
+      "desde": 709
+    },
+    {
+      "voz": "06-cierre",
+      "desde": 844
+    }
+  ]
+}

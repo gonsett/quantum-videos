@@ -1,0 +1,26 @@
+[
+  {
+    "id": "01-gancho",
+    "segundos": 5.4
+  },
+  {
+    "id": "02-puente",
+    "segundos": 3.4
+  },
+  {
+    "id": "03-afilas",
+    "segundos": 6.16
+  },
+  {
+    "id": "04-conocen",
+    "segundos": 4.84
+  },
+  {
+    "id": "05-buscan",
+    "segundos": 8.44
+  },
+  {
+    "id": "06-cierre",
+    "segundos": 4.16
+  }
+]

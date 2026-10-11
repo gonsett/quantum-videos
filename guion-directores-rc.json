@@ -1,0 +1,15 @@
+{
+  "_nota": "Ring Closers para directores comerciales y dueños de empresa (26/09/2026). Video 'La firma': contratar por lo que el closer dice (currículum de grupo) vs. por lo que hace (racha, valoración de pares, rango). No afirma que se puedan ver roleplays.",
+  "_reglas": "Voz Charon a velocidad de conversación normal (14-16 caracteres por segundo de habla). Verificar cada toma con dos transcriptores antes de montar.",
+  "_instruccion_voz": "Locutor profesional masculino, en español rioplatense, voz grave, firme y con autoridad, como el narrador de un tráiler de negocios que le habla a un dueño de empresa. Velocidad de conversación normal y fluida, sin arrastrar palabras ni pausas largas. Frases cortas y directas, con énfasis natural en las palabras clave.",
+  "voz": "Charon",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    { "id": "01-gancho", "texto": "El último closer que contrataste hablaba como un campeón en la entrevista. Al mes, no había cerrado nada." },
+    { "id": "02-grupo", "texto": "Porque lo sacaste de un grupo donde todos dicen lo mismo." },
+    { "id": "03-hambre", "texto": "En Ring Closers no ves lo que dice. Ves lo que hace: cuántas semanas seguidas entrena. Eso es hambre." },
+    { "id": "04-calidad", "texto": "Cómo lo calificaron los closers que pelearon contra él. Eso es calidad." },
+    { "id": "05-rango", "texto": "Su rango, ganado en el ring. Y si busca full-time o part-time." },
+    { "id": "06-cierre", "texto": "Dejá de contratar promesas. Contratá closers probados. Link en la bio." }
+  ]
+}

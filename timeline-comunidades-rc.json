@@ -1,0 +1,443 @@
+{
+  "fps": 30,
+  "total": 1266,
+  "escenas": [
+    {
+      "id": "e1-gancho",
+      "from": 0,
+      "durationInFrames": 265,
+      "clips": [
+        {
+          "voz": "00-gancho",
+          "enEscena": 3,
+          "cuadros": 144,
+          "palabras": [
+            {
+              "palabra": "Elite",
+              "cuadro": 12
+            },
+            {
+              "palabra": "Closers.",
+              "cuadro": 32
+            },
+            {
+              "palabra": "Five",
+              "cuadro": 67
+            },
+            {
+              "palabra": "Stars.",
+              "cuadro": 83
+            },
+            {
+              "palabra": "Ese",
+              "cuadro": 113
+            },
+            {
+              "palabra": "y",
+              "cuadro": 125
+            },
+            {
+              "palabra": "Pe.",
+              "cuadro": 129
+            }
+          ]
+        },
+        {
+          "voz": "01-adentro",
+          "enEscena": 147,
+          "cuadros": 110,
+          "palabras": [
+            {
+              "palabra": "Mientras",
+              "cuadro": 156
+            },
+            {
+              "palabra": "vos",
+              "cuadro": 173
+            },
+            {
+              "palabra": "scrolleás,",
+              "cuadro": 179
+            },
+            {
+              "palabra": "ellos",
+              "cuadro": 208
+            },
+            {
+              "palabra": "ya",
+              "cuadro": 218
+            },
+            {
+              "palabra": "están",
+              "cuadro": 222
+            },
+            {
+              "palabra": "adentro.",
+              "cuadro": 232
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e2-entrenan",
+      "from": 265,
+      "durationInFrames": 238,
+      "clips": [
+        {
+          "voz": "02-entrenan",
+          "enEscena": 4,
+          "cuadros": 226,
+          "palabras": [
+            {
+              "palabra": "Cada",
+              "cuadro": 13
+            },
+            {
+              "palabra": "semana",
+              "cuadro": 23
+            },
+            {
+              "palabra": "pelean",
+              "cuadro": 39
+            },
+            {
+              "palabra": "roleplays",
+              "cuadro": 55
+            },
+            {
+              "palabra": "con",
+              "cuadro": 78
+            },
+            {
+              "palabra": "otro",
+              "cuadro": 86
+            },
+            {
+              "palabra": "closer",
+              "cuadro": 97
+            },
+            {
+              "palabra": "del",
+              "cuadro": 113
+            },
+            {
+              "palabra": "otro",
+              "cuadro": 120
+            },
+            {
+              "palabra": "lado.",
+              "cuadro": 131
+            },
+            {
+              "palabra": "Y",
+              "cuadro": 151
+            },
+            {
+              "palabra": "cada",
+              "cuadro": 159
+            },
+            {
+              "palabra": "pelea",
+              "cuadro": 170
+            },
+            {
+              "palabra": "deja",
+              "cuadro": 188
+            },
+            {
+              "palabra": "una",
+              "cuadro": 198
+            },
+            {
+              "palabra": "nota.",
+              "cuadro": 206
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e3-mejoran",
+      "from": 503,
+      "durationInFrames": 212,
+      "clips": [
+        {
+          "voz": "03-mejoran",
+          "enEscena": 4,
+          "cuadros": 200,
+          "palabras": [
+            {
+              "palabra": "Lo",
+              "cuadro": 12
+            },
+            {
+              "palabra": "que",
+              "cuadro": 17
+            },
+            {
+              "palabra": "te",
+              "cuadro": 24
+            },
+            {
+              "palabra": "trababa",
+              "cuadro": 29
+            },
+            {
+              "palabra": "la",
+              "cuadro": 46
+            },
+            {
+              "palabra": "primera",
+              "cuadro": 51
+            },
+            {
+              "palabra": "semana,",
+              "cuadro": 67
+            },
+            {
+              "palabra": "en",
+              "cuadro": 90
+            },
+            {
+              "palabra": "la",
+              "cuadro": 95
+            },
+            {
+              "palabra": "cuarta",
+              "cuadro": 99
+            },
+            {
+              "palabra": "te",
+              "cuadro": 114
+            },
+            {
+              "palabra": "sale",
+              "cuadro": 119
+            },
+            {
+              "palabra": "solo.",
+              "cuadro": 128
+            },
+            {
+              "palabra": "Y",
+              "cuadro": 149
+            },
+            {
+              "palabra": "se",
+              "cuadro": 152
+            },
+            {
+              "palabra": "ve",
+              "cuadro": 156
+            },
+            {
+              "palabra": "en",
+              "cuadro": 161
+            },
+            {
+              "palabra": "tus",
+              "cuadro": 166
+            },
+            {
+              "palabra": "números.",
+              "cuadro": 173
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4-ofertas",
+      "from": 715,
+      "durationInFrames": 247,
+      "clips": [
+        {
+          "voz": "04-ofertas",
+          "enEscena": 4,
+          "cuadros": 231,
+          "palabras": [
+            {
+              "palabra": "Y",
+              "cuadro": 12
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 15
+            },
+            {
+              "palabra": "que",
+              "cuadro": 19
+            },
+            {
+              "palabra": "nadie",
+              "cuadro": 27
+            },
+            {
+              "palabra": "te",
+              "cuadro": 39
+            },
+            {
+              "palabra": "cuenta:",
+              "cuadro": 44
+            },
+            {
+              "palabra": "los",
+              "cuadro": 59
+            },
+            {
+              "palabra": "directores",
+              "cuadro": 71
+            },
+            {
+              "palabra": "publican",
+              "cuadro": 96
+            },
+            {
+              "palabra": "sus",
+              "cuadro": 115
+            },
+            {
+              "palabra": "mejores",
+              "cuadro": 123
+            },
+            {
+              "palabra": "ofertas",
+              "cuadro": 140
+            },
+            {
+              "palabra": "acá",
+              "cuadro": 157
+            },
+            {
+              "palabra": "adentro.",
+              "cuadro": 164
+            },
+            {
+              "palabra": "Y",
+              "cuadro": 188
+            },
+            {
+              "palabra": "eligen",
+              "cuadro": 191
+            },
+            {
+              "palabra": "por",
+              "cuadro": 206
+            },
+            {
+              "palabra": "rango.",
+              "cuadro": 213
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e5-ranking",
+      "from": 962,
+      "durationInFrames": 185,
+      "clips": [
+        {
+          "voz": "05-ranking",
+          "enEscena": 10,
+          "cuadros": 161,
+          "palabras": [
+            {
+              "palabra": "El",
+              "cuadro": 19
+            },
+            {
+              "palabra": "ranking",
+              "cuadro": 24
+            },
+            {
+              "palabra": "ya",
+              "cuadro": 44
+            },
+            {
+              "palabra": "arrancó.",
+              "cuadro": 50
+            },
+            {
+              "palabra": "Tu",
+              "cuadro": 70
+            },
+            {
+              "palabra": "nombre...",
+              "cuadro": 91
+            },
+            {
+              "palabra": "todavía",
+              "cuadro": 124
+            },
+            {
+              "palabra": "no",
+              "cuadro": 144
+            },
+            {
+              "palabra": "está.",
+              "cuadro": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e6-cierre",
+      "from": 1147,
+      "durationInFrames": 119,
+      "clips": [
+        {
+          "voz": "06-cierre",
+          "enEscena": 6,
+          "cuadros": 53,
+          "palabras": [
+            {
+              "palabra": "Entrá",
+              "cuadro": 14
+            },
+            {
+              "palabra": "al",
+              "cuadro": 30
+            },
+            {
+              "palabra": "ring.",
+              "cuadro": 37
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "00-gancho",
+      "desde": 3
+    },
+    {
+      "voz": "01-adentro",
+      "desde": 147
+    },
+    {
+      "voz": "02-entrenan",
+      "desde": 269
+    },
+    {
+      "voz": "03-mejoran",
+      "desde": 507
+    },
+    {
+      "voz": "04-ofertas",
+      "desde": 719
+    },
+    {
+      "voz": "05-ranking",
+      "desde": 972
+    },
+    {
+      "voz": "06-cierre",
+      "desde": 1153
+    }
+  ]
+}

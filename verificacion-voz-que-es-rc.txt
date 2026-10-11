@@ -1,0 +1,21 @@
+02-problema    OK (1 de 3 oídos)
+  guion: Practicar siempre con los mismos dos te frena, y organizarlo a mano, nadie lo sostiene.
+  oído (cf:whisper-large-v3-turbo): Practicar siempre con los mismos dos te frena. Y organizarlo a mano, nadie lo sostiene.
+  sin respuesta: gemini-3.5-flash, gemini-3.5-transcribe
+
+04-juego       OK (1 de 3 oídos)
+  guion: Porque hay algo en juego: cumplís, subís de rango; te falta una, perdés puntos.
+  oído (cf:whisper-large-v3-turbo): Porque hay algo en juego. Cumplís. Subís de rango. Te falta una. Perdés puntos.
+  sin respuesta: gemini-3.5-flash, gemini-3.5-transcribe
+
+06-ven         OK (1 de 3 oídos)
+  guion: Porque arriba te ven: directores comerciales buscan closers, y podés postularte a ofertas.
+  oído (cf:whisper-large-v3-turbo): Porque arriba te ven, directores comerciales buscan closers y podés postularte a ofertas.
+  sin respuesta: gemini-3.5-flash, gemini-3.5-transcribe
+
+07-cierre      OK (1 de 3 oídos)
+  guion: Lo armó un closer. Subite al ring.
+  oído (cf:whisper-large-v3-turbo): Lo armó un closer. Subite al ring.
+  sin respuesta: gemini-3.5-flash, gemini-3.5-transcribe
+
+4 toma(s) para revisar o sin verificar de 4

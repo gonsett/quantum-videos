@@ -1,0 +1,39 @@
+01-que-es        guion:  ¿Qué es Ring Closers? Una app para entrenar como closer de ventas.
+                 google: ¿Qué es Rainclosers? ¿Una app para entrenar como closer de ventas?
+
+02-problema      guion:  Practicar solo, sin sistema, se abandona a la tercera semana.
+                 google: Practicar solo, sin sistema, se abandona a la tercera semana.
+
+03-arma          guion:  Ring Closers te arma tres roleplays por semana, según tu disponibilidad.
+                 google: RingClosers te arma tres roleplays por semana, según tu disponibilidad.
+
+04-tercios       guion:  Uno con alguien de menor nivel. Uno de tu nivel. Uno de mayor nivel.
+                 google: uno con alguien de menor nivel uno de tu nivel uno de mayor nivel
+
+05-afuera        guion:  Vos peleás afuera, por Zoom o Meet.
+                 google: ¿Vos peleas afuera, por Zoom o Meet?
+
+06-rango         guion:  Cada semana que cumplís, sumás puntos y subís de rango.
+                 google: Cada semana que cumplís sumás puntos y subís de rango.
+
+07-cinturon      guion:  De Aficionado a Leyenda, con cinturón digital en cada nivel.
+                 google: De aficionado a leyenda con cinturón digital en cada nivel.
+
+08-ranking       guion:  Hay un ranking público, y los directores comerciales lo miran.
+                 google: Hay un ranking público y los directores comerciales lo miran.
+
+09-curriculum    guion:  Podés cargar tu currículum: empresas, tasa de cierre, tu mejor cash collect.
+                 google: podés cargar tu currículum empresas tasa de cierre tu mejor cash collect
+
+10-ofertas       guion:  Y hay ofertas de trabajo reales, publicadas ahí mismo.
+                 google: Y hay ofertas de trabajo reales publicadas ahí mismo.
+
+11-postular      guion:  Las ves, te postulás, y el director te contacta directo.
+                 google: La las ves, te postulas y el director te contacta directo.
+
+12-cierre        guion:  Todo en un solo lugar.
+                 google: Todo en un solo lugar.
+
+13-cta           guion:  Ring Closers. Subite al ring.
+                 google: Ring Closers. Súbete al ring.
+

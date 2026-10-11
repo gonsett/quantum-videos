@@ -1,0 +1,14 @@
+{
+  "_nota": "Estructura del Reel de Ring Closers v2. Reemplaza montaje-reel-rc.json (guion descartado). Aire minimo: en un Reel el scroll no espera.",
+  "guion": "guion-rc-v2.json",
+  "voz": "public/voz-rc-v2",
+  "salida": "timeline-rc-v2.json",
+  "fps": 30,
+  "estructura": [
+    { "id": "s1-gancho", "voces": ["01-gancho"], "entrada": 4, "cola": 10 },
+    { "id": "s2-problema", "voces": ["02-mismos", "03-nunca", "04-repetis"], "entrada": 4, "entre": 6, "cola": 10 },
+    { "id": "s3-solucion", "voces": ["05-obliga", "06-cada", "07-cumplis"], "entrada": 6, "entre": 6, "cola": 12 },
+    { "id": "s4-oportunidad", "voces": ["08-mirando", "09-directores", "10-oportunidad"], "entrada": 6, "entre": 8, "cola": 10 },
+    { "id": "s5-cta", "voces": ["11-cta"], "entrada": 8, "cola": 40 }
+  ]
+}

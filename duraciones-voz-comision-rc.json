@@ -1,0 +1,38 @@
+[
+  {
+    "id": "01-grupo",
+    "segundos": 5.011
+  },
+  {
+    "id": "02-record",
+    "segundos": 2.811
+  },
+  {
+    "id": "03-mesa",
+    "segundos": 4.851
+  },
+  {
+    "id": "04-objeciones",
+    "segundos": 7.571
+  },
+  {
+    "id": "05-venta",
+    "segundos": 3.371
+  },
+  {
+    "id": "06-antes",
+    "segundos": 5.731
+  },
+  {
+    "id": "07-ring",
+    "segundos": 7.451
+  },
+  {
+    "id": "08-otro",
+    "segundos": 3.931
+  },
+  {
+    "id": "09-cierre",
+    "segundos": 1.611
+  }
+]

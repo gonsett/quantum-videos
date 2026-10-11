@@ -1,0 +1,138 @@
+{
+  "_nota": "Señal detectada (Ring Setters). Una escena por toma.",
+  "guion": "guion-setters-rc.json",
+  "voz": "public/voz-setters-rc",
+  "salida": "timeline-setters-rc.json",
+  "fps": 30,
+  "tiempos": "whisper",
+  "estructura": [
+    {
+      "id": "e01",
+      "voces": [
+        "01-anios"
+      ],
+      "entrada": 40,
+      "cola": 6
+    },
+    {
+      "id": "e02",
+      "voces": [
+        "02-cierre"
+      ],
+      "entrada": 4,
+      "cola": 6
+    },
+    {
+      "id": "e03",
+      "voces": [
+        "03-llego"
+      ],
+      "entrada": 4,
+      "cola": 36
+    },
+    {
+      "id": "e04",
+      "voces": [
+        "04-practica"
+      ],
+      "entrada": 4,
+      "cola": 6
+    },
+    {
+      "id": "e05",
+      "voces": [
+        "05-agenda"
+      ],
+      "entrada": 4,
+      "cola": 6
+    },
+    {
+      "id": "e06",
+      "voces": [
+        "06-avisa"
+      ],
+      "entrada": 4,
+      "cola": 6
+    },
+    {
+      "id": "e07",
+      "voces": [
+        "07-verdad"
+      ],
+      "entrada": 4,
+      "cola": 12
+    },
+    {
+      "id": "e08",
+      "voces": [
+        "08-tasa"
+      ],
+      "entrada": 4,
+      "cola": 6
+    },
+    {
+      "id": "e09",
+      "voces": [
+        "09-fathom"
+      ],
+      "entrada": 4,
+      "cola": 6
+    },
+    {
+      "id": "e10",
+      "voces": [
+        "10-creditos"
+      ],
+      "entrada": 4,
+      "cola": 6
+    },
+    {
+      "id": "e11",
+      "voces": [
+        "11-equipas"
+      ],
+      "entrada": 4,
+      "cola": 6
+    },
+    {
+      "id": "e12",
+      "voces": [
+        "12-tabla"
+      ],
+      "entrada": 4,
+      "cola": 6
+    },
+    {
+      "id": "e13",
+      "voces": [
+        "13-carnet"
+      ],
+      "entrada": 4,
+      "cola": 6
+    },
+    {
+      "id": "e14",
+      "voces": [
+        "14-ofertas"
+      ],
+      "entrada": 4,
+      "cola": 6
+    },
+    {
+      "id": "e15",
+      "voces": [
+        "15-ring"
+      ],
+      "entrada": 20,
+      "cola": 6
+    },
+    {
+      "id": "e16",
+      "voces": [
+        "16-abierto"
+      ],
+      "entrada": 8,
+      "cola": 80
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "00-gancho",
+    "segundos": 4.8
+  },
+  {
+    "id": "01-adentro",
+    "segundos": 3.64
+  },
+  {
+    "id": "02-entrenan",
+    "segundos": 7.52
+  },
+  {
+    "id": "03-mejoran",
+    "segundos": 6.64
+  },
+  {
+    "id": "04-ofertas",
+    "segundos": 7.68
+  },
+  {
+    "id": "05-ranking",
+    "segundos": 5.36
+  },
+  {
+    "id": "06-cierre",
+    "segundos": 1.76
+  }
+]

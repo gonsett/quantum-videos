@@ -1,0 +1,17 @@
+{
+  "_nota": "Reel de Ring Closers, 24-28 s, formato nativo. Guion recortado de 140 a 84 palabras: completo daba 45-56 s con Callirrhoe (medido: 2.5 pal/s en el comercial). Lo que sale de la voz lo cuenta la imagen.",
+  "_reglas": "Voz Callirrhoe sin excepcion (si se agota la cuota, cambiar de MODELO). Quien armo el producto va en tercera persona.",
+  "_instruccion_voz": "Lee esto en espanol rioplatense con ritmo de Reel: rapido, directo y seguro, sin pausas largas. Como una closer contandole algo a otro closer, de igual a igual. Nada de tono de locutor ni de publicidad.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    { "id": "01-gancho", "texto": "Si no tenés agenda, siempre terminás peleando con los mismos dos." },
+    { "id": "02-rapido", "texto": "Le escribís al que contesta rápido, nunca al que te haría mejorar." },
+    { "id": "03-tercera", "texto": "A la tercera semana, nadie arma nada." },
+    { "id": "04-regla", "texto": "Un tercio por debajo: enseñás. Un tercio a tu nivel: rivalidad. Un tercio por encima: masterclass." },
+    { "id": "05-arma", "texto": "Ring Closers te arma las tres, cruzando tu disponibilidad." },
+    { "id": "06-rango", "texto": "Peleás afuera. Tu rival te califica y subís de rango." },
+    { "id": "07-closer", "texto": "No lo armó un equipo de producto. Lo armó un closer." },
+    { "id": "08-cta", "texto": "Gratis. Sin tarjeta. Link en la bio." }
+  ]
+}

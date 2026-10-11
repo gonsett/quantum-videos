@@ -1,0 +1,482 @@
+{
+  "fps": 30,
+  "total": 2133,
+  "escenas": [
+    {
+      "id": "e1-que-es",
+      "from": 0,
+      "durationInFrames": 281,
+      "clips": [
+        {
+          "voz": "01-que-es",
+          "enEscena": 14,
+          "cuadros": 247,
+          "palabras": [
+            {
+              "palabra": "¿Qué",
+              "cuadro": 23
+            },
+            {
+              "palabra": "es",
+              "cuadro": 28
+            },
+            {
+              "palabra": "Ring",
+              "cuadro": 51
+            },
+            {
+              "palabra": "Closers?",
+              "cuadro": 61
+            },
+            {
+              "palabra": "Un",
+              "cuadro": 119
+            },
+            {
+              "palabra": "ring",
+              "cuadro": 124
+            },
+            {
+              "palabra": "donde",
+              "cuadro": 155
+            },
+            {
+              "palabra": "los",
+              "cuadro": 160
+            },
+            {
+              "palabra": "closers",
+              "cuadro": 171
+            },
+            {
+              "palabra": "se",
+              "cuadro": 205
+            },
+            {
+              "palabra": "entrenan",
+              "cuadro": 213
+            },
+            {
+              "palabra": "entre",
+              "cuadro": 232
+            },
+            {
+              "palabra": "sí.",
+              "cuadro": 240
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e2-problema",
+      "from": 281,
+      "durationInFrames": 370,
+      "clips": [
+        {
+          "voz": "02-problema",
+          "enEscena": 52,
+          "cuadros": 298,
+          "palabras": [
+            {
+              "palabra": "Practicar",
+              "cuadro": 86
+            },
+            {
+              "palabra": "siempre",
+              "cuadro": 107
+            },
+            {
+              "palabra": "con",
+              "cuadro": 125
+            },
+            {
+              "palabra": "los",
+              "cuadro": 137
+            },
+            {
+              "palabra": "mismos",
+              "cuadro": 145
+            },
+            {
+              "palabra": "dos",
+              "cuadro": 159
+            },
+            {
+              "palabra": "te",
+              "cuadro": 172
+            },
+            {
+              "palabra": "frena,",
+              "cuadro": 189
+            },
+            {
+              "palabra": "y",
+              "cuadro": 231
+            },
+            {
+              "palabra": "organizarlo",
+              "cuadro": 234
+            },
+            {
+              "palabra": "a",
+              "cuadro": 262
+            },
+            {
+              "palabra": "mano,",
+              "cuadro": 268
+            },
+            {
+              "palabra": "nadie",
+              "cuadro": 297
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 311
+            },
+            {
+              "palabra": "sostiene.",
+              "cuadro": 318
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e3-solucion",
+      "from": 651,
+      "durationInFrames": 308,
+      "clips": [
+        {
+          "voz": "03-solucion",
+          "enEscena": 6,
+          "cuadros": 282,
+          "palabras": [
+            {
+              "palabra": "Ring",
+              "cuadro": 13
+            },
+            {
+              "palabra": "Closers",
+              "cuadro": 25
+            },
+            {
+              "palabra": "te",
+              "cuadro": 44
+            },
+            {
+              "palabra": "arma",
+              "cuadro": 59
+            },
+            {
+              "palabra": "tres",
+              "cuadro": 71
+            },
+            {
+              "palabra": "roleplays",
+              "cuadro": 83
+            },
+            {
+              "palabra": "por",
+              "cuadro": 104
+            },
+            {
+              "palabra": "semana:",
+              "cuadro": 110
+            },
+            {
+              "palabra": "uno",
+              "cuadro": 147
+            },
+            {
+              "palabra": "por",
+              "cuadro": 154
+            },
+            {
+              "palabra": "debajo,",
+              "cuadro": 160
+            },
+            {
+              "palabra": "uno",
+              "cuadro": 200
+            },
+            {
+              "palabra": "igual,",
+              "cuadro": 207
+            },
+            {
+              "palabra": "uno",
+              "cuadro": 250
+            },
+            {
+              "palabra": "por",
+              "cuadro": 257
+            },
+            {
+              "palabra": "encima.",
+              "cuadro": 265
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4-juego",
+      "from": 959,
+      "durationInFrames": 386,
+      "clips": [
+        {
+          "voz": "04-juego",
+          "enEscena": 52,
+          "cuadros": 314,
+          "palabras": [
+            {
+              "palabra": "Porque",
+              "cuadro": 60
+            },
+            {
+              "palabra": "hay",
+              "cuadro": 69
+            },
+            {
+              "palabra": "algo",
+              "cuadro": 78
+            },
+            {
+              "palabra": "en",
+              "cuadro": 91
+            },
+            {
+              "palabra": "juego:",
+              "cuadro": 97
+            },
+            {
+              "palabra": "cumplís,",
+              "cuadro": 146
+            },
+            {
+              "palabra": "subís",
+              "cuadro": 194
+            },
+            {
+              "palabra": "de",
+              "cuadro": 209
+            },
+            {
+              "palabra": "rango;",
+              "cuadro": 215
+            },
+            {
+              "palabra": "te",
+              "cuadro": 265
+            },
+            {
+              "palabra": "falta",
+              "cuadro": 267
+            },
+            {
+              "palabra": "una,",
+              "cuadro": 281
+            },
+            {
+              "palabra": "perdés",
+              "cuadro": 326
+            },
+            {
+              "palabra": "puntos.",
+              "cuadro": 339
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e5-evaluan",
+      "from": 1345,
+      "durationInFrames": 195,
+      "clips": [
+        {
+          "voz": "05-evaluan",
+          "enEscena": 6,
+          "cuadros": 169,
+          "palabras": [
+            {
+              "palabra": "Porque",
+              "cuadro": 14
+            },
+            {
+              "palabra": "otros",
+              "cuadro": 22
+            },
+            {
+              "palabra": "closers",
+              "cuadro": 36
+            },
+            {
+              "palabra": "te",
+              "cuadro": 58
+            },
+            {
+              "palabra": "evalúan:",
+              "cuadro": 68
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 110
+            },
+            {
+              "palabra": "nivel",
+              "cuadro": 113
+            },
+            {
+              "palabra": "es",
+              "cuadro": 142
+            },
+            {
+              "palabra": "real.",
+              "cuadro": 148
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e6-ven",
+      "from": 1540,
+      "durationInFrames": 349,
+      "clips": [
+        {
+          "voz": "06-ven",
+          "enEscena": 6,
+          "cuadros": 321,
+          "palabras": [
+            {
+              "palabra": "Porque",
+              "cuadro": 24
+            },
+            {
+              "palabra": "arriba",
+              "cuadro": 34
+            },
+            {
+              "palabra": "te",
+              "cuadro": 47
+            },
+            {
+              "palabra": "ven:",
+              "cuadro": 70
+            },
+            {
+              "palabra": "directores",
+              "cuadro": 116
+            },
+            {
+              "palabra": "comerciales",
+              "cuadro": 137
+            },
+            {
+              "palabra": "buscan",
+              "cuadro": 179
+            },
+            {
+              "palabra": "closers,",
+              "cuadro": 196
+            },
+            {
+              "palabra": "y",
+              "cuadro": 219
+            },
+            {
+              "palabra": "podés",
+              "cuadro": 254
+            },
+            {
+              "palabra": "postularte",
+              "cuadro": 269
+            },
+            {
+              "palabra": "a",
+              "cuadro": 292
+            },
+            {
+              "palabra": "ofertas.",
+              "cuadro": 299
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e7-cierre",
+      "from": 1889,
+      "durationInFrames": 244,
+      "clips": [
+        {
+          "voz": "07-cierre",
+          "enEscena": 22,
+          "cuadros": 122,
+          "palabras": [
+            {
+              "palabra": "Lo",
+              "cuadro": 29
+            },
+            {
+              "palabra": "armó",
+              "cuadro": 35
+            },
+            {
+              "palabra": "un",
+              "cuadro": 48
+            },
+            {
+              "palabra": "closer.",
+              "cuadro": 55
+            },
+            {
+              "palabra": "Subite",
+              "cuadro": 97
+            },
+            {
+              "palabra": "al",
+              "cuadro": 113
+            },
+            {
+              "palabra": "ring.",
+              "cuadro": 120
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "01-que-es",
+      "desde": 14
+    },
+    {
+      "voz": "02-problema",
+      "desde": 333
+    },
+    {
+      "voz": "03-solucion",
+      "desde": 657
+    },
+    {
+      "voz": "04-juego",
+      "desde": 1011
+    },
+    {
+      "voz": "05-evaluan",
+      "desde": 1351
+    },
+    {
+      "voz": "06-ven",
+      "desde": 1546
+    },
+    {
+      "voz": "07-cierre",
+      "desde": 1911
+    }
+  ]
+}

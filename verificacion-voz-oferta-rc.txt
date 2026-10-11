@@ -1,0 +1,36 @@
+00-antes       OK (2 de 3 oídos)
+  guion: Publicaste una búsqueda de closers. Y te llegaron...
+  oído (gemini-3.5-flash): Publicaste una búsqueda de closers y te llegaron
+  oído (gemini-3.5-transcribe): Publicaste una búsqueda de closers y te llegaron
+  sin respuesta: cf:whisper-large-v3-turbo
+
+01-gancho      OK (2 de 3 oídos)
+  guion: Cien postulantes. Ninguno sabe cerrar.
+  oído (gemini-3.5-flash): Cien postulantes. Ninguno sabe cerrar.
+  oído (gemini-3.5-transcribe): Cien postulantes, ninguno sabe cerrar.
+  sin respuesta: cf:whisper-large-v3-turbo
+
+02-grupo       OK (2 de 3 oídos)
+  guion: Eso pasa cuando tu oferta vive en un grupo: en dos horas quedó enterrada, y te escribe cualquiera.
+  oído (gemini-3.5-flash): Eso pasa cuando tu oferta vive en un grupo. En dos horas quedó enterrada, y te escribe cualquiera.
+  oído (gemini-3.5-transcribe): Eso pasa cuando tu oferta vive en un grupo. En dos horas quedó enterrada y te escribe cualquiera.
+  sin respuesta: cf:whisper-large-v3-turbo
+
+03-criterio    OK (2 de 3 oídos)
+  guion: En Ring Closers, tu oferta es otra cosa. Visible. Filtrada. Probada. Cada postulante llega con su currículum de ring.
+  oído (gemini-3.5-flash): En Ring Closers tu oferta es otra cosa, visible, filtrada, probada. Cada postulante llega con su currículum de Ring.
+  oído (gemini-3.5-transcribe): En Ring Closers tu oferta es otra cosa. Visible, filtrada, probada. Cada postulante llega con su currículum de ring.
+  sin respuesta: cf:whisper-large-v3-turbo
+
+04-rango       OK (2 de 3 oídos)
+  guion: Y el que no llega al rango que pediste, ni siquiera se puede postular.
+  oído (gemini-3.5-flash): Y el que no llega al rango que pediste, ni siquiera se puede postular.
+  oído (gemini-3.5-transcribe): Y el que no llega al rango que pediste, ni siquiera se puede postular.
+  sin respuesta: cf:whisper-large-v3-turbo
+
+05-cierre      OK (1 de 3 oídos)
+  guion: No publiques una oferta. Abrí una puerta.
+  oído (gemini-3.5-transcribe): No publiques una oferta, abrí una puerta.
+  sin respuesta: gemini-3.5-flash, cf:whisper-large-v3-turbo
+
+6 toma(s) para revisar o sin verificar de 6

@@ -1,0 +1,37 @@
+01-gancho      OK (3 de 3 oídos)
+  guion: Si sos un closer novato que recién comienza, y no sabés cómo o con quién practicar. Escuchá esto.
+  oído (gemini-3.5-flash): Si sos un closer novato que recién comienza y no sabés cómo o con quién practicar, escuchá esto.
+  oído (gemini-3.5-transcribe): Si sos un closer novato que recién comienza y no sabes cómo o con quién practicar, escucha esto.
+  oído (cf:whisper-large-v3-turbo): Si sos un closer novato que recién comienza y no sabes cómo o con quién practicar, escucha esto.
+
+02-como        REVISAR
+  guion: Cómo. Roleplay. Una llamada de venta de práctica, con otro closer real.
+  oído (gemini-3.5-flash): Como, roleplay, una llamada de venta de práctica, con otro closer real.
+  oído (gemini-3.5-transcribe): ¿Cómo? Role play una llamada de venta de práctica con otro closer real.  <-- REVISAR: de más: role play; faltan: roleplay
+  oído (cf:whisper-large-v3-turbo): como Roleplay, una llamada de venta de práctica con otro close real.
+
+03-conquien    OK (3 de 3 oídos)
+  guion: Con quién: Ring Closers te lo arma. Elegís tu nivel, marcás tus horarios, y te propone rivales.
+  oído (gemini-3.5-flash): ¿Con quién? Ring Closers te lo arma. Elegís tu nivel, marcás tus horarios y te propone rivales.
+  oído (gemini-3.5-transcribe): ¿Con quién? RingClosers te lo arma. Elegís tu nivel, marcás tus horarios y te propone rivales.
+  oído (cf:whisper-large-v3-turbo): ¿Con quién? Ring Closers te lo arma. Elegís tu nivel, marcas tus horarios y te propone rivales.
+
+04-mas         OK (3 de 3 oídos)
+  guion: De tu nivel, y también de los que saben más. Ahí se aprende rápido.
+  oído (gemini-3.5-flash): de tu nivel, y también de los que saben más, ahí se aprende rápido.
+  oído (gemini-3.5-transcribe): de tu nivel y también de los que saben más, ahí se aprende rápido.
+  oído (cf:whisper-large-v3-turbo): de tu nivel y también de los que saben más. Ahí se aprende rápido.
+
+05-primero     OK (3 de 3 oídos)
+  guion: Todos los que hoy están arriba en el ranking, alguna vez hicieron su primer roleplay.
+  oído (gemini-3.5-flash): Todos los que hoy están arriba en el ranking, alguna vez hicieron su primer roleplay.
+  oído (gemini-3.5-transcribe): Todos los que hoy están arriba en el ranking alguna vez hicieron su primer roleplay.
+  oído (cf:whisper-large-v3-turbo): Todos los que hoy están arriba en el ranking alguna vez hicieron su primer roleplay.
+
+06-cierre      REVISAR
+  guion: Hacé el tuyo. Tu primer combate empieza acá.
+  oído (gemini-3.5-flash): Hacé el tuyo. Tu primer combate empieza acá.
+  oído (gemini-3.5-transcribe): Haz el tuyo. Tu primer combate empieza acá.  <-- REVISAR: de más: haz; faltan: hace
+  oído (cf:whisper-large-v3-turbo): Hacé el tuyo. Tu primer combate empieza acá.
+
+2 toma(s) para revisar o sin verificar de 6

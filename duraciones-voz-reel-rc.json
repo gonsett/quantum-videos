@@ -1,0 +1,34 @@
+[
+  {
+    "id": "01-gancho",
+    "segundos": 3.96
+  },
+  {
+    "id": "02-rapido",
+    "segundos": 4.24
+  },
+  {
+    "id": "03-tercera",
+    "segundos": 3.28
+  },
+  {
+    "id": "04-regla",
+    "segundos": 7.32
+  },
+  {
+    "id": "05-arma",
+    "segundos": 3.88
+  },
+  {
+    "id": "06-rango",
+    "segundos": 4.16
+  },
+  {
+    "id": "07-closer",
+    "segundos": 3.76
+  },
+  {
+    "id": "08-cta",
+    "segundos": 3.08
+  }
+]

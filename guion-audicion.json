@@ -1,0 +1,9 @@
+{
+  "_nota": "Audición de voces masculinas para 'Secreto de closer #1' — la misma frase con distintas voces para que Javier elija.",
+  "_instruccion_voz": "Locutor profesional masculino, voz grave, cálida y con autoridad, en español rioplatense. Ritmo pausado y seguro, frases cortas con peso en cada palabra, como el narrador de un tráiler sobrio. Sin tono publicitario exagerado ni entusiasmo forzado.",
+  "voz": "audicion",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    { "id": "audicion", "texto": "Secreto de closer número uno. El cinturón no se gana una vez. Se defiende cada semana." }
+  ]
+}

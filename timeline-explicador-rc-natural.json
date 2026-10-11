@@ -1,0 +1,709 @@
+{
+  "fps": 30,
+  "total": 2469,
+  "escenas": [
+    {
+      "id": "s1-que-es",
+      "from": 0,
+      "durationInFrames": 229,
+      "clips": [
+        {
+          "voz": "01-que-es",
+          "enEscena": 6,
+          "cuadros": 208,
+          "palabras": [
+            {
+              "palabra": "¿Qué",
+              "cuadro": 14
+            },
+            {
+              "palabra": "es",
+              "cuadro": 22
+            },
+            {
+              "palabra": "Ring",
+              "cuadro": 27
+            },
+            {
+              "palabra": "Closers?",
+              "cuadro": 38
+            },
+            {
+              "palabra": "Una",
+              "cuadro": 56
+            },
+            {
+              "palabra": "app",
+              "cuadro": 64
+            },
+            {
+              "palabra": "gratuita",
+              "cuadro": 96
+            },
+            {
+              "palabra": "para",
+              "cuadro": 116
+            },
+            {
+              "palabra": "entrenar",
+              "cuadro": 127
+            },
+            {
+              "palabra": "como",
+              "cuadro": 153
+            },
+            {
+              "palabra": "closer",
+              "cuadro": 163
+            },
+            {
+              "palabra": "de",
+              "cuadro": 179
+            },
+            {
+              "palabra": "ventas.",
+              "cuadro": 184
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2-problema",
+      "from": 229,
+      "durationInFrames": 207,
+      "clips": [
+        {
+          "voz": "02-problema",
+          "enEscena": 10,
+          "cuadros": 185,
+          "palabras": [
+            {
+              "palabra": "Practicar",
+              "cuadro": 20
+            },
+            {
+              "palabra": "solo,",
+              "cuadro": 43
+            },
+            {
+              "palabra": "sin",
+              "cuadro": 54
+            },
+            {
+              "palabra": "sistema,",
+              "cuadro": 76
+            },
+            {
+              "palabra": "se",
+              "cuadro": 94
+            },
+            {
+              "palabra": "abandona",
+              "cuadro": 99
+            },
+            {
+              "palabra": "a",
+              "cuadro": 142
+            },
+            {
+              "palabra": "la",
+              "cuadro": 145
+            },
+            {
+              "palabra": "tercera",
+              "cuadro": 150
+            },
+            {
+              "palabra": "semana.",
+              "cuadro": 169
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-solucion",
+      "from": 436,
+      "durationInFrames": 563,
+      "clips": [
+        {
+          "voz": "03-arma",
+          "enEscena": 6,
+          "cuadros": 160,
+          "palabras": [
+            {
+              "palabra": "Ring",
+              "cuadro": 14
+            },
+            {
+              "palabra": "Closers",
+              "cuadro": 23
+            },
+            {
+              "palabra": "te",
+              "cuadro": 38
+            },
+            {
+              "palabra": "arma",
+              "cuadro": 43
+            },
+            {
+              "palabra": "tres",
+              "cuadro": 57
+            },
+            {
+              "palabra": "roleplays",
+              "cuadro": 66
+            },
+            {
+              "palabra": "por",
+              "cuadro": 86
+            },
+            {
+              "palabra": "semana,",
+              "cuadro": 92
+            },
+            {
+              "palabra": "según",
+              "cuadro": 106
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 126
+            },
+            {
+              "palabra": "disponibilidad.",
+              "cuadro": 130
+            }
+          ]
+        },
+        {
+          "voz": "04-tercios",
+          "enEscena": 174,
+          "cuadros": 258,
+          "palabras": [
+            {
+              "palabra": "Uno",
+              "cuadro": 188
+            },
+            {
+              "palabra": "con",
+              "cuadro": 197
+            },
+            {
+              "palabra": "alguien",
+              "cuadro": 206
+            },
+            {
+              "palabra": "de",
+              "cuadro": 228
+            },
+            {
+              "palabra": "menor",
+              "cuadro": 235
+            },
+            {
+              "palabra": "nivel.",
+              "cuadro": 250
+            },
+            {
+              "palabra": "Uno",
+              "cuadro": 302
+            },
+            {
+              "palabra": "de",
+              "cuadro": 312
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 318
+            },
+            {
+              "palabra": "nivel.",
+              "cuadro": 324
+            },
+            {
+              "palabra": "Uno",
+              "cuadro": 376
+            },
+            {
+              "palabra": "de",
+              "cuadro": 385
+            },
+            {
+              "palabra": "mayor",
+              "cuadro": 392
+            },
+            {
+              "palabra": "nivel.",
+              "cuadro": 407
+            }
+          ]
+        },
+        {
+          "voz": "05-afuera",
+          "enEscena": 440,
+          "cuadros": 111,
+          "palabras": [
+            {
+              "palabra": "Vos",
+              "cuadro": 450
+            },
+            {
+              "palabra": "peleás",
+              "cuadro": 458
+            },
+            {
+              "palabra": "afuera,",
+              "cuadro": 473
+            },
+            {
+              "palabra": "por",
+              "cuadro": 502
+            },
+            {
+              "palabra": "Zoom",
+              "cuadro": 509
+            },
+            {
+              "palabra": "o",
+              "cuadro": 528
+            },
+            {
+              "palabra": "Meet.",
+              "cuadro": 531
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4-rango",
+      "from": 999,
+      "durationInFrames": 356,
+      "clips": [
+        {
+          "voz": "06-rango",
+          "enEscena": 8,
+          "cuadros": 164,
+          "palabras": [
+            {
+              "palabra": "Cada",
+              "cuadro": 18
+            },
+            {
+              "palabra": "semana",
+              "cuadro": 28
+            },
+            {
+              "palabra": "que",
+              "cuadro": 44
+            },
+            {
+              "palabra": "cumplís,",
+              "cuadro": 52
+            },
+            {
+              "palabra": "sumás",
+              "cuadro": 86
+            },
+            {
+              "palabra": "puntos",
+              "cuadro": 100
+            },
+            {
+              "palabra": "y",
+              "cuadro": 116
+            },
+            {
+              "palabra": "subís",
+              "cuadro": 126
+            },
+            {
+              "palabra": "de",
+              "cuadro": 139
+            },
+            {
+              "palabra": "rango.",
+              "cuadro": 144
+            }
+          ]
+        },
+        {
+          "voz": "07-cinturon",
+          "enEscena": 180,
+          "cuadros": 164,
+          "palabras": [
+            {
+              "palabra": "De",
+              "cuadro": 189
+            },
+            {
+              "palabra": "Aficionado",
+              "cuadro": 194
+            },
+            {
+              "palabra": "a",
+              "cuadro": 220
+            },
+            {
+              "palabra": "Leyenda,",
+              "cuadro": 222
+            },
+            {
+              "palabra": "con",
+              "cuadro": 240
+            },
+            {
+              "palabra": "cinturón",
+              "cuadro": 268
+            },
+            {
+              "palabra": "digital",
+              "cuadro": 288
+            },
+            {
+              "palabra": "en",
+              "cuadro": 306
+            },
+            {
+              "palabra": "cada",
+              "cuadro": 311
+            },
+            {
+              "palabra": "nivel.",
+              "cuadro": 322
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5-ofertas",
+      "from": 1355,
+      "durationInFrames": 810,
+      "clips": [
+        {
+          "voz": "08-ranking",
+          "enEscena": 8,
+          "cuadros": 138,
+          "palabras": [
+            {
+              "palabra": "Hay",
+              "cuadro": 18
+            },
+            {
+              "palabra": "un",
+              "cuadro": 25
+            },
+            {
+              "palabra": "ranking",
+              "cuadro": 29
+            },
+            {
+              "palabra": "público,",
+              "cuadro": 44
+            },
+            {
+              "palabra": "y",
+              "cuadro": 58
+            },
+            {
+              "palabra": "los",
+              "cuadro": 60
+            },
+            {
+              "palabra": "directores",
+              "cuadro": 78
+            },
+            {
+              "palabra": "comerciales",
+              "cuadro": 99
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 122
+            },
+            {
+              "palabra": "miran.",
+              "cuadro": 126
+            }
+          ]
+        },
+        {
+          "voz": "09-curriculum",
+          "enEscena": 156,
+          "cuadros": 248,
+          "palabras": [
+            {
+              "palabra": "Podés",
+              "cuadro": 167
+            },
+            {
+              "palabra": "cargar",
+              "cuadro": 180
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 195
+            },
+            {
+              "palabra": "currículum:",
+              "cuadro": 200
+            },
+            {
+              "palabra": "empresas,",
+              "cuadro": 249
+            },
+            {
+              "palabra": "tasa",
+              "cuadro": 291
+            },
+            {
+              "palabra": "de",
+              "cuadro": 301
+            },
+            {
+              "palabra": "cierre,",
+              "cuadro": 307
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 322
+            },
+            {
+              "palabra": "mejor",
+              "cuadro": 352
+            },
+            {
+              "palabra": "cash",
+              "cuadro": 365
+            },
+            {
+              "palabra": "collect.",
+              "cuadro": 375
+            }
+          ]
+        },
+        {
+          "voz": "10-ofertas",
+          "enEscena": 414,
+          "cuadros": 136,
+          "palabras": [
+            {
+              "palabra": "Y",
+              "cuadro": 423
+            },
+            {
+              "palabra": "hay",
+              "cuadro": 425
+            },
+            {
+              "palabra": "ofertas",
+              "cuadro": 432
+            },
+            {
+              "palabra": "de",
+              "cuadro": 449
+            },
+            {
+              "palabra": "trabajo",
+              "cuadro": 454
+            },
+            {
+              "palabra": "reales,",
+              "cuadro": 471
+            },
+            {
+              "palabra": "publicadas",
+              "cuadro": 486
+            },
+            {
+              "palabra": "ahí",
+              "cuadro": 521
+            },
+            {
+              "palabra": "mismo.",
+              "cuadro": 528
+            }
+          ]
+        },
+        {
+          "voz": "11-postular",
+          "enEscena": 560,
+          "cuadros": 238,
+          "palabras": [
+            {
+              "palabra": "Las",
+              "cuadro": 560
+            },
+            {
+              "palabra": "ves,",
+              "cuadro": 572
+            },
+            {
+              "palabra": "te",
+              "cuadro": 585
+            },
+            {
+              "palabra": "postulás,",
+              "cuadro": 601
+            },
+            {
+              "palabra": "y",
+              "cuadro": 647
+            },
+            {
+              "palabra": "el",
+              "cuadro": 658
+            },
+            {
+              "palabra": "director",
+              "cuadro": 666
+            },
+            {
+              "palabra": "te",
+              "cuadro": 706
+            },
+            {
+              "palabra": "contacta",
+              "cuadro": 715
+            },
+            {
+              "palabra": "directo.",
+              "cuadro": 761
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6-cierre",
+      "from": 2165,
+      "durationInFrames": 304,
+      "clips": [
+        {
+          "voz": "12-cierre",
+          "enEscena": 8,
+          "cuadros": 159,
+          "palabras": [
+            {
+              "palabra": "Todo",
+              "cuadro": 15
+            },
+            {
+              "palabra": "en",
+              "cuadro": 26
+            },
+            {
+              "palabra": "un",
+              "cuadro": 37
+            },
+            {
+              "palabra": "solo",
+              "cuadro": 42
+            },
+            {
+              "palabra": "lugar.",
+              "cuadro": 53
+            },
+            {
+              "palabra": "Gratis,",
+              "cuadro": 93
+            },
+            {
+              "palabra": "sin",
+              "cuadro": 110
+            },
+            {
+              "palabra": "tarjeta.",
+              "cuadro": 138
+            }
+          ]
+        },
+        {
+          "voz": "13-cta",
+          "enEscena": 177,
+          "cuadros": 87,
+          "palabras": [
+            {
+              "palabra": "Ring",
+              "cuadro": 177
+            },
+            {
+              "palabra": "Closers.",
+              "cuadro": 188
+            },
+            {
+              "palabra": "Subite",
+              "cuadro": 208
+            },
+            {
+              "palabra": "al",
+              "cuadro": 241
+            },
+            {
+              "palabra": "ring.",
+              "cuadro": 246
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "01-que-es",
+      "desde": 6
+    },
+    {
+      "voz": "02-problema",
+      "desde": 239
+    },
+    {
+      "voz": "03-arma",
+      "desde": 442
+    },
+    {
+      "voz": "04-tercios",
+      "desde": 610
+    },
+    {
+      "voz": "05-afuera",
+      "desde": 876
+    },
+    {
+      "voz": "06-rango",
+      "desde": 1007
+    },
+    {
+      "voz": "07-cinturon",
+      "desde": 1179
+    },
+    {
+      "voz": "08-ranking",
+      "desde": 1363
+    },
+    {
+      "voz": "09-curriculum",
+      "desde": 1511
+    },
+    {
+      "voz": "10-ofertas",
+      "desde": 1769
+    },
+    {
+      "voz": "11-postular",
+      "desde": 1915
+    },
+    {
+      "voz": "12-cierre",
+      "desde": 2173
+    },
+    {
+      "voz": "13-cta",
+      "desde": 2342
+    }
+  ]
+}

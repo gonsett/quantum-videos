@@ -1,0 +1,42 @@
+{
+  "_nota": "Sexto comercial: el reparto de leads entre vendedores. Formato del video de Padron AGIP: pasos numerados sobre capturas reales del panel, alternando escenas oscuras de dato con claras de producto.",
+  "_datos": "Cifras tomadas de las capturas de quantumcoffee.xyz: 28 sin asignar, 0 en compulsa, 86 leads, columna VENDEDOR con 'Sin asignar'.",
+  "_instruccion_voz": "Leé esto en español rioplatense, con tono firme y claro. Ritmo pausado, sin entusiasmo comercial. Como quien explica un mecanismo que funciona, con seguridad y sin vender.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    {
+      "id": "01-rapido",
+      "texto": "Hoy, el lead se lo queda el vendedor más rápido con el celular."
+    },
+    {
+      "id": "02-libre",
+      "texto": "No el que estaba más libre. No el que mejor lo iba a atender. El más rápido."
+    },
+    {
+      "id": "03-sinasignar",
+      "texto": "Y los que nadie agarra quedan ahí. Veintiocho leads sin un vendedor asignado."
+    },
+    {
+      "id": "04-entra",
+      "texto": "Cuando entra una consulta, el sistema mira quién tiene menos carga encima."
+    },
+    {
+      "id": "05-ofrece",
+      "texto": "Se la ofrece a esos, no a todos. Y gana el primero que la toma."
+    },
+    {
+      "id": "06-empate",
+      "texto": "Ante empate, el que hace más tiempo que no recibe uno. El criterio es el mismo siempre y se puede explicar."
+    },
+    {
+      "id": "07-nadie",
+      "texto": "Y si nadie la toma dentro de la ventana, el sistema se la asigna igual al que menos carga tiene.",
+      "resalte": "Ningún lead queda sin dueño."
+    },
+    {
+      "id": "08-cierre",
+      "texto": "No es un reparto por confianza. Es una regla que podés auditar. Agendá tu diagnóstico."
+    }
+  ]
+}

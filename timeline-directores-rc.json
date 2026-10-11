@@ -1,0 +1,448 @@
+{
+  "fps": 30,
+  "total": 1140,
+  "escenas": [
+    {
+      "id": "e1-gancho",
+      "from": 0,
+      "durationInFrames": 225,
+      "clips": [
+        {
+          "voz": "01-gancho",
+          "enEscena": 3,
+          "cuadros": 205,
+          "palabras": [
+            {
+              "palabra": "El",
+              "cuadro": 3
+            },
+            {
+              "palabra": "último",
+              "cuadro": 8
+            },
+            {
+              "palabra": "closer",
+              "cuadro": 19
+            },
+            {
+              "palabra": "que",
+              "cuadro": 29
+            },
+            {
+              "palabra": "contrataste",
+              "cuadro": 37
+            },
+            {
+              "palabra": "hablaba",
+              "cuadro": 63
+            },
+            {
+              "palabra": "como",
+              "cuadro": 72
+            },
+            {
+              "palabra": "un",
+              "cuadro": 78
+            },
+            {
+              "palabra": "campeón",
+              "cuadro": 83
+            },
+            {
+              "palabra": "en",
+              "cuadro": 101
+            },
+            {
+              "palabra": "la",
+              "cuadro": 104
+            },
+            {
+              "palabra": "entrevista.",
+              "cuadro": 107
+            },
+            {
+              "palabra": "Al",
+              "cuadro": 133
+            },
+            {
+              "palabra": "mes,",
+              "cuadro": 137
+            },
+            {
+              "palabra": "no",
+              "cuadro": 154
+            },
+            {
+              "palabra": "había",
+              "cuadro": 160
+            },
+            {
+              "palabra": "cerrado",
+              "cuadro": 167
+            },
+            {
+              "palabra": "nada.",
+              "cuadro": 183
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e2-grupo",
+      "from": 225,
+      "durationInFrames": 135,
+      "clips": [
+        {
+          "voz": "02-grupo",
+          "enEscena": 4,
+          "cuadros": 113,
+          "palabras": [
+            {
+              "palabra": "Porque",
+              "cuadro": 4
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 11
+            },
+            {
+              "palabra": "sacaste",
+              "cuadro": 17
+            },
+            {
+              "palabra": "de",
+              "cuadro": 32
+            },
+            {
+              "palabra": "un",
+              "cuadro": 36
+            },
+            {
+              "palabra": "grupo",
+              "cuadro": 40
+            },
+            {
+              "palabra": "donde",
+              "cuadro": 50
+            },
+            {
+              "palabra": "todos",
+              "cuadro": 68
+            },
+            {
+              "palabra": "dicen",
+              "cuadro": 76
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 87
+            },
+            {
+              "palabra": "mismo.",
+              "cuadro": 92
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e3-hambre",
+      "from": 360,
+      "durationInFrames": 225,
+      "clips": [
+        {
+          "voz": "03-hambre",
+          "enEscena": 4,
+          "cuadros": 205,
+          "palabras": [
+            {
+              "palabra": "En",
+              "cuadro": 4
+            },
+            {
+              "palabra": "Ring",
+              "cuadro": 9
+            },
+            {
+              "palabra": "Closers",
+              "cuadro": 15
+            },
+            {
+              "palabra": "no",
+              "cuadro": 30
+            },
+            {
+              "palabra": "ves",
+              "cuadro": 41
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 48
+            },
+            {
+              "palabra": "que",
+              "cuadro": 52
+            },
+            {
+              "palabra": "dice.",
+              "cuadro": 55
+            },
+            {
+              "palabra": "Ves",
+              "cuadro": 75
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 80
+            },
+            {
+              "palabra": "que",
+              "cuadro": 84
+            },
+            {
+              "palabra": "hace:",
+              "cuadro": 89
+            },
+            {
+              "palabra": "cuántas",
+              "cuadro": 108
+            },
+            {
+              "palabra": "semanas",
+              "cuadro": 120
+            },
+            {
+              "palabra": "seguidas",
+              "cuadro": 128
+            },
+            {
+              "palabra": "entrena.",
+              "cuadro": 141
+            },
+            {
+              "palabra": "Eso",
+              "cuadro": 164
+            },
+            {
+              "palabra": "es",
+              "cuadro": 182
+            },
+            {
+              "palabra": "hambre.",
+              "cuadro": 187
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4-calidad",
+      "from": 585,
+      "durationInFrames": 150,
+      "clips": [
+        {
+          "voz": "04-calidad",
+          "enEscena": 4,
+          "cuadros": 140,
+          "palabras": [
+            {
+              "palabra": "Cómo",
+              "cuadro": 4
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 11
+            },
+            {
+              "palabra": "calificaron",
+              "cuadro": 17
+            },
+            {
+              "palabra": "los",
+              "cuadro": 35
+            },
+            {
+              "palabra": "closers",
+              "cuadro": 41
+            },
+            {
+              "palabra": "que",
+              "cuadro": 57
+            },
+            {
+              "palabra": "pelearon",
+              "cuadro": 62
+            },
+            {
+              "palabra": "contra",
+              "cuadro": 80
+            },
+            {
+              "palabra": "él.",
+              "cuadro": 86
+            },
+            {
+              "palabra": "Eso",
+              "cuadro": 104
+            },
+            {
+              "palabra": "es",
+              "cuadro": 113
+            },
+            {
+              "palabra": "calidad.",
+              "cuadro": 118
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e5-rango",
+      "from": 735,
+      "durationInFrames": 150,
+      "clips": [
+        {
+          "voz": "05-rango",
+          "enEscena": 4,
+          "cuadros": 139,
+          "palabras": [
+            {
+              "palabra": "Su",
+              "cuadro": 4
+            },
+            {
+              "palabra": "rango,",
+              "cuadro": 10
+            },
+            {
+              "palabra": "ganado",
+              "cuadro": 29
+            },
+            {
+              "palabra": "en",
+              "cuadro": 43
+            },
+            {
+              "palabra": "el",
+              "cuadro": 47
+            },
+            {
+              "palabra": "ring.",
+              "cuadro": 50
+            },
+            {
+              "palabra": "Y",
+              "cuadro": 70
+            },
+            {
+              "palabra": "si",
+              "cuadro": 72
+            },
+            {
+              "palabra": "busca",
+              "cuadro": 75
+            },
+            {
+              "palabra": "full-time",
+              "cuadro": 84
+            },
+            {
+              "palabra": "o",
+              "cuadro": 100
+            },
+            {
+              "palabra": "part-time.",
+              "cuadro": 104
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e6-cierre",
+      "from": 885,
+      "durationInFrames": 255,
+      "clips": [
+        {
+          "voz": "06-cierre",
+          "enEscena": 4,
+          "cuadros": 148,
+          "palabras": [
+            {
+              "palabra": "Dejá",
+              "cuadro": 4
+            },
+            {
+              "palabra": "de",
+              "cuadro": 16
+            },
+            {
+              "palabra": "contratar",
+              "cuadro": 21
+            },
+            {
+              "palabra": "promesas.",
+              "cuadro": 35
+            },
+            {
+              "palabra": "Contratá",
+              "cuadro": 63
+            },
+            {
+              "palabra": "closers",
+              "cuadro": 75
+            },
+            {
+              "palabra": "probados.",
+              "cuadro": 91
+            },
+            {
+              "palabra": "Link",
+              "cuadro": 118
+            },
+            {
+              "palabra": "en",
+              "cuadro": 126
+            },
+            {
+              "palabra": "la",
+              "cuadro": 130
+            },
+            {
+              "palabra": "bio.",
+              "cuadro": 133
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "01-gancho",
+      "desde": 3
+    },
+    {
+      "voz": "02-grupo",
+      "desde": 229
+    },
+    {
+      "voz": "03-hambre",
+      "desde": 364
+    },
+    {
+      "voz": "04-calidad",
+      "desde": 589
+    },
+    {
+      "voz": "05-rango",
+      "desde": 739
+    },
+    {
+      "voz": "06-cierre",
+      "desde": 889
+    }
+  ]
+}

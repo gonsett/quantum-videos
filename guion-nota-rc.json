@@ -1,0 +1,40 @@
+{
+  "_nota": "La nota que no podés comprar (02/10/2026): valoración de pares 1-5 tras cada roleplay, sin autoevaluación, promedio en el CV.",
+  "_instruccion_voz": "Una closer de ventas rioplatense contándole algo a un colega, en tono de charla natural y cercana, con un toque de complicidad. Nada de locutora, nada de tono de anuncio ni de tráiler: voz normal, relajada pero con ganas, velocidad de conversación normal, sin pausas dramáticas.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    {
+      "id": "01-cv",
+      "texto": "Tu CV dice lo que vos querés que diga. Cualquiera escribe: excelente manejo de objeciones."
+    },
+    {
+      "id": "02-otro",
+      "texto": "Acá no. Acá tus estrellas las pone otro."
+    },
+    {
+      "id": "03-puntua",
+      "texto": "Terminás un roleplay, y el que estuvo enfrente te puntúa. De una a cinco."
+    },
+    {
+      "id": "04-nadie",
+      "texto": "Nadie se puntúa a sí mismo. No hay forma."
+    },
+    {
+      "id": "05-suma",
+      "texto": "Y cada nota se suma. Roleplay tras roleplay, el promedio queda en tu CV, al lado de tus cierres de práctica y tus trofeos."
+    },
+    {
+      "id": "06-director",
+      "texto": "Un día, un director lo abre. No lee lo que dijiste. Lee lo que dijeron de vos."
+    },
+    {
+      "id": "07-entrena",
+      "texto": "Esa nota no se compra. Se entrena."
+    },
+    {
+      "id": "08-cierre",
+      "texto": "Ring Closers."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_nota": "Escuchate (Fathom). Una escena por toma.",
+  "guion": "guion-escuchate-rc.json",
+  "voz": "public/voz-escuchate-rc",
+  "salida": "timeline-escuchate-rc.json",
+  "fps": 30,
+  "tiempos": "whisper",
+  "estructura": [
+    { "id": "e1-gancho", "voces": ["01-gancho"], "entrada": 4, "cola": 8 },
+    { "id": "e2-nadie", "voces": ["02-nadie"], "entrada": 2, "cola": 8 },
+    { "id": "e3-repetis", "voces": ["03-repetis"], "entrada": 2, "cola": 10 },
+    { "id": "e4-mejores", "voces": ["04-mejores"], "entrada": 4, "cola": 6 },
+    { "id": "e5-fathom", "voces": ["05-fathom"], "entrada": 2, "cola": 10 },
+    { "id": "e6-frase", "voces": ["06-frase"], "entrada": 4, "cola": 14 },
+    { "id": "e7-corregis", "voces": ["07-corregis"], "entrada": 4, "cola": 10 },
+    { "id": "e8-cierre", "voces": ["08-cierre"], "entrada": 8, "cola": 60 }
+  ]
+}

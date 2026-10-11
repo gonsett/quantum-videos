@@ -1,0 +1,13 @@
+toma-a         REVISAR
+  guion: Encontrar closers ya no es el problema. El problema es seguirles el rastro. Ahora cada closer tiene su tarjeta, y avanza sola: lo seguís, le escribís, le ofrecés. Vos no cargás nada. Y cuando firma, ya es parte de tu equipo. Pipeline del director. Ya disponible.
+  oído (gemini-3.5-flash): Encontrar closers ya no es el problema. El problema es seguirles el rastro. Ahora cada closer tiene su tarjeta y avanza sola. Los seguís, les escribís, les ofrecés. Vos no cargás nada. Y cuando firma, ya es parte de tu equipo. Pipeline del Director. Ya disponible.  <-- REVISAR: de más: los les les; faltan: lo le le
+  oído (gemini-3.5-transcribe): Encontrar closers ya no es el problema, el problema es seguirles el rastro. Ahora cada closer tiene su tarjeta y avanza sola. Los seguís, le escribís, le ofrecés, vos no cargás nada y cuando firma ya es parte de tu equipo. Pipeline del director, ya disponible.  <-- REVISAR: de más: los; faltan: lo
+  oído (cf:whisper-large-v3-turbo): Encontrar closers ya no es el problema. El problema es seguirles el rastro. Ahora cada closer tiene su tarjeta y avanza sola. Lo seguís, le escribís, le ofrecés. Vos no cargas nada. Y cuando firma, ya es parte de tu equipo. Pipeline del director. Ya disponible.
+
+toma-b         REVISAR
+  guion: Encontrar closers ya no es el problema. El problema es seguirles el rastro. Ahora cada closer tiene su tarjeta, y avanza sola: lo seguís, le escribís, le ofrecés. Vos no cargás nada. Y cuando firma, ya es parte de tu equipo. Pipeline del director. Ya disponible.
+  oído (gemini-3.5-flash): Encontrar closers ya no es el problema. El problema es seguirles el rastro. Ahora cada closer tiene su tarjeta y avanza sola. Lo seguís, le escribís, le ofrecés, vos no cargás nada. Y cuando firma, ya es parte de tu equipo. Pipeline del director. Ya disponible.
+  oído (gemini-3.5-transcribe): Encontrar closers ya no es el problema, el problema es seguirles el rastro. Ahora cada closer tiene su tarjeta y avanza sola. Los seguís, le escribís, le ofrecés, vos no cargás nada y cuando firma ya es parte de tu equipo. Pipeline del director, ya disponible.  <-- REVISAR: de más: los; faltan: lo
+  oído (cf:whisper-large-v3-turbo): Encontrar closers ya no es el problema. El problema es seguirles el rastro. Ahora cada closer tiene su tarjeta y avanza sola. Lo seguís, le escribís, le ofrecés, vos no cargas nada. Y cuando firma, ya es parte de tu equipo. Pipeline del director. Ya disponible.
+
+2 toma(s) para revisar o sin verificar de 2

@@ -1,0 +1,13 @@
+02-equipo      OK (3 de 3 oídos)
+  guion: Ves a todo tu equipo en tiempo real: quién está en llamada, quién en roleplay, quién está libre.
+  oído (gemini-3.5-flash): Ves a todo tu equipo en tiempo real, quién está en llamada, quién en roleplay, quién está libre
+  oído (gemini-3.5-transcribe): Ves a todo tu equipo en tiempo real, quién está en llamada, quién en roleplay, quién está libre.
+  oído (cf:whisper-large-v3-turbo): Ves a todo tu equipo en tiempo real, quién está en llamada, quién en roleplay, quién está libre.
+
+03-dia         REVISAR
+  guion: Tocás a cualquiera y ves su día: llamadas, cierres, lo que cobró.
+  oído (gemini-3.5-flash): Tocás cualquiera y ves su día, llamadas, cierres, lo que cobró,  <-- REVISAR: faltan: a
+  oído (gemini-3.5-transcribe): Toca cualquiera y ve su día, llamadas, cierres, lo que cobró.  <-- REVISAR: de más: toca ve; faltan: tocas a ves
+  oído (cf:whisper-large-v3-turbo): Tocás a cualquiera y ves su día, llamadas, cierres, lo que cobró.
+
+1 toma(s) para revisar o sin verificar de 2

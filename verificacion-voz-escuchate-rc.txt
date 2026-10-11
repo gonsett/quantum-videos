@@ -1,0 +1,49 @@
+01-gancho      OK (3 de 3 oídos)
+  guion: La última vez que te dijeron: lo tengo que pensar... ¿qué respondiste exactamente?
+  oído (gemini-3.5-flash): La última vez que te dijeron lo tengo que pensar, ¿qué respondiste exactamente?
+  oído (gemini-3.5-transcribe): ¿La última vez que te dijeron "lo tengo que pensar", qué respondiste exactamente?
+  oído (cf:whisper-large-v3-turbo): La última vez que te dijeron, lo tengo que pensar, ¿qué respondiste exactamente?
+
+02-nadie       OK (3 de 3 oídos)
+  guion: No te acordás. Nadie se acuerda.
+  oído (gemini-3.5-flash): No te acordás, nadie se acuerda.
+  oído (gemini-3.5-transcribe): No te acordás. Nadie se acuerda.
+  oído (cf:whisper-large-v3-turbo): No te acordás. Nadie se acuerda.
+
+03-repetis     OK (3 de 3 oídos)
+  guion: Y lo que no escuchás, lo repetís en la próxima llamada.
+  oído (gemini-3.5-flash): y lo que no escuchás lo repetís en la próxima llamada
+  oído (gemini-3.5-transcribe): Y lo que no escuchás, lo repetís en la próxima llamada.
+  oído (cf:whisper-large-v3-turbo): Y lo que no escuchas, lo repetís en la próxima llamada.
+
+04-mejores     OK (3 de 3 oídos)
+  guion: Por eso los mejores closers revisan sus llamadas grabadas.
+  oído (gemini-3.5-flash): Por eso los mejores closers revisan sus llamadas grabadas.
+  oído (gemini-3.5-transcribe): Por eso los mejores closers revisan sus llamadas grabadas.
+  oído (cf:whisper-large-v3-turbo): Por eso los mejores closers revisan sus llamadas grabadas.
+
+05-fathom      REVISAR
+  guion: En Ring Closers conectás Fathom: tu roleplay se graba y queda guardado en la pelea.
+  oído (gemini-3.5-flash): En Rin Closers conectá Fatom, tu roleplay se graba y queda guardado en la pelea.  <-- REVISAR: de más: conecta fatom; faltan: conectas fathom
+  oído (gemini-3.5-transcribe): En RingClosers, conecta Fathom. Tu roleplay se graba y queda guardado en la pelea.
+  oído (cf:whisper-large-v3-turbo): En Ring Closers, conecta a Fatom. Tu roleplay se graba y queda guardado en la pelea.  <-- REVISAR: de más: conecta a fatom; faltan: conectas fathom
+
+06-frase       REVISAR
+  guion: Lo volvés a ver... y encontrás la frase exacta donde se te fue.
+  oído (gemini-3.5-flash): Lo volvés a ver y encontrás la frase exacta donde se te fue.
+  oído (gemini-3.5-transcribe): Lo volvés a saber y encontrás la frase exacta donde se te fue.  <-- REVISAR: de más: saber; faltan: ver
+  oído (cf:whisper-large-v3-turbo): Lo volvés a ver y encontrás la frase exacta donde se te fue.
+
+07-corregis    OK (3 de 3 oídos)
+  guion: La corregís practicando, no perdiendo un cliente.
+  oído (gemini-3.5-flash): La corregís practicando, no perdiendo un cliente.
+  oído (gemini-3.5-transcribe): La corregís practicando, no perdiendo un cliente.
+  oído (cf:whisper-large-v3-turbo): La corregís practicando, no perdiendo un cliente.
+
+08-cierre      REVISAR
+  guion: Escuchate. Ring Closers.
+  oído (gemini-3.5-flash): Escuchate, Ring Closers.
+  oído (gemini-3.5-transcribe): Escuchate Rincón Closers.  <-- REVISAR: de más: rincon; faltan: ring
+  oído (cf:whisper-large-v3-turbo): ¡Escuchate! ¡Ring Closers!
+
+3 toma(s) para revisar o sin verificar de 8

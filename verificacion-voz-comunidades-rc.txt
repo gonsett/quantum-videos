@@ -1,0 +1,42 @@
+00-gancho      REVISAR
+  guion: Elite Closers. Five Stars. Ese y Pe.
+  oído (gemini-3.5-flash): Elite Closers, Five Stars, S I P.  <-- REVISAR: de más: s i p; faltan: ese y pe
+  oído (gemini-3.5-transcribe): Elite Closers, 5 stars, S y P.  <-- REVISAR: de más: cinco s p; faltan: five ese pe
+  sin respuesta: cf:whisper-large-v3-turbo
+
+01-adentro     OK (1 de 3 oídos)
+  guion: Mientras vos scrolleás, ellos ya están adentro.
+  oído (gemini-3.5-transcribe): Mientras vos scrolleás, ellos ya están adentro.
+  sin respuesta: gemini-3.5-flash, cf:whisper-large-v3-turbo
+
+02-entrenan    OK (2 de 3 oídos)
+  guion: Cada semana pelean roleplays con otro closer del otro lado. Y cada pelea deja una nota.
+  oído (gemini-3.5-flash): Cada semana pelean roleplays con otro closer del otro lado. Y cada pelea deja una nota.
+  oído (gemini-3.5-transcribe): Cada semana pelean roleplays con otro closer del otro lado y cada pelea deja una nota.
+  sin respuesta: cf:whisper-large-v3-turbo
+
+03-mejoran     OK (2 de 3 oídos)
+  guion: Lo que te trababa la primera semana, en la cuarta te sale solo. Y se ve en tus números.
+  oído (gemini-3.5-flash): Lo que te trababa la primera semana, en la cuarta te sale solo y se ve en tus números.
+  oído (gemini-3.5-transcribe): Lo que te trababa la primera semana, en la cuarta te sale solo y se ve en tus números.
+  sin respuesta: cf:whisper-large-v3-turbo
+
+04-ofertas     REVISAR
+  guion: Y lo que nadie te cuenta: los directores publican sus mejores ofertas acá adentro. Y eligen por rango.
+  oído (gemini-3.5-flash): Y lo que nadie te cuenta: los directores publican sus mejores ofertas acá adentro, y eligen por rango.
+  oído (gemini-3.5-transcribe): Y lo que nadie te cuenta, los directores publican sus mejores ofertas acá dentro y eligen por rango.  <-- REVISAR: de más: dentro; faltan: adentro
+  sin respuesta: cf:whisper-large-v3-turbo
+
+05-ranking     OK (2 de 3 oídos)
+  guion: El ranking ya arrancó. Tu nombre... todavía no está.
+  oído (gemini-3.5-flash): El ranking ya arrancó. Tu nombre todavía no está.
+  oído (gemini-3.5-transcribe): El ranking ya arrancó. ¿Tu nombre? Todavía no está.
+  sin respuesta: cf:whisper-large-v3-turbo
+
+06-cierre      OK (2 de 3 oídos)
+  guion: Entrá al ring.
+  oído (gemini-3.5-flash): Entra al ring.
+  oído (gemini-3.5-transcribe): Entra al ring.
+  sin respuesta: cf:whisper-large-v3-turbo
+
+7 toma(s) para revisar o sin verificar de 7

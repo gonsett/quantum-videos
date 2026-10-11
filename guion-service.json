@@ -1,0 +1,39 @@
+{
+  "_nota": "Segundo comercial: la agenda de service que se llena sola. Mecanismo visual: una conversacion de WhatsApp que va cargando un turno en la agenda del taller. Fondo oscuro, paleta Quantum Coffee.",
+  "voz": "ef_dora",
+  "velocidad": 1.0,
+  "segmentos": [
+    {
+      "id": "01-cerrado",
+      "texto": "Sábado, diez de la noche. Tu taller está cerrado y no hay nadie."
+    },
+    {
+      "id": "02-consulta",
+      "texto": "Un cliente escribe: necesita el service de los cuarenta mil a la Hilux."
+    },
+    {
+      "id": "03-asistente",
+      "texto": "El mismo número que usás para vender le contesta al toque. Le pide la patente y mira la agenda real del taller."
+    },
+    {
+      "id": "04-horarios",
+      "texto": "Le ofrece solamente los horarios que están libres de verdad. El cliente elige: miércoles nueve y media."
+    },
+    {
+      "id": "05-cargado",
+      "texto": "Dos minutos después el turno está cargado, con el auto, la patente y el trabajo. Sin que nadie del taller estuviera despierto."
+    },
+    {
+      "id": "06-limite",
+      "texto": "Y hay algo que no agenda, a propósito. Si el cliente dice que el auto hace un ruido raro, anota el síntoma y el kilometraje, pero no le da fecha."
+    },
+    {
+      "id": "07-porque",
+      "texto": "Porque un diagnóstico puede llevar una hora o tres días, y eso lo decide alguien que vio el auto. No un bot."
+    },
+    {
+      "id": "08-cierre",
+      "texto": "El lunes tu taller abre con los turnos ya cargados. Agendá tu diagnóstico."
+    }
+  ]
+}

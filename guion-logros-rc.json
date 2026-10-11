@@ -1,0 +1,15 @@
+{
+  "_nota": "Un año en treinta segundos (27/09/2026): los 14 trofeos reales de la app (lib/achievements.ts), la racha como momento fuerte. Voz Callirrhoe elegida por Javier en tono de charla (la de Ofertas sonó a publicidad).",
+  "_instruccion_voz": "Una closer de ventas rioplatense contándole algo a un colega, en tono de charla natural y cercana, como si le mostrara algo en el celular. Nada de locutora, nada de tono de anuncio ni de tráiler: voz normal, relajada pero con ganas, velocidad de conversación normal, ágil, sin pausas dramáticas.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    { "id": "01-gancho", "texto": "Mirá lo que pasa en un año de roleplays. En treinta segundos." },
+    { "id": "02-dia-uno", "texto": "Día uno: tu primer combate. Esa misma semana, alguien te pone cinco estrellas. Noqueaste." },
+    { "id": "03-semana", "texto": "Cumplís tu primera semana. Y ya llevás diez peleas encima." },
+    { "id": "04-racha", "texto": "Tres semanas seguidas. Eso ya no es suerte: es costumbre." },
+    { "id": "05-acelera", "texto": "Un mes. Tu primera compra. Diez mil cerrados en objeciones. Tres meses. Cincuenta mil." },
+    { "id": "06-rafaga", "texto": "Seis meses. Diez semanas sin fallar. Cien mil. Un año." },
+    { "id": "07-cierre", "texto": "Catorce trofeos. Y el primero sale con un solo roleplay." }
+  ]
+}

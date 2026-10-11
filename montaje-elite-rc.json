@@ -1,0 +1,57 @@
+{
+  "_nota": "Video para closers de élite. Generado por armar-montaje-elite.mjs: cada escena arranca en un beat (múltiplos de 15 cuadros).",
+  "guion": "guion-elite-rc.json",
+  "voz": "public/voz-elite-rc-final",
+  "salida": "timeline-elite-rc.json",
+  "fps": 30,
+  "estructura": [
+    {
+      "id": "e1-gancho",
+      "voces": [
+        "01-gancho"
+      ],
+      "entrada": 3,
+      "cola": 11
+    },
+    {
+      "id": "e2-puente",
+      "voces": [
+        "02-puente"
+      ],
+      "entrada": 4,
+      "cola": 8
+    },
+    {
+      "id": "e3-afilas",
+      "voces": [
+        "03-afilas"
+      ],
+      "entrada": 4,
+      "cola": 14
+    },
+    {
+      "id": "e4-conocen",
+      "voces": [
+        "04-conocen"
+      ],
+      "entrada": 4,
+      "cola": 8
+    },
+    {
+      "id": "e5-buscan",
+      "voces": [
+        "05-buscan"
+      ],
+      "entrada": 4,
+      "cola": 5
+    },
+    {
+      "id": "e6-cierre",
+      "voces": [
+        "06-cierre"
+      ],
+      "entrada": 4,
+      "cola": 97
+    }
+  ]
+}

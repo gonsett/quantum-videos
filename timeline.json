@@ -1,0 +1,63 @@
+{
+  "_nota": "Fuente unica de la linea de tiempo. La leen src/timeline.ts (montaje) y generar-musica.mjs (banda sonora). Si se cambia una duracion aca, las dos cosas se reacomodan solas. 'from' se calcula acumulando, no se escribe a mano.",
+  "_voz": "Kokoro ef_dora (Apache 2.0). Total locucion 47.96s. Las duraciones dejan margen para que cada escena termine sus animaciones despues de que la frase cierra.",
+  "fps": 30,
+  "escenas": [
+    {
+      "id": "gancho",
+      "voz": "01-gancho",
+      "durationInFrames": 220,
+      "vozDelay": 24,
+      "_voz_seg": 6.12
+    },
+    {
+      "id": "pregunta",
+      "voz": "02-pregunta",
+      "durationInFrames": 120,
+      "vozDelay": 4,
+      "_voz_seg": 3.52
+    },
+    {
+      "id": "espera",
+      "voz": "03-espera",
+      "durationInFrames": 156,
+      "vozDelay": 4,
+      "_voz_seg": 4.63
+    },
+    {
+      "id": "golpe",
+      "voz": "04-golpe",
+      "durationInFrames": 210,
+      "vozDelay": 6,
+      "_voz_seg": 6.25
+    },
+    {
+      "id": "automlead",
+      "voz": "05-automlead",
+      "durationInFrames": 180,
+      "vozDelay": 6,
+      "_voz_seg": 4.95
+    },
+    {
+      "id": "regla",
+      "voz": "06-regla",
+      "durationInFrames": 236,
+      "vozDelay": 6,
+      "_voz_seg": 7.02
+    },
+    {
+      "id": "capacidades",
+      "voz": "07-capacidades",
+      "durationInFrames": 300,
+      "vozDelay": 6,
+      "_voz_seg": 8.94
+    },
+    {
+      "id": "cierre",
+      "voz": "08-cierre",
+      "durationInFrames": 250,
+      "vozDelay": 6,
+      "_voz_seg": 6.53
+    }
+  ]
+}

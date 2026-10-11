@@ -1,0 +1,588 @@
+{
+  "fps": 30,
+  "total": 1780,
+  "escenas": [
+    {
+      "id": "s1-gancho",
+      "from": 0,
+      "durationInFrames": 128,
+      "clips": [
+        {
+          "voz": "01-gancho",
+          "enEscena": 4,
+          "cuadros": 114,
+          "palabras": [
+            {
+              "palabra": "Sos",
+              "cuadro": 11
+            },
+            {
+              "palabra": "closer.",
+              "cuadro": 18
+            },
+            {
+              "palabra": "Y",
+              "cuadro": 33
+            },
+            {
+              "palabra": "no",
+              "cuadro": 36
+            },
+            {
+              "palabra": "estás",
+              "cuadro": 73
+            },
+            {
+              "palabra": "mejorando.",
+              "cuadro": 85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s2-problema",
+      "from": 128,
+      "durationInFrames": 472,
+      "clips": [
+        {
+          "voz": "02-mismos",
+          "enEscena": 4,
+          "cuadros": 87,
+          "palabras": [
+            {
+              "palabra": "Practicás",
+              "cuadro": 12
+            },
+            {
+              "palabra": "siempre",
+              "cuadro": 32
+            },
+            {
+              "palabra": "con",
+              "cuadro": 47
+            },
+            {
+              "palabra": "los",
+              "cuadro": 54
+            },
+            {
+              "palabra": "mismos",
+              "cuadro": 60
+            },
+            {
+              "palabra": "dos.",
+              "cuadro": 74
+            }
+          ]
+        },
+        {
+          "voz": "03-nunca",
+          "enEscena": 97,
+          "cuadros": 169,
+          "palabras": [
+            {
+              "palabra": "Nunca",
+              "cuadro": 105
+            },
+            {
+              "palabra": "con",
+              "cuadro": 115
+            },
+            {
+              "palabra": "el",
+              "cuadro": 121
+            },
+            {
+              "palabra": "que",
+              "cuadro": 133
+            },
+            {
+              "palabra": "sabe",
+              "cuadro": 139
+            },
+            {
+              "palabra": "menos.",
+              "cuadro": 147
+            },
+            {
+              "palabra": "Nunca",
+              "cuadro": 158
+            },
+            {
+              "palabra": "con",
+              "cuadro": 190
+            },
+            {
+              "palabra": "el",
+              "cuadro": 196
+            },
+            {
+              "palabra": "que",
+              "cuadro": 200
+            },
+            {
+              "palabra": "te",
+              "cuadro": 212
+            },
+            {
+              "palabra": "haría",
+              "cuadro": 216
+            },
+            {
+              "palabra": "mejorar",
+              "cuadro": 226
+            },
+            {
+              "palabra": "de",
+              "cuadro": 241
+            },
+            {
+              "palabra": "verdad.",
+              "cuadro": 245
+            }
+          ]
+        },
+        {
+          "voz": "04-repetis",
+          "enEscena": 272,
+          "cuadros": 190,
+          "palabras": [
+            {
+              "palabra": "Repetís",
+              "cuadro": 291
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 308
+            },
+            {
+              "palabra": "propio",
+              "cuadro": 313
+            },
+            {
+              "palabra": "nivel,",
+              "cuadro": 327
+            },
+            {
+              "palabra": "semana",
+              "cuadro": 346
+            },
+            {
+              "palabra": "tras",
+              "cuadro": 360
+            },
+            {
+              "palabra": "semana.",
+              "cuadro": 370
+            },
+            {
+              "palabra": "Por",
+              "cuadro": 403
+            },
+            {
+              "palabra": "eso",
+              "cuadro": 411
+            },
+            {
+              "palabra": "no",
+              "cuadro": 427
+            },
+            {
+              "palabra": "subís.",
+              "cuadro": 432
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-solucion",
+      "from": 600,
+      "durationInFrames": 524,
+      "clips": [
+        {
+          "voz": "05-obliga",
+          "enEscena": 6,
+          "cuadros": 230,
+          "palabras": [
+            {
+              "palabra": "Ring",
+              "cuadro": 14
+            },
+            {
+              "palabra": "Closers",
+              "cuadro": 22
+            },
+            {
+              "palabra": "te",
+              "cuadro": 37
+            },
+            {
+              "palabra": "obliga",
+              "cuadro": 42
+            },
+            {
+              "palabra": "a",
+              "cuadro": 63
+            },
+            {
+              "palabra": "pelear",
+              "cuadro": 65
+            },
+            {
+              "palabra": "las",
+              "cuadro": 78
+            },
+            {
+              "palabra": "tres",
+              "cuadro": 84
+            },
+            {
+              "palabra": "franjas:",
+              "cuadro": 93
+            },
+            {
+              "palabra": "uno",
+              "cuadro": 108
+            },
+            {
+              "palabra": "por",
+              "cuadro": 133
+            },
+            {
+              "palabra": "debajo,",
+              "cuadro": 139
+            },
+            {
+              "palabra": "uno",
+              "cuadro": 152
+            },
+            {
+              "palabra": "igual,",
+              "cuadro": 172
+            },
+            {
+              "palabra": "uno",
+              "cuadro": 183
+            },
+            {
+              "palabra": "por",
+              "cuadro": 206
+            },
+            {
+              "palabra": "encima.",
+              "cuadro": 213
+            }
+          ]
+        },
+        {
+          "voz": "06-cada",
+          "enEscena": 242,
+          "cuadros": 110,
+          "palabras": [
+            {
+              "palabra": "Cada",
+              "cuadro": 251
+            },
+            {
+              "palabra": "semana.",
+              "cuadro": 260
+            },
+            {
+              "palabra": "Sin",
+              "cuadro": 274
+            },
+            {
+              "palabra": "opción",
+              "cuadro": 298
+            },
+            {
+              "palabra": "de",
+              "cuadro": 312
+            },
+            {
+              "palabra": "elegir",
+              "cuadro": 316
+            },
+            {
+              "palabra": "cómodo.",
+              "cuadro": 330
+            }
+          ]
+        },
+        {
+          "voz": "07-cumplis",
+          "enEscena": 358,
+          "cuadros": 154,
+          "palabras": [
+            {
+              "palabra": "Cumplís",
+              "cuadro": 365
+            },
+            {
+              "palabra": "las",
+              "cuadro": 382
+            },
+            {
+              "palabra": "tres,",
+              "cuadro": 389
+            },
+            {
+              "palabra": "sumás.",
+              "cuadro": 406
+            },
+            {
+              "palabra": "Te",
+              "cuadro": 418
+            },
+            {
+              "palabra": "falta",
+              "cuadro": 446
+            },
+            {
+              "palabra": "una,",
+              "cuadro": 458
+            },
+            {
+              "palabra": "bajás",
+              "cuadro": 465
+            },
+            {
+              "palabra": "de",
+              "cuadro": 489
+            },
+            {
+              "palabra": "rango.",
+              "cuadro": 494
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4-oportunidad",
+      "from": 1124,
+      "durationInFrames": 408,
+      "clips": [
+        {
+          "voz": "08-mirando",
+          "enEscena": 6,
+          "cuadros": 96,
+          "palabras": [
+            {
+              "palabra": "Y",
+              "cuadro": 6
+            },
+            {
+              "palabra": "mientras",
+              "cuadro": 8
+            },
+            {
+              "palabra": "subís,",
+              "cuadro": 24
+            },
+            {
+              "palabra": "alguien",
+              "cuadro": 34
+            },
+            {
+              "palabra": "más",
+              "cuadro": 66
+            },
+            {
+              "palabra": "está",
+              "cuadro": 72
+            },
+            {
+              "palabra": "mirando.",
+              "cuadro": 80
+            }
+          ]
+        },
+        {
+          "voz": "09-directores",
+          "enEscena": 110,
+          "cuadros": 152,
+          "palabras": [
+            {
+              "palabra": "Directores",
+              "cuadro": 117
+            },
+            {
+              "palabra": "comerciales",
+              "cuadro": 141
+            },
+            {
+              "palabra": "buscan",
+              "cuadro": 177
+            },
+            {
+              "palabra": "closers",
+              "cuadro": 191
+            },
+            {
+              "palabra": "directo",
+              "cuadro": 207
+            },
+            {
+              "palabra": "en",
+              "cuadro": 230
+            },
+            {
+              "palabra": "el",
+              "cuadro": 235
+            },
+            {
+              "palabra": "ranking.",
+              "cuadro": 239
+            }
+          ]
+        },
+        {
+          "voz": "10-oportunidad",
+          "enEscena": 270,
+          "cuadros": 128,
+          "palabras": [
+            {
+              "palabra": "Cuanto",
+              "cuadro": 281
+            },
+            {
+              "palabra": "más",
+              "cuadro": 295
+            },
+            {
+              "palabra": "alto",
+              "cuadro": 302
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 311
+            },
+            {
+              "palabra": "rango,",
+              "cuadro": 316
+            },
+            {
+              "palabra": "más",
+              "cuadro": 327
+            },
+            {
+              "palabra": "real",
+              "cuadro": 349
+            },
+            {
+              "palabra": "la",
+              "cuadro": 358
+            },
+            {
+              "palabra": "oportunidad.",
+              "cuadro": 363
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5-cta",
+      "from": 1532,
+      "durationInFrames": 248,
+      "clips": [
+        {
+          "voz": "11-cta",
+          "enEscena": 8,
+          "cuadros": 200,
+          "palabras": [
+            {
+              "palabra": "Ring",
+              "cuadro": 17
+            },
+            {
+              "palabra": "Closers.",
+              "cuadro": 28
+            },
+            {
+              "palabra": "Gratis.",
+              "cuadro": 48
+            },
+            {
+              "palabra": "Sin",
+              "cuadro": 78
+            },
+            {
+              "palabra": "tarjeta,",
+              "cuadro": 98
+            },
+            {
+              "palabra": "sin",
+              "cuadro": 118
+            },
+            {
+              "palabra": "vueltas.",
+              "cuadro": 134
+            },
+            {
+              "palabra": "Subite",
+              "cuadro": 154
+            },
+            {
+              "palabra": "al",
+              "cuadro": 185
+            },
+            {
+              "palabra": "ring.",
+              "cuadro": 190
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "01-gancho",
+      "desde": 4
+    },
+    {
+      "voz": "02-mismos",
+      "desde": 132
+    },
+    {
+      "voz": "03-nunca",
+      "desde": 225
+    },
+    {
+      "voz": "04-repetis",
+      "desde": 400
+    },
+    {
+      "voz": "05-obliga",
+      "desde": 606
+    },
+    {
+      "voz": "06-cada",
+      "desde": 842
+    },
+    {
+      "voz": "07-cumplis",
+      "desde": 958
+    },
+    {
+      "voz": "08-mirando",
+      "desde": 1130
+    },
+    {
+      "voz": "09-directores",
+      "desde": 1234
+    },
+    {
+      "voz": "10-oportunidad",
+      "desde": 1394
+    },
+    {
+      "voz": "11-cta",
+      "desde": 1540
+    }
+  ]
+}

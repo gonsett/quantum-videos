@@ -1,0 +1,15 @@
+{
+  "_nota": "Estructura del Reel de Ring Closers. Aire minimo: en un Reel el scroll no espera. El gancho arranca en el cuadro 3 y el unico respiro largo es la cola del CTA.",
+  "guion": "guion-reel-rc.json",
+  "voz": "public/voz-reel-rc-final",
+  "salida": "timeline-reel-rc.json",
+  "fps": 30,
+  "estructura": [
+    { "id": "s1-gancho", "voces": ["01-gancho"], "entrada": 3, "cola": 5 },
+    { "id": "s2-problema", "voces": ["02-rapido", "03-tercera"], "entrada": 2, "entre": 5, "cola": 6 },
+    { "id": "s3-regla", "voces": ["04-regla"], "entrada": 3, "cola": 6 },
+    { "id": "s4-solucion", "voces": ["05-arma", "06-rango"], "entrada": 2, "entre": 4, "cola": 8 },
+    { "id": "s5-confianza", "voces": ["07-closer"], "entrada": 6, "cola": 6 },
+    { "id": "s6-cta", "voces": ["08-cta"], "entrada": 3, "cola": 34 }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "_nota": "Secreto de contratación #1 (Kayn con piel RC). e1 arranca con 30 cuadros de lluvia antes de la voz; e5 deja cola para la placa del logo.",
+  "guion": "guion-oferta-rc.json",
+  "voz": "public/voz-oferta-rc",
+  "salida": "timeline-oferta-rc.json",
+  "fps": 30,
+  "estructura": [
+    {
+      "id": "e1-gancho",
+      "voces": [
+        "00-antes",
+        "01-gancho"
+      ],
+      "entrada": 3,
+      "cola": 22
+    },
+    {
+      "id": "e2-grupo",
+      "voces": [
+        "02-grupo"
+      ],
+      "entrada": 4,
+      "cola": 10
+    },
+    {
+      "id": "e3-criterio",
+      "voces": [
+        "03-criterio"
+      ],
+      "entrada": 4,
+      "cola": 10
+    },
+    {
+      "id": "e4-rango",
+      "voces": [
+        "04-rango"
+      ],
+      "entrada": 6,
+      "cola": 16
+    },
+    {
+      "id": "e5-cierre",
+      "voces": [
+        "05-cierre"
+      ],
+      "entrada": 6,
+      "cola": 66
+    }
+  ]
+}

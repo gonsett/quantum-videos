@@ -1,0 +1,16 @@
+{
+  "_nota": "Escuchate (01/10/2026): Fathom en Ring Closers. La grabación del roleplay queda guardada en la pelea. No promete análisis automático.",
+  "_instruccion_voz": "Una closer de ventas rioplatense contándole algo a un colega, en tono de charla natural y cercana, como si le mostrara algo en el celular. Nada de locutora, nada de tono de anuncio ni de tráiler: voz normal, relajada pero con ganas, velocidad de conversación normal, ágil, sin pausas dramáticas.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    { "id": "01-gancho", "texto": "La última vez que te dijeron: lo tengo que pensar... ¿qué respondiste exactamente?" },
+    { "id": "02-nadie", "texto": "No te acordás. Nadie se acuerda." },
+    { "id": "03-repetis", "texto": "Y lo que no escuchás, lo repetís en la próxima llamada." },
+    { "id": "04-mejores", "texto": "Por eso los mejores closers revisan sus llamadas grabadas." },
+    { "id": "05-fathom", "texto": "En Ring Closers conectás Fathom: tu roleplay se graba y queda guardado en la pelea." },
+    { "id": "06-frase", "texto": "Lo volvés a ver... y encontrás la frase exacta donde se te fue." },
+    { "id": "07-corregis", "texto": "La corregís practicando, no perdiendo un cliente." },
+    { "id": "08-cierre", "texto": "Escuchate. Ring Closers." }
+  ]
+}

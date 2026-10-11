@@ -1,0 +1,70 @@
+{
+  "_nota": "Estructura del comercial de Ring Closers. La lee montaje.mjs.",
+  "guion": "guion-ringclosers.json",
+  "voz": "public/voz-ringclosers-final",
+  "salida": "timeline-ringclosers.json",
+  "fps": 30,
+  "estructura": [
+    {
+      "id": "r1-gancho",
+      "round": 1,
+      "voces": [
+        "01-gancho"
+      ],
+      "entrada": 16,
+      "cola": 24
+    },
+    {
+      "id": "r2-comodidad",
+      "round": 2,
+      "voces": [
+        "02-comodidad",
+        "03-rapido"
+      ],
+      "entrada": 6,
+      "entre": 10,
+      "cola": 8
+    },
+    {
+      "id": "r2-tercera",
+      "round": 2,
+      "voces": [
+        "04-tercera"
+      ],
+      "entrada": 6,
+      "cola": 30
+    },
+    {
+      "id": "r3-solucion",
+      "round": 3,
+      "voces": [
+        "05-arma",
+        "06-rivales",
+        "07-afuera"
+      ],
+      "entrada": 10,
+      "entre": 8,
+      "cola": 30
+    },
+    {
+      "id": "r4-honestidad",
+      "round": 4,
+      "voces": [
+        "08-equipo",
+        "09-reales"
+      ],
+      "entrada": 16,
+      "entre": 16,
+      "cola": 22
+    },
+    {
+      "id": "r5-cierre",
+      "round": 5,
+      "voces": [
+        "10-cta"
+      ],
+      "entrada": 12,
+      "cola": 48
+    }
+  ]
+}

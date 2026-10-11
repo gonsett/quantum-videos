@@ -1,0 +1,48 @@
+{
+  "_nota": "Anuncio Ring Setters: tomas de voz-setters-rc recortadas de silencio.",
+  "_instruccion_voz": "Una mujer rioplatense que trabaja en ventas contándole una novedad a un colega, en tono de charla natural y cercana, con entusiasmo contenido. Nada de locutora, nada de tono de anuncio ni de tráiler: voz normal, relajada pero con ganas, velocidad de conversación normal. Las palabras en inglés (closers, setters, show rate, Ring Setters, Fathom) se dicen con pronunciación en inglés natural.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    {
+      "id": "01-anios",
+      "texto": "Durante años, todo fue para los closers."
+    },
+    {
+      "id": "02-cierre",
+      "texto": "Pero ninguna venta empieza en el cierre."
+    },
+    {
+      "id": "03-llego",
+      "texto": "Empieza con alguien que consigue la cita. Llegó Ring Setters."
+    },
+    {
+      "id": "04-practica",
+      "texto": "Practicás tus llamadas con otros setters, todas las semanas."
+    },
+    {
+      "id": "07-verdad",
+      "texto": "Y al terminar, tu compañero te dice la verdad: si esa cita, de verdad, iba a ir."
+    },
+    {
+      "id": "12-tabla",
+      "texto": "Subís en la tabla de tu comunidad, y ganás trofeos de setter."
+    },
+    {
+      "id": "13-carnet",
+      "texto": "Tu carnet y tu CV quedan a la vista de los directores."
+    },
+    {
+      "id": "14-ofertas",
+      "texto": "Y te llegan ofertas de trabajo pensadas para setters."
+    },
+    {
+      "id": "15-ring",
+      "texto": "Los closers ya tenían su ring. Ahora los setters tienen el suyo."
+    },
+    {
+      "id": "16-abierto",
+      "texto": "Ring Setters. Ya está abierto."
+    }
+  ]
+}

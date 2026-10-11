@@ -1,0 +1,400 @@
+{
+  "fps": 30,
+  "total": 960,
+  "escenas": [
+    {
+      "id": "e1-gancho",
+      "from": 0,
+      "durationInFrames": 165,
+      "clips": [
+        {
+          "voz": "01-gancho",
+          "enEscena": 3,
+          "cuadros": 151,
+          "palabras": [
+            {
+              "palabra": "¿Sos",
+              "cuadro": 3
+            },
+            {
+              "palabra": "closer",
+              "cuadro": 13
+            },
+            {
+              "palabra": "y",
+              "cuadro": 22
+            },
+            {
+              "palabra": "tenés",
+              "cuadro": 31
+            },
+            {
+              "palabra": "un",
+              "cuadro": 37
+            },
+            {
+              "palabra": "nivel",
+              "cuadro": 41
+            },
+            {
+              "palabra": "altísimo?",
+              "cuadro": 49
+            },
+            {
+              "palabra": "Con",
+              "cuadro": 83
+            },
+            {
+              "palabra": "más",
+              "cuadro": 86
+            },
+            {
+              "palabra": "razón",
+              "cuadro": 92
+            },
+            {
+              "palabra": "tenés",
+              "cuadro": 103
+            },
+            {
+              "palabra": "que",
+              "cuadro": 112
+            },
+            {
+              "palabra": "usar",
+              "cuadro": 113
+            },
+            {
+              "palabra": "Ring",
+              "cuadro": 119
+            },
+            {
+              "palabra": "Closers.",
+              "cuadro": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e2-puente",
+      "from": 165,
+      "durationInFrames": 105,
+      "clips": [
+        {
+          "voz": "02-puente",
+          "enEscena": 4,
+          "cuadros": 93,
+          "palabras": [
+            {
+              "palabra": "Porque",
+              "cuadro": 4
+            },
+            {
+              "palabra": "arriba,",
+              "cuadro": 11
+            },
+            {
+              "palabra": "la",
+              "cuadro": 21
+            },
+            {
+              "palabra": "diferencia",
+              "cuadro": 34
+            },
+            {
+              "palabra": "está",
+              "cuadro": 50
+            },
+            {
+              "palabra": "en",
+              "cuadro": 59
+            },
+            {
+              "palabra": "el",
+              "cuadro": 63
+            },
+            {
+              "palabra": "detalle.",
+              "cuadro": 66
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e3-afilas",
+      "from": 270,
+      "durationInFrames": 150,
+      "clips": [
+        {
+          "voz": "03-afilas",
+          "enEscena": 4,
+          "cuadros": 132,
+          "palabras": [
+            {
+              "palabra": "Uno:",
+              "cuadro": 4
+            },
+            {
+              "palabra": "afilás.",
+              "cuadro": 20
+            },
+            {
+              "palabra": "Roleplay",
+              "cuadro": 47
+            },
+            {
+              "palabra": "con",
+              "cuadro": 58
+            },
+            {
+              "palabra": "closers",
+              "cuadro": 65
+            },
+            {
+              "palabra": "de",
+              "cuadro": 77
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 80
+            },
+            {
+              "palabra": "altura,",
+              "cuadro": 84
+            },
+            {
+              "palabra": "y",
+              "cuadro": 92
+            },
+            {
+              "palabra": "con",
+              "cuadro": 100
+            },
+            {
+              "palabra": "alguno",
+              "cuadro": 107
+            },
+            {
+              "palabra": "mejor.",
+              "cuadro": 117
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4-conocen",
+      "from": 420,
+      "durationInFrames": 120,
+      "clips": [
+        {
+          "voz": "04-conocen",
+          "enEscena": 4,
+          "cuadros": 108,
+          "palabras": [
+            {
+              "palabra": "Dos:",
+              "cuadro": 4
+            },
+            {
+              "palabra": "te",
+              "cuadro": 22
+            },
+            {
+              "palabra": "conocen.",
+              "cuadro": 24
+            },
+            {
+              "palabra": "Tu",
+              "cuadro": 50
+            },
+            {
+              "palabra": "lugar",
+              "cuadro": 52
+            },
+            {
+              "palabra": "en",
+              "cuadro": 59
+            },
+            {
+              "palabra": "el",
+              "cuadro": 62
+            },
+            {
+              "palabra": "ranking",
+              "cuadro": 66
+            },
+            {
+              "palabra": "es",
+              "cuadro": 83
+            },
+            {
+              "palabra": "público.",
+              "cuadro": 87
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e5-buscan",
+      "from": 540,
+      "durationInFrames": 225,
+      "clips": [
+        {
+          "voz": "05-buscan",
+          "enEscena": 4,
+          "cuadros": 216,
+          "palabras": [
+            {
+              "palabra": "Tres:",
+              "cuadro": 4
+            },
+            {
+              "palabra": "te",
+              "cuadro": 26
+            },
+            {
+              "palabra": "buscan.",
+              "cuadro": 28
+            },
+            {
+              "palabra": "Los",
+              "cuadro": 56
+            },
+            {
+              "palabra": "directores",
+              "cuadro": 61
+            },
+            {
+              "palabra": "comerciales",
+              "cuadro": 74
+            },
+            {
+              "palabra": "recorren",
+              "cuadro": 90
+            },
+            {
+              "palabra": "ese",
+              "cuadro": 110
+            },
+            {
+              "palabra": "ranking,",
+              "cuadro": 116
+            },
+            {
+              "palabra": "y",
+              "cuadro": 126
+            },
+            {
+              "palabra": "si",
+              "cuadro": 137
+            },
+            {
+              "palabra": "les",
+              "cuadro": 143
+            },
+            {
+              "palabra": "interesás,",
+              "cuadro": 148
+            },
+            {
+              "palabra": "te",
+              "cuadro": 172
+            },
+            {
+              "palabra": "mandan",
+              "cuadro": 175
+            },
+            {
+              "palabra": "una",
+              "cuadro": 186
+            },
+            {
+              "palabra": "propuesta.",
+              "cuadro": 191
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e6-cierre",
+      "from": 765,
+      "durationInFrames": 195,
+      "clips": [
+        {
+          "voz": "06-cierre",
+          "enEscena": 4,
+          "cuadros": 94,
+          "palabras": [
+            {
+              "palabra": "Vos",
+              "cuadro": 4
+            },
+            {
+              "palabra": "entrená.",
+              "cuadro": 11
+            },
+            {
+              "palabra": "Que",
+              "cuadro": 35
+            },
+            {
+              "palabra": "te",
+              "cuadro": 36
+            },
+            {
+              "palabra": "busquen,",
+              "cuadro": 40
+            },
+            {
+              "palabra": "sin",
+              "cuadro": 60
+            },
+            {
+              "palabra": "mover",
+              "cuadro": 65
+            },
+            {
+              "palabra": "un",
+              "cuadro": 72
+            },
+            {
+              "palabra": "dedo.",
+              "cuadro": 77
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "01-gancho",
+      "desde": 3
+    },
+    {
+      "voz": "02-puente",
+      "desde": 169
+    },
+    {
+      "voz": "03-afilas",
+      "desde": 274
+    },
+    {
+      "voz": "04-conocen",
+      "desde": 424
+    },
+    {
+      "voz": "05-buscan",
+      "desde": 544
+    },
+    {
+      "voz": "06-cierre",
+      "desde": 769
+    }
+  ]
+}

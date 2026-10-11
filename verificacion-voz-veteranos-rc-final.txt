@@ -1,0 +1,36 @@
+01-gancho      OK (2 de 3 oídos)
+  guion: Cada objeción nueva que probás en una llamada real, la pagás con un lead.
+  oído (gemini-3.5-transcribe): Cada objeción nueva que probás en una llamada real, la pagás con un lead.
+  oído (cf:whisper-large-v3-turbo): Cada objeción nueva que probás en una llamada real, la pagás con un lead.
+  sin respuesta: gemini-3.5-flash
+
+02-hueso       OK (3 de 3 oídos)
+  guion: Ir al hueso funciona. Pero ir al hueso cuesta: cada llamada que sale mal es una venta que no vuelve.
+  oído (gemini-3.5-flash): Ir al hueso funciona, pero ir al hueso cuesta. Cada llamada que sale mal, es una venta que no vuelve.
+  oído (gemini-3.5-transcribe): Ir al hueso funciona, pero ir al hueso cuesta. Cada llamada que sale mal es una venta que no vuelve.
+  oído (cf:whisper-large-v3-turbo): Ir al hueso funciona, pero ir al hueso cuesta. Cada llamada que sale mal es una venta que no vuelve.
+
+03-ring        OK (2 de 3 oídos)
+  guion: Ring Closers te deja probar, fallar y ajustar con otro closer de verdad, antes de que te cueste plata.
+  oído (gemini-3.5-transcribe): Rinclosers te deja probar, fallar y ajustar con otro closer de verdad antes de que te cueste plata.
+  oído (cf:whisper-large-v3-turbo): Ring Closers te deja probar, fallar y ajustar con otro closer de verdad, antes de que te cueste plata.
+  sin respuesta: gemini-3.5-flash
+
+04-simple      OK (1 de 3 oídos)
+  guion: Sin sistemas raros. Marcás cuándo podés, y te llega con quién.
+  oído (cf:whisper-large-v3-turbo): Sin sistemas raros, marcás cuando podés y te llega con quién.
+  sin respuesta: gemini-3.5-flash, gemini-3.5-transcribe
+
+05-trayectoria OK (2 de 3 oídos)
+  guion: Y tu trayectoria, con tus números, queda guardada en tu perfil.
+  oído (gemini-3.5-transcribe): Y tu trayectoria con tus números queda guardada en tu perfil.
+  oído (cf:whisper-large-v3-turbo): Y tu trayectoria, con tus números, queda guardada en tu perfil.
+  sin respuesta: gemini-3.5-flash
+
+06-cierre      OK (2 de 3 oídos)
+  guion: Practicá donde no te cuesta, un lead.
+  oído (gemini-3.5-transcribe): Práctica donde no te cuesta, un lead.
+  oído (cf:whisper-large-v3-turbo): Práctica donde no te cuesta. Un lead.
+  sin respuesta: gemini-3.5-flash
+
+5 toma(s) para revisar o sin verificar de 6

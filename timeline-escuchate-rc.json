@@ -1,0 +1,460 @@
+{
+  "fps": 30,
+  "total": 1232,
+  "escenas": [
+    {
+      "id": "e1-gancho",
+      "from": 0,
+      "durationInFrames": 176,
+      "clips": [
+        {
+          "voz": "01-gancho",
+          "enEscena": 4,
+          "cuadros": 164,
+          "palabras": [
+            {
+              "palabra": "La",
+              "cuadro": 12
+            },
+            {
+              "palabra": "última",
+              "cuadro": 16
+            },
+            {
+              "palabra": "vez",
+              "cuadro": 26
+            },
+            {
+              "palabra": "que",
+              "cuadro": 33
+            },
+            {
+              "palabra": "te",
+              "cuadro": 38
+            },
+            {
+              "palabra": "dijeron:",
+              "cuadro": 41
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 59
+            },
+            {
+              "palabra": "tengo",
+              "cuadro": 66
+            },
+            {
+              "palabra": "que",
+              "cuadro": 74
+            },
+            {
+              "palabra": "pensar...",
+              "cuadro": 78
+            },
+            {
+              "palabra": "¿qué",
+              "cuadro": 110
+            },
+            {
+              "palabra": "respondiste",
+              "cuadro": 113
+            },
+            {
+              "palabra": "exactamente?",
+              "cuadro": 135
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e2-nadie",
+      "from": 176,
+      "durationInFrames": 110,
+      "clips": [
+        {
+          "voz": "02-nadie",
+          "enEscena": 2,
+          "cuadros": 100,
+          "palabras": [
+            {
+              "palabra": "No",
+              "cuadro": 11
+            },
+            {
+              "palabra": "te",
+              "cuadro": 14
+            },
+            {
+              "palabra": "acordás.",
+              "cuadro": 19
+            },
+            {
+              "palabra": "Nadie",
+              "cuadro": 56
+            },
+            {
+              "palabra": "se",
+              "cuadro": 69
+            },
+            {
+              "palabra": "acuerda.",
+              "cuadro": 74
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e3-repetis",
+      "from": 286,
+      "durationInFrames": 126,
+      "clips": [
+        {
+          "voz": "03-repetis",
+          "enEscena": 2,
+          "cuadros": 114,
+          "palabras": [
+            {
+              "palabra": "Y",
+              "cuadro": 12
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 13
+            },
+            {
+              "palabra": "que",
+              "cuadro": 18
+            },
+            {
+              "palabra": "no",
+              "cuadro": 21
+            },
+            {
+              "palabra": "escuchás,",
+              "cuadro": 25
+            },
+            {
+              "palabra": "lo",
+              "cuadro": 51
+            },
+            {
+              "palabra": "repetís",
+              "cuadro": 58
+            },
+            {
+              "palabra": "en",
+              "cuadro": 76
+            },
+            {
+              "palabra": "la",
+              "cuadro": 80
+            },
+            {
+              "palabra": "próxima",
+              "cuadro": 82
+            },
+            {
+              "palabra": "llamada.",
+              "cuadro": 91
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4-mejores",
+      "from": 412,
+      "durationInFrames": 134,
+      "clips": [
+        {
+          "voz": "04-mejores",
+          "enEscena": 4,
+          "cuadros": 124,
+          "palabras": [
+            {
+              "palabra": "Por",
+              "cuadro": 14
+            },
+            {
+              "palabra": "eso",
+              "cuadro": 18
+            },
+            {
+              "palabra": "los",
+              "cuadro": 26
+            },
+            {
+              "palabra": "mejores",
+              "cuadro": 32
+            },
+            {
+              "palabra": "closers",
+              "cuadro": 46
+            },
+            {
+              "palabra": "revisan",
+              "cuadro": 66
+            },
+            {
+              "palabra": "sus",
+              "cuadro": 84
+            },
+            {
+              "palabra": "llamadas",
+              "cuadro": 89
+            },
+            {
+              "palabra": "grabadas.",
+              "cuadro": 99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e5-fathom",
+      "from": 546,
+      "durationInFrames": 209,
+      "clips": [
+        {
+          "voz": "05-fathom",
+          "enEscena": 2,
+          "cuadros": 197,
+          "palabras": [
+            {
+              "palabra": "En",
+              "cuadro": 11
+            },
+            {
+              "palabra": "Ring",
+              "cuadro": 18
+            },
+            {
+              "palabra": "Closers",
+              "cuadro": 25
+            },
+            {
+              "palabra": "conectás",
+              "cuadro": 52
+            },
+            {
+              "palabra": "Fathom:",
+              "cuadro": 72
+            },
+            {
+              "palabra": "tu",
+              "cuadro": 97
+            },
+            {
+              "palabra": "roleplay",
+              "cuadro": 100
+            },
+            {
+              "palabra": "se",
+              "cuadro": 115
+            },
+            {
+              "palabra": "graba",
+              "cuadro": 127
+            },
+            {
+              "palabra": "y",
+              "cuadro": 138
+            },
+            {
+              "palabra": "queda",
+              "cuadro": 142
+            },
+            {
+              "palabra": "guardado",
+              "cuadro": 149
+            },
+            {
+              "palabra": "en",
+              "cuadro": 165
+            },
+            {
+              "palabra": "la",
+              "cuadro": 168
+            },
+            {
+              "palabra": "pelea.",
+              "cuadro": 171
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e6-frase",
+      "from": 755,
+      "durationInFrames": 165,
+      "clips": [
+        {
+          "voz": "06-frase",
+          "enEscena": 4,
+          "cuadros": 147,
+          "palabras": [
+            {
+              "palabra": "Lo",
+              "cuadro": 13
+            },
+            {
+              "palabra": "volvés",
+              "cuadro": 16
+            },
+            {
+              "palabra": "a",
+              "cuadro": 28
+            },
+            {
+              "palabra": "ver...",
+              "cuadro": 32
+            },
+            {
+              "palabra": "y",
+              "cuadro": 54
+            },
+            {
+              "palabra": "encontrás",
+              "cuadro": 57
+            },
+            {
+              "palabra": "la",
+              "cuadro": 77
+            },
+            {
+              "palabra": "frase",
+              "cuadro": 81
+            },
+            {
+              "palabra": "exacta",
+              "cuadro": 93
+            },
+            {
+              "palabra": "donde",
+              "cuadro": 116
+            },
+            {
+              "palabra": "se",
+              "cuadro": 120
+            },
+            {
+              "palabra": "te",
+              "cuadro": 127
+            },
+            {
+              "palabra": "fue.",
+              "cuadro": 131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e7-corregis",
+      "from": 920,
+      "durationInFrames": 137,
+      "clips": [
+        {
+          "voz": "07-corregis",
+          "enEscena": 4,
+          "cuadros": 123,
+          "palabras": [
+            {
+              "palabra": "La",
+              "cuadro": 12
+            },
+            {
+              "palabra": "corregís",
+              "cuadro": 17
+            },
+            {
+              "palabra": "practicando,",
+              "cuadro": 33
+            },
+            {
+              "palabra": "no",
+              "cuadro": 73
+            },
+            {
+              "palabra": "perdiendo",
+              "cuadro": 77
+            },
+            {
+              "palabra": "un",
+              "cuadro": 91
+            },
+            {
+              "palabra": "cliente.",
+              "cuadro": 95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e8-cierre",
+      "from": 1057,
+      "durationInFrames": 175,
+      "clips": [
+        {
+          "voz": "08-cierre",
+          "enEscena": 8,
+          "cuadros": 107,
+          "palabras": [
+            {
+              "palabra": "Escuchate.",
+              "cuadro": 17
+            },
+            {
+              "palabra": "Ring",
+              "cuadro": 64
+            },
+            {
+              "palabra": "Closers.",
+              "cuadro": 81
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "voz": "01-gancho",
+      "desde": 4
+    },
+    {
+      "voz": "02-nadie",
+      "desde": 178
+    },
+    {
+      "voz": "03-repetis",
+      "desde": 288
+    },
+    {
+      "voz": "04-mejores",
+      "desde": 416
+    },
+    {
+      "voz": "05-fathom",
+      "desde": 548
+    },
+    {
+      "voz": "06-frase",
+      "desde": 759
+    },
+    {
+      "voz": "07-corregis",
+      "desde": 924
+    },
+    {
+      "voz": "08-cierre",
+      "desde": 1065
+    }
+  ]
+}

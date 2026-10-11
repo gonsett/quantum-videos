@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01-avatar",
+    "segundos": 6.851
+  },
+  {
+    "id": "02-guardias",
+    "segundos": 10.331
+  },
+  {
+    "id": "03-zurdo",
+    "segundos": 4.731
+  },
+  {
+    "id": "04-contragolpe",
+    "segundos": 4.731
+  },
+  {
+    "id": "05-desbloquea",
+    "segundos": 4.571
+  },
+  {
+    "id": "06-noqueador",
+    "segundos": 8.611
+  },
+  {
+    "id": "07-prueba",
+    "segundos": 3.931
+  },
+  {
+    "id": "08-comodo",
+    "segundos": 4.171
+  },
+  {
+    "id": "09-miedo",
+    "segundos": 5.931
+  },
+  {
+    "id": "10-cta",
+    "segundos": 4.171
+  }
+]

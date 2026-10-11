@@ -1,0 +1,33 @@
+{
+  "_nota": "Ring Closers para closers veteranos / de la vieja escuela (19/09/2026). Angulo: el costo de aprender en llamadas reales (cada objecion nueva se paga con un lead). Sin apelar a la edad ni inventar estadisticas. Tono calmo, de igual a igual.",
+  "_reglas": "Voz Charon a velocidad de conversación normal (objetivo 14-16 caracteres por segundo de habla, medido). Sin pausas dramáticas. Verificar cada toma con dos transcriptores antes de montar.",
+  "_instruccion_voz": "Locutor profesional masculino, en español rioplatense, tono sereno, firme y seguro, como un veterano que le habla de igual a igual a otro veterano. Hablá a velocidad de conversación normal, fluida: sin arrastrar las palabras, sin pausas largas ni dramáticas. Frases cortas y directas, con énfasis natural en las palabras clave.",
+  "voz": "Charon",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    {
+      "id": "01-gancho",
+      "texto": "Cada objeción nueva que probás en una llamada real, la pagás con un lead."
+    },
+    {
+      "id": "02-hueso",
+      "texto": "Ir al hueso funciona. Pero ir al hueso cuesta: cada llamada que sale mal es una venta que no vuelve."
+    },
+    {
+      "id": "03-ring",
+      "texto": "Ring Closers te deja probar, fallar y ajustar con otro closer de verdad, antes de que te cueste plata."
+    },
+    {
+      "id": "04-simple",
+      "texto": "Sin sistemas raros. Marcás cuándo podés, y te llega con quién."
+    },
+    {
+      "id": "05-trayectoria",
+      "texto": "Y tu trayectoria, con tus números, queda guardada en tu perfil."
+    },
+    {
+      "id": "06-cierre",
+      "texto": "Practicá donde no te cuesta, un lead."
+    }
+  ]
+}

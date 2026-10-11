@@ -1,0 +1,16 @@
+{
+  "_nota": "Ring Closers: qué es, qué problema resuelve y por qué usarlo. Guion v2 aprobado por Javier el 18/09/2026. Empieza sí o sí con '¿Qué es Ring Closers?'. Las etiquetas de los capítulos 2 y 3 ('¿Qué problema resuelve?', '¿Por qué usarlo?') van escritas en pantalla, sin voz. Sin 'gratis'.",
+  "_reglas": "Voz Charon (serie cinematográfica). Ritmo natural, sin acelerar. Verificar cada toma por transcripción antes de montar.",
+  "_instruccion_voz": "Locutor profesional masculino, voz grave, cálida y con autoridad, en español rioplatense. Ritmo pausado y seguro, frases cortas con peso en cada palabra, como el narrador de un tráiler sobrio. Sin tono publicitario exagerado ni entusiasmo forzado.",
+  "voz": "Charon",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    { "id": "01-que-es", "texto": "¿Qué es Ring Closers? Un ring donde los closers se entrenan entre sí." },
+    { "id": "02-problema", "texto": "Practicar siempre con los mismos dos te frena, y organizarlo a mano, nadie lo sostiene." },
+    { "id": "03-solucion", "texto": "Ring Closers te arma tres roleplays por semana: uno por debajo, uno igual, uno por encima." },
+    { "id": "04-juego", "texto": "Porque hay algo en juego: cumplís, subís de rango; te falta una, perdés puntos." },
+    { "id": "05-evaluan", "texto": "Porque otros closers te evalúan: tu nivel es real." },
+    { "id": "06-ven", "texto": "Porque arriba te ven: directores comerciales buscan closers, y podés postularte a ofertas." },
+    { "id": "07-cierre", "texto": "Lo armó un closer. Subite al ring." }
+  ]
+}
