@@ -1,0 +1,20 @@
+{
+  "_nota": "La caja negra (17/10/2026): nadie te dice por qué no te compró; en Ring Closers el roleplay queda grabado en la pelea y el rival te pone nota. Una sola toma corrida, sin huecos entre frases.",
+  "_instruccion_voz": "Una closer de ventas rioplatense hablándole a un colega, de igual a igual, contándole algo que a ella también le dolió. La apertura del avión, serena, casi documental. Desde 'nadie te dice nada', más cercana, con un poco de bronca contenida. Las tres preguntas rápidas, como cuando uno se las hace solo en el auto. 'Nunca lo vas a saber', seco. Desde 'En Ring Closers' gana luz y firmeza, sin subir el tono. Nada de locutora, nada de tono de anuncio ni de publicidad, nada dramático. Ritmo de conversación normal: las frases se encadenan sin pausas largas. 'Roleplay' y 'closers' se dicen con pronunciación en inglés natural.",
+  "voz": "Callirrhoe",
+  "modelo": "gemini-3.1-flash-tts-preview",
+  "segmentos": [
+    {
+      "id": "toma-a",
+      "texto": "Cuando se cae un avión, alguien busca la caja negra para saber qué pasó. Cuando se te cae una venta, nadie te dice nada. Te dicen «lo veo y te aviso», y desaparecen. ¿Fue el precio? ¿Te apuraste? ¿Fue algo que dijiste en el minuto doce? Nunca lo vas a saber. Y cuando adivinás, cambiás lo que no estaba mal, y repetís lo que sí. En Ring Closers, cada roleplay tiene su caja negra. Lo grabás, y la grabación vive en la pelea: volvés al minuto doce y lo ves con tus propios ojos. Y el closer que estuvo enfrente te pone nota. Un cliente se va sin decirte nada. Un closer te dice cómo estuviste. Ring Closers. Practicá con closers. Cerrá con clientes."
+    },
+    {
+      "id": "toma-b",
+      "texto": "Cuando se cae un avión, alguien busca la caja negra para saber qué pasó. Cuando se te cae una venta, nadie te dice nada. Te dicen «lo veo y te aviso», y desaparecen. ¿Fue el precio? ¿Te apuraste? ¿Fue algo que dijiste en el minuto doce? Nunca lo vas a saber. Y cuando adivinás, cambiás lo que no estaba mal, y repetís lo que sí. En Ring Closers, cada roleplay tiene su caja negra. Lo grabás, y la grabación vive en la pelea: volvés al minuto doce y lo ves con tus propios ojos. Y el closer que estuvo enfrente te pone nota. Un cliente se va sin decirte nada. Un closer te dice cómo estuviste. Ring Closers. Practicá con closers. Cerrá con clientes."
+    },
+    {
+      "id": "toma-c",
+      "texto": "Cuando se cae un avión, alguien busca la caja negra para saber qué pasó. Cuando se te cae una venta, nadie te dice nada. Te dicen «lo veo y te aviso», y desaparecen. ¿Fue el precio? ¿Te apuraste? ¿Fue algo que dijiste en el minuto doce? Nunca lo vas a saber. Y cuando adivinás, cambiás lo que no estaba mal, y repetís lo que sí. En Ring Closers, cada roleplay tiene su caja negra. Lo grabás, y la grabación vive en la pelea: volvés al minuto doce y lo ves con tus propios ojos. Y el closer que estuvo enfrente te pone nota. Un cliente se va sin decirte nada. Un closer te dice cómo estuviste. Ring Closers. Practicá con closers. Cerrá con clientes."
+    }
+  ]
+}

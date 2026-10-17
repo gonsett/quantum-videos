@@ -99,6 +99,8 @@ import { VideoRacha, DUR_RACHA } from "./racha-rc/Video";
 import { VideoLibreto, DUR_LIBRETO } from "./libreto-rc/Video";
 import { MuestraSilencio, DUR_SIL_MUESTRA } from "./silencio-rc/Muestra";
 import { VideoSilencio, DUR_SILENCIO } from "./silencio-rc/Video";
+import { MuestraCajaNegra, DUR_CN_MUESTRA } from "./caja-negra-rc/Muestra";
+import { VideoCajaNegra, DUR_CN } from "./caja-negra-rc/Video";
 import { SettersGozCompleto, TOTAL_COMPLETO } from "./setters-goz/Completo";
 import { AnuncioSetters, TOTAL_ANUNCIO } from "./setters-goz/Anuncio";
 import { SettersVideo, DURACION_SETTERS } from "./setters-rc/video";
@@ -444,6 +446,8 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="Libreto-RC-Video" component={VideoLibreto} durationInFrames={DUR_LIBRETO} fps={60} width={1080} height={1920} />
       <Composition id="Silencio-RC-Muestra" component={MuestraSilencio} durationInFrames={DUR_SIL_MUESTRA} fps={60} width={1080} height={1920} />
       <Composition id="Silencio-RC-Video" component={VideoSilencio} durationInFrames={DUR_SILENCIO} fps={60} width={1080} height={1920} />
+      <Composition id="CajaNegra-RC-Muestra" component={MuestraCajaNegra} durationInFrames={DUR_CN_MUESTRA} fps={60} width={1080} height={1920} />
+      <Composition id="CajaNegra-RC-Video" component={VideoCajaNegra} durationInFrames={DUR_CN} fps={60} width={1080} height={1920} />
       <Composition id="Setters-Goz-Completo" component={SettersGozCompleto} durationInFrames={TOTAL_COMPLETO} fps={60} width={1080} height={1920} />
       <Composition id="Setters-Anuncio" component={AnuncioSetters} durationInFrames={TOTAL_ANUNCIO} fps={60} width={1080} height={1920} />
       <Composition id="Setters-RC" component={SettersVideo} durationInFrames={DURACION_SETTERS} fps={30} width={1080} height={1920} />
