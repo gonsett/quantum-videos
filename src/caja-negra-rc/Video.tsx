@@ -32,10 +32,10 @@ const FRASE = w(M.dicen) - 6, DESHACE = w(M.desaparecen);
 const PREG = w(M.fue) - 14;
 const MARCAS_EN = [w(M.precio), w(M.apuraste), w(M.doce1)];
 const NUNCA = w(M.nunca) - 4, ADIVINA = w(M.adivinas), MAL = w(M.mal), SI = w(M.si);
-const ABRE = w(M.en) - 8, CADA = w(M.cada);
+const ABRE = w(M.en) - 8;
 const GRABA = w(M.grabas) - 10, BARRE = w(M.volves), LLEGA = w(M.doce2);
 const NOTA0 = w(M.closer1) - 10, NOTA = w(M.nota);
-const TESIS = w(M.cliente) - 10, T1 = w(M.cliente) - 8, T2 = w(M.closer2) - 8;
+const TESIS = w(M.cliente) - 10;
 const LOGO = w(M.logo) - 10, C1 = w(M.practica), C2 = w(M.cerra);
 const CORTES = [TU, FRASE - 20, PREG, NUNCA, ABRE, GRABA, NOTA0, TESIS, LOGO];
 
@@ -52,18 +52,6 @@ const Barrido: React.FC<{ t: number; desde: number; dur?: number; fuerza?: numbe
     background: `linear-gradient(115deg, transparent ${(b - 0.12) * 100}%, rgba(255,255,255,${fuerza}) ${b * 100}%, transparent ${(b + 0.12) * 100}%)` }} />;
 };
 
-// texto que entra como objeto óptico: foco + subida, sale con desenfoque
-const Renglon: React.FC<{ t: number; en: number; sale?: number; top: number; size?: number; color?: string; children: React.ReactNode }> =
-  ({ t, en, sale = 1e9, top, size = 52, color = MARFIL, children }) => {
-    const a = interpolate(t, [en, en + 24], [0, 1], { ...cl, easing: ease });
-    const s = interpolate(t, [sale, sale + 16], [0, 1], cl);
-    if (a <= 0 || s >= 1) return null;
-    return (
-      <div style={{ position: "absolute", left: 60, right: 60, top, textAlign: "center", fontFamily: SERIF_IT, fontStyle: "italic", fontSize: size,
-        lineHeight: 1.15, color, letterSpacing: "-0.01em", opacity: a * (1 - s), filter: bl((1 - a) * 10 + s * 8),
-        transform: `translateY(${(1 - a) * 18 - s * 10}px)` }}>{children}</div>
-    );
-  };
 
 // «Lo veo y te aviso.»: entra con foco; se deshace letra por letra en polvo que cae
 const FRASE_TXT = "«Lo veo y te aviso.»";
@@ -113,14 +101,14 @@ const Linea: React.FC<{ t: number; aparece: number; marcasEn: number[]; desorden
           </div>
         )}
         <div style={{ position: "absolute", left: 0, right: 0, top: RIEL + 62, display: "flex", justifyContent: "space-between", opacity: dibuja * 0.9,
-          fontFamily: MONO, fontSize: 16, letterSpacing: "0.38em", color: "rgba(161,161,170,0.8)" }}>
+          fontFamily: MONO, fontSize: 22, letterSpacing: "0.3em", color: "rgba(161,161,170,0.8)" }}>
           <span>GRABACIÓN DEL ROLEPLAY</span>
           <span style={{ color: verde > 0.5 ? VERDE_C : "rgba(161,161,170,0.8)" }}>
             {barre !== undefined ? `${String(Math.floor(cab)).padStart(2, "0")}:${String(Math.floor((cab % 1) * 60)).padStart(2, "0")}` : "SIN NOTAS"}
           </span>
         </div>
         <div style={{ position: "absolute", left: L / 2 - (L / 2) * dibuja, width: L * dibuja, top: RIEL, height: 1.5,
-          background: "linear-gradient(90deg, transparent, rgba(239,236,230,0.4) 12%, rgba(239,236,230,0.4) 88%, transparent)" }} />
+          background: "linear-gradient(90deg, transparent, rgba(239,236,230,0.6) 12%, rgba(239,236,230,0.6) 88%, transparent)" }} />
         {barre !== undefined && <div style={{ position: "absolute", left: 0, width: xm(cab), top: RIEL - 0.5, height: 2.5,
           background: "linear-gradient(90deg, transparent, rgba(239,236,230,0.9) 30%)" }} />}
         {Array.from({ length: MIN_TOTAL / 5 + 1 }, (_, i) => (
@@ -128,7 +116,7 @@ const Linea: React.FC<{ t: number; aparece: number; marcasEn: number[]; desorden
             <div style={{ position: "absolute", left: xm(i * 5) - 0.5, top: RIEL + 10, width: 1, height: i % 2 ? 6 : 12,
               background: "rgba(239,236,230,0.3)", opacity: dibuja }} />
             {i % 2 === 0 && i > 0 && i < 8 && <div style={{ position: "absolute", left: xm(i * 5) - 30, width: 60, top: RIEL + 30, textAlign: "center",
-              fontFamily: MONO, fontSize: 15, color: "rgba(161,161,170,0.6)", opacity: dibuja }}>{i * 5}</div>}
+              fontFamily: MONO, fontSize: 20, color: "rgba(161,161,170,0.75)", opacity: dibuja }}>{i * 5}</div>}
           </React.Fragment>
         ))}
         {MIN_MARCA.map((m0, i) => {
@@ -145,7 +133,7 @@ const Linea: React.FC<{ t: number; aparece: number; marcasEn: number[]; desorden
               <div style={{ position: "absolute", left: 39.5, top: 76, width: 1, height: 42,
                 background: es12 && verde > 0 ? `rgba(52,211,153,${0.4 + 0.6 * verde})` : "linear-gradient(180deg, transparent, rgba(239,236,230,0.45))" }} />
               <div style={{ position: "absolute", left: 0, right: 0, top: 18, display: "flex", justifyContent: "center", fontFamily: SERIF_IT, fontStyle: "italic",
-                fontSize: 54, lineHeight: 1, color: repite > 0 ? "rgba(239,236,230,0.95)" : "rgba(212,212,216,0.7)",
+                fontSize: 72, lineHeight: 1, color: repite > 0 ? "rgba(239,236,230,0.95)" : "rgba(212,212,216,0.7)",
                 opacity: es12 ? 1 - verde : 1, filter: bl(es12 ? verde * 6 : 0) }}>?</div>
               {es12 && verde > 0 && (
                 <svg width={80} height={60} style={{ position: "absolute", left: 0, top: 14, overflow: "visible" }}>
@@ -232,6 +220,56 @@ const Etiqueta: React.FC<{ t: number }> = ({ t }) => {
   );
 };
 
+// ---------- la frase de la voz, arriba (mismo lenguaje que «Los 7 segundos») ----------
+const Palabra: React.FC<{ t: number; en: number; children: React.ReactNode; style?: React.CSSProperties }> = ({ t, en, children, style }) => {
+  const r = rebote(t, en, 13, 160);
+  const vis = interpolate(t, [en - 1, en + 7], [0, 1], cl);
+  return <span style={{ display: "inline-block", opacity: vis, transform: `translateY(${(1 - r) * 40}px) scale(${0.95 + 0.05 * r})`, filter: bl((1 - vis) * 14), ...style }}>{children}</span>;
+};
+const italica: React.CSSProperties = { fontFamily: SERIF_IT, fontStyle: "italic", fontWeight: 400, fontSize: "1.19em", letterSpacing: "-0.02em" };
+const acentoV = (t: number, en: number): React.CSSProperties => ({ ...italica, color: VERDE_C,
+  textShadow: `0 0 40px rgba(16,185,129,${0.45 * interpolate(t, [en, en + 30], [1, 0.4], cl)})` });
+type Pal = { p: string; s: number; ac?: boolean; it?: boolean };
+const FraseVoz: React.FC<{ t: number; renglones: Pal[][]; hasta: number; tam?: number }> = ({ t, renglones, hasta, tam = 100 }) => {
+  const primera = w(renglones[0][0].s);
+  const op = interpolate(t, [w(hasta) - 2, w(hasta) + 8], [1, 0], cl);
+  if (t < primera - 30 || op <= 0) return null;
+  return (
+    <div style={{ position: "absolute", left: 40, right: 40, top: 210 + Math.sin(t / 80) * 5, opacity: op, filter: op < 1 ? bl((1 - op) * 18) : undefined, transform: `translateX(${Math.sin(t / 110) * 7}px)` }}>
+      <div style={{ textAlign: "center", color: "#f4f4f5", fontFamily: TIGHT, fontWeight: 600, fontSize: tam, letterSpacing: "-0.045em", lineHeight: 1.05,
+        textShadow: "0 4px 30px rgba(0,0,0,0.6)" }}>
+        {renglones.map((r, i) => (
+          <div key={i}>{r.map((pl, j) => (
+            <React.Fragment key={j}>{j > 0 && " "}<Palabra t={t} en={w(pl.s) - 2} style={pl.ac ? acentoV(t, w(pl.s)) : pl.it ? italica : undefined}>{pl.p}</Palabra></React.Fragment>
+          ))}</div>
+        ))}
+      </div>
+    </div>
+  );
+};
+const pal = (txt: string, ...s: number[]): Pal[] => txt.split(" ").map((p, i) => ({ p: p.replace(/[*_]/g, ""), s: s[i], ac: p.startsWith("*"), it: p.startsWith("_") }));
+const FRASES: { r: Pal[][]; hasta: number; tam?: number }[] = [
+  { r: [pal("Cuando se cae", 0.0, 0.18, 0.46), pal("un _avión,", 0.7, 0.86)], hasta: 1.42, tam: 112 },
+  { r: [pal("alguien busca", 1.48, 1.78), pal("la *caja negra", 2.12, 2.32, 2.58), pal("para saber qué pasó.", 2.98, 3.24, 3.58, 3.76)], hasta: 4.34, tam: 100 },
+  { r: [pal("Cuando se te cae", 4.4, 4.56, 4.82, 4.94), pal("una _venta,", 5.2, 5.38)], hasta: 6.14, tam: 108 },
+  { r: [pal("nadie te dice", 6.2, 6.4, 6.62), pal("_nada.", 6.86)], hasta: 7.4, tam: 116 },
+  { r: [pal("Te dicen…", 7.46, 7.6)], hasta: 9.3, tam: 100 },
+  { r: [pal("y _desaparecen.", 9.42, 9.88)], hasta: 10.8, tam: 108 },
+  { r: [pal("¿Fue el _precio?", 10.92, 11.04, 11.16), pal("¿Te _apuraste?", 11.86, 11.96)], hasta: 12.74, tam: 104 },
+  { r: [pal("¿Fue algo que dijiste", 12.8, 12.98, 13.2, 13.4), pal("en el minuto _doce?", 13.9, 14.12, 14.24, 14.64)], hasta: 15.22, tam: 96 },
+  { r: [pal("Nunca lo vas", 15.28, 15.6, 15.74), pal("a _saber.", 15.9, 16.02)], hasta: 16.48, tam: 116 },
+  { r: [pal("Y cuando _adivinás,", 16.54, 16.64, 16.82), pal("cambiás lo que", 17.78, 18.2, 18.4), pal("no estaba _mal,", 18.52, 18.64, 18.92)], hasta: 19.2, tam: 100 },
+  { r: [pal("y repetís", 19.26, 19.68), pal("lo que _sí.", 20.16, 20.32, 20.44)], hasta: 20.92, tam: 112 },
+  { r: [pal("En Ring Closers,", 20.98, 21.12, 21.32), pal("cada *roleplay", 22.26, 22.48), pal("tiene su caja negra.", 23.1, 23.54, 23.76, 24.02)], hasta: 24.64, tam: 100 },
+  { r: [pal("Lo _grabás,", 24.7, 24.8)], hasta: 25.56, tam: 116 },
+  { r: [pal("y la grabación", 25.62, 25.74, 25.84), pal("vive en la _pelea.", 26.36, 26.66, 26.9, 27.04)], hasta: 27.42, tam: 104 },
+  { r: [pal("Volvés al minuto *doce", 27.48, 28.06, 28.24, 28.66)], hasta: 28.96, tam: 96 },
+  { r: [pal("y lo ves con tus", 29.0, 29.42, 29.54, 29.7, 29.86), pal("propios _ojos.", 30.02, 30.42)], hasta: 30.88, tam: 104 },
+  { r: [pal("Y el closer", 30.94, 31.16, 31.28), pal("que estuvo _enfrente", 31.64, 31.86, 32.14), pal("te pone *nota.", 32.64, 33.02, 33.28)], hasta: 33.82, tam: 100 },
+  { r: [pal("Un cliente se va", 33.88, 34.02, 34.68, 35.04), pal("sin decirte _nada.", 35.2, 35.36, 35.86)], hasta: 36.36, tam: 100 },
+  { r: [pal("Un *closer", 36.42, 36.56), pal("te dice cómo", 36.98, 37.4, 37.66), pal("_estuviste.", 37.92)], hasta: 38.6, tam: 108 },
+];
+
 // ---------- la escena ----------
 const Escena: React.FC<{ t: number }> = ({ t }) => {
   const luz = linterna(t);
@@ -269,8 +307,8 @@ const Escena: React.FC<{ t: number }> = ({ t }) => {
     // 3. «Lo veo y te aviso» en la oscuridad: apenas el filo de la caja
     return (
       <AbsoluteFill>
-        <AbsoluteFill style={{ opacity: 0.1 }}>
-          <Placa src="general.jpg" s={0.7} x={0} y={-80} foco={1} />
+        <AbsoluteFill style={{ opacity: 0.32 }}>
+          <Placa src="general.jpg" s={0.7} x={0} y={60} foco={1} />
         </AbsoluteFill>
         <Frase t={t} />
       </AbsoluteFill>
@@ -278,14 +316,14 @@ const Escena: React.FC<{ t: number }> = ({ t }) => {
   }
   if (t < NUNCA) {
     // 4. LAS PREGUNTAS: línea de tiempo delante de la caja fuera de foco, luz fría y baja
-    const s = interpolate(t, [PREG, NUNCA], [0.82, 0.86]);
+    const s = interpolate(t, [PREG, NUNCA], [0.7, 0.74]);
     return (
       <AbsoluteFill>
-        <AbsoluteFill style={{ opacity: interpolate(t, [PREG, PREG + 30], [0, 0.45], cl) }}>
-          <Placa src="hallazgo.jpg" s={s} x={0} y={160} foco={1} luz={0.8} />
+        <AbsoluteFill style={{ opacity: interpolate(t, [PREG, PREG + 30], [0, 0.75], cl) }}>
+          <Placa src="hallazgo.jpg" s={s} x={0} y={380} foco={1} luz={0.8} />
         </AbsoluteFill>
         <Bokeh t={t + 900} luz={0.5} tinte="rgba(244,241,234,1)" />
-        <Linea t={t} aparece={PREG + 4} marcasEn={MARCAS_EN} top={520} />
+        <Linea t={t} aparece={PREG + 4} marcasEn={MARCAS_EN} top={560} />
       </AbsoluteFill>
     );
   }
@@ -295,11 +333,10 @@ const Escena: React.FC<{ t: number }> = ({ t }) => {
     const sale = interpolate(t, [ABRE - 14, ABRE], [1, 0], cl);
     return (
       <AbsoluteFill style={{ opacity: sale }}>
-        <AbsoluteFill style={{ opacity: 0.55 }}>
-          <Placa src="general.jpg" s={s} x={0} y={120} giro={interpolate(t, [NUNCA, ABRE], [-1, 1])} />
+        <AbsoluteFill style={{ opacity: 0.85 }}>
+          <Placa src="general.jpg" s={s} x={0} y={200} giro={interpolate(t, [NUNCA, ABRE], [-1, 1])} />
         </AbsoluteFill>
-        <Linea t={t} aparece={-100} marcasEn={[-100, -100, -100]} desorden top={520} />
-        <Renglon t={t} en={NUNCA + 4} sale={ADIVINA - 10} top={1460} size={58}>Nunca lo vas a saber.</Renglon>
+        <Linea t={t} aparece={-100} marcasEn={[-100, -100, -100]} desorden top={560} />
       </AbsoluteFill>
     );
   }
@@ -310,14 +347,13 @@ const Escena: React.FC<{ t: number }> = ({ t }) => {
     const s = interpolate(d, [0, GRABA - ABRE], [0.78, 0.71], { easing: Easing.out(Easing.cubic) });
     return (
       <AbsoluteFill>
-        <Placa src="abre.jpg" s={s} x={Math.sin(t / 80) * 5} y={60 + sh(ABRE, 12)} rot={sh(ABRE, 0.4)} luz={ilumina}
+        <Placa src="abre.jpg" s={s} x={Math.sin(t / 80) * 5} y={150 + sh(ABRE, 12)} rot={sh(ABRE, 0.4)} luz={ilumina}
           giro={interpolate(d, [0, 120], [2, -1])}>
           <Barrido t={t} desde={ABRE + 8} dur={70} fuerza={0.6} />
         </Placa>
         <AbsoluteFill style={{ background: "radial-gradient(ellipse 60% 30% at 50% 47%, rgba(16,185,129,0.35), transparent 70%)", mixBlendMode: "screen",
           opacity: Math.exp(-d / 16) }} />
         <Bokeh t={t + 200} luz={ilumina} tinte="rgba(52,211,153,1)" />
-        <Renglon t={t} en={CADA - 6} top={1500} size={56}>cada roleplay tiene su caja negra.</Renglon>
       </AbsoluteFill>
     );
   }
@@ -332,21 +368,21 @@ const Escena: React.FC<{ t: number }> = ({ t }) => {
     const sube = interpolate(t, [NOTA0, NOTA0 + 40], [0, 1], { ...cl, easing: ease });
     return (
       <AbsoluteFill>
-        <Placa src="escaner-v2.jpg" s={s} x={Math.sin(t / 95) * 5} y={70 + sh(GRABA, 7) + sh(LLEGA, 3)} giro={interpolate(d, [0, 400], [1.6, -1.6])}
+        <Placa src="escaner-v2.jpg" s={s} x={Math.sin(t / 95) * 5} y={110 + sh(GRABA, 7) + sh(LLEGA, 3)} giro={interpolate(d, [0, 400], [1.6, -1.6])}
           rot={sh(GRABA, 0.25)} foco={nota > 0 ? 1 : foco} focoSrc={nota > 0 ? "escaner-v2-desfoco.jpg" : undefined} luz={ilumina * (1 - 0.35 * nota)}>
           <Laser t={t} desde={GRABA} pulsoEn={BARRE - 50} extra={llega} />
         </Placa>
         <AbsoluteFill style={{ mixBlendMode: "screen", opacity: Math.exp(-Math.max(d, 0) / 14) }}>
-          <div style={{ position: "absolute", left: -200, right: -200, top: 960 + 70 + (LASER_Y - IH / 2) * s - 3, height: 6,
+          <div style={{ position: "absolute", left: -200, right: -200, top: 960 + 110 + (LASER_Y - IH / 2) * s - 3, height: 6,
             background: "linear-gradient(90deg, transparent, rgba(52,211,153,0.5) 30%, rgba(230,255,245,0.9) 50%, rgba(52,211,153,0.5) 70%, transparent)",
             filter: "blur(3px)" }} />
         </AbsoluteFill>
         <Bokeh t={t + 400} luz={ilumina * 0.9} tinte="rgba(52,211,153,1)" />
-        <AbsoluteFill style={{ filter: foco < 0.99 ? `blur(${(1 - foco) * 8}px)` : undefined, opacity: interpolate(t, [GRABA + 8, GRABA + 26], [0, 1], cl) * (1 - 0.55 * sube),
-          transform: `translateY(${-90 * sube}px) scale(${1 - 0.12 * sube})` }}>
-          <Linea t={t} aparece={GRABA + 10} marcasEn={[GRABA + 24, GRABA + 32, GRABA + 40]} barre={BARRE} llega={LLEGA} />
+        <AbsoluteFill style={{ filter: foco < 0.99 ? `blur(${(1 - foco) * 8}px)` : undefined, opacity: interpolate(t, [GRABA + 8, GRABA + 26], [0, 1], cl) * (1 - sube),
+          transform: `translateY(${40 * sube}px)` }}>
+          <Linea t={t} aparece={GRABA + 10} marcasEn={[GRABA + 24, GRABA + 32, GRABA + 40]} barre={BARRE} llega={LLEGA} top={1380} />
         </AbsoluteFill>
-        <Tarjeta t={t} en={NOTA0} top={1250} />
+        <Tarjeta t={t} en={NOTA0} top={1420} />
       </AbsoluteFill>
     );
   }
@@ -357,12 +393,10 @@ const Escena: React.FC<{ t: number }> = ({ t }) => {
     const sale = interpolate(t, [LOGO - 14, LOGO], [1, 0], cl);
     return (
       <AbsoluteFill style={{ opacity: sale }}>
-        <Placa src="escaner-v2.jpg" s={s} x={0} y={-110} luz={interpolate(d, [0, 20], [0.4, 0.85], cl)} giro={interpolate(d, [0, 200], [-1.5, 1])}>
+        <Placa src="escaner-v2.jpg" s={s} x={0} y={170} luz={interpolate(d, [0, 20], [0.4, 0.85], cl)} giro={interpolate(d, [0, 200], [-1.5, 1])}>
           <Laser t={t} desde={TESIS - 40} />
         </Placa>
         <Bokeh t={t + 600} luz={0.7} tinte="rgba(52,211,153,1)" />
-        <Renglon t={t} en={T1} top={1540} size={50} color="rgba(161,161,170,0.85)">Un cliente se va sin decirte nada.</Renglon>
-        <Renglon t={t} en={T2} top={1620} size={50}>Un <span style={{ color: VERDE_C }}>closer</span> te dice cómo estuviste.</Renglon>
       </AbsoluteFill>
     );
   }
@@ -414,6 +448,7 @@ export const VideoCajaNegra: React.FC = () => {
         </AbsoluteFill>
       ))}
       <AbsoluteFill style={{ background: "rgba(10,28,26,0.18)", mixBlendMode: "soft-light" }} />
+      {FRASES.map((fr, i) => <FraseVoz key={i} t={f} renglones={fr.r} hasta={fr.hasta} tam={fr.tam} />)}
       <AbsoluteFill style={{ background: "radial-gradient(ellipse 85% 70% at 50% 47%, transparent 52%, rgba(0,0,0,0.7))" }} />
       <Img src={staticFile(`caja-negra-rc/grano-${Math.floor(f / 2) % 8}.png`)} style={{ position: "absolute", inset: 0, width: 1080, height: 1920 }} />
       <AbsoluteFill style={{ background: "#000", opacity: interpolate(f, [DUR_CN - 30, DUR_CN - 1], [0, 1], cl) }} />
