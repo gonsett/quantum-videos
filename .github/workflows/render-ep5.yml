@@ -1,16 +1,20 @@
-# Render repartido del ep. 5 «Ya pagó» (oficina-piso.html?ep5, three.js) en máquinas sin placa (WebGL por SwiftShader).
-# Cada máquina graba un tramo de cuadros (DESDE-HASTA), lo codifica y al final se une todo sin recodificar y se le pone el audio.
-# Se dispara con push a render-ep5 (o a mano). PRUEBA="a-b" graba solo esos cuadros en una sola máquina, para probar.
+# Ep. 5 «Ya pagó» (oficina-piso.html?ep5, three.js) en máquinas sin placa (WebGL por SwiftShader).
+#
+# push a render-ep5  → solo «verificar»: cajas.mjs (textos que se pisan, 4 máquinas) + stills a 1080×1920 (3 máquinas).
+# render completo    → a mano: gh workflow run render-ep5.yml --ref render-ep5 -f completo=true
+#                      (prueba de un tramo: -f completo=true -f prueba=1080-1109)
 name: Render ep5
 on:
   push:
     branches: [render-ep5]
   workflow_dispatch:
+    inputs:
+      completo: { description: "true = render repartido en 19 tramos", type: boolean, default: false }
+      prueba: { description: "a-b = solo esos cuadros en una máquina (con completo=true)", default: "" }
 
 env:
   CUADROS: "3030"     # round(50.48 * 60): cuadros 0..3029
   PARTES: "19"
-  PRUEBA: "1080-1109"        # ej. "600-605"; vacío = el video entero
   FPS: "60"
   SUB: "1"
   W: "1080"
@@ -18,7 +22,72 @@ env:
   SALIDA: Ep5-YaPago.mp4
 
 jobs:
+  # ---------------- control previo (cada push) ----------------
+  verificar:
+    if: ${{ github.event_name == 'push' || !inputs.completo }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { tipo: cajas, n: "1", desde: "0", hasta: "12.7" }
+          - { tipo: cajas, n: "2", desde: "12.7", hasta: "25.3" }
+          - { tipo: cajas, n: "3", desde: "25.3", hasta: "37.9" }
+          - { tipo: cajas, n: "4", desde: "37.9", hasta: "51" }
+          - { tipo: stills, n: "1", times: "1.75,4.5,7.2,9.3,10.6,12.7,16.5" }
+          - { tipo: stills, n: "2", times: "18.5,21.5,23.4,25.3,28.3,30.6" }
+          - { tipo: stills, n: "3", times: "31.9,35,38.5,40.8,43,48" }
+    name: verificar (${{ matrix.tipo }} ${{ matrix.n }})
+    steps:
+      - uses: actions/checkout@v5
+        with: { sparse-checkout: "escena\ncap", sparse-checkout-cone-mode: false }
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
+      - name: Playwright + Chromium + fuentes (emoji)
+        working-directory: cap
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright-core install --with-deps chromium
+          sudo apt-get install -y -qq fonts-noto-color-emoji fonts-noto-core > /dev/null
+          fc-cache -f > /dev/null
+      - name: Cajas ${{ matrix.desde }}-${{ matrix.hasta }} s
+        if: matrix.tipo == 'cajas'
+        working-directory: cap
+        env: { DESDE: "${{ matrix.desde }}", HASTA: "${{ matrix.hasta }}" }
+        run: |
+          mkdir -p ../salida
+          node cajas.mjs 2>&1 | tee "../salida/cajas-${{ matrix.n }}.txt"
+          grep -q '^fin ' "../salida/cajas-${{ matrix.n }}.txt"
+      - name: Stills ${{ matrix.times }}
+        if: matrix.tipo == 'stills'
+        working-directory: cap
+        env: { TIMES: "${{ matrix.times }}" }
+        run: |
+          node rec-ep5.mjs stills "$W" "$H" ../salida 2>&1 | tee "../log-stills-${{ matrix.n }}.txt"
+          cp "../log-stills-${{ matrix.n }}.txt" ../salida/
+      - uses: actions/upload-artifact@v5
+        if: always()
+        with: { name: "${{ matrix.tipo }}-${{ matrix.n }}", path: salida, retention-days: 7 }
+
+  juntar-control:
+    needs: verificar
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v5
+        with: { path: cajas, pattern: "cajas-*", merge-multiple: true }
+      - uses: actions/download-artifact@v5
+        with: { path: stills, pattern: "stills-*", merge-multiple: true }
+      - run: ls -la cajas stills; for f in cajas/cajas-*.txt; do echo "== $f"; grep -v -E '^(cargando|· t =)' "$f"; done
+      - uses: actions/upload-artifact@v5
+        with: { name: cajas, path: cajas, retention-days: 7 }
+      - uses: actions/upload-artifact@v5
+        with: { name: stills, path: stills, retention-days: 7 }
+
+  # ---------------- render completo (solo a mano, completo=true) ----------------
   plan:
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.completo }}
     runs-on: ubuntu-latest
     outputs:
       tramos: ${{ steps.p.outputs.tramos }}
@@ -33,7 +102,7 @@ jobs:
               for (let i = 0; i < n; i++) { const a = Math.floor(total * i / n), b = Math.floor(total * (i + 1) / n) - 1;
                 if (b >= a) t.push({ i: String(i).padStart(2, "0"), a, b }); } }
             console.log("tramos=" + JSON.stringify(t));
-          ' "$CUADROS" "$PARTES" "$PRUEBA" | tee -a "$GITHUB_OUTPUT"
+          ' "$CUADROS" "$PARTES" "${{ inputs.prueba }}" | tee -a "$GITHUB_OUTPUT"
 
   video:
     needs: plan
@@ -45,6 +114,7 @@ jobs:
         tramo: ${{ fromJson(needs.plan.outputs.tramos) }}
     steps:
       - uses: actions/checkout@v5
+        with: { sparse-checkout: "escena\ncap", sparse-checkout-cone-mode: false }
       - uses: actions/setup-node@v5
         with: { node-version: 22 }
       - name: Playwright + Chromium + fuentes (emoji)
@@ -56,21 +126,16 @@ jobs:
           fc-cache -f > /dev/null
       - name: Grabar tramo ${{ matrix.tramo.i }} (${{ matrix.tramo.a }}-${{ matrix.tramo.b }})
         working-directory: cap
-        env:
-          DESDE: ${{ matrix.tramo.a }}
-          HASTA: ${{ matrix.tramo.b }}
-        run: node rec-ep5.mjs ../escena "$W" "$H" ../frames
+        env: { DESDE: "${{ matrix.tramo.a }}", HASTA: "${{ matrix.tramo.b }}" }
+        run: node rec-ep5.mjs video "$W" "$H" ../frames
       - name: Codificar tramo
         run: |
           ffmpeg -hide_banner -loglevel error -y -framerate "$FPS" -start_number ${{ matrix.tramo.a }} -i frames/f%04d.jpg \
             -frames:v $(( ${{ matrix.tramo.b }} - ${{ matrix.tramo.a }} + 1 )) \
             -c:v libx264 -crf 17 -preset slow -pix_fmt yuv420p -r "$FPS" "tramo-${{ matrix.tramo.i }}.mp4"
           ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames,width,height -of csv=p=0 "tramo-${{ matrix.tramo.i }}.mp4"
-          mkdir -p muestra && cp "frames/$(ls frames | head -1)" "muestra/t${{ matrix.tramo.i }}-primero.jpg"
       - uses: actions/upload-artifact@v5
         with: { name: "tramo-${{ matrix.tramo.i }}", path: "tramo-${{ matrix.tramo.i }}.mp4", retention-days: 2, compression-level: 0 }
-      - uses: actions/upload-artifact@v5
-        with: { name: "muestra-${{ matrix.tramo.i }}", path: muestra, retention-days: 2 }
 
   unir:
     needs: video
