@@ -1,0 +1,94 @@
+# Render repartido del ep. 5 «Ya pagó» (oficina-piso.html?ep5, three.js) en máquinas sin placa (WebGL por SwiftShader).
+# Cada máquina graba un tramo de cuadros (DESDE-HASTA), lo codifica y al final se une todo sin recodificar y se le pone el audio.
+# Se dispara con push a render-ep5 (o a mano). PRUEBA="a-b" graba solo esos cuadros en una sola máquina, para probar.
+name: Render ep5
+on:
+  push:
+    branches: [render-ep5]
+  workflow_dispatch:
+
+env:
+  CUADROS: "3030"     # round(50.48 * 60): cuadros 0..3029
+  PARTES: "19"
+  PRUEBA: "1080-1083"        # ej. "600-605"; vacío = el video entero
+  FPS: "60"
+  SUB: "1"
+  W: "1080"
+  H: "1920"
+  SALIDA: Ep5-YaPago.mp4
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      tramos: ${{ steps.p.outputs.tramos }}
+    steps:
+      - id: p
+        run: |
+          node -e '
+            const [total, partes, prueba] = [+process.argv[1], +process.argv[2], process.argv[3] || ""];
+            const t = [];
+            if (prueba) { const [a, b] = prueba.split("-").map(Number); t.push({ i: "00", a, b }); }
+            else { const n = Math.max(1, Math.min(partes, total));
+              for (let i = 0; i < n; i++) { const a = Math.floor(total * i / n), b = Math.floor(total * (i + 1) / n) - 1;
+                if (b >= a) t.push({ i: String(i).padStart(2, "0"), a, b }); } }
+            console.log("tramos=" + JSON.stringify(t));
+          ' "$CUADROS" "$PARTES" "$PRUEBA" | tee -a "$GITHUB_OUTPUT"
+
+  video:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix:
+        tramo: ${{ fromJson(needs.plan.outputs.tramos) }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
+      - name: Playwright + Chromium + fuentes (emoji)
+        working-directory: cap
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright-core install --with-deps chromium
+          sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji fonts-noto-core > /dev/null
+          fc-cache -f > /dev/null
+      - name: Grabar tramo ${{ matrix.tramo.i }} (${{ matrix.tramo.a }}-${{ matrix.tramo.b }})
+        working-directory: cap
+        env:
+          DESDE: ${{ matrix.tramo.a }}
+          HASTA: ${{ matrix.tramo.b }}
+        run: node rec-ep5.mjs ../escena "$W" "$H" ../frames
+      - name: Codificar tramo
+        run: |
+          ffmpeg -hide_banner -loglevel error -y -framerate "$FPS" -start_number ${{ matrix.tramo.a }} -i frames/f%04d.jpg \
+            -frames:v $(( ${{ matrix.tramo.b }} - ${{ matrix.tramo.a }} + 1 )) \
+            -c:v libx264 -crf 17 -preset slow -pix_fmt yuv420p -r "$FPS" "tramo-${{ matrix.tramo.i }}.mp4"
+          ffprobe -v error -count_frames -select_streams v:0 -show_entries stream=nb_read_frames,width,height -of csv=p=0 "tramo-${{ matrix.tramo.i }}.mp4"
+          mkdir -p muestra && cp "frames/$(ls frames | head -1)" "muestra/t${{ matrix.tramo.i }}-primero.jpg"
+      - uses: actions/upload-artifact@v5
+        with: { name: "tramo-${{ matrix.tramo.i }}", path: "tramo-${{ matrix.tramo.i }}.mp4", retention-days: 2, compression-level: 0 }
+      - uses: actions/upload-artifact@v5
+        with: { name: "muestra-${{ matrix.tramo.i }}", path: muestra, retention-days: 2 }
+
+  unir:
+    needs: video
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with: { sparse-checkout: ep5-redes.wav, sparse-checkout-cone-mode: false }
+      - uses: actions/download-artifact@v5
+        with: { path: piezas, pattern: "tramo-*", merge-multiple: true }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Unir tramos (sin recodificar) + audio aac 320k
+        run: |
+          cd piezas
+          ls tramo-*.mp4 | sort | sed "s/.*/file '&'/" > lista.txt
+          cat lista.txt
+          ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i lista.txt -c copy video-mudo.mp4
+          ffmpeg -hide_banner -loglevel error -i video-mudo.mp4 -i ../ep5-redes.wav -map 0:v -map 1:a -c:v copy \
+            -c:a aac -b:a 320k -shortest -movflags +faststart "../$SALIDA"
+          ffprobe -v error -show_entries format=duration:stream=codec_name,width,height,r_frame_rate,nb_frames -of compact "../$SALIDA"
+      - uses: actions/upload-artifact@v5
+        with: { name: final, path: "${{ env.SALIDA }}", retention-days: 7, compression-level: 0 }
