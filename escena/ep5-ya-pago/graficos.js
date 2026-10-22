@@ -157,7 +157,8 @@ export async function crearGraficos({ THREE, W, H, MU, renderer, camera, plano, 
   function final(t, s) {
     const en = s.plano === ULT.plano; cierre.style.display = en ? 'flex' : 'none';
     if (s.plano === NEGRO) { acc.style.filter = 'brightness(0)'; return; }
-    acc.style.filter = en ? `blur(${(2 + 5 * lin(t, ULT.t0, ULT.t0 + 0.4)) * K}px) brightness(${1 - 0.68 * ease(lin(t, ULT.t0, ULT.t0 + 0.4))})` : '';
+    acc.style.filter = en ? 'brightness(0)' : '';   // la placa va sobre negro puro: nada de la escena detrás del título
+    if (false) acc.style.filter = en ? `blur(${(2 + 5 * lin(t, ULT.t0, ULT.t0 + 0.4)) * K}px) brightness(${1 - 0.68 * ease(lin(t, ULT.t0, ULT.t0 + 0.4))})` : '';
     if (!en) return;
     cierre.style.opacity = lin(t, ULT.t0, ULT.t0 + 24 * F);
     hex.setAttribute('stroke-dashoffset', 1 - ease(lin(t, LOGO, LOGO + 20 * F)));

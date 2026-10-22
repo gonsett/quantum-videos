@@ -135,6 +135,9 @@ export async function montar(ctx) {
   // el de Tomi: boca arriba en su escritorio; la pantalla negra refleja lo que tiene encima (su cara)
   const rt = new THREE.WebGLRenderTarget(256, 512, { colorSpace: THREE.SRGBColorSpace }); rt.texture.wrapS = THREE.RepeatWrapping; rt.texture.repeat.x = -1; rt.texture.offset.x = 1;
   const reflejoM = new THREE.MeshBasicMaterial({ map: rt.texture, color: new THREE.Color(0.34, 0.35, 0.38) }), negroM = new THREE.MeshBasicMaterial({ color: 0x030304 });
+  const brillo = (() => { const c = document.createElement('canvas'); c.width = 256; c.height = 512; const g = c.getContext('2d'); g.fillStyle = '#040405'; g.fillRect(0, 0, 256, 512);
+    const d = g.createLinearGradient(0, 120, 256, 330); d.addColorStop(0, 'rgba(255,255,255,0)'); d.addColorStop(0.45, 'rgba(190,200,215,0.07)'); d.addColorStop(0.55, 'rgba(190,200,215,0.11)'); d.addColorStop(0.62, 'rgba(255,255,255,0)'); g.fillStyle = d; g.fillRect(0, 0, 256, 512);
+    const tx = new THREE.CanvasTexture(c); tx.colorSpace = THREE.SRGBColorSpace; return new THREE.MeshBasicMaterial({ map: tx }); })();   // el celular que no vibra: vidrio negro con un solo reflejo
   const GIRO = 0.08, celT = celular(negroM), CELT = v3(2.88, 0.79, 1.12); celT.g.position.copy(CELT); celT.g.rotation.set(-Math.PI / 2, 0, GIRO);
   const rtCam = new THREE.PerspectiveCamera(52, 0.5, 0.05, 30);
   { const sombra = (() => { const [c, g, t] = lienzo(256, 512); g.filter = 'blur(14px)'; g.fillStyle = 'rgba(0,0,0,0.6)'; g.beginPath(); g.roundRect(40, 40, 176, 432, 30); g.fill(); t.colorSpace = THREE.NoColorSpace; return t; })();
@@ -281,7 +284,7 @@ export async function montar(ctx) {
     8: (t) => viva(camR(1.45, MM[85]), t, 0.12),
     9: (t) => viva(camT(1.05, 22, 0.85), t, 0.6),
     10: (t, u, D) => { const k = suave(lin(t, REB[10].t1, ED[10].t1)); return viaje(WEBCAM(), fijo(CX + 0.1, 1.32, 2.15, CX + 0.05, 0.98, 0.1, MM[35]), k); },
-    11: (t, u, D) => { const a = cel([1420, 400]), b = cel([1420, 430]); return viva(viaje(fijo(a.x + 0.04, a.y + 0.01, a.z + 0.62, a.x, a.y, a.z, MM[35]), fijo(b.x + 0.03, b.y, b.z + 0.56, b.x, b.y, b.z, MM[35]), u / D), t, 0.2); },
+    11: (t, u, D) => { const a = cel([1420, 280]), b = cel([1420, 280]); return viva(viaje(fijo(a.x + 0.04, a.y + 0.01, a.z + 0.78, a.x, a.y, a.z, MM[35]), fijo(b.x + 0.03, b.y, b.z + 0.75, b.x, b.y, b.z, MM[35]), u / D), t, 0.2); },
     12: (t) => viva(camT(1.0, 22, 0.85), t, 1.3),
     13: (t, u, D) => { const k = suave(lin(u, 0, D)); return viva(viaje(camR(1.9, MM[85]), camR(1.75, MM[135]), k), t, 0.12); },
     14: (t) => viva(camT(1.1, 12.5, 0.9), t, 0.25),
@@ -329,11 +332,11 @@ export async function montar(ctx) {
       const baja = P === 14 || P === 15 ? suave(lin(t, ED[14].t0 - 0.2, ED[14].t0 + 1.0)) : 0;
       tomiNoche(t, { lean: -0.16 + 0.1 * baja + (P === 12 ? 0.05 : 0), mira: baja > 0 ? (HR0 || v3()).clone().lerp(v3(TOMI_N.x + 1.1, 0.55, TOMI_N.z + 0.25), baja * 0.85) : HR0, pitch: P === 9 ? 0.06 : 0 });
       CAB.push(cabeza(actores.tomi)); monitor(t, false);
-      celT.pa.material = P === 15 ? reflejoM : negroM; }
+      celT.pa.material = P === 15 ? brillo : negroM; }
     if (P >= 17) { noche(); monitor(t, false); }
     mezclador.setTime(t % 1.25);
     const c = window.CAMS ? fijo(...window.CAMS) : PLANOS[P](t, u, D); ponerCam(c);
-    if (P === 15) { rtCam.position.copy(CELT).add(v3(0, 0.01, 0)); rtCam.up.set(Math.sin(GIRO), 0, -Math.cos(GIRO)).negate(); rtCam.lookAt(cabeza(actores.tomi)); rtCam.updateMatrixWorld();
+    if (false) { rtCam.position.copy(CELT).add(v3(0, 0.01, 0)); rtCam.up.set(Math.sin(GIRO), 0, -Math.cos(GIRO)).negate(); rtCam.lookAt(cabeza(actores.tomi)); rtCam.updateMatrixWorld();
       renderer.setRenderTarget(rt); renderer.render(scene, rtCam); renderer.setRenderTarget(null); }
     // el look: el recuerdo es anamórfico y se enfría pasada a pasada; el rebobinado tira la imagen; «ahora» cruza el cuadro
     LOOKV = { recuerdo: rec || P === 2 ? 1 : 0, frio: MU.frio[P] || 0 };
