@@ -21,8 +21,14 @@ page.on('requestfailed', (q) => console.log('requestfailed:', q.url(), q.failure
 const t0 = Date.now(), seg = () => ((Date.now() - t0) / 1000).toFixed(0) + ' s';
 await page.goto(`http://localhost:${srv.address().port}/${process.env.F || 'oficina-piso.html'}${process.env.Q ?? '?ep5'}`, { timeout: 600000 });
 console.log('gl:', await page.evaluate(() => { const g = document.createElement('canvas').getContext('webgl2'); const x = g && g.getExtension('WEBGL_debug_renderer_info'); return g ? (x ? g.getParameter(x.UNMASKED_RENDERER_WEBGL) : 'webgl2') : 'SIN WEBGL2'; }));
-await page.waitForFunction(() => window.READY === true, null, { timeout: 3000000, polling: 1000 });
-console.log('READY en', seg());
+const MAXC = +(process.env.MAX_CARGA_MIN || 55) * 60000;   // espera máxima a READY
+for (;;) {   // cada 60 s: en qué parte de la carga va (marcas de performance y el texto del cargador)
+  const ok = await page.waitForFunction(() => window.READY === true, null, { timeout: 60000, polling: 1000 }).then(() => true, () => false);
+  if (ok) break;
+  console.log('cargando', seg(), '·', await page.evaluate(() => performance.getEntriesByType('mark').map((m) => m.name + '@' + (m.startTime / 1000).toFixed(0)).join(' ') + ' · ' + (document.getElementById('cargaP')?.textContent || '')).catch((e) => 'eval: ' + e.message), '· pedidos', pedidos.length);
+  if (Date.now() - t0 > MAXC) { console.log('READY no llegó en', seg()); console.log('404:', [...new Set(faltan)].join(' | ')); process.exit(4); }
+}
+console.log('READY en', seg(), '·', await page.evaluate(() => performance.getEntriesByType('mark').map((m) => m.name + '@' + (m.startTime / 1000).toFixed(0)).join(' ')));
 console.log('404:', [...new Set(faltan)].join(' | ') || 'ninguno');
 console.log('fuentes:', await page.evaluate(() => [...document.fonts].filter((f) => f.status === 'loaded').map((f) => `${f.family} ${f.weight} ${f.style}`).join(', ')));
 
@@ -33,12 +39,13 @@ const dur = await page.evaluate(() => window.DURATION), n = Math.round(dur * fps
 const desde = +(process.env.DESDE || 0), hasta = Math.min(n, process.env.HASTA ? +process.env.HASTA : n);
 console.log(`DURATION ${dur} · ${n + 1} cuadros en total · tramo ${desde}-${hasta}`);
 let chicos = 0;
+let tc = Date.now();
 for (let i = desde; i <= hasta; i++) {
   await draw(Math.min(dur, i / fps));
   const fp = path.join(fr, `f${String(i).padStart(4, '0')}.jpg`);
   await page.screenshot({ path: fp, quality: 95 });
   const kb = fs.statSync(fp).size / 1024; if (kb < 60) { chicos++; console.log('cuadro sospechoso (muy liviano, ¿negro?)', i, kb.toFixed(0), 'KB'); }
-  if ((i - desde) % 10 === 0 || i === hasta) console.log(i, '/', hasta, '·', kb.toFixed(0), 'KB ·', seg());
+  console.log(i, '/', hasta, '·', kb.toFixed(0), 'KB ·', ((Date.now() - tc) / 1000).toFixed(1), 's este cuadro ·', seg()); tc = Date.now();
 }
 console.log('ok ·', hasta - desde + 1, 'cuadros ·', chicos, 'sospechosos ·', seg());
 await browser.close(); srv.close();

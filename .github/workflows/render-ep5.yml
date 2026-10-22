@@ -10,7 +10,7 @@ on:
 env:
   CUADROS: "3030"     # round(50.48 * 60): cuadros 0..3029
   PARTES: "19"
-  PRUEBA: "1080-1083"        # ej. "600-605"; vacío = el video entero
+  PRUEBA: "1080-1109"        # ej. "600-605"; vacío = el video entero
   FPS: "60"
   SUB: "1"
   W: "1080"
