@@ -18,7 +18,7 @@ export async function abrir(W, H) {
   const browser = await chromium.launch({ args: ['--use-angle=swiftshader', '--use-gl=angle', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist', '--enable-webgl', '--disable-gpu-sandbox'] });
   const page = await browser.newPage({ viewport: { width: W, height: H } });
   page.on('console', (m) => m.type() === 'error' && console.log('console:', m.text()));
-  page.on('pageerror', (e) => console.log('pageerror:', e.message));
+  page.on('pageerror', (e) => { console.log('pageerror:', e.stack || e.message); console.log('corto: error en la página a los', seg()); process.exit(6); });   // nunca colgarse en silencio
   page.on('requestfailed', (q) => console.log('requestfailed:', q.url(), q.failure()?.errorText));
   await page.goto(`http://localhost:${srv.address().port}/${process.env.F || 'oficina-piso.html'}${process.env.Q ?? '?ep5'}`, { timeout: 600000 });
   console.log('gl:', await page.evaluate(() => { const g = document.createElement('canvas').getContext('webgl2'); const x = g && g.getExtension('WEBGL_debug_renderer_info');

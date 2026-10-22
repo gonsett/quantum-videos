@@ -364,7 +364,7 @@ export async function montar(ctx) {
     const x0 = q[0][0], y0 = q[0][1], x1 = q[2][0], y1 = q[2][1], a = P === 10 ? 1 - suave(lin(t, ED[10].t1 - 0.9, ED[10].t1 - 0.2)) : 1;
     if (a <= 0) return;
     g.save(); g.globalAlpha = a; g.strokeStyle = 'rgba(255,255,255,0.55)'; g.lineWidth = Rr(2); g.beginPath(); g.roundRect(x0, y0, x1 - x0, y1 - y0, Rr(26)); g.stroke();
-    const px = Math.min(x1, w) - Rr(30), py = Math.min(y1, h * 0.69) - Rr(34);   // el subtítulo de abajo arranca en 0,71: el cartel nunca lo pisa g.fillStyle = 'rgba(8,10,14,0.55)'; const tw = Rr(250); g.beginPath(); g.roundRect(px - tw, py - Rr(46), tw, Rr(58), Rr(29)); g.fill();
+    const px = Math.min(x1, w) - Rr(30), py = Math.min(y1, h * 0.69) - Rr(34); g.fillStyle = 'rgba(8,10,14,0.55)'; const tw = Rr(250); g.beginPath(); g.roundRect(px - tw, py - Rr(46), tw, Rr(58), Rr(29)); g.fill();   // el subtítulo de abajo arranca en 0,71: el cartel nunca lo pisa
     g.fillStyle = '#e11d48'; g.beginPath(); g.arc(px - tw + Rr(30), py - Rr(17), Rr(7), 0, 7); g.fill(); g.restore();
     tx(g, [[NOMBRE.toUpperCase(), MO(Rr(17)), '#f3f4f6']], px - tw + Rr(48), py - Rr(10), { a, track: Rr(3) });
   }
