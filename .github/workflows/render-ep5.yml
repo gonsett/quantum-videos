@@ -11,6 +11,11 @@ on:
     inputs:
       completo: { description: "true = render repartido en 19 tramos", type: boolean, default: false }
       prueba: { description: "a-b = solo esos cuadros en una máquina (con completo=true)", default: "" }
+      solo: { description: "verificar solo cajas o solo stills (vacío = los dos)", default: "" }
+
+defaults:
+  run:
+    shell: bash   # -eo pipefail: un error antes de «| tee» hace fallar el paso
 
 env:
   CUADROS: "3030"     # round(50.48 * 60): cuadros 0..3029
@@ -52,7 +57,7 @@ jobs:
           sudo apt-get install -y -qq fonts-noto-color-emoji fonts-noto-core > /dev/null
           fc-cache -f > /dev/null
       - name: Cajas ${{ matrix.desde }}-${{ matrix.hasta }} s
-        if: matrix.tipo == 'cajas'
+        if: matrix.tipo == 'cajas' && inputs.solo != 'stills'
         working-directory: cap
         env: { DESDE: "${{ matrix.desde }}", HASTA: "${{ matrix.hasta }}" }
         run: |
@@ -60,7 +65,7 @@ jobs:
           node cajas.mjs 2>&1 | tee "../salida/cajas-${{ matrix.n }}.txt"
           grep -q '^fin ' "../salida/cajas-${{ matrix.n }}.txt"
       - name: Stills ${{ matrix.times }}
-        if: matrix.tipo == 'stills'
+        if: matrix.tipo == 'stills' && inputs.solo != 'cajas'
         working-directory: cap
         env: { TIMES: "${{ matrix.times }}" }
         run: |

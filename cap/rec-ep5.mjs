@@ -11,7 +11,7 @@ const SUB = +(process.env.SUB || 1), fps = +(process.env.FPS || 60);
 const draw = (t) => SUB > 1 ? page.evaluate(([t, n, sh]) => window.renderAccum(t, n, sh), [t, SUB, .5 / fps]) : page.evaluate((t) => window.renderAt(t), t);
 const dur = await page.evaluate(() => window.DURATION);
 let tc = Date.now(), chicos = 0;
-const foto = async (fp, etiqueta) => { await page.screenshot({ path: fp, quality: 95 }); const kb = fs.statSync(fp).size / 1024;
+const foto = async (fp, etiqueta) => { await page.screenshot({ path: fp, quality: 95, timeout: 0 }); const kb = fs.statSync(fp).size / 1024;
   if (kb < 60) { chicos++; console.log('SOSPECHOSO (muy liviano, ¿negro?)', etiqueta, kb.toFixed(0), 'KB'); }
   console.log(etiqueta, '·', kb.toFixed(0), 'KB ·', ((Date.now() - tc) / 1000).toFixed(1), 's ·', seg()); tc = Date.now(); };
 if (modo === 'stills') {
