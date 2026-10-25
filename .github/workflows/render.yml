@@ -48,7 +48,7 @@ jobs:
           SALIDA=$(cat salida.txt)
           cd piezas && ls tramo-*.mp4 | sort | sed "s/.*/file '&'/" > lista.txt
           ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i lista.txt -c copy video-mudo.mp4
-          ffmpeg -hide_banner -loglevel error -i video-mudo.mp4 -i ../proyecto/assets/mezcla.wav -map 0:v -map 1:a -c:v copy \
+          ffmpeg -hide_banner -loglevel error -i video-mudo.mp4 -i ../proyecto/assets/mezcla.flac -map 0:v -map 1:a -c:v copy \
             -c:a aac -b:a 320k -shortest -movflags +faststart "../$SALIDA"
           ffprobe -v error -show_entries format=duration -of csv=p=0 "../$SALIDA"
           echo "SALIDA=$SALIDA" >> "$GITHUB_ENV"
