@@ -1,0 +1,56 @@
+# Render repartido de HyperFrames: tramos/tramo-XX.html (mismo video, timeline corrido) en paralelo, una máquina por tramo;
+# al final se unen sin recodificar y se suma la mezcla de audio. Se dispara con cada push a la rama render-atlas.
+name: Render Atlas
+on:
+  push:
+    branches: [render-atlas]
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      tramos: ${{ steps.p.outputs.tramos }}
+    steps:
+      - uses: actions/checkout@v5
+      - id: p
+        run: echo "tramos=$(ls tramos | sed -n 's/^tramo-\([0-9]*\)\.html$/\1/p' | jq -R . | jq -sc .)" >> "$GITHUB_OUTPUT"
+
+  video:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix:
+        tramo: ${{ fromJson(needs.plan.outputs.tramos) }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Render del tramo ${{ matrix.tramo }}
+        run: |
+          mkdir -p obra && cp -r proyecto/* obra/ && cp "tramos/tramo-${{ matrix.tramo }}.html" obra/index.html
+          cd obra && npx --yes hyperframes@0.8.17 render -q high -f 30 -o "../tramo-${{ matrix.tramo }}.mp4" --browser-timeout 120 2>&1 | tail -25
+      - run: ffprobe -v error -count_frames -select_streams v -show_entries stream=nb_read_frames -of csv=p=0 "tramo-${{ matrix.tramo }}.mp4"
+      - uses: actions/upload-artifact@v5
+        with: { name: "tramo-${{ matrix.tramo }}", path: "tramo-${{ matrix.tramo }}.mp4", retention-days: 1, compression-level: 0 }
+
+  unir:
+    needs: video
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v5
+        with: { path: piezas, merge-multiple: true }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Unir tramos + mezcla
+        run: |
+          SALIDA=$(cat salida.txt)
+          cd piezas && ls tramo-*.mp4 | sort | sed "s/.*/file '&'/" > lista.txt
+          ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i lista.txt -c copy video-mudo.mp4
+          ffmpeg -hide_banner -loglevel error -i video-mudo.mp4 -i ../proyecto/assets/mezcla.wav -map 0:v -map 1:a -c:v copy \
+            -c:a aac -b:a 320k -shortest -movflags +faststart "../$SALIDA"
+          ffprobe -v error -show_entries format=duration -of csv=p=0 "../$SALIDA"
+          echo "SALIDA=$SALIDA" >> "$GITHUB_ENV"
+      - uses: actions/upload-artifact@v5
+        with: { name: final, path: "${{ env.SALIDA }}", retention-days: 7, compression-level: 0 }
