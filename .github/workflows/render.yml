@@ -18,6 +18,7 @@ jobs:
   video:
     needs: plan
     runs-on: ubuntu-latest
+    timeout-minutes: 50
     strategy:
       fail-fast: true
       matrix:
@@ -30,7 +31,13 @@ jobs:
       - name: Render del tramo ${{ matrix.tramo }}
         run: |
           mkdir -p obra && cp -r proyecto/* obra/ && cp "tramos/tramo-${{ matrix.tramo }}.html" obra/index.html
-          cd obra && npx --yes hyperframes@0.8.17 render -q high -f 30 -o "../tramo-${{ matrix.tramo }}.mp4" --browser-timeout 120 2>&1 | tail -25
+          cd obra
+          # a veces el navegador se cuelga sin error: cada intento tiene 15 min como tope y se reintenta hasta 3 veces
+          for i in 1 2 3; do
+            rm -f "../tramo-${{ matrix.tramo }}.mp4"
+            if timeout -k 30 900 npx --yes hyperframes@0.8.17 render -q high -f 30 -o "../tramo-${{ matrix.tramo }}.mp4" --browser-timeout 120 > render.log 2>&1                && [ -s "../tramo-${{ matrix.tramo }}.mp4" ]; then tail -5 render.log; break; fi
+            echo "intento $i falló o se colgó:"; tail -15 render.log
+          done
       - run: ffprobe -v error -count_frames -select_streams v -show_entries stream=nb_read_frames -of csv=p=0 "tramo-${{ matrix.tramo }}.mp4"
       - uses: actions/upload-artifact@v5
         with: { name: "tramo-${{ matrix.tramo }}", path: "tramo-${{ matrix.tramo }}.mp4", retention-days: 1, compression-level: 0 }
