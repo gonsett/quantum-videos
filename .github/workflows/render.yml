@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 50
     strategy:
-      fail-fast: true
+      fail-fast: false
       matrix:
         tramo: ${{ fromJson(needs.plan.outputs.tramos) }}
     steps:
