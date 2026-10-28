@@ -41,3 +41,9 @@ fondo-microondas.jpg|Wikimedia Commons: File:Cosmic Microwave Background (CMB).j
 helix.jpg|Wikimedia Commons: File:NGC7293 (2004).jpg|2600x2802|NASA, ESA, C.R. O'Dell (Vanderbilt University), M. Meixner and P. McCullough (STScI)|Public domain
 salida-de-tierra.jpg|Wikimedia Commons: File:NASA Earthrise AS08-14-2383 Apollo 8 1968-12-24.jpg|2600x2605|NASA/Bill Anders|Public domain
 agujero-negro-disco.jpg|Wikimedia Commons: File:Black hole's accretion disk blank.jpg|2600x1462|NASA’s Goddard Space Flight Center/Jeremy Schnittman, cmglee|CC BY-SA 4.0
+eniac.jpg|https://commons.wikimedia.org/wiki/File:Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg|1340x1024|U.S. Army|Dominio público
+enana-marron.jpg|https://commons.wikimedia.org/wiki/File:Brown_Dwarf_W1935_(Artist_Concept)_(2024-103).png|3840x2160|NASA, ESA, CSA, Leah Hustak (STScI)|Dominio público
+cumulo-pandora.jpg|https://esawebb.org/images/weic2220c/|9714x3999|NASA, ESA, CSA, T. Treu (UCLA)|CC BY 4.0
+cumulo-bala.jpg|https://commons.wikimedia.org/wiki/File:Visible-Light_and_X-Ray_Composite_Image_of_Galaxy_Cluster_1E_0657-556_(2006-39-1981).jpg|3000x2168|X-ray: NASA/CXC/M. Markevitch et al.; Optical: NASA/STScI|Dominio público
+anillo-sur-nircam.jpg|https://esawebb.org/images/weic2207a/|1284x1207 (recorte)|NASA, ESA, CSA, STScI, and the Webb ERO Production Team|CC BY 4.0
+pandora-campo.jpg|https://esawebb.org/images/weic2220c/|1014x570 (recorte)|NASA, ESA, CSA, T. Treu (UCLA)|CC BY 4.0
