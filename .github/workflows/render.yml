@@ -56,7 +56,7 @@ jobs:
           if [ ! -f proyecto/assets/mezcla.flac ]; then
             echo "file '$PWD/proyecto/assets/mezcla-1.flac'" > mitades.txt
             echo "file '$PWD/proyecto/assets/mezcla-2.flac'" >> mitades.txt
-            ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i mitades.txt -c copy proyecto/assets/mezcla.flac
+            ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i mitades.txt -c:a flac proyecto/assets/mezcla.flac
           fi
           cd piezas && ls tramo-*.mp4 | sort | sed "s/.*/file '&'/" > lista.txt
           ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i lista.txt -c copy video-mudo.mp4
