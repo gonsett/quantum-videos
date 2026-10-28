@@ -1,0 +1,29 @@
+# Voz Kokoro repartida: listas.json trae 20 listas de frases; una máquina por lista. Se dispara con cada push a voz-atlas.
+name: Voz Atlas
+on:
+  push:
+    branches: [voz-atlas]
+jobs:
+  voz:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        k: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q kokoro-onnx==0.6.1 soundfile==0.14.0 onnxruntime==1.20.1
+      - name: Modelo
+        run: |
+          mkdir -p mod && cd mod
+          curl -sSL -o kokoro-v1.0.onnx https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+          curl -sSL -o voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
+          test $(stat -c%s kokoro-v1.0.onnx) = 325532387 && test $(stat -c%s voices-v1.0.bin) = 28214398
+      - name: Frases de la lista ${{ matrix.k }}
+        run: |
+          LISTA=$(jq -c ".[${{ matrix.k }}]" listas.json) KOKORO_MOD=$PWD/mod VOZ=bm_lewis IDIOMA=en-gb VEL=0.76 python voz.py video
+      - uses: actions/upload-artifact@v5
+        with: { name: "voz-${{ matrix.k }}", path: "video/voz/s*.wav", retention-days: 1 }
