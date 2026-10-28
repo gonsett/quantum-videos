@@ -60,8 +60,9 @@ jobs:
           fi
           cd piezas && ls tramo-*.mp4 | sort | sed "s/.*/file '&'/" > lista.txt
           ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i lista.txt -c copy video-mudo.mp4
+          DUR=$(ffprobe -v error -show_entries format=duration -of csv=p=0 video-mudo.mp4)   # -shortest con copia se comia los ultimos 10 s
           ffmpeg -hide_banner -loglevel error -i video-mudo.mp4 -i ../proyecto/assets/mezcla.flac -map 0:v -map 1:a -c:v copy \
-            -c:a aac -b:a 320k -shortest -movflags +faststart "../$SALIDA"
+            -c:a aac -b:a 320k -t "$DUR" -movflags +faststart "../$SALIDA"
           ffprobe -v error -show_entries format=duration -of csv=p=0 "../$SALIDA"
           echo "SALIDA=$SALIDA" >> "$GITHUB_ENV"
       - uses: actions/upload-artifact@v5
