@@ -1,49 +1,26 @@
-acantilados-carina.jpg|https://esawebb.org/images/weic2205a/|2600x1506|NASA, ESA, CSA, and STScI|CC BY 4.0
-anillo-sur.jpg|https://esawebb.org/images/weic2207a/|2600x1207|NASA, ESA, CSA, STScI, and the Webb ERO Production Team|CC BY 4.0
-quinteto-stephan.jpg|https://esawebb.org/images/weic2208a/|2600x2493|NASA, ESA, CSA, and STScI|CC BY 4.0
-campo-profundo-webb.jpg|https://esawebb.org/images/weic2209a/|2600x2653|NASA, ESA, CSA, and STScI|CC BY 4.0
-rueda-de-carro.jpg|https://esawebb.org/images/weic2211a/|2600x2393|NASA, ESA, CSA, STScI|CC BY 4.0
-tarantula.jpg|https://esawebb.org/images/weic2212a/|2600x1504|NASA, ESA, CSA, and STScI|CC BY 4.0
-nebulosa-anillo.jpg|https://esawebb.org/images/weic2320a/|2600x2175|ESA/Webb, NASA, CSA, M. Barlow, N. Cox, R. Wesson|CC BY 4.0
-pilares.jpg|https://esawebb.org/images/weic2216a/|2600x2712|NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI).|CC BY 4.0
-rho-ophiuchi.jpg|https://esawebb.org/images/weic2316a/|2600x2435|NASA, ESA, CSA, STScI, K. Pontoppidan (STScI), A. Pagan (STScI)|CC BY 4.0
-ngc602.jpg|https://esawebb.org/images/weic2425a/|2600x1701|ESA/Webb, NASA &amp; CSA, P. Zeidler, E. Sabbi, A. Nota, M. Zamani (ESA/Webb)|CC BY 4.0
-planeta-errante.jpg|https://esawebb.org/images/weic2502a/|2600x1462|NASA, ESA, CSA, J. Olmsted (STScI)|CC BY 4.0
-campo-ultraprofundo.jpg|https://esahubble.org/images/heic0406a/|2600x2600|NASA, ESA, and S. Beckwith (STScI) and the HUDF Team|CC BY 4.0
-andromeda.jpg|https://esahubble.org/images/heic1502a/|2600x831|NASA, ESA, J. Dalcanton (University of Washington, USA), B. F. Williams (University of Washington, USA), L. C. Johnson (University of Washington, USA), the PHAT team, and R. Gendler.|CC BY 4.0
-ojo-de-gato.jpg|https://esahubble.org/images/heic0414a/|1417x1417|ESA, NASA, HEIC and The Hubble Heritage Team (STScI/AURA)|CC BY 4.0
-mariposa.jpg|https://esahubble.org/images/heic0910h/|2600x3031|NASA, ESA and the Hubble SM4 ERO Team|CC BY 4.0
-westerlund2.jpg|https://esahubble.org/images/heic1509a/|2600x1948|NASA, ESA, the Hubble Heritage Team (STScI/AURA), A. Nota (ESA/STScI), and the Westerlund 2 Science Team The original observations of Westerlund 2 were obtained by the science team: Antonella Nota (ESA/STScI), Elena Sabbi (STScI), Eva Grebel and Peter Zeidler (Astronomisches Rechen-Institut Heidelberg), Monica Tosi (INAF, Osservatorio Astronomico di Bologna), Alceste Bonanos (National Observatory of Athens, Astronomical Institute), Carol Christian (STScI/AURA) and Selma de Mink (University of Amsterdam). Follow-up observations were made by the Hubble Heritage team: Zoltan Levay (STScI), Max Mutchler, Jennifer Mack, Lisa Frattare, Shelly Meyett, Mario Livio, Carol Christian (STScI/AURA), and Keith Noll (NASA/GSFC).|CC BY 4.0
-sirio-b.jpg|https://esahubble.org/images/heic0516a/|369x403|NASA, ESA, H. Bond (STScI), and M. Barstow (University of Leicester)|CC BY 4.0
-antenas.jpg|https://esahubble.org/images/heic0615a/|2600x2580|Credit: NASA, ESA, and the Hubble Heritage Team (STScI/AURA)-ESA/Hubble Collaboration. Acknowledgement: B. Whitmore ( Space Telescope Science Institute) and James Long (ESA/Hubble).|CC BY 4.0
-trumpler14.jpg|https://esahubble.org/images/heic1601a/|2600x2600|NASA &amp; ESA, Jesús Maíz Apellániz (Centro de Astrobiología, CSIC-INTA, Spain)|CC BY 4.0
-m87-agujero.jpg|https://www.eso.org/public/images/eso1907a/|2600x1515|EHT Collaboration|CC BY 4.0
-sgr-a.jpg|https://www.eso.org/public/images/eso2208-eht-mwa/|2600x2600|EHT Collaboration|CC BY 4.0
-proxima-b.jpg|https://www.eso.org/public/images/eso1629a/|2600x1689|ESO/M. Kornmesser|CC BY 4.0
-via-lactea.jpg|https://www.eso.org/public/images/eso0932a/|2600x1300|ESO/S. Brunier|CC BY 4.0
-antares.jpg|https://www.eso.org/public/images/eso1726a/|600x600|ESO/K. Ohnaka|CC BY 4.0
-trappist1-superficie.jpg|https://www.eso.org/public/images/eso1615a/|2600x3678|ESO/M. Kornmesser|CC BY 4.0
-asimov.jpg|Wikimedia Commons: File:Isaac.Asimov01.jpg|2530x3671|Phillip Leonian [1] from New York World-Telegram &amp; Sun.[2]|Public domain
-kelvin.jpg|Wikimedia Commons: File:Portrait of William Thomson, Baron Kelvin.jpg|1659x2579|Unidentified creator. Smithsonian Institution from United States|No restrictions
-clausius.jpg|Wikimedia Commons: File:Rudolf Clausius 02.jpg|923x1235|Unknown authorUnknown author|Public domain
-hawking.jpg|Wikimedia Commons: File:Stephen Hawking NASA 50th 200804210001HQ.jpg|2600x3242|NASA/Paul E. Alers|Public domain
-dyson.jpg|Wikimedia Commons: File:Freeman Dyson (2005).jpg|1145x1527|ioerror|CC BY-SA 2.0
-penrose.jpg|Wikimedia Commons: File:Roger Penrose June 2007.jpg|1200x1600|Andrej Bauer|CC BY-SA 2.5 si
-super-kamiokande.jpg|Wikimedia Commons: File:Super Kamiokande, 1 to 135th.jpg|1920x2880|Motokoka|CC BY-SA 4.0
-tierra-apollo17.jpg|Wikimedia Commons: File:The Blue Marble, AS17-148-22727.jpg|2600x2600|Harrison Schmitt / Apollo 17|Public domain
-punto-azul-palido.jpg|Wikimedia Commons: File:Pale Blue Dot from Voyager 1 - PIA23645.tiff|2600x2573|NASA/JPL-Caltech|Public domain
-venus.jpg|Wikimedia Commons: File:Venus from Mariner 10.jpg|1000x1000|NASA/JPL-Caltech|Public domain
-eclipse-2017.jpg|Wikimedia Commons: File:2017 Total Solar Eclipse (35909952653).jpg|2600x2062|Aubrey Gemignani|CC BY 2.0
-sol-sdo.jpg|Wikimedia Commons: File:Image of Sun From NASA’s Solar Dynamics Observatory (PIA26681).jpg|2600x2418|NASA/GSFC/Solar Dynamics Observatory|Public domain
-andromeda-choque-cielo.jpg|Wikimedia Commons: File:Andromeda Collides Milky Way.jpg|1280x720|NASA; ESA; Z. Levay and R. van der Marel, STScI; T. Hallas; and A. Mellinger|Public domain
-desi.jpg|Wikimedia Commons: File:DESI installed on the Mayall 4-meter telescope (noirlab-mayall-desi-5).jpg|2600x1733|KPNO/NOIRLab/NSF/AURA/P. Marenfeld|CC BY 4.0
-fondo-microondas.jpg|Wikimedia Commons: File:Cosmic Microwave Background (CMB).jpeg|2600x1300|ESA and the Planck Collaboration|CC BY 4.0
-helix.jpg|Wikimedia Commons: File:NGC7293 (2004).jpg|2600x2802|NASA, ESA, C.R. O'Dell (Vanderbilt University), M. Meixner and P. McCullough (STScI)|Public domain
-salida-de-tierra.jpg|Wikimedia Commons: File:NASA Earthrise AS08-14-2383 Apollo 8 1968-12-24.jpg|2600x2605|NASA/Bill Anders|Public domain
-agujero-negro-disco.jpg|Wikimedia Commons: File:Black hole's accretion disk blank.jpg|2600x1462|NASA’s Goddard Space Flight Center/Jeremy Schnittman, cmglee|CC BY-SA 4.0
-eniac.jpg|https://commons.wikimedia.org/wiki/File:Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg|1340x1024|U.S. Army|Dominio público
-enana-marron.jpg|https://commons.wikimedia.org/wiki/File:Brown_Dwarf_W1935_(Artist_Concept)_(2024-103).png|3840x2160|NASA, ESA, CSA, Leah Hustak (STScI)|Dominio público
-cumulo-pandora.jpg|https://esawebb.org/images/weic2220c/|9714x3999|NASA, ESA, CSA, T. Treu (UCLA)|CC BY 4.0
-cumulo-bala.jpg|https://commons.wikimedia.org/wiki/File:Visible-Light_and_X-Ray_Composite_Image_of_Galaxy_Cluster_1E_0657-556_(2006-39-1981).jpg|3000x2168|X-ray: NASA/CXC/M. Markevitch et al.; Optical: NASA/STScI|Dominio público
-anillo-sur-nircam.jpg|https://esawebb.org/images/weic2207a/|1284x1207 (recorte)|NASA, ESA, CSA, STScI, and the Webb ERO Production Team|CC BY 4.0
-pandora-campo.jpg|https://esawebb.org/images/weic2220c/|1014x570 (recorte)|NASA, ESA, CSA, T. Treu (UCLA)|CC BY 4.0
+big-hole-hoy-2.jpg | Kimberley Big Hole mine seen from the viewing platform 05.jpg | https://commons.wikimedia.org/wiki/File:Kimberley_Big_Hole_mine_seen_from_the_viewing_platform_05.jpg | Ymblanter | CC BY-SA 4.0 | 2400x1589
+big-hole-hoy.jpg | Big Hole Kimberley.jpg | https://commons.wikimedia.org/wiki/File:Big_Hole_Kimberley.jpg | Rudolph Botha | CC BY-SA 3.0 | 1920x1440
+botswana-gaborone.jpg | Gaborone skyline.JPG | https://commons.wikimedia.org/wiki/File:Gaborone_skyline.JPG | Njengabenngugi | CC BY-SA 4.0 | 2400x1350
+cvd-2.jpg | Diamonds7.jpg | https://commons.wikimedia.org/wiki/File:Diamonds7.jpg | Bilovitskiy | CC BY 4.0 | 2400x1554
+cvd.jpg | CVD diamond.jpg | https://commons.wikimedia.org/wiki/File:CVD_diamond.jpg | Kugel | CC BY-SA 3.0 | 960x640 (recorte, sin barra de escala)
+diamante-bruto-2.jpg | Diamond in kimberlite (Cretaceous; Kimberley, South Africa) 1 (32832594347).jpg | https://commons.wikimedia.org/wiki/File:Diamond_in_kimberlite_(Cretaceous;_Kimberley,_South_Africa)_1_(32832594347).jpg | James St. John | CC BY 2.0 | 1280x1187 (recorte)
+diamante-bruto.jpg | Diamonds - cubic & octahedral - Africa (8457822945).jpg | https://commons.wikimedia.org/wiki/File:Diamonds_-_cubic_%26_octahedral_-_Africa_(8457822945).jpg | James St. John | CC BY 2.0 | 1280x1176
+diamantes-tallados-2.jpg | Diamonds - Coster diamonds - Amsterdam.jpg | https://commons.wikimedia.org/wiki/File:Diamonds_-_Coster_diamonds_-_Amsterdam.jpg | Malis | Public domain | 1160x770 (recorte)
+diamantes-tallados.jpg | Round Brilliant Cut Diamond.jpg | https://commons.wikimedia.org/wiki/File:Round_Brilliant_Cut_Diamond.jpg | Petragems | CC BY-SA 4.0 | 960x640
+diavik.jpg | Diavik Diamond Mine, Canada.jpg | https://commons.wikimedia.org/wiki/File:Diavik_Diamond_Mine,_Canada.jpg | Axelspace Corporation | CC BY-SA 4.0 | 1920x1200
+japon-boda.jpg | Japanese Shinto Wedding (45926150572).jpg | https://commons.wikimedia.org/wiki/File:Japanese_Shinto_Wedding_(45926150572).jpg | Benh LIEU SONG from Torcy, France | CC BY-SA 2.0 | 1920x2880
+joyeria-2.jpg | Diamond ring by stephend9.jpg | https://commons.wikimedia.org/wiki/File:Diamond_ring_by_stephend9.jpg | Stephen Durham from Pine Bluff, AR, USA | CC BY 2.0 | 1920x1440
+joyeria.jpg | Diamond ring by Ernst Vikne.jpg | https://commons.wikimedia.org/wiki/File:Diamond_ring_by_Ernst_Vikne.jpg | Ernst Vikne | CC BY-SA 2.0 | 2400x1599
+jwaneng.jpg | Jwaneng Open Mine.jpg | https://commons.wikimedia.org/wiki/File:Jwaneng_Open_Mine.jpg | Cretep | Public domain | 1920x1280
+kimberley-1870s-2.jpg | Gezicht op een diamantmijn in Zuid-Afrika, vermoedelijk bij Kimberley, RP-F-2001-7-497-8.jpg (recorte de la foto dentro de la página) | https://commons.wikimedia.org/wiki/File:Gezicht_op_een_diamantmijn_in_Zuid-Afrika,_vermoedelijk_bij_Kimberley,_RP-F-2001-7-497-8.jpg | Rijksmuseum | CC0 | 2370x1508
+kimberley-1870s.jpg | Gezicht op de diamantmijn bij Kimberley in Zuid-Afrika, RP-F-2001-7-497-5.jpg (recorte de la foto dentro de la página) | https://commons.wikimedia.org/wiki/File:Gezicht_op_de_diamantmijn_bij_Kimberley_in_Zuid-Afrika,_RP-F-2001-7-497-5.jpg | Rijksmuseum | CC0 | 2400x1556
+kimberlita.jpg | Kimberlite picture.jpg | https://commons.wikimedia.org/wiki/File:Kimberlite_picture.jpg | Woudloper | CC BY-SA 1.0 | 1920x1195 (recorte)
+mir-siberia-2.jpg | Aerial view of Mirny city, Mir mine and Mirny Airport.jpg | https://commons.wikimedia.org/wiki/File:Aerial_view_of_Mirny_city,_Mir_mine_and_Mirny_Airport.jpg | Igor Dvurekov | CC BY-SA 3.0 | 1280x854
+mir-siberia.jpg | Mirny in Yakutia.jpg | https://commons.wikimedia.org/wiki/File:Mirny_in_Yakutia.jpg | Staselnik | CC BY-SA 3.0 | 2400x1172
+nueva-york-1940s.jpg | Looking south on Third Avenue from the 59th Street 8d22163v.jpg | https://commons.wikimedia.org/wiki/File:Looking_south_on_Third_Avenue_from_the_59th_Street_8d22163v.jpg | Marjory Collins | Public domain | 2400x2492
+oppenheimer.jpg | Oppenheimer1945.jpg | https://commons.wikimedia.org/wiki/File:Oppenheimer1945.jpg | Koos Raucamp (ANEFO) | CC0 | 1920x1949
+orapa.jpg | Orapa Diamond Mine, Botswana (ASTER).jpg | https://commons.wikimedia.org/wiki/File:Orapa_Diamond_Mine,_Botswana_(ASTER).jpg | NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team | Public domain | 1920x1182
+rhodes.jpg | Cecil Rhodes ww.jpg | https://commons.wikimedia.org/wiki/File:Cecil_Rhodes_ww.jpg | unattributed | Public domain | 1920x2729
+surat-2.jpg | Diamantbewerkers (diamantslijpers) aan het werk in Natanya, Bestanddeelnr 255-4366.jpg | https://commons.wikimedia.org/wiki/File:Diamantbewerkers_(diamantslijpers)_aan_het_werk_in_Natanya,_Bestanddeelnr_255-4366.jpg | Willem van de Poll | CC0 | 1920x1937
+surat-3.jpg | Surat, India - Diamond Cutting Complex (2023-07-31-04-59-55 UMBRA-05).tiff | https://commons.wikimedia.org/wiki/File:Surat,_India_-_Diamond_Cutting_Complex_(2023-07-31-04-59-55_UMBRA-05).tiff | Umbra Lab, Inc. | CC BY 4.0 | 2400x2401
+surat.jpg | Diamond cutter. Amsterdam. 2012.jpg | https://commons.wikimedia.org/wiki/File:Diamond_cutter._Amsterdam._2012.jpg | Ввласенко | CC BY-SA 3.0 | 1920x1784
