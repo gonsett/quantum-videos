@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "Archivo"; src: url("assets/Archivo.ttf") format("truetype"); font-weight: 100 900; font-stretch: 62% 125%; }
+      @font-face { font-family: "Instrument"; src: url("assets/InstrumentSerif-Italic.ttf") format("truetype"); font-style: italic; }
+      @font-face { font-family: "Plex"; src: url("assets/IBMPlexMono-Medium.ttf") format("truetype"); }
+      :root { --rojoM: linear-gradient(180deg, #FF7A4E 0%, #E5482B 55%, #9C1E10 100%);
+        --nieveM: linear-gradient(180deg, #FFFFFF 0%, #E3E6E4 55%, #AEB4B8 100%); }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #050607; }
+      body { font-family: "Archivo", sans-serif; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden;
+        background: radial-gradient(ellipse at 50% 40%, #182027 0%, #0D1013 58%, #050607 100%); }
+      #niebla { position: absolute; inset: -10%; z-index: 1; pointer-events: none;
+        background: radial-gradient(ellipse at 20% 80%, rgba(201,205,208,.10), transparent 55%), radial-gradient(ellipse at 85% 30%, rgba(201,205,208,.07), transparent 50%); }
+      .fondo { position: absolute; inset: 0; opacity: 0; overflow: hidden; z-index: 0; }
+      .fondo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+      .fo-v { position: absolute; inset: 0; background: linear-gradient(#050607e6 0%, #05060733 28%, #05060700 50%, #05060755 72%, #050607f0 100%); }
+      .fo-c { position: absolute; left: 70px; top: 1640px; font-family: "Plex"; font-size: 15px; letter-spacing: 2px; color: #b9c6cc; opacity: .85; z-index: 3; }
+      .caida { position: absolute; inset: 0; z-index: 2; overflow: hidden; background: #050607; }
+      .caida img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: contrast(1.15) brightness(.6) saturate(.7); transform-origin: 50% 55%; }
+      .caida .velo { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 55%, rgba(5,6,7,0) 30%, rgba(5,6,7,.92) 100%); }
+      .lluvia { position: absolute; inset: -200px; background: repeating-linear-gradient(103deg, rgba(236,237,234,0) 0 22px, rgba(236,237,234,.16) 22px 23.5px, rgba(236,237,234,0) 23.5px 61px),repeating-linear-gradient(98deg, rgba(236,237,234,0) 0 37px, rgba(236,237,234,.10) 37px 38px, rgba(236,237,234,0) 38px 90px); background-size: 240px 340px, 330px 520px; pointer-events: none; }
+      .fila { position: absolute; left: 130px; top: 760px; width: 780px; height: 312px; filter: drop-shadow(0 30px 40px rgba(0,0,0,.85)); }
+      .alt { position: absolute; right: 64px; top: 480px; width: 260px; text-align: right; }
+      .alt .k { font-family: "Plex"; font-size: 22px; letter-spacing: 6px; color: #8fa3ad; }
+      .alt .n { font-family: "Archivo"; font-stretch: 75%; font-weight: 800; font-size: 84px; line-height: 1.05; color: #ECEDEA; font-variant-numeric: tabular-nums; white-space: nowrap; }
+      .alt .bar { position: relative; margin: 14px 0 0 auto; width: 6px; height: 760px; background: rgba(236,237,234,.12); }
+      .alt .bar i { position: absolute; left: 0; right: 0; bottom: 0; height: 100%; background: #E5482B; box-shadow: 0 0 14px #E5482B; transform-origin: 50% 100%; }
+      .tormenta { position: absolute; inset: 0; opacity: 0; z-index: 4; overflow: hidden; pointer-events: none;
+        background: radial-gradient(ellipse at 50% 0%, rgba(30,38,46,.35), rgba(5,6,7,.55) 70%); }
+      .chip-fecha { position: absolute; left: 0; right: 0; top: 470px; text-align: center; opacity: 0; z-index: 5; }
+      .chip-fecha b { display: block; font-family: "Archivo"; font-stretch: 75%; font-weight: 800; font-size: 64px; letter-spacing: 8px; color: #ECEDEA; }
+      .chip-fecha span { display: block; margin-top: 6px; font-family: "Plex"; font-size: 22px; letter-spacing: 5px; color: #E5482B; }
+      .archivo { position: absolute; opacity: 0; z-index: 3; }
+      .ar-m { position: relative; overflow: hidden; border: 1.5px solid rgba(236,237,234,.4); border-radius: 3px; background: #07090B;
+        box-shadow: 0 30px 90px rgba(0,0,0,.8), 0 0 0 10px rgba(7,9,11,.8), 0 0 0 11.5px rgba(229,72,43,.45); }
+      .ar-m img, .ar-bg { display: block; filter: contrast(1.08) brightness(.93) saturate(.85); }
+      .ar-m::after { content: ""; position: absolute; inset: 0; box-shadow: inset 0 0 120px rgba(3,4,5,.75); pointer-events: none; }
+      .ar-g { position: absolute; inset: 0; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 .55 0'/></filter><rect width='240' height='240' filter='url(%23n)'/></svg>"); opacity: .18; mix-blend-mode: overlay; pointer-events: none; }
+      .ar-p { display: flex; flex-direction: column; gap: 6px; margin-top: 26px; padding: 0 4px; }
+      .ar-t { font-family: "Plex"; font-size: 23px; letter-spacing: 4px; color: #E5482B; }
+      .ar-c { font-family: "Plex"; font-size: 15px; letter-spacing: 2px; color: #8fa3ad; }
+      .rotulo { position: absolute; left: 70px; right: 70px; z-index: 5; }
+      .r-big { font-family: "Archivo"; font-stretch: 75%; font-weight: 800; font-size: 210px; line-height: 1.02; letter-spacing: 2px; opacity: 0;
+        background: var(--rojoM); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; padding-right: 14px; display: inline-block;
+        filter: drop-shadow(0 0 26px rgba(229,72,43,.35)) drop-shadow(0 8px 22px rgba(0,0,0,.9)); transform-origin: 0 80%; }
+      .r-big.nieve { background: var(--nieveM); -webkit-background-clip: text; background-clip: text; filter: drop-shadow(0 8px 30px rgba(0,0,0,.9)); }
+      .r-sub { margin-top: 14px; font-family: "Plex"; font-size: 32px; letter-spacing: 7px; color: #ECEDEA; opacity: 0;
+        display: flex; align-items: center; gap: 20px; text-shadow: 0 3px 14px rgba(0,0,0,.9); }
+      .barra { display: block; flex: none; width: 64px; height: 4px; background: #E5482B; box-shadow: 0 0 12px #E5482B; transform-origin: left center; }
+      #dias { position: absolute; right: 64px; top: 450px; width: 240px; text-align: right; opacity: 0; z-index: 6; }
+      #dias .k { font-family: "Plex"; font-size: 22px; letter-spacing: 8px; color: #E5482B; }
+      #dias .n { position: relative; height: 136px; overflow: hidden; }
+      #dias .n span { position: absolute; right: 0; top: 0; opacity: 0; font-family: "Archivo"; font-stretch: 75%; font-weight: 800; font-size: 130px; line-height: 1;
+        background: var(--nieveM); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 6px 24px rgba(0,0,0,.9)); }
+      #dias .t { display: flex; justify-content: flex-end; gap: 5px; margin-top: 10px; }
+      #dias .t i { width: 14px; height: 6px; background: rgba(236,237,234,.2); }
+      #dias .s { font-family: "Plex"; font-size: 15px; letter-spacing: 3px; color: #8fa3ad; margin-top: 12px; }
+      .parte { position: absolute; left: 70px; right: 70px; top: 760px; padding: 40px 46px 34px; opacity: 0; z-index: 4;
+        background: rgba(13,16,19,.92); border: 1.5px solid rgba(236,237,234,.35); box-shadow: 0 40px 100px rgba(0,0,0,.8), 0 0 0 10px rgba(7,9,11,.7); }
+      .parte .h { display: flex; justify-content: space-between; border-bottom: 3px solid #E5482B; padding-bottom: 16px; margin-bottom: 14px; }
+      .parte .h b { font-family: "Archivo"; font-stretch: 75%; font-weight: 800; font-size: 64px; letter-spacing: 6px; color: #ECEDEA; }
+      .parte .h span { font-family: "Plex"; font-size: 20px; letter-spacing: 3px; color: #8fa3ad; align-self: flex-end; }
+      .pf { display: flex; justify-content: space-between; align-items: baseline; height: 92px; padding-top: 22px; border-bottom: 1px dashed rgba(143,163,173,.3); opacity: 0; }
+      .pf .a { font-family: "Plex"; font-size: 32px; letter-spacing: 3px; color: #ECEDEA; }
+      .pf .b { font-family: "Archivo"; font-stretch: 75%; font-weight: 800; font-size: 44px; letter-spacing: 3px; color: #E5482B; }
+      .asientos { position: absolute; left: 0; right: 0; top: 760px; text-align: center; opacity: 0; z-index: 4; }
+      .asientos .t { font-family: "Plex"; font-size: 26px; letter-spacing: 7px; color: #8fa3ad; margin-bottom: 34px; }
+      .fila2 { display: inline-flex; gap: 40px; align-items: flex-end; }
+      .as { width: 260px; }
+      .as svg { width: 260px; height: 286px; display: block; }
+      .as .n { font-family: "Archivo"; font-stretch: 75%; font-weight: 800; font-size: 54px; letter-spacing: 5px; color: #ECEDEA; margin-top: 18px; }
+      .as .p { font-family: "Plex"; font-size: 22px; letter-spacing: 4px; color: #8fa3ad; }
+      .ventana { width: 46px; height: 170px; border-radius: 23px; border: 3px solid #8fa3ad; background: linear-gradient(#1e2a33, #0b1014); align-self: center; margin-bottom: 90px; }
+      .cita { position: absolute; left: 80px; right: 80px; top: 720px; opacity: 0; z-index: 4; }
+      .cita .q { font-family: "Instrument"; font-style: italic; font-size: 118px; line-height: 1.04; color: #ECEDEA; text-shadow: 0 6px 30px rgba(0,0,0,.9); }
+      .cita .q span { color: #FF6A44; }
+      .cita .au { margin-top: 36px; font-family: "Plex"; font-size: 28px; letter-spacing: 7px; color: #E5482B; }
+      .cadena { position: absolute; left: 150px; right: 150px; top: 720px; opacity: 0; z-index: 4; }
+      .cn { display: flex; align-items: center; gap: 40px; opacity: .2; }
+      .cn svg { width: 150px; height: 150px; flex: none; }
+      .cn .r { font-family: "Archivo"; font-stretch: 75%; font-weight: 800; font-size: 80px; letter-spacing: 7px; color: #ECEDEA; line-height: 1; }
+      .cn .q { font-family: "Instrument"; font-style: italic; font-size: 38px; color: #8fa3ad; margin-top: 4px; }
+      .cn.gente .r { color: #E5482B; }
+      .cf { width: 150px; height: 46px; display: flex; justify-content: center; }
+      .cf i { display: block; width: 4px; height: 100%; background: #E5482B; box-shadow: 0 0 10px #E5482B; transform-origin: 50% 0; transform: scaleY(0); }
+      .pulso { position: absolute; inset: 0; opacity: 0; z-index: 5; pointer-events: none;
+        background: radial-gradient(ellipse at 50% 50%, rgba(229,72,43,0) 40%, rgba(229,72,43,.55) 100%); }
+      .personas { position: absolute; left: 110px; right: 110px; top: 560px; display: flex; flex-wrap: wrap; justify-content: center; gap: 14px 12px; opacity: 0; z-index: 4; }
+      .pe { display: block; width: 74px; height: 74px; fill: #ECEDEA; }
+      .pe svg { width: 100%; height: 100%; display: block; }
+      #pe56 svg { filter: drop-shadow(0 0 14px #E5482B); }
+      .halo { display: none; }
+      #cta { position: absolute; left: 90px; right: 90px; top: 660px; opacity: 0; z-index: 6; text-align: center; }
+      #cta .marco { position: relative; overflow: hidden; border: 3px solid #E5482B; border-radius: 6px;
+        box-shadow: 0 20px 60px rgba(0,0,0,.8), 0 0 60px rgba(229,72,43,.3); }
+      #cta img { display: block; width: 100%; }
+      #cta .play { position: absolute; left: 50%; top: 50%; width: 150px; height: 106px; margin: -53px 0 0 -75px; border-radius: 28px; background: #E5482B; box-shadow: 0 10px 30px rgba(0,0,0,.6); }
+      #cta .play::after { content: ""; position: absolute; left: 60px; top: 30px; border-style: solid; border-width: 23px 0 23px 40px; border-color: transparent transparent transparent #ECEDEA; }
+      #cta .chip-cta { display: inline-block; margin-top: 34px; padding: 16px 30px; background: #E5482B; color: #fff; font-family: "Plex"; font-size: 34px; letter-spacing: 5px; opacity: 0; }
+      #cierre { position: absolute; left: 0; right: 0; top: 640px; display: flex; flex-direction: column; align-items: center; opacity: 0; z-index: 6; }
+      #cierre img { width: 340px; height: 340px; filter: drop-shadow(0 20px 50px rgba(0,0,0,.8)); }
+      #cierre .t { font-family: "Archivo"; font-stretch: 75%; font-weight: 800; font-size: 150px; letter-spacing: 10px; color: #ECEDEA; margin-top: 30px; }
+      #cierre .t span { color: #E5482B; }
+      #cierre .l { font-family: "Instrument"; font-style: italic; font-size: 58px; color: #C9CDD0; }
+      #cierre .cr { font-family: "Plex"; font-size: 16px; color: #6f7f88; letter-spacing: 1px; margin-top: 60px; text-align: center; max-width: 900px; }
+      #vineta { position: absolute; inset: 0; pointer-events: none; z-index: 2; background: radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 45%, rgba(3,4,5,.8) 100%); }
+      #sombra-sup { position: absolute; left: 0; right: 0; top: 0; height: 440px; z-index: 2; pointer-events: none; background: linear-gradient(#050607f0, #05060700); }
+      #grano { position: absolute; inset: 0; z-index: 8; pointer-events: none; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 .55 0'/></filter><rect width='240' height='240' filter='url(%23n)'/></svg>"); opacity: .07; mix-blend-mode: overlay; }
+      #flash { position: absolute; inset: 0; background: #FFE2D6; opacity: 0; z-index: 9; pointer-events: none; }
+      .frase-caja { position: absolute; left: 60px; right: 60px; top: 190px; height: 230px; z-index: 10; display: flex; align-items: center; justify-content: center; }
+      .frase { position: absolute; width: 100%; text-align: center; opacity: 0; font-family: "Archivo"; font-weight: 700; font-size: 62px; line-height: 1.12;
+        letter-spacing: -.3px; color: #ECEDEA; text-shadow: 0 4px 18px rgba(0,0,0,.95), 0 0 30px rgba(0,0,0,.6); }
+      .frase .nv { color: #FFFFFF; font-weight: 800; }
+      .frase .rj { color: #FF6A44; font-weight: 800; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="3.200000" data-width="1080" data-height="1920">
+            <div class="caida" id="cai"><img src="assets/archivo/selva_aerea_1980a.jpg" alt=""/><div class="lluvia" id="cail"></div><div class="velo"></div><div id="caiw" style="position:absolute; inset:0"><div class="fila" id="caif"><svg viewBox="0 0 300 120"><g transform="translate(0,0)"><rect x="18" y="4" width="64" height="70" rx="12" fill="#1c252c" stroke="#C9CDD0" stroke-width="3"/><rect x="12" y="70" width="76" height="22" rx="8" fill="#232e36" stroke="#C9CDD0" stroke-width="3"/><rect x="6" y="52" width="10" height="34" rx="4" fill="#C9CDD0"/><rect x="84" y="52" width="10" height="34" rx="4" fill="#C9CDD0"/><path d="M30 78 L70 78" stroke="#E5482B" stroke-width="5" stroke-linecap="round"/><rect x="44" y="74" width="12" height="9" rx="2" fill="#c9cdd0"/></g><g transform="translate(100,0)"><rect x="18" y="4" width="64" height="70" rx="12" fill="#1c252c" stroke="#C9CDD0" stroke-width="3"/><rect x="12" y="70" width="76" height="22" rx="8" fill="#232e36" stroke="#C9CDD0" stroke-width="3"/><rect x="6" y="52" width="10" height="34" rx="4" fill="#C9CDD0"/><rect x="84" y="52" width="10" height="34" rx="4" fill="#C9CDD0"/><path d="M30 78 L70 78" stroke="#E5482B" stroke-width="5" stroke-linecap="round"/><rect x="44" y="74" width="12" height="9" rx="2" fill="#c9cdd0"/></g><g transform="translate(200,0)"><rect x="18" y="4" width="64" height="70" rx="12" fill="#1c252c" stroke="#C9CDD0" stroke-width="3"/><rect x="12" y="70" width="76" height="22" rx="8" fill="#232e36" stroke="#C9CDD0" stroke-width="3"/><rect x="6" y="52" width="10" height="34" rx="4" fill="#C9CDD0"/><rect x="84" y="52" width="10" height="34" rx="4" fill="#C9CDD0"/><path d="M30 78 L70 78" stroke="#E5482B" stroke-width="5" stroke-linecap="round"/><rect x="44" y="74" width="12" height="9" rx="2" fill="#c9cdd0"/></g><rect x="4" y="96" width="292" height="10" rx="4" fill="#3a454d"/></svg></div></div><div class="alt"><div class="k">ALTITUDE</div><div class="n" id="cain">3,000 M</div><div class="bar"><i id="caib"></i></div></div></div>
+      <div class="fondo" id="fo1"><img src="assets/archivo/panguana_2004b.jpg" alt="" style="object-position:50% 50%; transform-origin:50% 50%; filter:brightness(.5) saturate(.75) contrast(1.1)"/><div class="fo-v"></div><div class="fo-c">KLAUS SCHÖNITZER · CC BY-SA 3.0 · WIKIMEDIA COMMONS</div></div>
+      <div class="rotulo" id="ro2" style="top:1330px"><div class="r-big" id="ro2g">17</div><div class="r-sub" id="ro2s"><span class="barra" id="ro2r"></span>YEARS OLD</div></div>
+      <div class="fondo" id="fo3"><img src="assets/archivo/panguana_noche.jpg" alt="" style="object-position:50% 60%; transform-origin:50% 60%; filter:brightness(.5) saturate(.75) contrast(1.1)"/><div class="fo-v"></div><div class="fo-c">ARMINO87 · CC BY-SA 4.0 · WIKIMEDIA COMMONS</div></div>
+      <div class="rotulo" id="ro4" style="top:1330px"><div class="r-big nieve" id="ro4g">ALONE</div><div class="r-sub" id="ro4s"><span class="barra" id="ro4r"></span>IN THE AMAZON</div></div>
+      <div class="chip-fecha" id="fecha"><b>24 · DEC · 1971</b><span>LANSA FLIGHT 508 · PUCALLPA-BOUND</span></div>
+      <div class="tormenta" id="tor"><div class="lluvia" id="torl"></div></div>
+      <div class="archivo" id="ar5" style="left:70px; top:640px; width:940px"><div class="ar-m" style="width:940px; height:721px; border:none; box-shadow:none; background:none; overflow:visible"><div class="ar-m ar-mitad" id="ar5a" style="position:absolute; inset:0; clip-path:polygon(0 0, 100% 0, 100% 38%, 58% 52%, 0 64%)"><div class="ar-bg" style="width:940px; height:721px; background:url(assets/archivo/electra_eastern_1978.jpg) center/cover"></div><div class="ar-g"></div></div><div class="ar-m ar-mitad" id="ar5b" style="position:absolute; inset:0; clip-path:polygon(0 64%, 58% 52%, 100% 38%, 100% 100%, 0 100%)"><div class="ar-bg" style="width:940px; height:721px; background:url(assets/archivo/electra_eastern_1978.jpg) center/cover"></div><div class="ar-g"></div></div></div><div class="ar-p"><span class="ar-t">LOCKHEED L-188 ELECTRA · THE SAME AIRCRAFT TYPE</span><span class="ar-c">HUNTER DESPORTES · CC BY 2.0 · WIKIMEDIA COMMONS</span></div></div>
+      <div class="fondo" id="fo6"><img src="assets/archivo/panguana_2004b.jpg" alt="" style="object-position:50% 70%; transform-origin:50% 70%; filter:brightness(.32) saturate(.6) contrast(1.1)"/><div class="fo-v"></div><div class="fo-c">KLAUS SCHÖNITZER · CC BY-SA 3.0 · WIKIMEDIA COMMONS</div></div>
+      <div id="dias"><div class="k">DAY</div><div class="n"><span id="d1">1</span><span id="d2">2</span><span id="d3">3</span><span id="d4">4</span><span id="d5">5</span><span id="d6">6</span><span id="d7">7</span><span id="d8">8</span><span id="d9">9</span><span id="d10">10</span><span id="d11">11</span></div><div class="t"><i id="dt1"></i><i id="dt2"></i><i id="dt3"></i><i id="dt4"></i><i id="dt5"></i><i id="dt6"></i><i id="dt7"></i><i id="dt8"></i><i id="dt9"></i><i id="dt10"></i><i id="dt11"></i></div><div class="s">ALONE IN THE JUNGLE</div></div>
+      <div class="parte" id="pt7"><div class="h"><b>INJURIES</b><span>NO MEDICAL HELP</span></div><div class="pf" id="pt7f0"><span class="a">COLLARBONE</span><span class="b">BROKEN</span></div><div class="pf" id="pt7f1"><span class="a">ONE EYE</span><span class="b">SWOLLEN SHUT</span></div><div class="pf" id="pt7f2"><span class="a">FOOTWEAR</span><span class="b">ONE SANDAL</span></div></div>
+      <div class="fondo" id="fo8"><img src="assets/archivo/panguana_noche.jpg" alt="" style="object-position:40% 50%; transform-origin:40% 50%; filter:brightness(.28) saturate(.5)"/><div class="fo-v"></div><div class="fo-c">ARMINO87 · CC BY-SA 4.0 · WIKIMEDIA COMMONS</div></div>
+      <div class="rotulo" id="ro9" style="top:1330px"><div class="r-big" id="ro9g">92</div><div class="r-sub" id="ro9s"><span class="barra" id="ro9r"></span>ON BOARD</div></div>
+      <div class="asientos" id="as10"><div class="t">ROW 19 · NEAR THE BACK</div><div class="fila2"><div class="ventana"></div><div class="as" id="as10a1"><svg viewBox="0 0 100 110"><rect x="18" y="4" width="64" height="70" rx="12" fill="#1c252c" stroke="#E5482B" stroke-width="3"/><rect x="12" y="70" width="76" height="22" rx="8" fill="#232e36" stroke="#E5482B" stroke-width="3"/><rect x="6" y="52" width="10" height="34" rx="4" fill="#E5482B"/><rect x="84" y="52" width="10" height="34" rx="4" fill="#E5482B"/><path d="M30 78 L70 78" stroke="#ECEDEA" stroke-width="5" stroke-linecap="round"/><rect x="44" y="74" width="12" height="9" rx="2" fill="#c9cdd0"/></svg><div class="n">JULIANE</div><div class="p">WINDOW</div></div><div class="as" id="as10a2"><svg viewBox="0 0 100 110"><rect x="18" y="4" width="64" height="70" rx="12" fill="#1c252c" stroke="#C9CDD0" stroke-width="3"/><rect x="12" y="70" width="76" height="22" rx="8" fill="#232e36" stroke="#C9CDD0" stroke-width="3"/><rect x="6" y="52" width="10" height="34" rx="4" fill="#C9CDD0"/><rect x="84" y="52" width="10" height="34" rx="4" fill="#C9CDD0"/><path d="M30 78 L70 78" stroke="#E5482B" stroke-width="5" stroke-linecap="round"/><rect x="44" y="74" width="12" height="9" rx="2" fill="#c9cdd0"/></svg><div class="n">MARIA</div><div class="p">HER MOTHER</div></div></div></div>
+      <div class="fondo" id="fo11"><img src="assets/archivo/rio_llullapichis_2004.jpg" alt="" style="object-position:50% 55%; transform-origin:50% 55%; filter:brightness(.45) saturate(.8) contrast(1.1)"/><div class="fo-v"></div><div class="fo-c">KLAUS SCHÖNITZER · CC BY-SA 3.0 · WIKIMEDIA COMMONS</div></div>
+      <div class="cita" id="ci12"><div class="q">Find <span>moving water.</span><br/>Never let it<br/>out of your sight.</div><div class="au">— HER FATHER'S RULE</div></div>
+      <div class="fondo" id="fo13"><img src="assets/archivo/rio_pachitea_canoas.jpg" alt="" style="object-position:50% 50%; transform-origin:50% 50%; filter:brightness(.25) saturate(.6)"/><div class="fo-v"></div><div class="fo-c">JHARISON · CC BY-SA 4.0 · WIKIMEDIA COMMONS</div></div>
+      <div class="cadena" id="cad14"><div class="cn" id="cad14n0"><svg viewBox="0 0 150 150"><circle cx="75" cy="75" r="70" fill="rgba(13,16,19,.85)" stroke="#3a454d" stroke-width="2.5"/><path d="M22 75 C 45 68, 60 82, 75 75 S 105 68, 128 75" fill="none" stroke="#8fb6dc" stroke-width="3" stroke-linecap="round"/></svg><div><div class="r">STREAM</div><div class="q">a thread of water</div></div></div><div class="cf"><i id="cad14f0"></i></div><div class="cn" id="cad14n1"><svg viewBox="0 0 150 150"><circle cx="75" cy="75" r="70" fill="rgba(13,16,19,.85)" stroke="#3a454d" stroke-width="2.5"/><path d="M22 75 C 45 62, 60 88, 75 75 S 105 62, 128 75" fill="none" stroke="#8fb6dc" stroke-width="8" stroke-linecap="round"/></svg><div><div class="r">BROOK</div><div class="q">wider, louder</div></div></div><div class="cf"><i id="cad14f1"></i></div><div class="cn" id="cad14n2"><svg viewBox="0 0 150 150"><circle cx="75" cy="75" r="70" fill="rgba(13,16,19,.85)" stroke="#3a454d" stroke-width="2.5"/><path d="M22 75 C 45 56, 60 94, 75 75 S 105 56, 128 75" fill="none" stroke="#8fb6dc" stroke-width="16" stroke-linecap="round"/></svg><div><div class="r">RIVER</div><div class="q">it carries you</div></div></div><div class="cf"><i id="cad14f2"></i></div><div class="cn gente" id="cad14n3"><svg viewBox="0 0 150 150"><circle cx="75" cy="75" r="70" fill="rgba(13,16,19,.85)" stroke="#E5482B" stroke-width="3"/><g fill="#E5482B"><circle cx="58" cy="58" r="11"/><path d="M38 108 C38 84 46 74 58 74 C70 74 78 84 78 108Z"/><circle cx="94" cy="62" r="9"/><path d="M78 108 C80 88 86 80 94 80 C104 80 110 88 112 108Z"/></g></svg><div><div class="r">PEOPLE</div><div class="q">on its banks</div></div></div></div>
+      <div class="fondo" id="fo15"><img src="assets/archivo/panguana_lupuna_2008.jpg" alt="" style="object-position:50% 50%; transform-origin:50% 50%; filter:brightness(.25) saturate(.5)"/><div class="fo-v"></div></div>
+      <div class="archivo" id="ar16" style="left:190px; top:560px; width:700px"><div class="ar-m" id="ar16m" style="width:700px; height:710px"><img src="assets/archivo/buitre_rey_ecuador.jpg" alt="" style="width:700px; height:710px"/><div class="ar-g"></div></div><div class="ar-p"><span class="ar-t">KING VULTURE · SARCORAMPHUS PAPA</span><span class="ar-c">GEOFF GALLICE FROM GAINESVILLE, FL, USA · CC BY 2.0 · WIKIMEDIA COMMONS</span></div></div>
+      <div class="pulso" id="pulso"></div>
+      <div class="fondo" id="fo17"><img src="assets/archivo/rio_pachitea_botes.jpg" alt="" style="object-position:45% 55%; transform-origin:45% 55%; filter:brightness(.5) saturate(.75) contrast(1.1)"/><div class="fo-v"></div><div class="fo-c">PETSES · CC BY-SA 3.0 · WIKIMEDIA COMMONS</div></div>
+      <div class="rotulo" id="ro18" style="top:1330px"><div class="r-big" id="ro18g">FUEL</div><div class="r-sub" id="ro18s"><span class="barra" id="ro18r"></span>POURED INTO THE WOUND</div></div>
+      <div class="fondo" id="fo19"><img src="assets/archivo/rio_pachitea_canoas.jpg" alt="" style="object-position:50% 50%; transform-origin:50% 50%; filter:brightness(.38) saturate(.75)"/><div class="fo-v"></div><div class="fo-c">JHARISON · CC BY-SA 4.0 · WIKIMEDIA COMMONS</div></div>
+      <div class="cadena" id="cad20"><div class="cn" id="cad20n0"><svg viewBox="0 0 150 150"><circle cx="75" cy="75" r="70" fill="rgba(13,16,19,.85)" stroke="#3a454d" stroke-width="2.5"/><path d="M22 75 C 45 68, 60 82, 75 75 S 105 68, 128 75" fill="none" stroke="#8fb6dc" stroke-width="3" stroke-linecap="round"/></svg><div><div class="r">STREAM</div><div class="q">a thread of water</div></div></div><div class="cf"><i id="cad20f0"></i></div><div class="cn" id="cad20n1"><svg viewBox="0 0 150 150"><circle cx="75" cy="75" r="70" fill="rgba(13,16,19,.85)" stroke="#3a454d" stroke-width="2.5"/><path d="M22 75 C 45 62, 60 88, 75 75 S 105 62, 128 75" fill="none" stroke="#8fb6dc" stroke-width="8" stroke-linecap="round"/></svg><div><div class="r">BROOK</div><div class="q">wider, louder</div></div></div><div class="cf"><i id="cad20f1"></i></div><div class="cn" id="cad20n2"><svg viewBox="0 0 150 150"><circle cx="75" cy="75" r="70" fill="rgba(13,16,19,.85)" stroke="#3a454d" stroke-width="2.5"/><path d="M22 75 C 45 56, 60 94, 75 75 S 105 56, 128 75" fill="none" stroke="#8fb6dc" stroke-width="16" stroke-linecap="round"/></svg><div><div class="r">RIVER</div><div class="q">it carries you</div></div></div><div class="cf"><i id="cad20f2"></i></div><div class="cn gente" id="cad20n3"><svg viewBox="0 0 150 150"><circle cx="75" cy="75" r="70" fill="rgba(13,16,19,.85)" stroke="#E5482B" stroke-width="3"/><g fill="#E5482B"><circle cx="58" cy="58" r="11"/><path d="M38 108 C38 84 46 74 58 74 C70 74 78 84 78 108Z"/><circle cx="94" cy="62" r="9"/><path d="M78 108 C80 88 86 80 94 80 C104 80 110 88 112 108Z"/></g></svg><div><div class="r">PEOPLE</div><div class="q">on its banks</div></div></div></div>
+      <div class="personas" id="pp21"><i class="pe" id="pe0"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe1"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe2"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe3"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe4"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe5"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe6"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe7"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe8"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe9"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe10"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe11"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe12"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe13"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe14"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe15"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe16"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe17"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe18"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe19"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe20"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe21"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe22"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe23"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe24"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe25"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe26"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe27"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe28"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe29"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe30"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe31"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe32"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe33"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe34"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe35"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe36"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe37"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe38"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe39"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe40"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe41"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe42"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe43"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe44"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe45"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe46"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe47"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe48"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe49"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe50"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe51"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe52"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe53"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe54"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe55"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe56"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe57"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe58"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe59"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe60"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe61"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe62"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe63"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe64"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe65"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe66"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe67"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe68"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe69"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe70"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe71"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe72"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe73"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe74"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe75"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe76"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe77"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe78"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe79"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe80"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe81"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe82"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe83"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe84"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe85"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe86"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe87"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe88"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe89"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe90"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i><i class="pe" id="pe91"><svg viewBox="0 0 24 24"><circle cx="12" cy="6" r="4.2"/><path d="M4 23 C4 15 7.5 11.5 12 11.5 C16.5 11.5 20 15 20 23Z"/></svg></i></div>
+      <div class="halo" id="halo"></div>
+      <div id="niebla"></div>
+      <div id="cta"><div class="marco"><img src="assets/largo.png" alt="" /><div class="play"></div></div><div class="chip-cta">FULL STORY · ON NO RESCUE</div></div>
+      <div id="cierre"><img src="assets/logo-transparente.png" alt="" /><div class="t">NO <span>RESCUE</span></div><div class="l">True stories of survival.</div>
+        <div class="cr">Archive: Wikimedia Commons (CC BY / CC BY-SA, authors in the description) · Music: original score</div></div>
+      <div id="vineta"></div>
+      <div id="sombra-sup"></div>
+      <div id="grano"></div>
+      <div id="flash"></div>
+      <div class="frase-caja"><div class="frase" id="f0">She fell <span class="nv">three kilometers</span></div><div class="frase" id="f1">out of the sky,</div><div class="frase" id="f2">still strapped to her seat.</div><div class="frase" id="f3">She was <span class="nv">seventeen</span>.</div><div class="frase" id="f4">And she <span class="rj">survived the fall</span>.</div><div class="frase" id="f5">But <span class="nv">nobody was coming</span>.</div><div class="frase" id="f6">So how do you walk out</div><div class="frase" id="f7">of the Amazon <span class="nv">alone</span>?</div><div class="frase" id="f8"><span class="nv">Christmas Eve</span>,</div><div class="frase" id="f9"><span class="nv">1971</span>.</div><div class="frase" id="f10"><span class="rj">Lightning</span> strikes <span class="nv">LANSA Flight 508</span>,</div><div class="frase" id="f11">and the plane <span class="rj">breaks apart</span> around her.</div><div class="frase" id="f12">She wakes up on the forest floor.</div><div class="frase" id="f13"><span class="nv">Collarbone broken</span>.</div><div class="frase" id="f14"><span class="nv">One eye swollen shut</span>.</div><div class="frase" id="f15"><span class="nv">One sandal</span>.</div><div class="frase" id="f16"><span class="nv">Ninety-two</span> people were on that flight.</div><div class="frase" id="f17">She calls for <span class="nv">her mother</span>.</div><div class="frase" id="f18"><span class="rj">Nobody answers</span>.</div><div class="frase" id="f19">Then she hears <span class="nv">water</span>.</div><div class="frase" id="f20">And she remembers her father&#x27;s rule.</div><div class="frase" id="f21">Find <span class="nv">moving water</span>.</div><div class="frase" id="f22">Never let it out of your sight.</div><div class="frase" id="f23">The <span class="nv">stream</span> becomes a <span class="nv">brook</span>.</div><div class="frase" id="f24">The <span class="nv">brook</span> becomes a <span class="nv">river</span>.</div><div class="frase" id="f25"><span class="nv">Vultures</span> circle where the bodies are.</div><div class="frase" id="f26"><span class="rj">Maggots</span> eat into her arm.</div><div class="frase" id="f27">On the <span class="nv">tenth day</span>,</div><div class="frase" id="f28">she finds a <span class="nv">boat</span>.</div><div class="frase" id="f29">She pours its <span class="nv">fuel</span> into the wound.</div><div class="frase" id="f30">On the <span class="nv">eleventh</span>,</div><div class="frase" id="f31">she hears men&#x27;s voices.</div><div class="frase" id="f32">Like the <span class="nv">voices of angels</span>.</div><div class="frase" id="f33"><span class="rj">Ninety-one</span> people died.</div><div class="frase" id="f34"><span class="rj">One walked out</span>.</div><div class="frase" id="f35">Her full story is on <span class="nv">No Rescue</span>.</div></div>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#cai img", {scale:1}, {scale:2.3, duration:5.36, ease:"power2.in", immediateRender:false}, 0.000);
+      tl.fromTo("#cail", {backgroundPosition:"0px 0px, 0px 0px"}, {backgroundPosition:"-857px 9112px, -589px 6700px", duration:5.36, ease:"none", immediateRender:false}, 0.000);
+      tl.fromTo("#caif", {rotation:-10, scale:.85, y:-60}, {rotation:402, scale:1.12, y:60, duration:5.36, ease:"none", immediateRender:false}, 0.000);
+      tl.fromTo("#caib", {scaleY:1}, {scaleY:0, duration:5.06, ease:"power1.in", immediateRender:false}, 0.000);
+      (() => { const o = {v:3000}; const el = document.getElementById("cain"); tl.fromTo(o, {v:3000}, {v:0, duration:5.06, ease:"power1.in", immediateRender:false, onUpdate:() => { el.textContent = Math.round(o.v).toLocaleString("en-US") + " M"; }}, 0); })();
+      tl.fromTo("#caiw", {x:0, y:0}, {x:6, y:-4.2, duration:.07, yoyo:true, repeat:72, ease:"sine.inOut", immediateRender:false}, 0.000);
+      tl.set("#caiw", {x:0, y:0}, 5.109);
+      tl.to("#cai", {opacity:0, duration:.12}, 5.059);
+      tl.fromTo("#flash", {opacity:0}, {opacity:0.9, duration:.07, yoyo:true, repeat:1, immediateRender:false}, 5.059);
+      tl.fromTo("#fo1", {opacity:0}, {opacity:1, duration:0.9, immediateRender:false}, 5.159);
+      tl.fromTo("#fo1 img", {scale:1.15}, {scale:1.0, duration:3.72, ease:"none", immediateRender:false}, 5.159);
+      tl.to("#fo1", {opacity:0, duration:0.6}, 8.279);
+      tl.fromTo("#ro2g", {opacity:0, y:50, scale:.9}, {opacity:1, y:0, scale:1, duration:.5, ease:"back.out(1.7)", immediateRender:false}, 5.686);
+      tl.fromTo("#ro2r", {scaleX:0}, {scaleX:1, duration:.4, ease:"power2.out", immediateRender:false}, 5.886);
+      tl.fromTo("#ro2s", {opacity:0, x:-20}, {opacity:1, x:0, duration:.4, immediateRender:false}, 5.936);
+      (() => { const o = {v:0}; const el = document.getElementById("ro2g"); tl.fromTo(o, {v:0}, {v:17, duration:0.7, ease:"power2.out", immediateRender:false, onUpdate:() => { el.textContent = "" + Math.round(o.v) + ""; }}, 5.686); })();
+      tl.to("#ro2", {opacity:0, y:-20, duration:.35}, 8.229);
+      tl.fromTo("#fo3", {opacity:0}, {opacity:1, duration:0.6, immediateRender:false}, 8.129);
+      tl.fromTo("#fo3 img", {scale:1.0}, {scale:1.14, duration:5.89, ease:"none", immediateRender:false}, 8.129);
+      tl.to("#fo3", {opacity:0, duration:0.6}, 13.420);
+      tl.fromTo("#ro4g", {opacity:0, y:50, scale:.9}, {opacity:1, y:0, scale:1, duration:.5, ease:"back.out(1.7)", immediateRender:false}, 9.998);
+      tl.fromTo("#ro4r", {scaleX:0}, {scaleX:1, duration:.4, ease:"power2.out", immediateRender:false}, 10.198);
+      tl.fromTo("#ro4s", {opacity:0, x:-20}, {opacity:1, x:0, duration:.4, immediateRender:false}, 10.248);
+      tl.to("#ro4", {opacity:0, y:-20, duration:.35}, 13.370);
+      tl.fromTo("#fecha", {opacity:0, y:-14}, {opacity:1, y:0, duration:.5, ease:"power2.out", immediateRender:false}, 13.520);
+      tl.to("#fecha", {opacity:0, duration:.4}, 20.582);
+      tl.fromTo("#tor", {opacity:0}, {opacity:1, duration:.8, immediateRender:false}, 13.420);
+      tl.fromTo("#torl", {backgroundPosition:"0px 0px, 0px 0px"}, {backgroundPosition:"-1913px 12512px, -1324px 9568px", duration:7.36, ease:"none", immediateRender:false}, 13.420);
+      tl.to("#tor", {opacity:0, duration:.6}, 20.582);
+      tl.fromTo("#ar5", {opacity:0, y:40, scale:.96}, {opacity:1, y:0, scale:1, duration:.6, ease:"power3.out", immediateRender:false}, 13.620);
+      tl.to("#ar5", {opacity:0, duration:.45}, 20.482);
+      tl.fromTo("#ar5a .ar-bg, #ar5b .ar-bg", {scale:1}, {scale:1.1, duration:7.36, ease:"none", immediateRender:false}, 13.620);
+      tl.fromTo("#flash", {opacity:0}, {opacity:0.55, duration:.07, yoyo:true, repeat:1, immediateRender:false}, 15.115);
+      tl.fromTo("#flash", {opacity:0}, {opacity:0.3, duration:.07, yoyo:true, repeat:1, immediateRender:false}, 15.365);
+      tl.fromTo("#ar5", {x:0, y:0}, {x:7, y:-4.9, duration:.07, yoyo:true, repeat:50, ease:"sine.inOut", immediateRender:false}, 15.115);
+      tl.set("#ar5", {x:0, y:0}, 18.724);
+      tl.fromTo("#ar5a", {x:0, y:0, rotation:0}, {x:-90, y:-120, rotation:-9, duration:1.81, ease:"power2.out", immediateRender:false}, 18.674);
+      tl.fromTo("#ar5b", {x:0, y:0, rotation:0}, {x:80, y:150, rotation:7, duration:1.81, ease:"power2.out", immediateRender:false}, 18.674);
+      tl.fromTo("#flash", {opacity:0}, {opacity:0.7, duration:.07, yoyo:true, repeat:1, immediateRender:false}, 18.674);
+      tl.fromTo("#fo6", {opacity:0}, {opacity:1, duration:0.6, immediateRender:false}, 20.482);
+      tl.fromTo("#fo6 img", {scale:1.0}, {scale:1.1, duration:7.38, ease:"none", immediateRender:false}, 20.482);
+      tl.to("#fo6", {opacity:0, duration:0.6}, 27.259);
+      tl.fromTo("#dias", {opacity:0, x:30}, {opacity:1, x:0, duration:.6, ease:"power3.out", immediateRender:false}, 20.882);
+      tl.fromTo("#d1", {opacity:0, y:50}, {opacity:1, y:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 21.032);
+      tl.to("#dt1", {backgroundColor:"#E5482B", boxShadow:"0 0 10px #E5482B", duration:.25}, 21.082);
+      tl.fromTo("#pt7", {opacity:0, y:30}, {opacity:1, y:0, duration:.5, ease:"power3.out", immediateRender:false}, 22.774);
+      tl.fromTo("#pt7f0", {opacity:0, x:-30}, {opacity:1, x:0, duration:.35, ease:"power2.out", immediateRender:false}, 23.224);
+      tl.fromTo("#pt7f1", {opacity:0, x:-30}, {opacity:1, x:0, duration:.35, ease:"power2.out", immediateRender:false}, 24.589);
+      tl.fromTo("#pt7f2", {opacity:0, x:-30}, {opacity:1, x:0, duration:.35, ease:"power2.out", immediateRender:false}, 26.169);
+      tl.to("#pt7", {opacity:0, duration:.4}, 27.109);
+      tl.fromTo("#fo8", {opacity:0}, {opacity:1, duration:0.6, immediateRender:false}, 27.009);
+      tl.fromTo("#fo8 img", {scale:1.08}, {scale:1.0, duration:6.36, ease:"none", immediateRender:false}, 27.009);
+      tl.to("#fo8", {opacity:0, duration:0.6}, 32.773);
+      tl.fromTo("#ro9g", {opacity:0, y:50, scale:.9}, {opacity:1, y:0, scale:1, duration:.5, ease:"back.out(1.7)", immediateRender:false}, 27.309);
+      tl.fromTo("#ro9r", {scaleX:0}, {scaleX:1, duration:.4, ease:"power2.out", immediateRender:false}, 27.509);
+      tl.fromTo("#ro9s", {opacity:0, x:-20}, {opacity:1, x:0, duration:.4, immediateRender:false}, 27.559);
+      (() => { const o = {v:0}; const el = document.getElementById("ro9g"); tl.fromTo(o, {v:0}, {v:92, duration:0.9, ease:"power2.out", immediateRender:false, onUpdate:() => { el.textContent = "" + Math.round(o.v) + ""; }}, 27.309); })();
+      tl.to("#ro9", {opacity:0, y:-20, duration:.35}, 29.579);
+      tl.fromTo("#as10", {opacity:0, y:30}, {opacity:1, y:0, duration:.5, ease:"power3.out", immediateRender:false}, 29.529);
+      tl.fromTo("#as10a2", {opacity:1}, {opacity:.12, duration:1.4, ease:"power1.in", immediateRender:false}, 31.342);
+      tl.to("#as10", {opacity:0, duration:.6}, 32.573);
+      tl.fromTo("#fo11", {opacity:0}, {opacity:1, duration:0.6, immediateRender:false}, 32.473);
+      tl.fromTo("#fo11 img", {scale:1.0}, {scale:1.15, duration:7.27, ease:"none", immediateRender:false}, 32.473);
+      tl.to("#fo11", {opacity:0, duration:0.6}, 39.146);
+      tl.to("#d1", {opacity:0, y:-40, duration:.3, ease:"power2.in"}, 33.956);
+      tl.fromTo("#d2", {opacity:0, y:50}, {opacity:1, y:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 34.106);
+      tl.to("#dt2", {backgroundColor:"#E5482B", boxShadow:"0 0 10px #E5482B", duration:.25}, 34.156);
+      tl.fromTo("#ci12", {opacity:0, y:40}, {opacity:1, y:0, duration:.6, ease:"power3.out", immediateRender:false}, 36.009);
+      tl.to("#ci12", {opacity:0, duration:.4}, 39.046);
+      tl.to("#d2", {opacity:0, y:-40, duration:.3, ease:"power2.in"}, 36.409);
+      tl.fromTo("#d3", {opacity:0, y:50}, {opacity:1, y:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 36.559);
+      tl.to("#dt3", {backgroundColor:"#E5482B", boxShadow:"0 0 10px #E5482B", duration:.25}, 36.609);
+      tl.to("#d3", {opacity:0, y:-40, duration:.3, ease:"power2.in"}, 37.149);
+      tl.fromTo("#d4", {opacity:0, y:50}, {opacity:1, y:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 37.299);
+      tl.to("#dt4", {backgroundColor:"#E5482B", boxShadow:"0 0 10px #E5482B", duration:.25}, 37.349);
+      tl.fromTo("#fo13", {opacity:0}, {opacity:1, duration:0.6, immediateRender:false}, 38.846);
+      tl.fromTo("#fo13 img", {scale:1.0}, {scale:1.08, duration:4.76, ease:"none", immediateRender:false}, 38.846);
+      tl.to("#fo13", {opacity:0, duration:0.6}, 43.003);
+      tl.fromTo("#cad14", {opacity:0}, {opacity:1, duration:.5, immediateRender:false}, 38.896);
+      tl.fromTo("#cad14n0", {opacity:.2, x:-20}, {opacity:1, x:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 39.196);
+      tl.fromTo("#cad14f0", {scaleY:0}, {scaleY:1, duration:.35, ease:"power2.out", immediateRender:false}, 40.229);
+      tl.fromTo("#cad14n1", {opacity:.2, x:-20}, {opacity:1, x:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 40.529);
+      tl.fromTo("#cad14f1", {scaleY:0}, {scaleY:1, duration:.35, ease:"power2.out", immediateRender:false}, 41.876);
+      tl.fromTo("#cad14n2", {opacity:.2, x:-20}, {opacity:1, x:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 42.176);
+      tl.to("#cad14", {opacity:0, duration:.45}, 42.903);
+      tl.to("#d4", {opacity:0, y:-40, duration:.3, ease:"power2.in"}, 40.990);
+      tl.fromTo("#d5", {opacity:0, y:50}, {opacity:1, y:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 41.140);
+      tl.to("#dt5", {backgroundColor:"#E5482B", boxShadow:"0 0 10px #E5482B", duration:.25}, 41.190);
+      tl.to("#d5", {opacity:0, y:-40, duration:.3, ease:"power2.in"}, 42.176);
+      tl.fromTo("#d6", {opacity:0, y:50}, {opacity:1, y:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 42.326);
+      tl.to("#dt6", {backgroundColor:"#E5482B", boxShadow:"0 0 10px #E5482B", duration:.25}, 42.376);
+      tl.fromTo("#fo15", {opacity:0}, {opacity:1, duration:0.6, immediateRender:false}, 42.753);
+      tl.fromTo("#fo15 img", {scale:1.0}, {scale:1.1, duration:4.98, ease:"none", immediateRender:false}, 42.753);
+      tl.to("#fo15", {opacity:0, duration:0.6}, 47.132);
+      tl.fromTo("#ar16", {opacity:0, y:40, scale:.96}, {opacity:1, y:0, scale:1, duration:.6, ease:"power3.out", immediateRender:false}, 42.853);
+      tl.fromTo("#ar16 img", {scale:1.0}, {scale:1.08, duration:4.58, ease:"none", immediateRender:false}, 42.853);
+      tl.to("#ar16", {opacity:0, duration:.45}, 46.932);
+      tl.to("#d6", {opacity:0, y:-40, duration:.3, ease:"power2.in"}, 43.593);
+      tl.fromTo("#d7", {opacity:0, y:50}, {opacity:1, y:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 43.743);
+      tl.to("#dt7", {backgroundColor:"#E5482B", boxShadow:"0 0 10px #E5482B", duration:.25}, 43.793);
+      tl.to("#d7", {opacity:0, y:-40, duration:.3, ease:"power2.in"}, 45.333);
+      tl.fromTo("#d8", {opacity:0, y:50}, {opacity:1, y:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 45.483);
+      tl.to("#dt8", {backgroundColor:"#E5482B", boxShadow:"0 0 10px #E5482B", duration:.25}, 45.533);
+      tl.fromTo("#pulso", {opacity:0}, {opacity:.55, duration:.25, yoyo:true, repeat:3, ease:"sine.inOut", immediateRender:false}, 45.333);
+      tl.fromTo("#fo17", {opacity:0}, {opacity:1, duration:0.6, immediateRender:false}, 46.983);
+      tl.fromTo("#fo17 img", {scale:1.12}, {scale:1.0, duration:5.71, ease:"none", immediateRender:false}, 46.983);
+      tl.to("#fo17", {opacity:0, duration:0.6}, 52.089);
+      tl.to("#d8", {opacity:0, y:-40, duration:.3, ease:"power2.in"}, 47.033);
+      tl.fromTo("#d9", {opacity:0, y:50}, {opacity:1, y:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 47.183);
+      tl.to("#dt9", {backgroundColor:"#E5482B", boxShadow:"0 0 10px #E5482B", duration:.25}, 47.233);
+      tl.to("#d9", {opacity:0, y:-40, duration:.3, ease:"power2.in"}, 47.779);
+      tl.fromTo("#d10", {opacity:0, y:50}, {opacity:1, y:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 47.929);
+      tl.to("#dt10", {backgroundColor:"#E5482B", boxShadow:"0 0 10px #E5482B", duration:.25}, 47.979);
+      tl.fromTo("#ro18g", {opacity:0, y:50, scale:.9}, {opacity:1, y:0, scale:1, duration:.5, ease:"back.out(1.7)", immediateRender:false}, 49.879);
+      tl.fromTo("#ro18r", {scaleX:0}, {scaleX:1, duration:.4, ease:"power2.out", immediateRender:false}, 50.079);
+      tl.fromTo("#ro18s", {opacity:0, x:-20}, {opacity:1, x:0, duration:.4, immediateRender:false}, 50.129);
+      tl.to("#ro18", {opacity:0, y:-20, duration:.35}, 51.989);
+      tl.fromTo("#pulso", {opacity:0}, {opacity:.4, duration:.3, yoyo:true, repeat:1, immediateRender:false}, 50.516);
+      tl.fromTo("#fo19", {opacity:0}, {opacity:1, duration:0.6, immediateRender:false}, 51.889);
+      tl.fromTo("#fo19 img", {scale:1.0}, {scale:1.1, duration:5.43, ease:"none", immediateRender:false}, 51.889);
+      tl.to("#fo19", {opacity:0, duration:0.6}, 56.719);
+      tl.to("#d10", {opacity:0, y:-40, duration:.3, ease:"power2.in"}, 52.626);
+      tl.fromTo("#d11", {opacity:0, y:50}, {opacity:1, y:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 52.776);
+      tl.to("#dt11", {backgroundColor:"#E5482B", boxShadow:"0 0 10px #E5482B", duration:.25}, 52.826);
+      tl.fromTo("#cad20", {opacity:0}, {opacity:1, duration:.5, immediateRender:false}, 51.989);
+      tl.fromTo("#cad20n0", {opacity:.2, x:-20}, {opacity:1, x:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 52.089);
+      tl.fromTo("#cad20f0", {scaleY:0}, {scaleY:1, duration:.35, ease:"power2.out", immediateRender:false}, 51.989);
+      tl.fromTo("#cad20n1", {opacity:.2, x:-20}, {opacity:1, x:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 52.289);
+      tl.fromTo("#cad20f1", {scaleY:0}, {scaleY:1, duration:.35, ease:"power2.out", immediateRender:false}, 52.189);
+      tl.fromTo("#cad20n2", {opacity:.2, x:-20}, {opacity:1, x:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 52.489);
+      tl.fromTo("#cad20f2", {scaleY:0}, {scaleY:1, duration:.35, ease:"power2.out", immediateRender:false}, 53.573);
+      tl.fromTo("#cad20n3", {opacity:.2, x:-20}, {opacity:1, x:0, duration:.45, ease:"back.out(1.6)", immediateRender:false}, 53.873);
+      tl.to("#cad20", {opacity:0, duration:.45}, 56.569);
+      tl.to("#dias", {opacity:0, duration:.5}, 56.518);
+      tl.fromTo("#pp21", {opacity:0, scale:.94}, {opacity:1, scale:1, duration:.5, ease:"power3.out", immediateRender:false}, 56.568);
+      tl.to(".pe:not(#pe56)", {opacity:.13, duration:.9, stagger:{each:.008, from:"random"}}, 57.860);
+      tl.to("#pe56", {fill:"#E5482B", scale:1.6, duration:.45, ease:"back.out(2)"}, 58.608);
+      tl.to("#pp21", {opacity:0, duration:.35}, 59.651);
+      tl.fromTo("#cta", {opacity:0, scale:.86, y:40}, {opacity:1, scale:1, y:0, duration:.6, ease:"back.out(1.5)", immediateRender:false}, 59.651);
+      tl.fromTo("#cta .play", {scale:.85}, {scale:1.08, duration:.4, repeat:5, yoyo:true, ease:"sine.inOut", immediateRender:false}, 59.951);
+      tl.fromTo("#cta .chip-cta", {opacity:0, y:-16}, {opacity:1, y:0, duration:.4, immediateRender:false}, 60.001);
+      tl.to("#cta", {opacity:0, y:-30, duration:.35}, 62.463);
+      tl.fromTo("#cierre", {opacity:0, y:40}, {opacity:1, y:0, duration:.7, ease:"power3.out", immediateRender:false}, 62.513);
+      tl.fromTo("#cierre img", {rotation:-200, scale:.6}, {rotation:0, scale:1, duration:1.2, ease:"power3.out", immediateRender:false}, 62.513);
+      tl.fromTo("#f0", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 0.150);
+      tl.to("#f0", {opacity:0, duration:.1}, 1.741);
+      tl.fromTo("#f1", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 1.821);
+      tl.to("#f1", {opacity:0, duration:.1}, 2.744);
+      tl.fromTo("#f2", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 2.824);
+      tl.to("#f2", {opacity:0, duration:.1}, 4.549);
+      tl.fromTo("#f3", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 5.179);
+      tl.to("#f3", {opacity:0, duration:.1}, 6.265);
+      tl.fromTo("#f4", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 6.345);
+      tl.to("#f4", {opacity:0, duration:.1}, 7.949);
+      tl.fromTo("#f5", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 8.329);
+      tl.to("#f5", {opacity:0, duration:.1}, 9.896);
+      tl.fromTo("#f6", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 9.976);
+      tl.to("#f6", {opacity:0, duration:.1}, 11.543);
+      tl.fromTo("#f7", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 11.623);
+      tl.to("#f7", {opacity:0, duration:.1}, 13.040);
+      tl.fromTo("#f8", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 13.620);
+      tl.to("#f8", {opacity:0, duration:.1}, 14.569);
+      tl.fromTo("#f9", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 14.649);
+      tl.to("#f9", {opacity:0, duration:.1}, 14.937);
+      tl.fromTo("#f10", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 15.017);
+      tl.to("#f10", {opacity:0, duration:.1}, 17.509);
+      tl.fromTo("#f11", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 17.589);
+      tl.to("#f11", {opacity:0, duration:.1}, 20.302);
+      tl.fromTo("#f12", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 20.782);
+      tl.to("#f12", {opacity:0, duration:.1}, 23.158);
+      tl.fromTo("#f13", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 23.238);
+      tl.to("#f13", {opacity:0, duration:.1}, 24.498);
+      tl.fromTo("#f14", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 24.578);
+      tl.to("#f14", {opacity:0, duration:.1}, 26.061);
+      tl.fromTo("#f15", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 26.141);
+      tl.to("#f15", {opacity:0, duration:.1}, 26.879);
+      tl.fromTo("#f16", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 27.309);
+      tl.to("#f16", {opacity:0, duration:.1}, 29.647);
+      tl.fromTo("#f17", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 29.727);
+      tl.to("#f17", {opacity:0, duration:.1}, 31.238);
+      tl.fromTo("#f18", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 31.318);
+      tl.to("#f18", {opacity:0, duration:.1}, 32.193);
+      tl.fromTo("#f19", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 32.823);
+      tl.to("#f19", {opacity:0, duration:.1}, 33.843);
+      tl.fromTo("#f20", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 33.923);
+      tl.to("#f20", {opacity:0, duration:.1}, 35.729);
+      tl.fromTo("#f21", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 36.109);
+      tl.to("#f21", {opacity:0, duration:.1}, 37.035);
+      tl.fromTo("#f22", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 37.115);
+      tl.to("#f22", {opacity:0, duration:.1}, 38.766);
+      tl.fromTo("#f23", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 39.146);
+      tl.to("#f23", {opacity:0, duration:.1}, 40.878);
+      tl.fromTo("#f24", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 40.958);
+      tl.to("#f24", {opacity:0, duration:.1}, 42.623);
+      tl.fromTo("#f25", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 43.053);
+      tl.to("#f25", {opacity:0, duration:.1}, 45.229);
+      tl.fromTo("#f26", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 45.309);
+      tl.to("#f26", {opacity:0, duration:.1}, 46.752);
+      tl.fromTo("#f27", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 47.333);
+      tl.to("#f27", {opacity:0, duration:.1}, 48.367);
+      tl.fromTo("#f28", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 48.447);
+      tl.to("#f28", {opacity:0, duration:.1}, 49.481);
+      tl.fromTo("#f29", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 49.561);
+      tl.to("#f29", {opacity:0, duration:.1}, 51.709);
+      tl.fromTo("#f30", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 52.189);
+      tl.to("#f30", {opacity:0, duration:.1}, 53.138);
+      tl.fromTo("#f31", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 53.218);
+      tl.to("#f31", {opacity:0, duration:.1}, 54.617);
+      tl.fromTo("#f32", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 54.697);
+      tl.to("#f32", {opacity:0, duration:.1}, 56.289);
+      tl.fromTo("#f33", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 56.818);
+      tl.to("#f33", {opacity:0, duration:.1}, 58.503);
+      tl.fromTo("#f34", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 58.583);
+      tl.to("#f34", {opacity:0, duration:.1}, 59.654);
+      tl.fromTo("#f35", {opacity:0, y:18}, {opacity:1, y:0, duration:.16, ease:"power2.out", immediateRender:false}, 59.734);
+      tl.to("#f35", {opacity:0, duration:.1}, 62.032);
+      tl.fromTo("#grano", {backgroundPosition:"0px 0px"}, {backgroundPosition:"240px 480px", duration:64.31, ease:"steps(771)"}, 0);
+      tl.fromTo("#niebla", {x:-40, opacity:.5}, {x:40, opacity:.8, duration:64.31, ease:"sine.inOut"}, 0);
+      tl.seek(57.866667, false); window.__timelines["main"] = gsap.timeline({ paused: true }).add(tl.tweenFromTo(57.866667, 61.066667, { ease: "none" }), 0);
+    </script>
+  </body>
+</html>
