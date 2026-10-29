@@ -1,0 +1,23 @@
+# Render de una composición HyperFrames (HTML → MP4) en la nube.
+# Se lanza con: gh workflow run render-hyperframes.yml -f carpeta=katana/ep1-muestra -f salida=muestra.mp4
+name: Render HyperFrames
+on:
+  workflow_dispatch:
+    inputs:
+      carpeta: { description: "carpeta del proyecto HyperFrames (con index.html)", required: true }
+      salida: { description: "nombre del mp4", default: "video.mp4" }
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Render
+        working-directory: ${{ inputs.carpeta }}
+        run: npx --yes hyperframes@0.8.17 render --output "$GITHUB_WORKSPACE/${{ inputs.salida }}" --quality high 2>&1 | tail -40
+      - run: test -s "${{ inputs.salida }}" && ffprobe -v error -show_entries format=duration:stream=codec_name,width,height,r_frame_rate -of compact "${{ inputs.salida }}"
+      - uses: actions/upload-artifact@v5
+        with: { name: video, path: "${{ inputs.salida }}", retention-days: 7, compression-level: 0 }

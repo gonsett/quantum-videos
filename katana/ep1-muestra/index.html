@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="es" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "Archivo"; src: url("assets/fuentes/Archivo.ttf") format("truetype"); font-weight: 100 900; font-stretch: 62% 125%; }
+      @font-face { font-family: "Inter Tight"; src: url("assets/fuentes/InterTight.ttf") format("truetype"); font-weight: 100 900; }
+      @font-face { font-family: "Instrument Serif"; src: url("assets/fuentes/InstrumentSerif-Italic.ttf") format("truetype"); font-style: italic; }
+      :root { --negro: #0b0b0c; --hueso: #e9e4d6; --esm: #18c27a; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--negro); }
+      body { font-family: "Archivo", sans-serif; color: var(--hueso); }
+      #mundo { position: absolute; inset: 0; }
+      .tarjeta { position: absolute; inset: 0; overflow: hidden; }
+      .clara { background: var(--hueso); color: var(--negro); }
+      .oscura { background: var(--negro); color: var(--hueso); }
+      .g { font-weight: 900; font-stretch: 125%; text-transform: uppercase; letter-spacing: -0.045em; line-height: 0.86; white-space: nowrap; }
+      .centro { position: absolute; left: 0; right: 0; text-align: center; }
+      .e { color: var(--esm); }
+      .hueco { color: transparent; -webkit-text-stroke: 3px currentColor; }
+
+      /* Plano 1: el punto */
+      #punto { position: absolute; left: 520px; top: 940px; width: 40px; height: 40px; border-radius: 50%; background: var(--esm); box-shadow: 0 0 60px 10px rgba(24, 194, 122, 0.55); }
+      /* Plano 2 */
+      #no { top: 760px; font-size: 380px; }
+      #noEco { top: 760px; font-size: 380px; color: rgba(233, 228, 214, 0.18); }
+      /* Plano 3 */
+      #bajes { top: 820px; font-size: 205px; }
+      #bajesEco { top: 820px; font-size: 205px; color: var(--negro); opacity: 0.16; }
+      /* Plano 4: la pila */
+      #pila { position: absolute; left: 0; right: 0; top: 520px; }
+      #pila .l { display: block; text-align: center; }
+      #p4no { font-size: 290px; }
+      #p4bajes { font-size: 200px; margin-top: 30px; position: relative; display: inline-block; }
+      #p4precio { font-size: 132px; margin-top: 46px; }
+      #trazo { position: absolute; left: 70px; top: 880px; width: 940px; height: 120px; overflow: visible; }
+      /* Plano 5 */
+      #dicen { top: 520px; font-size: 64px; font-stretch: 75%; font-weight: 800; letter-spacing: 0.02em; }
+      #comillaA, #comillaB { position: absolute; font-family: "Instrument Serif", serif; font-style: italic; font-size: 520px; line-height: 1; color: var(--esm); }
+      #comillaA { left: 40px; top: 560px; }
+      #comillaB { right: 60px; top: 1240px; }
+      #caro { top: 800px; font-size: 230px; }
+      #caro2 { top: 1010px; font-size: 230px; }
+      #ja { position: absolute; left: 130px; top: 1420px; font-family: "Instrument Serif", serif; font-style: italic; font-size: 120px; color: var(--negro); }
+      #ja span { color: var(--esm); }
+      /* Plano 6: la cotización */
+      #coti { position: absolute; left: 120px; top: 470px; width: 840px; height: 640px; border-radius: 28px;
+        background: linear-gradient(160deg, rgba(255,255,255,0.09), rgba(255,255,255,0.025)); border: 1.5px solid rgba(233,228,214,0.16);
+        box-shadow: 0 40px 120px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.12); padding: 54px 60px; font-family: "Inter Tight", sans-serif; }
+      #coti .filete { position: absolute; left: 0; top: 70px; width: 6px; height: 120px; background: var(--esm); border-radius: 0 4px 4px 0; }
+      #coti .rot { font-size: 26px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(233,228,214,0.55); }
+      #coti .plan { font-size: 44px; font-weight: 600; margin-top: 18px; color: var(--hueso); }
+      #coti .linea { height: 1px; background: rgba(233,228,214,0.14); margin: 40px 0 34px; }
+      #coti .monto { position: relative; height: 170px; }
+      #coti .num { position: absolute; left: 0; top: 0; font-family: "Archivo", sans-serif; font-weight: 800; font-stretch: 100%; font-size: 150px; letter-spacing: -0.04em; line-height: 1; font-variant-numeric: tabular-nums; }
+      #coti .num small { font-size: 54px; font-weight: 600; letter-spacing: 0; margin-right: 14px; color: rgba(233,228,214,0.6); }
+      #coti .pie { display: flex; justify-content: space-between; align-items: center; margin-top: 40px; font-size: 28px; font-weight: 600; color: rgba(233,228,214,0.55); }
+      #chip { background: var(--esm); color: var(--negro); font-weight: 700; font-size: 34px; padding: 10px 22px; border-radius: 999px; }
+      #equis { position: absolute; left: 80px; top: 430px; width: 920px; height: 720px; overflow: visible; }
+      #descuento { top: 1290px; font-size: 122px; }
+      /* Plano 8 */
+      #p8 .l { position: absolute; left: 0; right: 0; text-align: center; }
+      #p8sin { top: 470px; font-size: 150px; }
+      #p8nadie { top: 640px; font-size: 250px; }
+      #p8telo { top: 920px; font-size: 150px; }
+      #p8pida { top: 1090px; font-size: 330px; }
+
+      /* Frase de la voz, arriba (franja 200-330) */
+      .frase { position: absolute; left: 90px; right: 90px; top: 236px; text-align: center; font-family: "Inter Tight", sans-serif; font-weight: 600; font-size: 40px; line-height: 1.25; letter-spacing: 0.005em; color: #e9e4d6; mix-blend-mode: difference; z-index: 20; }
+
+      #flash { position: absolute; inset: 0; background: var(--esm); opacity: 0; z-index: 15; }
+      #blanco { position: absolute; inset: 0; background: #fff; opacity: 0; z-index: 16; }
+      #vineta { position: absolute; inset: 0; z-index: 17; background: radial-gradient(ellipse 95% 80% at 50% 50%, transparent 60%, rgba(0,0,0,0.28) 100%); mix-blend-mode: multiply; }
+      #grano { position: absolute; inset: 0; z-index: 18; opacity: 0.09; mix-blend-mode: overlay; }
+    </style>
+  </head>
+  <body>
+    <svg width="0" height="0" style="position: absolute">
+      <defs>
+        <filter id="mb2" x="-50%" y="-20%" width="200%" height="140%"><feGaussianBlur id="b2" stdDeviation="0 0" /></filter>
+        <filter id="mb3" x="-50%" y="-20%" width="200%" height="140%"><feGaussianBlur id="b3" stdDeviation="0 0" /></filter>
+        <filter id="mb4" x="-50%" y="-20%" width="200%" height="140%"><feGaussianBlur id="b4" stdDeviation="0 0" /></filter>
+        <filter id="mb5" x="-50%" y="-20%" width="200%" height="140%"><feGaussianBlur id="b5" stdDeviation="0 0" /></filter>
+        <filter id="mb6" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur id="b6" stdDeviation="0 0" /></filter>
+        <filter id="mb7" x="-50%" y="-20%" width="200%" height="140%"><feGaussianBlur id="b7" stdDeviation="0 0" /></filter>
+        <filter id="mb8" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur id="b8" stdDeviation="0 0" /></filter>
+        <filter id="mb9" x="-50%" y="-20%" width="200%" height="140%"><feGaussianBlur id="b9" stdDeviation="0 0" /></filter>
+        <filter id="mb10" x="-50%" y="-20%" width="200%" height="140%"><feGaussianBlur id="b10" stdDeviation="0 0" /></filter>
+        <filter id="mb11" x="-50%" y="-20%" width="200%" height="140%"><feGaussianBlur id="b11" stdDeviation="0 0" /></filter>
+      </defs>
+    </svg>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="10.4" data-width="1080" data-height="1920">
+      <div id="mundo">
+        <!-- 1 · el punto -->
+        <div id="t1" class="clip tarjeta oscura" data-start="0" data-duration="0.5" data-track-index="1"><div id="punto"></div></div>
+
+        <!-- 2 · NO. -->
+        <div id="t2" class="clip tarjeta oscura" data-start="0.5" data-duration="1.4" data-track-index="1">
+          <div id="noEco" class="g centro">NO.</div>
+          <div id="no" class="g centro" style="filter: url(#mb2)">NO<span class="e">.</span></div>
+        </div>
+
+        <!-- 3 · BAJES -->
+        <div id="t3" class="clip tarjeta clara" data-start="1.9" data-duration="0.7" data-track-index="1">
+          <div id="bajesEco" class="g centro">BAJES</div>
+          <div id="bajes" class="g centro" style="filter: url(#mb3)">BAJES</div>
+        </div>
+
+        <!-- 4 · NO / BAJES (tachado) / EL PRECIO. -->
+        <div id="t4" class="clip tarjeta oscura" data-start="2.6" data-duration="1.02" data-track-index="1">
+          <div id="pila">
+            <span id="p4no" class="g l">NO</span>
+            <span class="l"><span id="p4bajes" class="g">BAJES</span></span>
+            <span id="p4precio" class="g l" style="filter: url(#mb4)">EL PRECIO<span class="e">.</span></span>
+          </div>
+          <svg id="trazo" viewBox="0 0 940 120"><path id="trazoP" d="M10 78 C 180 52, 420 70, 610 50 S 860 40, 930 30" fill="none" stroke="#18c27a" stroke-width="34" stroke-linecap="round" /></svg>
+        </div>
+
+        <!-- 5 · «ES CARO.» -->
+        <div id="t5" class="clip tarjeta clara" data-start="3.62" data-duration="2.0" data-track-index="1">
+          <div id="dicen" class="g centro">TE DICEN</div>
+          <div id="comillaA">“</div>
+          <div id="caro" class="g centro" style="filter: url(#mb5)">ES</div>
+          <div id="caro2" class="g centro">CARO<span class="e">.</span></div>
+          <div id="comillaB">”</div>
+          <div id="ja">ja<span>.</span></div>
+        </div>
+
+        <!-- 6-7 · la cotización que baja sola, DESCUENTO, X -->
+        <div id="t6" class="clip tarjeta oscura" data-start="5.62" data-duration="2.42" data-track-index="1">
+          <div id="coti" style="filter: url(#mb6)">
+            <div class="filete"></div>
+            <div class="rot">Cotización · Nº 0418</div>
+            <div class="plan">Programa de cierre · 12 meses</div>
+            <div class="linea"></div>
+            <div class="monto">
+              <div class="num" id="n0"><small>US$</small>4.800</div>
+              <div class="num" id="n1"><small>US$</small>4.300</div>
+              <div class="num" id="n2"><small>US$</small>3.900</div>
+              <div class="num" id="n3"><small>US$</small>3.840</div>
+            </div>
+            <div class="pie"><span id="pieTxt">Precio de lista</span><span id="chip">−20 %</span></div>
+          </div>
+          <svg id="equis" viewBox="0 0 920 720">
+            <path id="x1" d="M40 40 C 300 250, 620 470, 880 680" fill="none" stroke="#18c27a" stroke-width="40" stroke-linecap="round" />
+            <path id="x2" d="M880 50 C 640 260, 330 470, 50 670" fill="none" stroke="#18c27a" stroke-width="40" stroke-linecap="round" />
+          </svg>
+          <div id="descuento" class="g centro" style="filter: url(#mb7)">DESCUENTO</div>
+        </div>
+
+        <!-- 8 · SIN QUE / NADIE / TE LO / PIDA. -->
+        <div id="t8" class="clip tarjeta oscura" data-start="8.04" data-duration="1.68" data-track-index="1">
+          <div id="p8">
+            <div id="p8sin" class="g l" style="filter: url(#mb8)">SIN QUE</div>
+            <div id="p8nadie" class="g l e" style="filter: url(#mb9)">NADIE</div>
+            <div id="p8telo" class="g l" style="filter: url(#mb10)">TE LO</div>
+            <div id="p8pida" class="g l" style="filter: url(#mb11)">PIDA<span class="e">.</span></div>
+          </div>
+        </div>
+
+        <!-- 9 · negro en silencio -->
+        <div id="t9" class="clip tarjeta oscura" data-start="9.72" data-duration="0.68" data-track-index="1"></div>
+      </div>
+
+      <!-- Frase de la voz, arriba -->
+      <div id="frase1" class="clip frase" data-start="0.5" data-duration="1.06" data-track-index="5">No.</div>
+      <div id="frase2" class="clip frase" data-start="1.56" data-duration="2.06" data-track-index="5">No bajes el precio.</div>
+      <div id="frase3" class="clip frase" data-start="3.62" data-duration="2.0" data-track-index="5">Te dicen «es caro»…</div>
+      <div id="frase4" class="clip frase" data-start="5.62" data-duration="2.42" data-track-index="5">…y vos ya estás pensando en el descuento.</div>
+      <div id="frase5" class="clip frase" data-start="8.04" data-duration="1.68" data-track-index="5">Sin que nadie te lo pida.</div>
+
+      <div id="flash" class="clip" data-start="0" data-duration="10.4" data-track-index="6"></div>
+      <div id="blanco" class="clip" data-start="0" data-duration="10.4" data-track-index="7"></div>
+      <div id="vineta" class="clip" data-start="0" data-duration="10.4" data-track-index="8"></div>
+      <svg id="grano" class="clip" data-start="0" data-duration="10.4" data-track-index="9" width="1080" height="1920" data-layout-allow-overlap>
+        <filter id="fg"><feTurbulence id="turb" type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="1" /><feColorMatrix type="saturate" values="0" /></filter>
+        <rect width="100%" height="100%" filter="url(#fg)" />
+      </svg>
+
+      <audio id="audio" class="clip" data-start="0" data-duration="10.4" data-track-index="20" src="assets/audio/mezcla.wav"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const X = (id, v) => ({ attr: { stdDeviation: v + " 0" } }); // desenfoque horizontal
+      const Y = (id, v) => ({ attr: { stdDeviation: "0 " + v } }); // desenfoque vertical
+      const golpe = (t, fuerza = 1) => {
+        // sacudida de cámara + aberración: 6 cuadros
+        tl.fromTo("#mundo", { x: -14 * fuerza, y: 9 * fuerza }, { x: 0, y: 0, duration: 0.2, ease: "rough({strength: 2, points: 8, randomize: false})", immediateRender: false }, t);
+        tl.fromTo("#blanco", { opacity: 0.22 * fuerza }, { opacity: 0, duration: 0.1, ease: "power2.out", immediateRender: false }, t);
+      };
+      const cuadro = 1 / 30;
+
+      // 1 · el punto late, crece y estalla en esmeralda
+      tl.fromTo("#punto", { scale: 1 }, { scale: 1.5, duration: 0.18, ease: "sine.inOut", yoyo: true, repeat: 1 }, 0)
+        .to("#punto", { scale: 70, duration: 0.14, ease: "expo.in" }, 0.36)
+        .set("#flash", { opacity: 1 }, 0.47)
+        .set("#flash", { opacity: 0 }, 0.5);
+
+      // 2 · NO. entra grande, con estela horizontal, y asienta
+      tl.fromTo("#no", { scale: 1.6, x: -260 }, { scale: 1, x: 0, duration: 0.32, ease: "expo.out" }, 0.5)
+        .fromTo("#b2", X(0, 90), { ...X(0, 0), duration: 0.3, ease: "expo.out" }, 0.5)
+        .fromTo("#noEco", { scale: 1.6, opacity: 0 }, { scale: 1.12, opacity: 1, duration: 0.5, ease: "expo.out" }, 0.52)
+        .to("#no", { scale: 1.05, duration: 0.7, ease: "none" }, 0.83);
+      golpe(0.5, 1.2);
+      // segundo «no»: golpe de escala sobre la misma tarjeta
+      tl.fromTo("#no", { scale: 1.14 }, { scale: 1.06, duration: 0.18, ease: "expo.out" }, 1.56)
+        .to("#noEco", { scale: 1.3, opacity: 0, duration: 0.3, ease: "power2.out" }, 1.56)
+        .set("#noEco", { opacity: 0 }, 1.9);
+      golpe(1.56, 0.5);
+      // salida con latigazo
+      tl.to("#no", { x: 1100, skewX: -18, duration: 0.14, ease: "expo.in" }, 1.76)
+        .to("#b2", { ...X(0, 120), duration: 0.14, ease: "expo.in" }, 1.76);
+
+      // 3 · BAJES llega de la derecha con estela
+      tl.fromTo("#bajes", { x: 1300, skewX: -14 }, { x: 0, skewX: 0, duration: 0.26, ease: "expo.out" }, 1.9)
+        .fromTo("#b3", X(0, 110), { ...X(0, 0), duration: 0.24, ease: "expo.out" }, 1.9)
+        .fromTo("#bajesEco", { x: 300, scale: 1.4 }, { x: 0, scale: 1.18, duration: 0.56, ease: "expo.out" }, 1.92)
+        .to("#bajes", { scale: 1.04, duration: 0.44, ease: "none" }, 2.16);
+      golpe(1.9, 0.8);
+      // rebanado de salida: la palabra se corta en dos y se separa
+      tl.to("#bajes", { clipPath: "polygon(0 0,100% 0,100% 48%,0 52%)", duration: 0.001 }, 2.5)
+        .to("#bajes", { x: -60, duration: 0.1, ease: "power3.in" }, 2.5)
+        .to("#bajesEco", { x: 80, opacity: 0.4, duration: 0.1, ease: "power3.in" }, 2.5);
+
+      // 4 · la pila: NO y BAJES ya están, EL PRECIO entra de abajo con estela vertical
+      tl.fromTo("#p4no", { opacity: 0.35 }, { opacity: 1, duration: 0.2 }, 2.6)
+        .fromTo("#p4precio", { y: 380, scaleY: 1.5 }, { y: 0, scaleY: 1, duration: 0.28, ease: "expo.out" }, 2.6)
+        .fromTo("#b4", { attr: { stdDeviation: "0 70" } }, { attr: { stdDeviation: "0 0" }, duration: 0.26, ease: "expo.out" }, 2.6)
+        .fromTo("#pila", { scale: 1 }, { scale: 1.05, duration: 1.0, ease: "none" }, 2.6)
+        .fromTo("#trazoP", { attr: { "stroke-dasharray": "1000 1000", "stroke-dashoffset": 1000 } }, { attr: { "stroke-dashoffset": 0 }, duration: 0.16, ease: "power2.inOut" }, 3.0)
+        .to("#p4bajes", { opacity: 0.45, duration: 0.12 }, 3.1);
+      golpe(2.6, 0.7);
+
+      // 5 · TE DICEN chico → «ES CARO.» con comillas que caen → «ja.»
+      tl.fromTo("#dicen", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 3.66)
+        .set(["#caro", "#caro2", "#comillaA", "#comillaB", "#ja"], { opacity: 0 }, 3.62)
+        .set(["#caro", "#caro2"], { opacity: 1 }, 4.52)
+        .fromTo(["#caro", "#caro2"], { scale: 1.45 }, { scale: 1, duration: 0.3, ease: "expo.out" }, 4.52)
+        .fromTo("#b5", X(0, 80), { ...X(0, 0), duration: 0.28, ease: "expo.out" }, 4.52)
+        .fromTo("#comillaA", { opacity: 1, y: -700, rotation: -12 }, { y: 0, rotation: 0, duration: 0.42, ease: "bounce.out" }, 4.6)
+        .fromTo("#comillaB", { opacity: 1, y: -1300, rotation: 10 }, { y: 0, rotation: 0, duration: 0.5, ease: "bounce.out" }, 4.66)
+        .to(["#caro", "#caro2"], { scale: 1.04, duration: 0.8, ease: "none" }, 4.82)
+        .fromTo("#ja", { opacity: 1, x: -220, rotation: -8 }, { x: 0, rotation: -4, duration: 0.3, ease: "back.out(2)" }, 5.1);
+      golpe(4.52, 1.1);
+
+      // 6 · cotización con persianas de desenfoque; el precio baja solo
+      tl.fromTo("#coti", { y: 120, scale: 0.92, opacity: 0 }, { y: 0, scale: 1, opacity: 1, duration: 0.4, ease: "expo.out" }, 5.62)
+        .fromTo("#b6", { attr: { stdDeviation: "0 60" } }, { attr: { stdDeviation: "0 0" }, duration: 0.36, ease: "expo.out" }, 5.62)
+        .set(["#n1", "#n2", "#n3"], { opacity: 0 }, 5.62)
+        .set("#chip", { opacity: 0 }, 5.62)
+        .set(["#descuento", "#x1", "#x2"], { opacity: 0 }, 5.62);
+      [["#n0", "#n1", 6.0], ["#n1", "#n2", 6.4], ["#n2", "#n3", 6.8]].forEach(([a, b, t]) => {
+        tl.to(a, { y: 120, opacity: 0, duration: 0.12, ease: "power2.in" }, t)
+          .fromTo(b, { y: -120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.16, ease: "power3.out" }, t + 0.04);
+      });
+      tl.set("#pieTxt", { textContent: "Con descuento" }, 6.0);
+      for (let i = 0; i < 5; i++) tl.set("#chip", { opacity: i % 2 ? 0.25 : 1 }, 6.02 + i * 0.12);
+      tl.to("#coti", { scale: 1.03, duration: 1.6, ease: "none" }, 6.03);
+      // DESCUENTO golpea abajo
+      tl.set("#descuento", { opacity: 1 }, 7.08)
+        .fromTo("#descuento", { scale: 1.5, x: 200 }, { scale: 1, x: 0, duration: 0.3, ease: "expo.out" }, 7.08)
+        .fromTo("#b7", X(0, 90), { ...X(0, 0), duration: 0.28, ease: "expo.out" }, 7.08);
+      golpe(7.08, 0.9);
+      // 7 · la X tacha la cotización
+      tl.set(["#x1", "#x2"], { opacity: 1, attr: { "stroke-dasharray": "1200 1200", "stroke-dashoffset": 1200 } }, 7.6)
+        .to("#x1", { attr: { "stroke-dashoffset": 0 }, duration: 4 * cuadro, ease: "power2.in" }, 7.7)
+        .to("#x2", { attr: { "stroke-dashoffset": 0 }, duration: 4 * cuadro, ease: "power2.in" }, 7.84)
+        .to("#coti", { opacity: 0.45, duration: 0.1 }, 7.84);
+      golpe(7.84, 0.6);
+
+      // 8 · la pila que crece, una línea por palabra
+      const linea = (sel, blur, t, desde) => {
+        tl.set(sel, { opacity: 0 }, 8.04)
+          .set(sel, { opacity: 1 }, t)
+          .fromTo(sel, desde, { x: 0, y: 0, scale: 1, duration: 0.26, ease: "expo.out" }, t)
+          .fromTo(blur, desde.y ? { attr: { stdDeviation: "0 70" } } : X(0, 100), { attr: { stdDeviation: "0 0" }, duration: 0.24, ease: "expo.out" }, t);
+      };
+      linea("#p8sin", "#b8", 8.04, { x: -900, scale: 1 });
+      linea("#p8nadie", "#b9", 8.54, { x: 0, scale: 1.6 });
+      linea("#p8telo", "#b10", 8.92, { x: 900, scale: 1 });
+      linea("#p8pida", "#b11", 9.22, { x: 0, scale: 1.8 });
+      tl.fromTo("#p8", { scale: 1 }, { scale: 1.06, duration: 1.68, ease: "none" }, 8.04);
+      [8.04, 8.54, 8.92].forEach((t) => golpe(t, 0.5));
+      golpe(9.22, 1.2);
+
+      // grano que cambia cada 2 cuadros
+      for (let i = 0; i < 156; i++) tl.set("#turb", { attr: { seed: (i % 9) + 1 } }, i / 15);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
