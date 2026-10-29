@@ -24,6 +24,6 @@ jobs:
           test $(stat -c%s kokoro-v1.0.onnx) = 325532387 && test $(stat -c%s voices-v1.0.bin) = 28214398
       - name: Frases de la lista ${{ matrix.k }}
         run: |
-          LISTA=$(jq -c ".[${{ matrix.k }}]" listas.json) KOKORO_MOD=$PWD/mod VOZ=bm_lewis IDIOMA=en-gb VEL=0.76 python voz.py video
+          [ -f voz.env ] && source voz.env; LISTA=$(jq -c ".[${{ matrix.k }}]" listas.json) KOKORO_MOD=$PWD/mod VOZ=${VOZ:-bm_lewis} IDIOMA=${IDIOMA:-en-gb} VEL=${VEL:-0.76} python voz.py video
       - uses: actions/upload-artifact@v5
         with: { name: "voz-${{ matrix.k }}", path: "video/voz/s*.wav", retention-days: 1 }
