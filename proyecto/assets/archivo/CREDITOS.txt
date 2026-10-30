@@ -1,35 +1,54 @@
-electra_eastern_1978.jpg|Lockheed L-188 Electra Eastern Air Lines.jpg||Hunter Desportes|CC BY 2.0|https://commons.wikimedia.org/wiki/File:Lockheed_L-188_Electra_Eastern_Air_Lines.jpg
-electra_fabrica_sdasm.jpg|Lockheed L-188 Electra at Lockheed hangar SDASM.jpg||SDASM Archives|No restrictions|https://commons.wikimedia.org/wiki/File:Lockheed_L-188_Electra_at_Lockheed_hangar_SDASM.jpg
-electra_cabina.jpg|Lockheed L-188 Electra Flight Deck.jpg||Sebastian Barheier|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Lockheed_L-188_Electra_Flight_Deck.jpg
-ruta_lansa508.svg|LANSA-Flug 508.svg||Peru_physical_map.svg: Urutseg|CC BY-SA 3.0|https://commons.wikimedia.org/wiki/File:LANSA-Flug_508.svg
-puerta_lansa508_1.jpg|LANSA-Flight 508-door-1.jpg||Benutzer:Schoenitzer|CC BY-SA 3.0|https://commons.wikimedia.org/wiki/File:LANSA-Flight_508-door-1.jpg
-puerta_lansa508_2.jpg|LANSA-Flight 508-door-2.jpg||Benutzer:Schoenitzer|CC BY-SA 3.0|https://commons.wikimedia.org/wiki/File:LANSA-Flight_508-door-2.jpg
-panguana_1971.jpg|Panguana-1971.jpg||Maria Koepcke or Hans-Wilhelm Koepcke|CC BY-SA 3.0|https://commons.wikimedia.org/wiki/File:Panguana-1971.jpg
-panguana_2004.jpg|Panguana-2004-1.JPG||Klaus Schönitzer|CC BY-SA 3.0|https://commons.wikimedia.org/wiki/File:Panguana-2004-1.JPG
-panguana_2004b.jpg|Panguana-2004-2.JPG||Klaus Schönitzer|CC BY-SA 3.0|https://commons.wikimedia.org/wiki/File:Panguana-2004-2.JPG
-panguana_2004c.jpg|Panguana-2004-5.JPG||Klaus Schönitzer|CC BY-SA 3.0|https://commons.wikimedia.org/wiki/File:Panguana-2004-5.JPG
-panguana_campamento_2008.jpg|Panguana-Camp-2008-1.jpg||Klaus Schönitzer|CC BY-SA 3.0|https://commons.wikimedia.org/wiki/File:Panguana-Camp-2008-1.jpg
-panguana_lupuna_2008.jpg|Panguana-Lupuna-2008-2.jpg||Klaus Schönitzer|CC BY-SA 3.0|https://commons.wikimedia.org/wiki/File:Panguana-Lupuna-2008-2.jpg
-panguana_noche.jpg|Panguana night.jpg||Armino87|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Panguana_night.jpg
-rio_llullapichis_2004.jpg|Panguana-2004-3.JPG||Klaus Schönitzer|CC BY-SA 3.0|https://commons.wikimedia.org/wiki/File:Panguana-2004-3.JPG
-rio_llullapichis_crecida.jpg|Rio Llullapichis bei Panguana Hochwasser.jpg||Schönitzer|CC BY-SA 3.0|https://commons.wikimedia.org/wiki/File:Rio_Llullapichis_bei_Panguana_Hochwasser.jpg
-rio_pachitea_1912.jpg|Photograph of the Pachitea river, circa 1912.jpg||Lira y Gil collection|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Photograph_of_the_Pachitea_river,_circa_1912.jpg
-rio_pachitea_2014.jpg|View of Pachitea river.jpg||Arkanaperu|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:View_of_Pachitea_river.jpg
-rio_pachitea_botes.jpg|Rio Pachitea, Nueva Honoria, region de Ucayali, Peru.JPG||Petses|CC BY-SA 3.0|https://commons.wikimedia.org/wiki/File:Rio_Pachitea,_Nueva_Honoria,_region_de_Ucayali,_Peru.JPG
-rio_pachitea_canoas.jpg|Rio Pachitea.jpg||Jharison|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Rio_Pachitea.jpg
-selva_aerea_1980a.jpg|Amazonas peruano 1980 10.jpg||LBM1948|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Amazonas_peruano_1980_10.jpg
-selva_aerea_1980b.jpg|Amazonas peruano 1980 11.jpg||LBM1948|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Amazonas_peruano_1980_11.jpg
-buitre_rey_ecuador.jpg|Sarcoramphus papa in Ecuador.jpg||Geoff Gallice from Gainesville, FL, USA|CC BY 2.0|https://commons.wikimedia.org/wiki/File:Sarcoramphus_papa_in_Ecuador.jpg
-buitre_rey_walsrode.jpg|Sarcoramphus papa (Königsgeier - King Vulture) - Weltvogelpark Walsrode 2013-01.jpg||Olaf Oliviero Riemer|CC BY-SA 3.0|https://commons.wikimedia.org/wiki/File:Sarcoramphus_papa_(K%C3%B6nigsgeier_-_King_Vulture)_-_Weltvogelpark_Walsrode_2013-01.jpg
-hoatzin_peru.jpg|Opisthocomus hoazin -Peru -three-8.jpg||Ricardo Sánchez|CC BY 2.0|https://commons.wikimedia.org/wiki/File:Opisthocomus_hoazin_-Peru_-three-8.jpg
-tinamu_panguana.jpg|Crypturellus undulatus 289010417.jpg||Jan Ebr &amp; Ivana Ebrová|CC BY 4.0|https://commons.wikimedia.org/wiki/File:Crypturellus_undulatus_289010417.jpg
-colibri_koepcke.jpg|Koepcke's Hermit.jpg||Jay Warburton|CC BY-SA 3.0|https://commons.wikimedia.org/wiki/File:Koepcke%27s_Hermit.jpg
-autillo_koepcke.jpg|Megascops koepckeae 114839858.jpg||thibaudaronson|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Megascops_koepckeae_114839858.jpg
-cotinga_zaratornis.jpg|Zaratornis stresemanni - White-cheeked Cotinga.jpg||Giselle Mangini|CC BY-SA 2.0|https://commons.wikimedia.org/wiki/File:Zaratornis_stresemanni_-_White-cheeked_Cotinga.jpg
-lima_catedral_1970.jpg|Cathedral of Lima 1970.jpg||Swiss-Foto S.A./Faucett Perú|Public domain|https://commons.wikimedia.org/wiki/File:Cathedral_of_Lima_1970.jpg
-pucallpa_aeropuerto_2023.jpg|Aeropuerto David Abensur de Pucallpa 01.jpg||Ovruni|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Aeropuerto_David_Abensur_de_Pucallpa_01.jpg
-yarinacocha_2010.jpg|Vista desde mirador de Puerto Callao-Yarinacocha.jpg||DSan|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Vista_desde_mirador_de_Puerto_Callao-Yarinacocha.jpg
-juliane_2019_retrato.jpg|Ceremonia de condecoración a la doctora Juliane Koepcke - 46616983225 (cropped).jpg||Cancillería del Perú|CC BY-SA 2.0|https://commons.wikimedia.org/wiki/File:Ceremonia_de_condecoraci%C3%B3n_a_la_doctora_Juliane_Koepcke_-_46616983225_(cropped).jpg
-juliane_2019_retrato2.jpg|Ceremonia de condecoración a la doctora Juliane Koepcke - 46808727544 (cropped).jpg||Cancillería del Perú|CC BY-SA 2.0|https://commons.wikimedia.org/wiki/File:Ceremonia_de_condecoraci%C3%B3n_a_la_doctora_Juliane_Koepcke_-_46808727544_(cropped).jpg
-juliane_2019_ceremonia.jpg|Ceremonia de condecoración a la doctora Juliane Koepcke - 46808728284.jpg||Cancillería del Perú|CC BY-SA 2.0|https://commons.wikimedia.org/wiki/File:Ceremonia_de_condecoraci%C3%B3n_a_la_doctora_Juliane_Koepcke_-_46808728284.jpg
-mapa_yuyapichis_1951.pdf|Yuyapichis , Sheet 1951, 1-100,000 (PDF) - PCL Map Collection - yuyapichis-peru-1951-100k-2001.pdf||Defense Mapping Agency||https://commons.wikimedia.org/wiki/File:Yuyapichis_,_Sheet_1951,_1-100,000_(PDF)_-_PCL_Map_Collection_-_yuyapichis-peru-1951-100k-2001.pdf
+campo-ultraprofundo.jpg|https://esahubble.org/images/heic0406a/|2600x2600|NASA, ESA, and S. Beckwith (STScI) and the HUDF Team|CC BY 4.0
+campo-profundo-webb.jpg|https://esawebb.org/images/weic2209a/|2600x2653|NASA, ESA, CSA, and STScI|CC BY 4.0
+fondo-microondas.jpg|Wikimedia Commons: File:Cosmic Microwave Background (CMB).jpeg|2600x1300|ESA and the Planck Collaboration|CC BY 4.0
+pilares.jpg|https://esawebb.org/images/weic2216a/|2600x2712|NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI).|CC BY 4.0
+via-lactea.jpg|https://www.eso.org/public/images/eso0932a/|2600x1300|ESO/S. Brunier|CC BY 4.0
+hawking.jpg|Wikimedia Commons: File:Stephen Hawking NASA 50th 200804210001HQ.jpg|2600x3242|NASA/Paul E. Alers|Public domain
+penrose.jpg|Wikimedia Commons: File:Roger Penrose June 2007.jpg|1200x1600|Andrej Bauer|CC BY-SA 2.5 si
+westerlund2.jpg|https://esahubble.org/images/heic1509a/|2600x1948|NASA, ESA, the Hubble Heritage Team (STScI/AURA), A. Nota (ESA/STScI), and the Westerlund 2 Science Team The original observations of Westerlund 2 were obtained by the science team: Antonella Nota (ESA/STScI), Elena Sabbi (STScI), Eva Grebel and Peter Zeidler (Astronomisches Rechen-Institut Heidelberg), Monica Tosi (INAF, Osservatorio Astronomico di Bologna), Alceste Bonanos (National Observatory of Athens, Astronomical Institute), Carol Christian (STScI/AURA) and Selma de Mink (University of Amsterdam). Follow-up observations were made by the Hubble Heritage team: Zoltan Levay (STScI), Max Mutchler, Jennifer Mack, Lisa Frattare, Shelly Meyett, Mario Livio, Carol Christian (STScI/AURA), and Keith Noll (NASA/GSFC).|CC BY 4.0
+acantilados-carina.jpg|https://esawebb.org/images/weic2205a/|2600x1506|NASA, ESA, CSA, and STScI|CC BY 4.0
+quinteto-stephan.jpg|https://esawebb.org/images/weic2208a/|2600x2493|NASA, ESA, CSA, and STScI|CC BY 4.0
+antenas.jpg|https://esahubble.org/images/heic0615a/|2600x2580|Credit: NASA, ESA, and the Hubble Heritage Team (STScI/AURA)-ESA/Hubble Collaboration. Acknowledgement: B. Whitmore ( Space Telescope Science Institute) and James Long (ESA/Hubble).|CC BY 4.0
+m87-agujero.jpg|https://www.eso.org/public/images/eso1907a/|2600x1515|EHT Collaboration|CC BY 4.0
+agujero-negro-disco.jpg|Wikimedia Commons: File:Black hole's accretion disk blank.jpg|2600x1462|NASA’s Goddard Space Flight Center/Jeremy Schnittman, cmglee|CC BY-SA 4.0
+eniac.jpg|https://commons.wikimedia.org/wiki/File:Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg|1340x1024|U.S. Army|Dominio público
+nebulosa-anillo.jpg|https://esawebb.org/images/weic2320a/|2600x2175|ESA/Webb, NASA, CSA, M. Barlow, N. Cox, R. Wesson|CC BY 4.0
+tarantula.jpg|https://esawebb.org/images/weic2212a/|2600x1504|NASA, ESA, CSA, and STScI|CC BY 4.0
+rho-ophiuchi.jpg|https://esawebb.org/images/weic2316a/|2600x2435|NASA, ESA, CSA, STScI, K. Pontoppidan (STScI), A. Pagan (STScI)|CC BY 4.0
+cumulo-pandora.jpg|https://esawebb.org/images/weic2220c/|9714x3999|NASA, ESA, CSA, T. Treu (UCLA)|CC BY 4.0
+asimov.jpg|Wikimedia Commons: File:Isaac.Asimov01.jpg|2530x3671|Phillip Leonian [1] from New York World-Telegram &amp; Sun.[2]|Public domain
+tierra-apollo17.jpg|Wikimedia Commons: File:The Blue Marble, AS17-148-22727.jpg|2600x2600|Harrison Schmitt / Apollo 17|Public domain
+trumpler14.jpg|https://esahubble.org/images/heic1601a/|2600x2600|NASA &amp; ESA, Jesús Maíz Apellániz (Centro de Astrobiología, CSIC-INTA, Spain)|CC BY 4.0
+rueda-de-carro.jpg|https://esawebb.org/images/weic2211a/|2600x2393|NASA, ESA, CSA, STScI|CC BY 4.0
+helix.jpg|Wikimedia Commons: File:NGC7293 (2004).jpg|2600x2802|NASA, ESA, C.R. O'Dell (Vanderbilt University), M. Meixner and P. McCullough (STScI)|Public domain
+ngc602.jpg|https://esawebb.org/images/weic2425a/|2600x1701|ESA/Webb, NASA &amp; CSA, P. Zeidler, E. Sabbi, A. Nota, M. Zamani (ESA/Webb)|CC BY 4.0
+andromeda.jpg|https://esahubble.org/images/heic1502a/|2600x831|NASA, ESA, J. Dalcanton (University of Washington, USA), B. F. Williams (University of Washington, USA), L. C. Johnson (University of Washington, USA), the PHAT team, and R. Gendler.|CC BY 4.0
+agustin.jpg|Wikimedia Commons: File:Saint Augustine by Philippe de Champaigne.jpg|2600x3317|Philippe de Champaigne|Public domain
+einstein.jpg|Wikimedia Commons: File:Albert Einstein Head.jpg|2600x3466|Photograph by Orren Jack Turner, Princeton, N.J. Modified with Photoshop by PM_Poon and later by Dantadd.|Public domain
+hubble-retrato.jpg|Wikimedia Commons: File:Studio portrait photograph of Edwin Powell Hubble.JPG|1413x2040|Johan Hagemeyer|Public domain
+hooker.jpg|Wikimedia Commons: File:Hooker Telescope Mount Wilson 2019.jpg|1920x2560|Antony-22|CC BY-SA 4.0
+hoyle.jpg|Wikimedia Commons: File:Fred Hoyle 1967.jpg|2386x3007|AIP Emilio Segrè Visual Archives, Clayton Collection|Attribution
+antena-holmdel.jpg|Wikimedia Commons: File:Horn Antenna-in Holmdel, New Jersey - restoration1.jpg|2600x2045|NASA, restored by Bammesk|Public domain
+penzias-wilson.jpg|Wikimedia Commons: File:Horn Antenna-in Holmdel, New Jersey - restoration1.jpg|2600x2045|NASA, restored by Bammesk|Public domain
+cobe.jpg|Wikimedia Commons: File:COBE Celebrates 35th Launch Anniversary (SVS14715 - COBE satellite diagram no labels).jpg|2600x3058|NASA's Scientific Visualization Studio - NASA/GSFC/David Leisawitz, University of Maryland College Park/Francis Reddy|Public domain
+wmap-mapa.jpg|Wikimedia Commons: File:WMAP 2012.png|2600x1300|NASA / WMAP Science Team|Public domain
+planck-satelite.jpg|Wikimedia Commons: File:Model of the Planck Satellite.jpg|2569x2569|Photograph by Mike Peel (www.mikepeel.net).|CC BY-SA 4.0
+linea-tiempo.jpg|Wikimedia Commons: File:CMB Timeline300 no WMAP.jpg|2600x1716|NASA/WMAP Science Team|Public domain
+campo-extremo.jpg|Wikimedia Commons: File:The Hubble eXtreme Deep Field.jpg|2382x2078|NASA, ESA, G. Illingworth, D. Magee, and P. Oesch (University of California, Santa Cruz), R. Bouwens (Leiden University), and the HUDF09 Team|Public domain
+lhc.jpg|Wikimedia Commons: File:Views of the LHC tunnel sector 3-4, tirage 2.jpg|2600x1730|Maximilien Brice (CERN)|CC BY-SA 3.0
+atlas-detector.jpg|Wikimedia Commons: File:CERN ATLAS Detector.jpg|2600x1300|SimonWaldherr|CC BY-SA 4.0
+guth.jpg|Wikimedia Commons: File:AlanGuthCambridge.jpg|747x951|Betsy Devine aka Betsythedevine|CC BY-SA 3.0
+bicep2.jpg|Wikimedia Commons: File:South pole spt dsl.jpg|2600x1950|Amble|CC BY-SA 3.0
+antartida.jpg|Wikimedia Commons: File:Antarctica 6400px from Blue Marble.jpg|2600x2600|Dave Pape|Public domain
+hartle.jpg|Wikimedia Commons: File:JimHartle1.jpg|360x480|User:Lumidek|Public domain
+vilenkin.jpg|Wikimedia Commons: File:AlexanderVilenkin.JPG|766x864|Lubos Motl, Lumidek (talk)|CC BY 3.0
+steinhardt.jpg|Wikimedia Commons: File:Paul J. Steinhardt.jpg|1654x1286|Sleepy Geek|CC BY-SA 4.0
+turok.jpg|Wikimedia Commons: File:Neil Turok AIMS.jpg|442x609|AIMS - Next Einstein Initiative African Institute for Mathematical Sciences|CC BY-SA 2.0
+weinberg.jpg|Wikimedia Commons: File:Steven Weinberg 2010.jpg|629x787|Larry D. Moore|CC BY 4.0
+leibniz.jpg|Wikimedia Commons: File:Gottfried Wilhelm Leibniz, Bernhard Christoph Francke.jpg|2600x3210|Christoph Bernhard Francke|Public domain
+ashtekar.jpg|Wikimedia Commons: File:Abhay Ashtekar.png|2142x2196|Abhay Ashtekar|CC0
+lemaitre.jpg|Wikimedia Commons: File:Lemaitre (cropped).jpg|251x371|unknown photographer, probably a CalTech employee. Cropped by Artistosteles|Public domain
+lemaitre-einstein.jpg|Wikimedia Commons: File:MillikanLemaitreEinstein.jpg|703x573|unknown photographer, probably a Caltech employee|Public domain
+jades.jpg|Wikimedia Commons: File:Webb finds most distant known galaxy (JADES-GS-z14-0 environment NIRCam image) (jades5).jpg|2600x2540|NASA, ESA, CSA, J. Olmsted (STScI), S. Carniani (Scuola Normale Superiore), JADES Collaboration|CC BY 4.0
+jades-zoom.jpg|Wikimedia Commons: File:JADES-GS-z14-0 Pullout (NIRCam) (01HZ083EXXCJNE64ERAH2ER2FM).png|2600x2540|Image: NASA, ESA, CSA, STScI, Brant Robertson (UC Santa Cruz), Ben Johnson (CfA), Sandro Tacchella (Cambridge), Phill Cargile (CfA)|Public domain
+linde.jpg|Wikimedia Commons: File:Andrei Linde 2018.jpg|1702x2268|Hypermultiplet|CC BY-SA 4.0
