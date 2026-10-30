@@ -3,7 +3,7 @@
 name: Render Atlas
 on:
   push:
-    branches: [render-atlas, render-atlas-darien]
+    branches: [render-atlas, render-atlas-darien, render-atlas-short-darien]
 
 jobs:
   plan:
