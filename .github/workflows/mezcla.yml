@@ -1,0 +1,23 @@
+# Mezcla pesada en la nube (no usa la RAM de la PC). mezcla/ trae el video (tiempos, voz, insertos) y los samples usados, en FLAC.
+name: Mezcla
+on:
+  push:
+    branches: [mezcla-gm-mundial]
+jobs:
+  mezcla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - run: pip install -q numpy scipy soundfile
+      - name: FLAC a WAV
+        run: |
+          find mezcla/musica/vsco mezcla/video/voz -name "*.flac" | while IFS= read -r f; do ffmpeg -loglevel error -y -i "$f" "${f%.flac}.wav" && rm "$f"; done
+          mkdir -p ~/.claude/skills/media-use/audio/assets/sfx && cp mezcla/sfx/*.mp3 ~/.claude/skills/media-use/audio/assets/sfx/
+      - run: python mezcla/atlas/mezcla.py mezcla/video
+      - run: ffmpeg -loglevel error -i mezcla/video/assets/mezcla.wav -c:a flac mezcla/video/assets/mezcla.flac
+      - uses: actions/upload-artifact@v5
+        with: { name: mezcla, path: mezcla/video/assets/mezcla.flac, retention-days: 3 }
