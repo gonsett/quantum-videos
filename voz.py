@@ -37,7 +37,20 @@ PRON = {"Uriburu": "Ooreebooroo", "Díaz Alejandro": "Dee-as Ah-leh-HAHN-dro", "
         # The Last Question 01
         "Super-Kamiokande": "Super Kah-mee-oh-KAHN-deh", "Kamionkowski": "Kah-mee-on-KOV-skee", "Schröder": "SHRUR-der",
         "Laughlin": "LOCK-lin", "Scherrer": "SHERR-er", "Clausius": "KLOW-zee-us", "Sawala": "Sah-VAH-lah",
-        "Milkomeda": "Milk-oh-MEE-dah", "Stelliferous": "Stel-IF-er-us", "Tye": "Tie"}
+        "Milkomeda": "Milk-oh-MEE-dah", "Stelliferous": "Stel-IF-er-us", "Tye": "Tie",
+        # The Last Question 02 (antes del Big Bang)
+        "Georges Lemaître": "Zhorzh Luh-MET-ruh", "Lemaître": "Luh-MET-ruh", "Penzias": "PEN-zee-us", "Vilenkin": "Vih-LEN-kin",
+        "Pawlowski": "Pav-LOV-skee", "Parampreet": "Pa-RUM-preet", "Ashtekar": "ASH-teh-kar", "Leibniz": "LIBE-nits",
+        "Hippo": "HIP-oh", "Arvind": "AR-vind", "Linde": "LIN-deh", "Borde": "BOR-day",
+        # Atlas Sur 05 Darién (las largas primero)
+        "Santa María la Antigua del Darién": "SAHN-tah Mah-REE-ah lah Ahn-TEE-gwah del Dah-ree-EN",
+        "Vasco Núñez de Balboa": "VAHS-ko NOO-nyes deh Bal-BOH-ah", "Pedrarias Dávila": "Peh-DRAH-ree-ahs DAH-vee-lah",
+        "Reina Torres de Araúz": "RAY-nah TOH-rres deh Ah-rah-OOS", "La Cucaracha Cariñosa": "Lah Koo-kah-RAH-chah Kah-ree-NYO-sah",
+        "Los Katíos": "Los Kah-TEE-os", "Clan del Golfo": "KLAHN del GOHL-fo", "Bajo Chiquito": "BAH-ho Chee-KEE-to",
+        "Santiago de Chile": "Sahn-tee-AH-go deh CHEE-leh", "Amado Araúz": "Ah-MAH-do Ah-rah-OOS",
+        "Yaviza": "Yah-VEE-sah", "Urabá": "Oo-rah-BAH", "Chocó": "Cho-KOH", "Atrato": "Ah-TRAH-to", "Emberá": "Em-beh-RAH",
+        "Wounaan": "WOH-nahn", "Guna": "GOO-nah", "Necoclí": "Neh-koh-KLEE", "Acandí": "Ah-kahn-DEE", "Capurganá": "Kah-poor-gah-NAH",
+        "Ushuaia": "Oo-SWY-ah", "Balboa": "Bal-BOH-ah", "FARC": "Fark"}
 
 carpeta = Path(sys.argv[1]).resolve() / "voz"
 solo = set(int(x) for x in sys.argv[2:])
