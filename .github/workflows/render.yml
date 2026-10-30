@@ -3,7 +3,7 @@
 name: Render Atlas
 on:
   push:
-    branches: [render-atlas]
+    branches: [render-atlas, render-nr-largo02]
 
 jobs:
   plan:
