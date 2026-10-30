@@ -15,7 +15,7 @@ jobs:
       - run: pip install -q numpy scipy soundfile
       - name: FLAC a WAV
         run: |
-          find mezcla/musica/vsco mezcla/video/voz -name "*.flac" | while IFS= read -r f; do ffmpeg -loglevel error -y -i "$f" "${f%.flac}.wav" && rm "$f"; done
+          find mezcla/musica/vsco mezcla/video/voz -name "*.flac" | while IFS= read -r f; do ffmpeg -nostdin -loglevel error -y -i "$f" "${f%.flac}.wav" && rm "$f"; done
           mkdir -p ~/.claude/skills/media-use/audio/assets/sfx && cp mezcla/sfx/*.mp3 ~/.claude/skills/media-use/audio/assets/sfx/
       - run: python mezcla/atlas/mezcla.py mezcla/video
       - run: ffmpeg -loglevel error -i mezcla/video/assets/mezcla.wav -c:a flac mezcla/video/assets/mezcla.flac
