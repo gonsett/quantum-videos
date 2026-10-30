@@ -1,18 +1,236 @@
 ## gancho
-A new country. In three days.
-On November 3rd, 1903, Panama broke away from Colombia. By November 6th, the United States had recognized it.
-So how do you build a country that fast?
-## perla
-First, you park a warship in the harbor. The USS Nashville reached Colón the day before.
-## rescate
-Then five hundred Colombian soldiers landed to crush the revolt.
-But the railroad's American superintendent put their generals on a special train to Panama City, and left the troops behind.
-That afternoon, the generals were arrested.
-## giro
-The only person killed was a Chinese shopkeeper, hit by a shell from a Colombian gunboat.
-Fifteen days later, the canal treaty was signed in Washington. Not by a Panamanian.
-By a Frenchman who hadn't lived in Panama for seventeen years.
-It gave the United States a ten-mile strip, forever. As if it were the sovereign.
-## cierre
-A canal built a country. The full story is on the channel.
-Follow Atlas Sur. Latin America, explained by its map.
+What came before the Big Bang?
+Thirteen point eight billion years ago, everything you can see, every star, every galaxy, every atom in your body, was packed into a space smaller than a single atom.
+And then, it began to expand.
+We know this. We have measured it. We can still see the afterglow of that moment, glowing faintly in every direction of the sky.
+But the moment we try to look further back, past the very first instant, our best theories do something strange.
+They stop working.
+The numbers become infinite. Space and time themselves seem to come to an end.
+So was that really the beginning? Or was there something before it?
+Another universe. An endless sea of space. A bounce. Or nothing at all.
+Tonight, we are going to rewind the entire history of the cosmos. Second by second, all the way back, to the edge of time itself.
+And then, we are going to try to look over that edge.
+This is The Last Question. The biggest questions ever asked.
+If you have ever wondered where all of this came from, subscribe. And stay with me, until the very first light.
+## the question
+Around the year 400, in North Africa, a bishop sat down to write about his life.
+His name was Augustine of Hippo. And in the eleventh book of his Confessions, he stopped to answer a question people kept asking him.
+What was God doing, before he made heaven and earth?
+There was a popular joke at the time. Augustine repeated it, so that he could reject it.
+[bm_george:en-gb] He was preparing hell, for those who pry into such deep mysteries.
+Augustine did not think that was funny. Or honest. And the answer he gave instead was remarkable.
+There was no before, he said. Time itself was part of creation. And where there is no time, there is no then.
+Years later, in The City of God, he put it in a single line.
+[bm_george:en-gb] The world was made, not in time, but with time.
+For more than fifteen centuries, that was a question for theologians and philosophers.
+Then, in the twentieth century, it became a question for physics.
+And physics, as we are about to see, ended up very close to where Augustine started. And then, it tried to go further.
+## the expanding universe
+In 1927, a Belgian priest and physicist named Georges Lemaître published a paper in an obscure Belgian journal.
+He had taken Einstein's new theory of gravity, and found something Einstein himself did not want to see.
+The universe could not stand still. It had to be either shrinking, or growing.
+And the faint, reddened light of distant galaxies suggested it was growing.
+Two years later, in 1929, Edwin Hubble published his measurements from the great telescope on Mount Wilson, in California.
+The further away a galaxy is, the faster it is moving away from us.
+Not because we are at the centre of anything. But because space itself is stretching, carrying the galaxies along with it.
+Lemaître followed that idea to its obvious conclusion.
+If the universe is growing today, then yesterday it was smaller. And the day before, smaller still.
+Run the film backwards far enough, and everything must once have been together. In one place. At one time.
+In 1931, he wrote a short letter to the journal Nature, with a title that would have sounded outrageous to most scientists of his day.
+The Beginning of the World, from the Point of View of Quantum Theory.
+He called it the primeval atom. A single, unimaginably dense seed, from which the whole cosmos had unfolded.
+Many physicists hated the idea. It sounded too much like Genesis.
+One of its fiercest critics was the British astronomer Fred Hoyle. He believed the universe had always existed, with no beginning at all.
+On the twenty-eighth of March, 1949, Hoyle gave a talk on BBC radio. And while describing the theory he rejected, he gave it a name.
+The Big Bang.
+The name stuck. Hoyle never accepted the theory, for the rest of his life.
+But the universe was about to settle the argument.
+In 1964, at Bell Labs in New Jersey, two radio astronomers, Arno Penzias and Robert Wilson, were trying to get rid of an annoying hiss in their antenna.
+They cleaned it. They checked every cable. They even removed the pigeons nesting inside it.
+The hiss would not go away. It came from every direction of the sky, day and night.
+It was the afterglow of the Big Bang. Light released when the universe was young, stretched by billions of years of expansion into faint microwaves.
+Penzias and Wilson won the Nobel Prize in Physics, in 1978.
+Today, that light has been mapped in exquisite detail, by satellites called COBE, WMAP, and Planck.
+And from it, we can read the age of the universe. Thirteen point eight billion years.
+## the rewind
+So let us do what Lemaître did. Let us run the film backwards.
+And to measure the journey, we need an instrument. One that counts not in years, but in powers of ten.
+Today, the universe is about four hundred and thirty million billion seconds old. Ten to the seventeen.
+Turn the dial back by a factor of ten, and the stars are still shining. Back by a factor of a thousand, and the first galaxies are forming.
+In 2024, the James Webb Space Telescope found one of the most distant galaxies ever seen. We see it as it was, just two hundred and ninety million years after the Big Bang.
+Already bright. Already full of stars.
+Somewhere around a hundred million years, the very first stars switched on.
+They were nothing like the Sun. Made of almost pure hydrogen and helium, they may have been hundreds of times more massive, burning fiercely, and dying young in enormous explosions.
+Every atom of carbon, oxygen and iron in the universe was forged later, inside stars like these and their descendants. Including the atoms in you.
+Keep turning, and the stars disappear. Before them lies a long darkness, the cosmic dark ages, when the universe was filled with cooling gas, and nothing yet to light it.
+No stars. No galaxies. Just slowly gathering clouds of hydrogen, pulled together by gravity, in total silence.
+At three hundred and eighty thousand years, ten to the thirteen seconds, we reach a wall.
+Before this moment, the universe was so hot that light could not travel freely. It was a glowing fog of particles.
+When it finally cooled enough for atoms to form, the fog cleared, and light escaped.
+That light is the hiss Penzias and Wilson heard. It is the oldest light there is. We cannot see past it with any telescope.
+But we can keep going with physics.
+At about three minutes, ten to the two seconds, the whole universe was a nuclear furnace. Protons and neutrons were fusing into the first nuclei of helium.
+The theory predicts that roughly a quarter of all ordinary matter should have become helium in those few minutes. And when astronomers measure the oldest gas in the cosmos, that is exactly what they find.
+At one second, the universe was hotter than the core of any star that exists today.
+At a millionth of a second, protons and neutrons themselves had not yet formed. Matter was a boiling soup of quarks.
+At a trillionth of a second, ten to the minus twelve, we reach the highest energies we have ever recreated on Earth, in the Large Hadron Collider at CERN.
+Everything we have described so far rests on physics we have tested.
+From here on, we are travelling on theory alone.
+## inflation
+On the night of the sixth of December, 1979, a young physicist named Alan Guth was working late on a problem that had nothing to do with the beginning of the universe.
+By the next morning, he had written two words at the top of a page in his notebook, in capital letters, and drawn a box around them.
+Spectacular realization.
+Guth had found that, under certain conditions, the very early universe could have gone through a phase of violent, accelerating expansion.
+He called it inflation.
+In a tiny fraction of a second, somewhere around ten to the minus thirty-six seconds after the start, space would have doubled in size, and doubled again, and again. Perhaps a hundred times in a row.
+A region smaller than a proton, stretched to the size of a grapefruit, in less time than it takes light to cross an atom.
+It sounds absurd. But inflation solved several puzzles at once.
+It explained why the universe looks the same in every direction, even in regions that should never have been in contact.
+It explained why space appears almost perfectly flat.
+And it made a prediction. The tiny quantum jitters of that first instant would be stretched to cosmic size, and become the seeds of every galaxy.
+When the Planck satellite mapped the afterglow, the pattern of those seeds matched the prediction remarkably well.
+Inflation is not proven. Some physicists, including one of its own founders, have become its harshest critics.
+In 2014, a team announced they had found its fingerprint in the sky. A year later, after combining their data with Planck's, it turned out to be dust in our own galaxy.
+But for most cosmologists today, it remains the leading picture of the first instant.
+And it changes our question completely.
+Because if inflation happened, then the Big Bang, the hot, dense fireball, was not the beginning.
+It was the end of inflation.
+So what came before inflation?
+## the wall
+Keep turning the dial, and we arrive at the strangest number in physics.
+Ten to the minus forty-three seconds. The Planck time.
+At this moment, the entire observable universe would have been compressed into a region so small, and so dense, that gravity itself becomes a quantum phenomenon.
+And we do not have a theory of quantum gravity.
+Einstein's general relativity describes the very large. Quantum mechanics describes the very small. At the Planck time, the universe was both. And the two theories refuse to agree.
+If you simply follow Einstein's equations backwards, they predict a singularity. A point of infinite density, and infinite temperature, where time itself begins.
+But most physicists do not believe the universe really started as an infinite point.
+An infinity in an equation is usually not a description of nature. It is a sign that the theory has broken down.
+It is the edge of the map. Not the edge of the world.
+In 2003, three physicists, Arvind Borde, Alan Guth and Alexander Vilenkin, published a famous result.
+They showed that any universe that has been expanding, on average, throughout its history, cannot be infinitely old. Somewhere in its past, there must be a boundary.
+Some people read that as proof that the universe had a beginning.
+The authors themselves are more careful. Their theorem says that classical physics cannot describe what lies beyond that boundary. It does not say what is there.
+## the most improbable moment
+But before we look over the edge, there is one more clue. And it may be the most important clue of all.
+In our last journey, we followed the universe to its end. And we saw that everything in it is driven by one relentless law.
+Entropy always grows. Order always decays into disorder. Stars burn out. Heat spreads. Things fall apart.
+That is why time has a direction. Why you remember yesterday, and not tomorrow. Why a broken glass never jumps back onto the table.
+But if entropy has been growing for thirteen point eight billion years, then it must have started very, very low.
+The early universe must have been extraordinarily ordered.
+At first, that sounds wrong. The afterglow of the Big Bang is almost perfectly smooth. The same temperature, to one part in a hundred thousand, in every direction. A smooth, hot gas sounds like the very definition of disorder.
+For gas in a box, it is. But when gravity is involved, the rules flip.
+Gravity wants to pull things together. Into clumps, into stars, into galaxies, and ultimately into black holes.
+For a universe ruled by gravity, a perfectly smooth distribution of matter is the most orderly, least likely arrangement there is. And a universe full of black holes is the most disordered.
+Roger Penrose tried to calculate how special our beginning was.
+He compared the universe we got with all the possible universes that could have come out of the Big Bang, and asked what fraction of them would look as smooth as ours.
+His answer was a number so small it can barely be written down.
+One chance in ten, to the power of ten, to the power of one hundred and twenty-three.
+To write that number out in full, you would need a zero for every particle in the observable universe. And you would run out of particles long before you finished.
+[bm_george:en-gb] This now tells us how precise the Creator's aim must have been.
+Penrose did not mean that literally. He meant that something, at the very beginning, set the universe up in an astonishingly special state. And our theories do not explain why.
+Physicists call it the past hypothesis. The assumption that the universe began with very low entropy.
+Every arrow of time we experience, every memory, every heartbeat, every star that has ever burned, depends on it.
+So any answer to the question of what came before the Big Bang has to explain this too.
+Not just why there was a beginning. But why the beginning was so perfectly, improbably ordered.
+And so, at the very edge of time, physicists have been forced to become explorers. Each with a different map of what lies on the other side.
+Let us look at four of them.
+## no boundary
+The first map was drawn by Stephen Hawking.
+In 1983, together with the American physicist James Hartle, Hawking proposed something truly radical.
+What if, near the beginning, time did not behave like time at all?
+In the quantum world, Hartle and Hawking argued, the distinction between time and space could blur. Close enough to the beginning, time would turn into something like a fourth direction of space.
+And then, there would be no starting moment. No edge. No singularity.
+Hawking loved to explain it with the surface of the Earth.
+Imagine walking south, towards the South Pole. The lines of longitude get closer and closer together, until they meet at a single point.
+But the South Pole is not an edge. The surface of the Earth does not end there. It is simply the place where the word south stops making sense.
+[bm_george:en-gb] Asking what came before the Big Bang is like asking what lies south of the South Pole.
+In this picture, the universe has no beginning in time. It simply is. Finite in the past, but with no boundary to it.
+Augustine would have recognised it immediately.
+The no boundary proposal is elegant. It is also extraordinarily hard to test. Physicists still argue about how to even calculate its predictions.
+And it leaves one thing untouched. It tells us the universe needs no starting moment. It does not tell us why there is a universe at all.
+## the bounce
+The second map says the Big Bang was not a beginning. It was a turning point.
+Imagine a universe before ours. A universe that was not expanding, but contracting. Its galaxies rushing together, its space shrinking, growing hotter and denser.
+In Einstein's theory, such a universe would crush itself into a singularity.
+But some approaches to quantum gravity suggest that space itself cannot be squeezed forever. That at some extreme density, it pushes back.
+In 2006, three physicists, Abhay Ashtekar, Tomasz Pawlowski and Parampreet Singh, ran the equations of one such approach, called loop quantum cosmology, through a computer.
+In their model, the collapsing universe did not reach infinity. At a density far beyond anything we can imagine, gravity became repulsive.
+The universe bounced.
+And what emerged on the other side, expanding, cooling, and filling with light, would look exactly like our Big Bang.
+In this picture, the Big Bang was really a Big Bounce. And before it, there was another universe, perhaps one very much like ours, running in reverse.
+It is a beautiful idea. But there is a problem.
+The bounce, if it happened, would have scrambled almost every trace of what came before.
+Physicists are now searching the afterglow for tiny clues the bounce might have left behind. So far, nothing conclusive has been found.
+## the multiverse
+The third map is the most unsettling.
+In 1986, the Russian-American physicist Andrei Linde realised something about inflation.
+Once inflation starts, it is very hard to stop everywhere at once.
+In some regions, it ends. Space slows down, the energy of inflation turns into hot matter and light, and a universe like ours is born.
+But in other regions, inflation keeps going. And because it expands so fast, the inflating space grows faster than the bubbles can eat it away.
+The result is eternal inflation. An endless, growing sea of inflating space, in which new bubble universes are born, forever.
+Our entire observable universe, all two trillion galaxies, would be one bubble. One among an infinite number.
+In this picture, our Big Bang was not the beginning of everything. It was a local event. The birth of our bubble, in a sea that was already there.
+Some versions go further. In each bubble, the laws of physics might settle differently. Different particles. Different forces. Different constants of nature.
+Most of those universes would be lifeless. A few, like ours, would allow stars, planets and chemistry. And we would, of course, find ourselves in one of those.
+Some physicists see this as the answer to a real puzzle.
+The energy of empty space, the dark energy that is now accelerating the expansion of the universe, is astonishingly small. Our best estimates from particle physics overshoot it by something like a hundred and twenty orders of magnitude.
+If it were even slightly larger, space would have flown apart before a single galaxy could form.
+In 1987, the Nobel laureate Steven Weinberg used exactly this kind of reasoning to predict its value. Eleven years later, when astronomers discovered dark energy, it fell close to his range.
+To its supporters, that is evidence that we live in one small, habitable corner of a vast multiverse.
+Critics point out the obvious problem. We cannot see the other bubbles. We may never be able to.
+A theory that predicts everything, they argue, risks predicting nothing.
+And the Borde, Guth and Vilenkin theorem applies here too. Even eternal inflation, it seems, cannot be eternal into the past.
+The sea itself would need a beginning.
+## the cycle
+The fourth map says the universe has done this before. Many times.
+In 2002, Paul Steinhardt and Neil Turok published a cyclic model of the universe, in the journal Science.
+In their picture, our universe goes through an endless series of cycles. Each one begins with a bang, expands for trillions of years, and then smoothly contracts again, ready for the next.
+No singularity. No first moment. No inflation needed at all.
+Paul Steinhardt, one of the original architects of inflation, has become one of its fiercest critics. He believes the cyclic universe explains the same evidence, without the multiverse.
+And in our last journey, we met another cyclic idea. Roger Penrose's conformal cyclic cosmology, in which the cold, empty end of one universe becomes the hot, dense beginning of the next.
+If any of these models are right, then the answer to our question is simple.
+Before the Big Bang, there was another universe. And before that, another.
+Forever.
+But Penrose's predicted signals have not been confirmed. And cyclic models still have to explain why each cycle does not inherit the disorder, the entropy, of the one before.
+The idea of an eternal, repeating cosmos is one of the oldest in human history. Physics has not yet been able to prove it. Or to rule it out.
+## nothing
+There is one more possibility. Perhaps the strangest of all.
+That before the Big Bang, there was nothing.
+In 1982, Alexander Vilenkin proposed that a universe could appear, through a quantum process, from no space, no time and no matter at all.
+It sounds impossible. But quantum physics is full of things that sound impossible.
+In empty space, particles constantly flicker in and out of existence. And when physicists add up all the energy in the universe, the positive energy of matter and the negative energy of gravity, the total may be very close to zero.
+A universe with zero total energy, some physicists argue, costs nothing to create.
+It is a tantalising idea. But philosophers have an objection.
+Vilenkin's nothing is not really nothing. It is a state governed by the laws of quantum mechanics.
+So where did the laws come from?
+Why is there a quantum vacuum, rather than true nothingness? Why is there something, rather than nothing at all?
+That question was asked by the philosopher Gottfried Leibniz, more than three hundred years ago.
+Physics has not answered it.
+Physics may not be able to answer it.
+## let there be light
+So, what came before the Big Bang?
+Let us be honest about what we know.
+We know the universe was once hot and dense. We know it has been expanding for thirteen point eight billion years. We can see the light from when it was just three hundred and eighty thousand years old.
+We know how the first helium was made, in the first three minutes. We can recreate the conditions of its first trillionth of a second.
+Beyond that, we have good reasons to believe in a brief, violent burst of inflation.
+And beyond that, at ten to the minus forty-three seconds, our maps run out.
+On the other side of that edge, there may be a no boundary universe, with no first moment.
+A bounce, from a universe that collapsed before ours.
+An eternal sea of inflating space, full of other worlds.
+An endless cycle of birth and death.
+Or nothing at all.
+Every one of these ideas was invented by people trying, with the full power of mathematics, to look past the beginning of time.
+And none of them, yet, can be tested.
+Which means, for now, there is only one honest answer.
+The same one Asimov's computer gave.
+Insufficient data for meaningful answer.
+And yet, think about where we started.
+Sixteen hundred years ago, a bishop in North Africa could only reason about the beginning of time.
+Today, we can measure it. We can hear its echo. We can photograph light that has been travelling for more than thirteen billion years.
+Whatever came before the Big Bang, the universe has produced something extraordinary since.
+Matter, that can look back at its own beginning, and ask where it came from.
+Maybe that is the strangest thing of all.
+Our next journey goes from the largest scale imaginable, to the smallest and most personal.
+What does your brain do, in the last minutes of life?
+Subscribe, so you do not miss it.
+And thank you, for coming with me, all the way back to the beginning of time.

@@ -2,7 +2,7 @@
 name: Voz Atlas
 on:
   push:
-    branches: [voz-atlas, voz-atlas-short-panama]
+    branches: [voz-atlas, voz-atlas-short-panama, voz-tlq-02]
 jobs:
   voz:
     runs-on: ubuntu-latest
