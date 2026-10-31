@@ -1,5 +1,5 @@
 # Render repartido de HyperFrames: tramos/tramo-XX.html (mismo video, timeline corrido) en paralelo, una máquina por tramo;
-# al final se unen sin recodificar y se suma la mezcla de audio. Se dispara con cada push a la rama render-atlas.
+# al final se unen, se recomprimen a 8 Mbps y se suma la mezcla de audio. Se dispara con cada push a la rama render-atlas.
 name: Render Atlas
 on:
   push:
@@ -61,8 +61,15 @@ jobs:
           cd piezas && ls tramo-*.mp4 | sort | sed "s/.*/file '&'/" > lista.txt
           ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i lista.txt -c copy video-mudo.mp4
           DUR=$(ffprobe -v error -show_entries format=duration -of csv=p=0 video-mudo.mp4)   # -shortest con copia se comia los ultimos 10 s
-          ffmpeg -hide_banner -loglevel error -i video-mudo.mp4 -i ../proyecto/assets/mezcla.flac -map 0:v -map 1:a -c:v copy \
-            -c:a aac -b:a 320k -t "$DUR" -movflags +faststart "../$SALIDA"
+          # se recomprime a 8 Mbps (lo que pide YouTube para 1080p30): ~2 GB por largo en vez de ~3,7, sube y baja en la mitad de tiempo
+          if ! ffmpeg -hide_banner -loglevel error -i video-mudo.mp4 -i ../proyecto/assets/mezcla.flac -map 0:v -map 1:a \
+            -c:v libx264 -preset medium -b:v 8M -maxrate 10M -bufsize 16M -pix_fmt yuv420p -g 60 \
+            -c:a aac -b:a 320k -t "$DUR" -movflags +faststart "../$SALIDA"; then
+            echo "la recompresión falló: se une sin recodificar"
+            ffmpeg -y -hide_banner -loglevel error -i video-mudo.mp4 -i ../proyecto/assets/mezcla.flac -map 0:v -map 1:a -c:v copy \
+              -c:a aac -b:a 320k -t "$DUR" -movflags +faststart "../$SALIDA"
+          fi
+          ls -l "../$SALIDA"
           ffprobe -v error -show_entries format=duration -of csv=p=0 "../$SALIDA"
           echo "SALIDA=$SALIDA" >> "$GITHUB_ENV"
       - uses: actions/upload-artifact@v5
