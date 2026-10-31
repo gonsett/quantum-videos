@@ -1,22 +1,6 @@
 ebon_atoll.jpg|EbonAtoll.jpg||NASA|Public domain|https://commons.wikimedia.org/wiki/File:EbonAtoll.jpg
-ebon_mapa.jpg|Ebon Atoll Map.jpg||EVS-Islands|CC BY 2.0|https://commons.wikimedia.org/wiki/File:Ebon_Atoll_Map.jpg
-majuro_pescador.jpg|A fisherman on Majuro, Marshall Islands, February 2012. Photo- Erin Magee - DFAT (12426170833).jpg||Erin Magee/DFAT|CC BY 2.0|https://commons.wikimedia.org/wiki/File:A_fisherman_on_Majuro,_Marshall_Islands,_February_2012._Photo-_Erin_Magee_-_DFAT_(12426170833).jpg
-majuro_satelite.jpg|Majuro Satellite.PNG||NASA|Public domain|https://commons.wikimedia.org/wiki/File:Majuro_Satellite.PNG
-marshall_atolon.jpg|Marshall Islands (9811274503).jpg||Keith Polya|CC BY 2.0|https://commons.wikimedia.org/wiki/File:Marshall_Islands_(9811274503).jpg
-kwajalein_aereo.jpg|Aerial view, Kwajalein Atoll, Marshall Islands.jpg||Matt Kieffer from London, United Kingdom|CC BY-SA 2.0|https://commons.wikimedia.org/wiki/File:Aerial_view,_Kwajalein_Atoll,_Marshall_Islands.jpg
 paredon_lanchas.jpg|Lanchas en Paredón, municipio de Tonalá, Chiapas..JPG||Néstor Fernando Hernández Candelaria|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Lanchas_en_Pared%C3%B3n,_municipio_de_Tonal%C3%A1,_Chiapas..JPG
-paredon_mirador.jpg|Arco-Mirador de Paredón (Chiapas).jpg||Ferdinandvs|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Arco-Mirador_de_Pared%C3%B3n_(Chiapas).jpg
-paredon_atardecer.jpg|Atardecer en la la Bahía de Paredón desde uno de sus muelles.jpg||Néstor Fernando Hernández Candelaria|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Atardecer_en_la_la_Bah%C3%ADa_de_Pared%C3%B3n_desde_uno_de_sus_muelles.jpg
-paredon_pesca.jpg|Producción pesquera en Paredón (Chiapas).jpg||Néstor Fernando Hernández Candelaria|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Producci%C3%B3n_pesquera_en_Pared%C3%B3n_(Chiapas).jpg
-paredon_laguna.jpg|Paredón visto desde la Laguna del Mar Muerto.JPG||Ferdinandvs|Attribution|https://commons.wikimedia.org/wiki/File:Pared%C3%B3n_visto_desde_la_Laguna_del_Mar_Muerto.JPG
-puerto_arista.jpg|Playa arista chiapas.jpg||Abraham lozano lopez|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Playa_arista_chiapas.jpg
-garita_palmera.jpg|Garita Palmera, El Salvador - panoramio.jpg||davidjoviera|CC BY 3.0|https://commons.wikimedia.org/wiki/File:Garita_Palmera,_El_Salvador_-_panoramio.jpg
 tortuga_golfina.jpg|Lepidochelys olivacea Puerto Escondido (1).jpg||Gzzz|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Lepidochelys_olivacea_Puerto_Escondido_(1).jpg
 piquero_vuelo.jpg|Brown booby Sula leucogaster skimming waves.jpg||Paul Harrison|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Brown_booby_Sula_leucogaster_skimming_waves.jpg
-piquero_vuelo2.jpg|Brown Booby in flight.jpg||Paul Harrison|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Brown_Booby_in_flight.jpg
 pez_ballesta.jpg|Black Triggerfish at Kauai.jpg||MrWhipple|CC0|https://commons.wikimedia.org/wiki/File:Black_Triggerfish_at_Kauai.jpg
-portacontenedores.jpg|Ocean Container Ship in Sarangani Bay (24805793916).jpg||Gary Todd from Xinzheng, China|CC0|https://commons.wikimedia.org/wiki/File:Ocean_Container_Ship_in_Sarangani_Bay_(24805793916).jpg
 portacontenedores_atardecer.jpg|SunSet And Maersk Container Ship - panoramio.jpg||---=XEON=---|CC BY 3.0|https://commons.wikimedia.org/wiki/File:SunSet_And_Maersk_Container_Ship_-_panoramio.jpg
-via_lactea_iss.jpg|The Milky Way spans the night sky above a bright orange-yellow airglow (iss073e0982679).jpg||NASA Johnson Space Center|Public domain|https://commons.wikimedia.org/wiki/File:The_Milky_Way_spans_the_night_sky_above_a_bright_orange-yellow_airglow_(iss073e0982679).jpg
-tiburon_captura.jpg|Portuguese shark catch.jpg||NOAA Rice Library of the NOAA Centers for Coastal Ocean Scie|Public domain|https://commons.wikimedia.org/wiki/File:Portuguese_shark_catch.jpg
-mercy_majuro.jpg|USNS Mercy arrives in Majuro, RMI (8096569).jpg||U.S. Navy photo by Grady Fontana|Public domain|https://commons.wikimedia.org/wiki/File:USNS_Mercy_arrives_in_Majuro,_RMI_(8096569).jpg
