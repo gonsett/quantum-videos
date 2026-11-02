@@ -48,11 +48,11 @@ PRON = {"Uriburu": "Ooreebooroo", "Díaz Alejandro": "Dee-as Ah-leh-HAHN-dro", "
         "Alvarenga": "Ahl-vah-REN-gah", "Ezequiel": "Eh-seh-kee-EL", "Chiapas": "Chee-AH-pahs", "Cirilo": "See-REE-loh", "Fátima": "FAH-tee-mah",
         "a norte": "a NOR-teh", "Ebon": "EE-bon", "Majuro": "Mah-JOO-roh", "Libokmeto": "Lee-bok-MEH-toh", "Laikidrik": "Lie-KID-rik",
         "Maximenko": "Mak-see-MEN-ko", "van Sebille": "van Seh-BEE-yeh",
-        # Gross Margin 04 (agua)
-        "San Pellegrino": "San Pel-leh-GREE-no", "Vitaminwater": "Vitamin water", "Smartwater": "Smart water", "Nestlé": "NESS-lay", "Evian": "EV-ee-on",
-        "Perrier": "Perry-AY", "Dasani": "Dah-SAH-nee", "Aquafina": "Ah-kwah-FEE-nah", "Vittel": "Vee-TEL", "Peranel": "Peh-rah-NEL", "Evart": "EE-vert",
-        "Ozarka": "Oh-ZAR-kah", "Gleick": "Glike", "Nevins": "NEV-inz", "Fijian": "Fee-JEE-an", "Fiji": "FEE-jee", "bromate": "BRO-mate", "Macron": "Mah-KRON",
-        "marquis": "mar-KEE", "P W S": "P, W, S", "Primo": "PREE-mo"}
+        # Gross Margin 04 (agua). OJO: en mayúsculas el fonetizador DELETREA (Dah-SAH-nee = "S, A, H"): probar siempre con phonemizer
+        "Vitaminwater": "Vitamin water", "Smartwater": "Smart water", "Nestlé": "NESS-lay",
+        "Aquafina": "Aqua feena", "Vittel": "Vee tell", "Peranel": "Perra nell", "Evart": "Eevert",
+        "Ozarka": "Oh zarka", "Gleick": "Glike", "bromate": "bro mate", "Macron": "Mah-KRON",
+        "marquis": "mar kee", "P W S": "P, W, S", "Primo": "PREE-mo"}
 
 carpeta = Path(sys.argv[1]).resolve() / "voz"
 solo = set(int(x) for x in sys.argv[2:])
