@@ -50,7 +50,19 @@ PRON = {"Uriburu": "Ooreebooroo", "Díaz Alejandro": "Dee-as Ah-leh-HAHN-dro", "
         "Santiago de Chile": "Sahn-tee-AH-go deh CHEE-leh", "Amado Araúz": "Ah-MAH-do Ah-rah-OOS",
         "Yaviza": "Yah-VEE-sah", "Urabá": "Oo-rah-BAH", "Chocó": "Cho-KOH", "Atrato": "Ah-TRAH-to", "Emberá": "Em-beh-RAH",
         "Wounaan": "WOH-nahn", "Guna": "GOO-nah", "Necoclí": "Neh-koh-KLEE", "Acandí": "Ah-kahn-DEE", "Capurganá": "Kah-poor-gah-NAH",
-        "Ushuaia": "Oo-SWY-ah", "Balboa": "Bal-BOH-ah", "FARC": "Fark"}
+        "Ushuaia": "Oo-SWY-ah", "Balboa": "Bal-BOH-ah", "FARC": "Fark",
+        # Atlas Sur 06 Paraguay (las largas primero)
+        "Luiz Philippe de Orleans e Bragança": "Loo-EES Fee-LEE-pee jee Or-lay-AHN ee Brah-GAHN-sah", "Francisco Solano López": "Frahn-SEES-ko Soh-LAH-no LOH-pes",
+        "Julio José Chiavenato": "HOO-lyo Ho-SEH Kyah-veh-NAH-to", "Francisco Doratioto": "Frahn-SEES-ko Doh-rah-CHYOH-too", "Marquês de Olinda": "Mar-KEHS deh Oh-LEEN-dah",
+        "San Carlos Borromeo": "Sahn KAR-los Boh-rroh-MEH-oh", "Bartolomé Mitre": "Bar-toh-loh-MEH MEE-treh", "Venancio Flores": "Veh-NAHN-syo FLOH-res",
+        "Cándido López": "KAHN-dee-do LOH-pes", "Presidente Hayes": "Preh-see-DEN-teh Hayes", "Juan Francisco": "Hwan Frahn-SEES-ko", "Count of Eu": "Count of Uh",
+        "Vera Blinn Reber": "VEER-ah Blin REE-ber", "Jan Kleinpenning": "Yahn KLINE-pen-ing", "José Díaz": "Ho-SEH DEE-as", "El Cristiano": "El Krees-TYAH-no",
+        "Mato Grosso": "MAH-too GROH-so", "Cerro Corá": "SEH-rro Koh-RAH", "Acosta Ñu": "Ah-KOHS-tah NYOO", "Chico Diabo": "SHEE-koo DYAH-boo", "Villa Hayes": "VEE-yah Hayes",
+        "San Fernando": "Sahn Fer-NAHN-do", "Pedro II": "Pedro the Second", "Whigham": "WIG-um", "Potthast": "POT-hast", "Mitre": "MEE-treh", "López": "LOH-pes",
+        "Humaitá": "Oo-my-TAH", "Curupayty": "Koo-roo-pie-TEE", "Tuyutí": "Too-yoo-TEE", "Riachuelo": "Ree-ah-CHWEH-lo", "Uruguaiana": "Oo-roo-gwah-YAH-nah",
+        "Piribebuy": "Pee-ree-beh-BOO-ee", "Aquidabán": "Ah-kee-dah-BAHN", "Ybycuí": "Ee-bee-koo-EE", "Jacareí": "Zhah-kah-reh-EE", "Asunción": "Ah-soon-SYOHN",
+        "Corrientes": "Koh-RYEN-tes", "Paraná": "Pah-rah-NAH", "Benigno": "Beh-NEEG-no", "Caxias": "Kah-SHEE-as", "Guaraní": "Gwah-rah-NEE", "Itaipú": "Ee-tie-POO",
+        "Lula": "LOO-lah", "Chaco": "CHAH-ko", "Apa River": "AH-pah River"}
 
 carpeta = Path(sys.argv[1]).resolve() / "voz"
 solo = set(int(x) for x in sys.argv[2:])

@@ -1,182 +1,235 @@
 ## gancho
-Yaviza, Panama. A small town on a brown river, at the edge of the jungle.
-Here, the road just ends.
-Behind you, the asphalt runs north without a single break. Through Central America, through Mexico, the United States and Canada, all the way to the Arctic Ocean, in Alaska.
-Ahead of you, in Colombia, the same road begins again. And it runs south, down the Andes, all the way to the bottom of Argentina.
-Together, they are the Pan-American Highway. About thirty thousand kilometers. The longest road on Earth.
-And it has exactly one gap. Right here.
-About a hundred kilometers of swamp, mountains and rainforest that no road has ever crossed.
-It's called the Darién Gap.
-For five hundred years, it has swallowed conquistadors, colonists, explorers and armies.
-Engineers have tried to cross it. Presidents have promised to pave it. A judge in Washington stopped it.
-And in 2023, more than half a million people walked through it. On foot.
-This is the story of the only gap in the longest road on Earth. And of why, after a century of trying, nobody has closed it.
+July 2026. A defense factory in Jacareí, Brazil.
+President Lula takes the microphone, and he reaches for an old war.
+He sums it up in a single sentence.
+[am_onyx:en-us] One fine day, Paraguay decided to invade Brazil.
+Five days later, the heads of both houses of Paraguay's Congress issued a joint condemnation.
+The next day, Paraguay summoned Brazil's ambassador.
+Then came a formal protest. And a demand. Give back the cannons, the trophies and the documents your army carried away.
+A hundred and fifty years ago.
+And in less than a month, word came out of Brazil that one of those cannons might go home.
+So why would one sentence, about a war that ended in 1870, start a diplomatic fight in 2026?
+Because in Paraguay, this is not old history.
+This is the bloodiest war between countries in the history of Latin America.
+By some estimates, it killed more than half of everyone in Paraguay.
+Outside the region, almost nobody has heard of it.
+And inside the region, every country learned a different version.
+If you're from Paraguay, Brazil, Argentina or Uruguay, tell me in the comments what your school taught you about this war. Because I promise you, it wasn't the same story.
+This is the story of the War of the Triple Alliance. Three countries against one, and a river that decided everything.
 This is Atlas Sur. Latin America, explained by its map, and told from the inside. If that's your kind of story, subscribe.
-To understand the gap, you first have to understand the road.
-## ruta
-In 1923, in Santiago de Chile, the countries of the Americas agreed on a dream. One road, to tie the whole hemisphere together.
-They called it the Pan-American Highway.
-It was never really one road. It's a chain of national highways, each one built by its own country, and joined at the borders.
-In the north, it starts at Prudhoe Bay, Alaska, on the Arctic Ocean.
-In the south, it ends near Ushuaia, at the end of the world.
-In between, it crosses deserts, volcanoes, the Andes, and more than a dozen countries.
-Guinness World Records calls it the longest motorable road in the world.
-And over the decades, almost every piece of it was built. Mexico finished its part. Central America finished its part. Colombia, Peru, Chile and Argentina finished theirs.
-Except one.
-Look at Panama. The highway comes down from Costa Rica, crosses the Panama Canal, and heads east.
-Then, at Yaviza, it stops.
-On the other side, in Colombia, the road picks up again near the Gulf of Urabá.
-Between them, about a hundred kilometers on the map.
-On the ground, there is nothing. No asphalt. No bridge. Not even a dirt track for a truck.
-If you want to drive from Alaska to Argentina, this is where you stop, put your car in a shipping container, and send it around by sea.
-So why? Why would the most connected century in history leave this one hole open?
-The answer is the map. And it starts with what's inside the hole.
-## selva
-About three million years ago, this land did not exist. North and South America were separate continents, with an open sea between them.
-Then the sea floor rose, volcanoes grew, and a bridge of land closed the gap. The Isthmus of Panama.
-Animals poured across it in both directions. Armadillos and opossums went north. Cats, bears and horses went south. Scientists call it the Great American Interchange.
-The Darién is the last link of that bridge. The place where Central America meets South America.
-And it seems built to be impassable.
-On the Panamanian side, there are mountain ridges, covered in rainforest so thick that sunlight barely reaches the ground.
-On the Colombian side, there is the Atrato River. And around its mouth, huge swamps and flooded forest that swallow anything heavier than a canoe.
-The Chocó, just south of here, is one of the rainiest places on the planet. Some towns get more than ten meters of rain a year.
-Rivers rise in hours. Trails turn to mud. What was a path in the morning can be a torrent by the afternoon.
-And the life inside is extraordinary. Jaguars. Harpy eagles. Poison dart frogs. Hundreds of species of birds.
-In 1981, UNESCO declared Darién National Park a World Heritage Site. More than five thousand square kilometers of forest.
-In 1994, Los Katíos National Park, right across the border in Colombia, joined the list too.
-And the Darién is not empty. For centuries, the Emberá, the Wounaan and the Guna peoples have lived along these rivers. Traveling the way the jungle allows. By dugout canoe.
-For them, the Darién is not a gap. It's home.
-For almost everyone else, it has been a graveyard.
-## conquista
-Strange as it sounds, the Darién was one of the first places on the American mainland that Europeans tried to settle.
-In 1510, Spanish conquistadors founded a town here, near the Caribbean coast. Santa María la Antigua del Darién.
-It was one of the first European cities on the mainland of the Americas.
-Its most famous resident had arrived as a stowaway, hidden, so the story goes, in a barrel, to escape his debts. Vasco Núñez de Balboa.
-In September 1513, Balboa marched into the jungle with about a hundred and ninety Spaniards, and hundreds of Indigenous guides and porters.
-Weeks later, from the top of a ridge, he became the first European to see the Pacific Ocean from the Americas.
-On the twenty-ninth, he waded into the water, holding a banner and a sword. And he claimed the entire ocean, and every land it touched, for the King of Spain.
-Six years later, Balboa was beheaded, accused of treason by his rival, the governor Pedrarias Dávila.
-And Santa María was abandoned. Within a few years, the jungle had taken it back.
-The Spanish moved to a new town on the Pacific. They called it Panama.
-For the next three centuries, the silver and gold of the Andes crossed through Panama. Not through the Darién.
-## escoceses
-But the Darién still had one more nation to break. And this one was Scotland.
-In the 1690s, Scotland was poor, hungry, and an independent kingdom. It shared a king with England, but almost nothing else.
-A Scottish merchant named William Paterson, one of the founders of the Bank of England, had an idea. A Scottish colony on the Darién. A trading post between two oceans.
-[am_fenrir:en-us] The door of the seas, and the key of the universe.
-That's how he described it. And Scotland believed him.
-Nobles, merchants, towns and ordinary families put their savings into the Company of Scotland.
-It raised around four hundred thousand pounds. By different estimates, somewhere between a fifth and half of all the capital in the country.
-In July 1698, five ships left Leith, near Edinburgh, with about twelve hundred people on board.
-In November, they reached the Caribbean coast of the Darién, and named their new home Caledonia.
-They built a fort, Fort Saint Andrew, and planned a town, New Edinburgh.
-The Guna were friendly. Everything else was not.
-Their ships were full of wigs, combs, mirrors and Bibles. Nobody in the jungle wanted them.
-Then the rains came. And with them, fever.
-And King William, who ruled Scotland too but did not want trouble with Spain, ordered his English colonies in the Caribbean not to help them.
-In the summer of 1699, eight months after landing, the survivors abandoned Caledonia.
-A second fleet, which had sailed before the news reached Scotland, arrived to find empty huts and graves.
-Months later, the Spanish surrounded them. In the spring of 1700, the last Scots surrendered and sailed away.
-Of about two and a half thousand people who sailed to the Darién, around two thousand never came home.
-Scotland was ruined.
-Seven years later, in 1707, Scotland signed the Act of Union with England, and Great Britain was born.
-Inside the treaty was a payment called the Equivalent. Almost four hundred thousand pounds. And a large part of it went to pay back the investors in the Darién.
-A swamp in the Darién helped end an independent kingdom.
-## strain
-In the 1850s, the world wanted a canal. And on paper, the Darién looked perfect.
-An Irish doctor named Edward Cullen claimed he had crossed it several times, easily, over land that never rose above a hundred and fifty feet.
-In January 1854, the United States Navy sent an expedition to follow his route. Twenty-seven men, led by Lieutenant Isaac Strain.
-They carried food for only a few days.
-There was no easy pass. There was no path at all. The maps were wrong.
-They got lost in the mountains. They ran out of food. They ate palm nuts, and whatever they could catch.
-Their few days in the jungle became more than two months.
-At least six of them never came out.
-Strain survived. But his health never recovered, and he died a few years later, at thirty-six.
-After that, the dream of a canal moved west, to the narrow waist of Panama. And the Darién was left alone.
-## cruces
-Then came the automobile.
-Through the 1930s, 40s and 50s, the Pan-American Highway crept south through Central America, much of it paid for by the United States.
-And in 1960, a small team decided to prove that a car could cross the Darién.
-They had a Land Rover and a Jeep. Among them was a Panamanian couple. Amado Araúz, and his wife, the anthropologist Reina Torres de Araúz.
-They nicknamed the Land Rover La Cucaracha Cariñosa. The Affectionate Cockroach.
-They floated the cars across rivers on rafts. They cut the trail with machetes. They winched them up slopes, one tree at a time.
-The crossing took them more than four months.
-In 1972, a British expedition tried it with two Range Rovers. It was led by an army officer, John Blashford-Snell.
-They brought engineers, inflatable boats, and aluminum ladders to bridge the ravines.
-The Darién alone took them almost a hundred days.
-Both teams made it. And both proved the same thing. You can drag a car through the Darién. You just can't drive one.
-## carretera
-By then, governments were ready to finish the job.
-In 1971, the United States agreed to pay two thirds of the cost of closing the gap. Panama and Colombia would pay the rest.
-Bulldozers began to cut east, into the province of Darién.
-Then, in 1975, a group of environmental organizations sued the United States government.
-Their case was not only about the trees.
-It was about cows.
-South America had foot-and-mouth disease, a virus that tears through herds of cattle. North and Central America had gotten rid of it.
-And the only thing standing between the two was the Darién.
-A road would let animals, trucks and meat move north. The US Department of Agriculture feared an outbreak that could devastate American ranchers.
-In 1975, a federal judge in Washington ordered the work to stop, because the government had not properly studied what the road would do.
-The money froze. The bulldozers left.
-On the Panamanian side, the road kept crawling forward, slowly, until it reached Yaviza.
-And there, it stopped.
-Since then, plan after plan has come and gone. Colombia has wanted the road. Panama, again and again, has said no.
-Because over the years, the gap stopped being only a wall against disease.
-## frontera
-Remember, this is the border between Panama and Colombia.
-And for half a century, Colombia was at war.
-The FARC guerrillas used the Darién as a rear base. A place to rest, to move weapons, and to hide.
-Paramilitary groups came after them. Villages on both sides were caught in the middle.
-The same jungle that had stopped the Spanish, the Scots and the bulldozers became a highway for cocaine.
-Today, the Colombian side is controlled by the most powerful criminal group in the country. The Clan del Golfo.
-And they found a new business crossing the Darién, worth tens of millions of dollars a year.
-People.
-## migrantes
-For most of the last decade, the Darién saw a few thousand migrants a year. Sometimes twenty or thirty thousand.
-Then Venezuela collapsed. And the pandemic broke the economies of half the continent.
-In 2021, Panama counted about a hundred and thirty-three thousand people coming out of the jungle.
-In 2022, almost two hundred and fifty thousand.
-In 2023, more than five hundred and twenty thousand. In a single year.
-Most of them were Venezuelans. But they came from everywhere. Ecuador, Haiti, Colombia, China, even Afghanistan.
-And about one in five was a child.
-The journey usually starts in Necoclí, a beach town on the Colombian side of the Gulf of Urabá.
-Boats carry them across the gulf, to Acandí or Capurganá. Every step has a price, and every price is paid to someone.
-Then the walk begins.
-Up mountains of mud. Across rivers that reach the chest. Past camps of plastic sheets, and the belongings of the people who went before.
-Most take between three and ten days.
-On the way, many are robbed. Many women are sexually assaulted. In 2023 alone, Doctors Without Borders treated hundreds of them.
-Nobody knows how many die. The rivers carry bodies away, and the jungle hides the rest.
-On the Panamanian side, the first place they reach is an Emberá village called Bajo Chiquito. A few hundred people, who at the peak received more than a thousand every single day.
-From there, canoes take them to reception camps run by Panama. And from the camps, buses take them north, toward Costa Rica, Mexico, and the border of the United States.
-The gap that no road could cross had become one of the most dangerous migration routes in the world.
-## mosca
-But there is something else the Darién holds back. And almost nobody knows about it.
-A fly.
-The New World screwworm. Its larvae burrow into the open wounds of living animals, and eat them from the inside.
-For decades, it was a plague for ranchers in North America.
-So the United States fought back in the strangest way. It bred flies by the billions, sterilized them with radiation, and dropped them from planes.
-The sterile males mated with wild females. The eggs never hatched. And year after year, the fly was pushed south.
-Out of the United States. Out of Mexico. Out of Central America.
-Until it reached the narrowest place it could be stopped. The Darién.
-For years, a plant in Panama has produced sterile flies, to be dropped over the jungle every week. A living wall, made of flies.
-In 2023, the wall broke.
-The screwworm jumped the barrier and spread north. Panama, Costa Rica, Nicaragua, Honduras. And by the end of 2024, Mexico.
-The United States closed its border to Mexican cattle.
-Five hundred years after Balboa, the Darién is still the gate between two continents. And it still decides what gets through.
+That one sentence from Lula is true. It also leaves out almost everything. To see what it leaves out, start with the water.
+## rio
+Look at the middle of South America. A country with no coast.
+An island, surrounded by land.
+Its only road to the ocean is a river.
+The Paraguay River runs south and joins the Paraná.
+The Paraná runs through Argentina, down to Buenos Aires and the Atlantic.
+So every ship going in or out of Paraguay has to pass through somebody else's country.
+Now look upstream. There's a second secret on this map.
+Deep inside Brazil sits the province of Mato Grosso. Enormous, and almost impossible to reach.
+In the 1860s, the trip overland from Rio de Janeiro could take months.
+By water, down the Atlantic and up this same river, it took about eighteen days.
+Think about that. To reach part of its own country, Brazil had to sail through Paraguay.
+So Paraguay needed Argentina's river. Brazil needed Paraguay's river. And at the mouth of all of it sits Uruguay.
+Four countries. One river system. Keep this map in your head, because every move in this war happens on it.
+## antes
+In 1860, Paraguay was small. Somewhere around four hundred thousand people.
+Brazil, Argentina and Uruguay together had about eleven million.
+But Paraguay was unusual. For decades, its rulers had kept it closed, centralized, and answerable to nobody.
+It hired about two hundred foreign technicians, most of them British.
+It built an ironworks at Ybycuí. An arsenal. A shipyard. A telegraph.
+And in 1861, a railway running out of Asunción.
+You may have heard that all of this made Paraguay an industrial superpower. Hold on to that claim. We're coming back to it.
+In 1862, the country passed to a new president. Francisco Solano López.
+He had toured Europe, studied its armies, and come home with an Irish companion named Eliza Lynch.
+He believed Paraguay was the weight that kept the whole region in balance.
+And he was about to test it.
+## chispa
+The spark came from the smallest country on this map.
+In 1863, a Uruguayan general named Venancio Flores crossed the river to overthrow his own government, with friends in Buenos Aires behind him.
+Uruguay's government looked around for help. And it looked to Paraguay.
+On August 30th, 1864, Paraguay sent Brazil a written warning. Invade Uruguay, and we'll treat it as a threat to us.
+Brazil ignored it.
+In October 1864, Brazilian troops crossed into Uruguay.
+Now, let's go back to Lula's sentence.
+On November 12th, 1864, a Brazilian steamer called the Marquês de Olinda was heading up the Paraguay River, toward Mato Grosso.
+On board was the new president of that province.
+A Paraguayan warship chased it down, and brought it back to Asunción.
+A month later, Paraguay declared war. And that December, its army invaded Mato Grosso.
+So yes. Paraguay did invade Brazil.
+But it wasn't one fine day. Brazil had already invaded Uruguay, after being warned in writing.
+And that doesn't make López a victim either. He chose this war. He was sure he could win it.
+Then he made the mistake that decided everything.
+To reach Uruguay, his army had to cross a piece of Argentina. The province of Corrientes.
+In January 1865, he asked for permission. Argentina refused.
+So in April, his ships attacked Corrientes and seized two Argentine warships. He went in anyway.
+Look at what he had just done. He had gone to war with the country that held the only door to his ocean.
+In Buenos Aires, President Bartolomé Mitre promised the crowds they'd be in Asunción in three months.
+It took almost four years.
+## tratado
+On May 1st, 1865, in Buenos Aires, Argentina, Brazil and Uruguay signed the Treaty of the Triple Alliance.
+On paper, it had a noble line. Article seven.
+[am_onyx:en-us] Not against the people of Paraguay, but against its government.
+The rest of the treaty read very differently.
+Paraguay would pay for the entire war.
+Its great fortress on the river would be torn down.
+Argentina would take a huge strip of the Chaco. And Brazil would move its border south, to the Apa River.
+And article eighteen ordered all of it to stay secret.
+It stayed secret for less than a year.
+Uruguay's foreign minister gave a copy to a British diplomat. That diplomat sent it to London.
+In March 1866, it came out in public. Bolivia and Peru protested.
+A war against a government, and the winners were already dividing up the country's land.
+Remember who leaked it. A British diplomat. That detail is going to matter.
+## sangre
+Paraguay's offensive didn't last long.
+June 11th, 1865. Riachuelo. Brazil's navy destroyed Paraguay's fleet on the Paraná.
+The river was gone. From that day, Paraguay was cut off from the world.
+September 18th. Uruguaiana. A Paraguayan army that had marched deep into southern Brazil was surrounded, and surrendered.
+In less than a year, the war López started had come back to his own front door.
+And that's when the map changed sides.
+To reach Asunción, the allies had to come up one river, through swamp, heat and mud. And the swamp belonged to Paraguay.
+May 24th, 1866. Tuyutí. López threw about twenty-six thousand men at about thirty-five thousand.
+In a few hours, it became the bloodiest battle South America had ever seen.
+Paraguay lost about thirteen thousand men, killed and wounded, in a single day.
+Watching from the Argentine lines was a young officer named Cándido López. He painted for a living, and he was sketching everything he saw.
+Four months later, the allies tried again. Curupayty.
+September 22nd, 1866. About twenty thousand men charged across open ground, toward one long trench.
+Behind it, General José Díaz had five thousand men and forty-nine cannons.
+The allies lost more than four thousand men.
+Paraguay lost ninety-two.
+It was the worst allied defeat of the war. And it froze their advance for ten months.
+Somewhere in that charge, a grenade hit Cándido López. He lost his right arm.
+So he went home, and taught his left hand to paint. It took him years.
+Those paintings you've been looking at, the long rows of soldiers, the trenches, the river? They're his. Made decades later, with the wrong hand.
+It's one of the great eyewitness records of this war. And it was painted by a man it had broken.
+Then came an enemy nobody had planned for.
+Cholera ran through the camps. In one letter, Brazil's commander counted almost four thousand of his soldiers dead from it.
+And the fortress still hadn't been touched.
+## humaita
+Look at this bend in the river.
+The Paraguay River folds into a tight horseshoe here, and the channel narrows to about two hundred meters.
+Any ship on its way to Asunción has to go through it. Slowly. And side-on.
+On the outside of that curve, Paraguay built Humaitá.
+More than a hundred cannons, aimed at the water. Chains across the river. And eight miles of trenches behind it, with eighteen thousand men.
+The press called it the Gibraltar of South America.
+The allies couldn't even see inside. So in 1867, they did something no army on this continent had ever done.
+They went up in balloons.
+Tethered above the swamp, officers sketched the trenches from the sky. This is one of those views.
+On February 19th, 1868, six Brazilian ironclads finally ran the bend, under fire.
+The Gibraltar of South America had been passed. It held out anyway, until July.
+A year-long siege, and it left this behind.
+The church of San Carlos Borromeo. Opened in 1861, and shelled to ruins by the allied fleet. Its walls are still standing, and you can walk through them today.
+And when the allies finally went in, they took trophies.
+One of them was a bronze cannon. And this is the part Paraguay has never forgotten.
+It was made from church bells, melted down to defend the country.
+They called it El Cristiano.
+Since 1922, it has stood in the National Historical Museum in Rio de Janeiro.
+That's the cannon. That's what this year's fight is about.
+## tribunales
+What happened next, Paraguay did to itself.
+In 1868, with the fortress falling and the enemy closing in, López became convinced there was a plot to overthrow him.
+At a camp called San Fernando, he set up military tribunals. The accused had no defense.
+His own brother, Benigno. Two of his brothers-in-law. The bishop of Paraguay. His former foreign minister. Foreign residents too.
+Hundreds of people were executed.
+Was the plot real? Historians still argue. The people who lived through it left completely opposite accounts.
+But nobody argues about the picture. With the enemy marching on his capital, the president of Paraguay was executing his own government.
+## final
+December 1868. In a series of battles south of Asunción, what was left of Paraguay's old army was destroyed.
+January 1st, 1869. Allied troops entered Asunción, and looted it.
+Mitre's three months had taken almost four years.
+For the Brazilian commander, the Marquis of Caxias, that was the end. He collapsed, resigned, and went home.
+But López wasn't there. He had slipped away into the hills, and he was building a new army out of whoever remained.
+And the treaty said no peace while he held power.
+So Emperor Pedro II of Brazil sent a new commander. His own son-in-law, a French prince called the Count of Eu.
+August 12th, 1869. Piribebuy, the temporary capital. About sixteen hundred defenders against about twenty thousand.
+When the town fell, the hospital burned. Paraguayan accounts say there were wounded men inside, and they blame the Count.
+The two countries' historians still don't agree on what happened. But this July, Paraguay's lower house voted to make that date a national day of mourning.
+Four days later, the allies caught up with López's rear guard, on a plain called Acosta Ñu.
+He was retreating. He left about thirty-five hundred people behind to slow them down.
+Most of them were boys. Nine to fifteen years old.
+Against them, more than twenty thousand allied troops.
+There's an old story that some of those boys wore false beards, to look like men from a distance. Paraguayan historians dispute it.
+Nobody disputes how old they were.
+About two thousand Paraguayans died there.
+Today, August 16th is Children's Day in Paraguay.
+Kids get presents and parties, like anywhere else. And the date on the calendar is that one.
+## cerrocora
+The last months weren't really a war. They were a march.
+Hungry soldiers, with women, children and old people walking behind them, heading northeast, into the empty edge of the country.
+March 1st, 1870. A camp at Cerro Corá, by a stream called the Aquidabán. What was left of the army of Paraguay was a few hundred people.
+Brazilian cavalry came in. López was struck by a lance, from a corporal the soldiers called Chico Diabo.
+According to legend, his last words were, I die with my country.
+Beside him was his son, Juan Francisco. Fifteen years old, and a colonel.
+Told to surrender, the boy is said to have answered that a Paraguayan colonel never surrenders. He was killed too.
+And then Eliza Lynch, the Irishwoman who had followed López for sixteen years, buried them both, with her own hands.
+She was sent into exile. She died in Paris in 1886, with almost nothing.
+Decades later, a Paraguayan dictator brought her remains home, and turned her into a national heroine.
+The war was over. Now came the question nobody can answer.
+## numeros
+How many people died?
+For a long time, the number you'd read was almost unbelievable. A prewar population of over a million, reduced to a fraction.
+It rested on old census figures that historians no longer accept.
+In 1999, two historians, Whigham and Potthast, worked from a newly found census of 1870, and ran the numbers again. Sixty to sixty-nine percent of the entire population.
+Another study, by Jan Kleinpenning, came in at forty-three to fifty-one percent.
+And a third, by Vera Blinn Reber, went much lower. Seven to eighteen and a half percent.
+So when I call this the war that erased half of Paraguay, you should know that half is not a fact. It's the middle of a fight.
+But even the lowest number is a catastrophe.
+The allies paid too. By the usual counts, Brazil lost about fifty thousand soldiers, and Argentina about eighteen thousand.
+What's clear is who was left.
+After the war, estimates run from three to seven women for every man.
+So the women of Paraguay rebuilt it. They worked the land, they ran the markets, they raised a generation alone.
+Back in 1867, a crowd of them had met in Asunción and given their jewels to the war effort. Paraguay still celebrates its own Women's Day on that date, February 24th.
+And in 2022, four economists found something stranger.
+In the parts of Paraguay that lost the most men, there are still more households run by women, and more children born outside marriage. A century and a half later.
+The sex ratio went back to normal long ago. The way people live never quite did.
+## despues
+Then came the bill.
+Paraguay lost about a hundred and forty thousand square kilometers. Some forty percent of the land it had claimed.
+Brazilian troops stayed in the country until 1876.
+And almost immediately, the winners turned on each other.
+In 1872, Brazil signed its own treaties with Paraguay, without telling its allies. The alliance that had been sworn in secret came apart in the open.
+Argentina still wanted the Chaco. So they took it to arbitration, and the judge they picked was the president of the United States.
+In 1878, Rutherford B. Hayes ruled in favor of Paraguay.
+Which is why, to this day, there's a Paraguayan city called Villa Hayes, in a department called Presidente Hayes, named after a man most Americans can barely place.
+The war debt was never paid. Uruguay canceled its share in 1883. Argentina waited until 1942. Brazil, until 1943.
+But Paraguay paid another way. Broke, it sold off most of its public land, huge pieces of it, to foreign buyers.
+That's how a country loses a war twice.
+## mitos
+Now, you may have heard who was really behind all this.
+In the 1970s, a powerful story took hold across South America. Julio José Chiavenato and others told it in popular books.
+Paraguay was an industrial rival to the British Empire. So London paid its neighbors to destroy it.
+Generations learned that in school. Maybe you did.
+And it falls apart when you look at the evidence.
+The Brazilian historian Francisco Doratioto spent years in the archives, and he asks one simple question. Where is the document?
+British loans covered around twelve percent of Brazil's war spending.
+The technicians running Paraguay's foundry and its railway were British.
+And the man who sent the secret treaty to London was a British diplomat.
+As for the superpower, Paraguay had an ironworks and a short railway. It was impressive for its size. It was not a threat to Manchester.
+So why did the myth last?
+Because it's comfortable. It lets Brazil, Argentina and Uruguay say someone else made them do it. And it lets Paraguay say it was destroyed for being too strong.
+In the real story, the villains are local. And so are the victims.
 ## hoy
-In July 2024, Panama got a new president, José Raúl Mulino. He promised to close the Darién.
-His government put up barbed wire on some of the trails. And signed a deal with the United States to fly migrants home.
-That year, about three hundred thousand people still crossed.
-Then, in 2025, the flow collapsed.
-With the new American government closing the door at the other end of the route, the reason to walk through the jungle disappeared.
-In some months of 2025, fewer than a few hundred people came out of the Darién. And some of the people heading north turned around, and went back south by sea.
-The camps emptied. Bajo Chiquito went quiet again.
-And the road? It's still not there. The asphalt still ends in Yaviza. And the Pan-American Highway still has exactly one gap.
+So what survived?
+Walk around Asunción today, and listen. Paraguay is the one country in the Americas where most people, Indigenous or not, speak an Indigenous language.
+About seventy-seven percent speak Guaraní. It has been an official language since 1992.
+A country that lost most of its men, and much of its land, kept its language.
+And look at the river again. It's still the story.
+In 1973, Paraguay and Brazil agreed to build one of the largest dams on Earth, right on their border. Itaipú. Half of the energy for each.
+Paraguay uses only a small part of its half. The rest went to Brazil, at a fixed price, for decades.
+In 2009, after years of complaints, Brazil agreed to triple what it paid.
+Again, Paraguay's future depends on water it shares with a giant.
 ## cierre
-For three million years, this land was a bridge. For animals, for plants, and for the first people who walked into South America.
-For five hundred years, it has been a wall. For the Spanish, for Scotland, for the engineers, for the bulldozers, and for a fly.
-And for half a million people, in a single year, it was a door.
-A road would make the Darién easy. And that is exactly what everyone who protects it is afraid of.
-Every road ends somewhere. This one ends where the map says no.
-Next time on Atlas Sur, the war that erased half of Paraguay.
+And then there's the cannon.
+El Cristiano is still in Rio. Church bells, turned into a weapon, turned into a trophy, and now protected as part of Brazil's own national heritage.
+Giving it back may take lawyers and a vote in Congress. There is still no date.
+And this year, a Brazilian congressman asked federal prosecutors to review the return.
+His name is Luiz Philippe de Orleans e Bragança. He's a descendant of Emperor Pedro II.
+The emperor who refused to stop. The father-in-law of the man who led the final campaign.
+A hundred and fifty-six years later, his family is still in this fight.
+So Lula's sentence was true. Paraguay did invade Brazil.
+And Mitre's promise was wrong, and the treaty's noble line was a lie, and the British myth is a fairy tale. And the number that everyone repeats is a guess.
+What's left is a river, and a country that lives beside it, and a cannon made of bells.
+On the map, this war ended in 1870. In Paraguay, it never quite has.
+Next time on Atlas Sur, a line a pope drew across the world, and why Brazil speaks Portuguese.
 Subscribe, so you don't miss it.
-And tell me in the comments. Should someone finally build the road through the Darién, or leave the jungle alone?
+And tell me in the comments. Should Brazil give the cannon back?
