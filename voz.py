@@ -37,7 +37,22 @@ PRON = {"Uriburu": "Ooreebooroo", "Díaz Alejandro": "Dee-as Ah-leh-HAHN-dro", "
         # The Last Question 01
         "Super-Kamiokande": "Super Kah-mee-oh-KAHN-deh", "Kamionkowski": "Kah-mee-on-KOV-skee", "Schröder": "SHRUR-der",
         "Laughlin": "LOCK-lin", "Scherrer": "SHERR-er", "Clausius": "KLOW-zee-us", "Sawala": "Sah-VAH-lah",
-        "Milkomeda": "Milk-oh-MEE-dah", "Stelliferous": "Stel-IF-er-us", "Tye": "Tie"}
+        "Milkomeda": "Milk-oh-MEE-dah", "Stelliferous": "Stel-IF-er-us", "Tye": "Tie",
+        # The Last Question 02 (antes del Big Bang)
+        "Georges Lemaître": "Zhorzh Luh-MET-ruh", "Lemaître": "Luh-MET-ruh", "Penzias": "PEN-zee-us", "Vilenkin": "Vih-LEN-kin",
+        "Pawlowski": "Pav-LOV-skee", "Parampreet": "Pa-RUM-preet", "Ashtekar": "ASH-teh-kar", "Leibniz": "LIBE-nits",
+        "Hippo": "HIP-oh", "Arvind": "AR-vind", "Linde": "LIN-deh", "Borde": "BOR-day",
+        # No Rescue 02 (Alvarenga)
+        "José Salvador Alvarenga": "Ho-SEH Sal-vah-DOR Ahl-vah-REN-gah", "Camaroneros de la Costa": "Kah-mah-roh-NEH-ros deh lah KOHS-tah",
+        "Ezequiel Córdoba": "Eh-seh-kee-EL KOR-doh-bah", "Garita Palmera": "Gah-REE-tah Pahl-MEH-rah", "Costa Azul": "KOHS-tah Ah-SOOL",
+        "Alvarenga": "Ahl-vah-REN-gah", "Ezequiel": "Eh-seh-kee-EL", "Chiapas": "Chee-AH-pahs", "Cirilo": "See-REE-loh", "Fátima": "FAH-tee-mah",
+        "a norte": "a NOR-teh", "Ebon": "EE-bon", "Majuro": "Mah-JOO-roh", "Libokmeto": "Lee-bok-MEH-toh", "Laikidrik": "Lie-KID-rik",
+        "Maximenko": "Mak-see-MEN-ko", "van Sebille": "van Seh-BEE-yeh",
+        # Gross Margin 04 (agua)
+        "San Pellegrino": "San Pel-leh-GREE-no", "Vitaminwater": "Vitamin water", "Smartwater": "Smart water", "Nestlé": "NESS-lay", "Evian": "EV-ee-on",
+        "Perrier": "Perry-AY", "Dasani": "Dah-SAH-nee", "Aquafina": "Ah-kwah-FEE-nah", "Vittel": "Vee-TEL", "Peranel": "Peh-rah-NEL", "Evart": "EE-vert",
+        "Ozarka": "Oh-ZAR-kah", "Gleick": "Glike", "Nevins": "NEV-inz", "Fijian": "Fee-JEE-an", "Fiji": "FEE-jee", "bromate": "BRO-mate", "Macron": "Mah-KRON",
+        "marquis": "mar-KEE", "P W S": "P, W, S", "Primo": "PREE-mo"}
 
 carpeta = Path(sys.argv[1]).resolve() / "voz"
 solo = set(int(x) for x in sys.argv[2:])

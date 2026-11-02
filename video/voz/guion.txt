@@ -1,138 +1,172 @@
 ## gancho
-On the nineteenth of July, in a stadium in New Jersey, Spain beat Argentina, one nil, after extra time, and became champion of the world.
-Over sixty million Americans watched the final. More than for almost any soccer match in the country's history.
-It was the biggest World Cup ever played. Forty eight teams. A hundred and four matches. Sixteen stadiums, in three countries.
-And for the people who ran it, it was the most profitable sporting event ever staged.
-The best seats for that final were listed at almost thirty three thousand dollars. Each.
-A train ticket to the stadium, a few miles away, was first priced at a hundred and fifty.
-And at the same time, cities across North America were sending bills to their own taxpayers, for hundreds of millions of dollars.
-So here is the question. The biggest party on Earth just ended. Who really made money from it? And who paid the bill?
+In 2007, a reporter at Fast Company did a small piece of arithmetic.
+Take one half liter bottle of Evian. At the time, it cost a dollar thirty five.
+Now keep the bottle, and refill it once a day, from a kitchen tap in San Francisco.
+How long until you've spent that same dollar thirty five on water?
+Ten years. Five months. And twenty one days.
+It's the cheapest thing in the world. It falls from the sky.
+And last year, Americans spent fifty one billion dollars on it. The equivalent of about three hundred and eighty bottles, for every person in the country.
+If you've ever poured out your water at airport security, and then paid five dollars for the same thing at the gate, you already know this feeling. Tell me in the comments the worst price you ever paid, and where.
+So here is the question. If the water is almost free, who is getting rich? Because when you open the books, it isn't who you think.
 This is Gross Margin. The hidden economics of everything.
 If you like knowing where the money really goes, subscribe. And follow the money with me.
 ## the size
-To understand who made money, start with how big this thing was.
-The first World Cup with forty eight teams. Thirty nine days of football, from the eleventh of June to the nineteenth of July.
-Eleven cities in the United States. Three in Mexico. Two in Canada.
-The last time America hosted, in 1994, the tournament set an attendance record that stood for over thirty years. About three point six million fans.
-This time, that record fell before the group stage was even over.
-By the end, according to FIFA's president, close to seven million tickets had been used.
-Millions of fans. Billions of viewers. And a single organization standing in the middle of all of it.
-FIFA. Technically, a non profit association, based in Switzerland.
-In the ledger, write the first line. The largest World Cup in history. And one organizer, in the middle of every dollar.
-## the new deal
-Here is the part most fans never saw.
-For almost a century, every World Cup worked the same way. The host country set up a local organizing committee.
-That committee ran the tournament on the ground, and it shared in the money. Tickets. Local sponsors. Sometimes, even a cut of the food.
-In 1994, the American organizers ran the ticketing themselves, and the tournament ended with a surplus that helped build soccer in the United States.
-In 2026, that model was gone.
-For the first time, there was no local organizing committee with its own share of the money. FIFA ran the tournament itself, through its own subsidiary.
-The television rights. The global sponsors. The tickets. The hospitality suites. The merchandise. All of it went to FIFA.
-One business magazine described it as a franchise model. FIFA owns the brand, and the host cities run the stores.
-But in this franchise, the stores pay for the rent, the security, and the electricity. And the brand keeps the sales.
-The contracts the cities signed spelled it out. Security. Transport. Fan festivals. Stadium upgrades. Those were the host city's job.
-FIFA also asked for something else. Broad exemptions from taxes. In Mexico, the government granted them. In the United States, ticket sales in host cities went untaxed.
-In the ledger, a second line. A tournament with no local partner. And every stream of revenue, flowing to one place.
-## the tickets
-Which brings us to the most visible part of the business. The tickets.
-For the first time at a World Cup, FIFA used dynamic pricing. The same system airlines and concert promoters use.
-The price isn't fixed. It moves with demand. If a match is popular, the price goes up. And up.
-FIFA advertised that tickets started at sixty dollars. In practice, those seats were few, and mostly sold through national federations, to their most loyal fans.
-After heavy criticism, FIFA promised a thousand seats at that price for every match. In stadiums that hold sixty, seventy, eighty thousand people.
-For the final, the numbers got surreal.
-A top category seat at the final in Qatar, in 2022, cost about sixteen hundred dollars.
-In 2026, FIFA's best category was first listed at just under eleven thousand.
-Then, in May, FIFA tripled it. Thirty two thousand, nine hundred and seventy dollars. For one seat. At face value.
-FIFA's president defended the prices. In the United States, he argued, you have to apply market rates.
-The consumer groups were less impressed. Supporters' organizations calculated that following one team, from its first match to the final, would cost at least six thousand nine hundred dollars. In tickets alone.
-Before a single flight, hotel, or meal.
-And it didn't end there. The attorneys general of New York and New Jersey opened an investigation into how the tickets were priced, and how the seats were described.
-In the ledger, a third line. Tickets sold like airline seats. And a final that cost twenty times more than the last one.
-## the resale
-But the most elegant part of the business happened after the ticket was sold.
-FIFA ran its own official resale platform. If you couldn't go, you could sell your ticket there. If you missed out, you could buy one.
-And on every resale, FIFA took a cut. Fifteen percent from the buyer. And fifteen percent from the seller.
-Think about what that means. The same seat can be sold three, four, five times. And every time it changes hands, the organizer gets paid again.
-In the United States and Canada, there was no cap on resale prices. So the higher the market went, the bigger FIFA's slice.
-In other words, FIFA didn't just sell the ticket. It owned the toll booth on every road that ticket could travel.
-In the ledger, a fourth line. Thirty percent on every resale. A ticket that pays its seller again, and again.
-## the bill
-Now let's look at the other side of the ledger. The people who paid.
-Hosting a World Cup match is not cheap. Police, emergency services, transport, traffic control, cleaning, a fan festival for tens of thousands of people.
-Host cities estimated the bill at between one hundred and two hundred million dollars each.
-The federal government stepped in with six hundred and twenty five million dollars for security. Split across eleven cities, that helped. But it didn't cover everything.
-Kansas City reported a security gap of tens of millions of dollars.
-In New York, the city's own comptroller estimated that the tournament would bring in less money than it cost to host.
-In Toronto, the price of hosting climbed into the hundreds of millions.
-Some cities spent around a million dollars a day, just to run their fan festivals.
-And remember, the biggest revenue of the event, the tickets, went to FIFA. Not to the city that paid for the police outside the stadium.
-One sports economist put it simply. When you spend four hundred dollars on a World Cup ticket, that money goes to FIFA.
-In the ledger, a fifth line. The security, the roads, the trains, and the parties. Paid for by the people who live there.
-## the boom
-But wait, the cities said. The money will come back. In tourism. In hotels. In restaurants.
-And FIFA had a number ready. A study it commissioned predicted the tournament would add tens of billions of dollars to the North American economy.
-Economists who study these events have heard that promise before. One academic review found that most recent World Cups ended with net economic losses for their hosts.
-And in 2026, the hotels told the story early.
-In May, a survey by the American hotel industry found that most hotels in host cities were seeing bookings below expectations. Around eight in ten.
-Part of the reason was FIFA itself. It had reserved blocks of rooms in advance. Then it released many of them back to the market.
-Part of it was the cost of travel. Visa fees went up. Flights were expensive. And many international fans simply stayed home.
-When the tournament came, the data was mixed. Some host cities saw record room rates on match days. In New York, one night set an all time record for a host market.
-But in other cities, normal visitors stayed away. Business travelers, conventions, regular tourists, all avoided the chaos.
-In Seattle, hotel occupancy fell more than in any other major market.
-Across July, the number of international visitors to the United States barely moved. Overseas arrivals were actually down.
-The industry's verdict was clear. The World Cup was a story about prices, not about crowds.
-In the ledger, a sixth line. A boom that was promised. And fewer guests than expected.
-## the stadium
-And then there was the experience of actually getting to a game.
-Take the final. The stadium in New Jersey sits in a marsh, a few miles from Manhattan.
-New Jersey Transit announced a round trip train ticket of a hundred and fifty dollars. For a ride that normally costs a fraction of that.
-After a public outcry, the price came down, to just under a hundred.
-The rail agency explained why it was so expensive. Running the trains for the tournament cost tens of millions of dollars. And only a small part of that was covered by FIFA or the organizers.
-Driving wasn't much better. Parking passes near the stadium went for over two hundred dollars. And tailgating, the great American tradition, was banned.
-Inside, a beer cost around thirteen dollars.
-None of this was illegal. None of it was hidden. It was simply the business model, applied to every step between your front door and your seat.
-In the ledger, a seventh line. A train ride, a parking spot, a beer. Each one, priced like a final.
-## the winners
-So who did make money?
-Start on the field. FIFA paid out a record prize fund. Six hundred and fifty five million dollars for the tournament. About fifty percent more than in Qatar.
-Spain, the champions, took fifty million dollars. Argentina, the runners up, thirty three million.
-Even a team knocked out in the group stage went home with nine million dollars, plus a million and a half to help it prepare.
-For many smaller federations, that is more than their entire annual budget.
-Then there's television. In the United States, Fox and Telemundo paid for the rights, and got the audiences they had bet on. A final watched by more than sixty million people, in one country alone.
-Then the sponsors. The global brands that pay FIFA for the right to be seen next to the trophy.
-And then the resellers, the hospitality companies, the luxury suites. Packages for a single match at some stadiums ran into the thousands of dollars per person. For the full tournament, tens of thousands.
-But all of these are slices. The pie belongs to one owner.
-In the ledger, an eighth line. Fifty million for the champion. And a record bill paid, by the organizer, out of a record income.
-## the total
-Now, let's add up FIFA's side.
-FIFA works in four year cycles. Each cycle is built around one men's World Cup.
-For the cycle that ended with this tournament, FIFA's original budget was eleven billion dollars. It was later raised to thirteen.
-The day before the final, FIFA's president said he believed the total would top fifteen billion dollars.
-For comparison, the cycle around the World Cup in Qatar brought in about seven and a half billion.
-So in one tournament, FIFA roughly doubled its money.
-According to reports in the British press, tickets and hospitality alone may have brought in around five billion dollars. For a single tournament. More than five times what Qatar made from tickets.
-FIFA will publish its official figures in its next annual report. But even the conservative numbers are records.
-And because FIFA is a non profit association, it doesn't pay dividends to shareholders. The money goes back into football. Development programs for its two hundred and eleven member federations. Two point seven billion dollars promised for the next four years.
-Which also happens to be how its president is elected. One federation, one vote.
-In the ledger, a ninth line. Over fifteen billion dollars in four years. And two hundred and eleven voters, waiting for their share.
+To see how strange this business is, go back fifty years.
+In 1976, the average American drank about a gallon and a half of bottled water. Not a day. A year.
+By 2006, it was twenty eight gallons.
+Last year, it was forty seven point seven.
+In 2016, bottled water passed soda to become the biggest drink in America by volume. It has held that spot for ten years.
+And this isn't only an American habit. Across the world, people now buy about three hundred and fifty billion liters a year. More than a million bottles, every single minute.
+Between 2010 and 2020, sales grew by seventy three percent.
+A United Nations University study valued the global market at two hundred and seventy billion dollars. And it could reach five hundred billion by 2030.
+The same study compared prices. Liter for liter, bottled water costs between a hundred and fifty and a thousand times more than what comes out of the tap.
+And yet, walk up to the cooler in any store, and water is the cheap option. Two point four cents an ounce. Soda is around seven. Juice, ten. An energy drink, twenty.
+So it's the cheapest drink in the store. And the most expensive thing that also runs in your kitchen.
+In the ledger, write the first line. Fifty one billion dollars. For something that's already in the pipes.
+## the dime
+So the obvious theory goes like this. The water is free. The bottle costs a dollar twenty nine. Somebody, somewhere, is pocketing a dollar twenty nine.
+That's the theory. Now let's open the bottle.
+In that same 2007 investigation, the reporter took a typical dollar twenty nine bottle, and asked where the money went.
+First, the store. About half of the price. Sixty five cents, gone before anything else.
+Then, the trucks and the distribution. Up to a third.
+Then the things you can actually touch. The water, the plastic, and the cap. All of it together, twelve to fifteen cents.
+And what's left over for the company whose name is on the label? About a dime.
+On a multipack, about two cents a bottle.
+Hear that again. The water itself is such a small part of the price that it barely gets its own line.
+So what are you actually paying for? You're paying for the cooler, and the corner it sits in. That's why the same bottle costs more in a movie theater than in a supermarket, and more at an airport than almost anywhere else.
+And you're paying for a truck. Because water is heavy, and it has to move.
+That same year, America was drinking about a billion bottles a week. Moving them took the equivalent of thirty seven thousand eight hundred eighteen wheelers. Every week.
+Nestlé's plant in Hollis, Maine, kept twenty four million bottles stacked in a warehouse covering six acres. It looked like a permanent mountain. It was gone in five days.
+So this isn't really a water business. It's a shelf business. And a trucking business. With water in the middle.
+In the ledger, a second line. One dollar twenty nine at the register. About a dime for the bottler.
+## the invention
+Which raises a bigger question. How do you convince a country with free, safe water coming out of every faucet, to pay for it?
+The answer starts in 1977, with a French mineral water almost nobody in America had heard of.
+Perrier put an American executive named Bruce Nevins in charge of something that sounded absurd. Selling water to Americans.
+He cut the price of a large bottle, from a dollar nine, to sixty nine cents.
+He sponsored the New York City Marathon.
+And for the television commercials, he got one of the most famous voices in Hollywood. Orson Welles.
+Think about that. The man who made Citizen Kane, talking about water from a spring in the south of France.
+It worked. It worked so well that Perrier stopped being a drink, and became a signal. You ordered it to say something about yourself.
+And everyone else noticed. Evian had its own story. A marquis, a spring in the Alps, and the year 1789.
+The product was the same everywhere. Two hydrogen, one oxygen. What changed was the story.
+At the end of the seventies, Americans bought about three hundred and fifty million gallons a year. By 2008, it was almost nine billion.
+And the story turned out to be worth far more than the water. In 2007, Coca-Cola paid four point one billion dollars for the company behind Vitaminwater and Smartwater.
+In 2024, investors valued a brand called Liquid Death at one point four billion dollars. It sells water in a tall can, marketed like a heavy metal band.
+In the ledger, a third line. From a gallon and a half, to forty seven. And what changed was the story.
+## the source
+Now let's look at the one cost that really is close to zero. The water itself.
+In Michigan, in the town of Evart, Nestlé asked the state for permission to pump more groundwater. From two hundred and fifty gallons a minute, to four hundred. The state approved it.
+And what did Michigan charge for that water? The state doesn't sell its groundwater. The company paid a five thousand dollar application fee. And about two hundred dollars a year, for the paperwork.
+To be fair, the company also paid the local town for municipal water, it paid taxes, and it employed people. Everything here was legal. But that's the point. That's what the law charges.
+Now go to California. In the San Bernardino National Forest, pipelines have been carrying spring water to the Arrowhead brand for about a century.
+The price of the federal permit for that pipeline? Twenty five hundred dollars a year.
+In 2015, The Desert Sun reported that the permit had expired in 1988. And the water had kept flowing.
+In 2023, California's water board ordered the company to stop taking water it said the company had no right to. The next year, the Forest Service denied its permit.
+The company called that legally baseless, and went to court. In January 2025, a federal judge let it keep using the pipeline, for now. That May, a state judge threw out the water board's order.
+The water, at the last public report, was still flowing.
+And what happens when a government does try to charge real money? Fiji gives us the answer.
+In November 2010, Fiji raised its tax on the biggest water exporters, from a third of a cent per liter to fifteen Fijian cents.
+Fiji Water's response came within days. It closed its plant, and said it was laying off its workers. About four hundred people.
+Two days later, it reopened. And it agreed to pay the tax.
+In the ledger, a fourth line. The water, at the source. About two hundred dollars a year, in paperwork.
+## the tap
+But sometimes, the source isn't a spring at all.
+In 2006, two of the best selling brands of bottled water in America were Aquafina and Dasani. Together, about a quarter of the market.
+Both start with municipal water. The same public supply that feeds the local taps, filtered and purified at the plant.
+To be clear, this is completely legal. It's safe. And the filtering is real. Dasani uses reverse osmosis, and adds back a small dose of minerals.
+But for years, the clue on an Aquafina label was three letters. P W S.
+Almost nobody knew what they meant. In 2007, under pressure from an activist group, PepsiCo agreed to spell it out. Public water source.
+Coca-Cola said it didn't believe consumers were confused about Dasani.
+And then, there was Britain.
+In February 2004, Coca-Cola launched Dasani in the United Kingdom. A big launch, and the word on the bottle was pure.
+Then the British press found out where it came from. A factory in Sidcup, in Kent. And the source was the local mains.
+To British viewers, this sounded familiar. One of their most beloved sitcoms had already done the joke. A market trader, filling bottles at the kitchen tap, and selling them as spring water.
+The Food Standards Agency asked local inspectors to look at the word pure.
+But the real blow came five weeks after the launch. On the nineteenth of March, Coca-Cola announced that some of the water contained bromate, above the British legal limit.
+Half a million bottles were pulled. The regulators said there was no immediate risk to health.
+And here's the part that should be in every business school. The tap water coming into the plant wasn't the problem. The bromate came from the company's own purification process.
+The water got worse by being purified.
+Coca-Cola took Dasani out of Britain, and cancelled the launch in the rest of Europe.
+In the ledger, a fifth line. Tap water, filtered. About a quarter of the American market.
+## the trust
+Which brings us to what you're really buying. Because if the water costs nothing, and the bottle costs pennies, there's only one thing left.
+You're buying a promise. And a promise is the one thing that can go to zero overnight.
+February 1990. American regulators found traces of benzene in bottles of Perrier, above the legal limit of five parts per billion.
+The company first blamed an employee's mistake. Then it said a filter hadn't been replaced.
+It recalled one hundred and sixty million bottles, in a hundred and twenty countries. Worth about thirty five million dollars. Without insurance.
+Two years later, Perrier belonged to Nestlé.
+And for a while, that looked like history. Until January 2024.
+In France, the words natural mineral water mean something very precise. Under the law, that water has to come out of the ground clean, and it can't be disinfected. That's the whole premium. That's why it costs more.
+That month, Nestlé Waters told French reporters that some of its waters, including Perrier and Vittel, had been through treatments that weren't allowed. Ultraviolet light. Activated carbon filters.
+The company called them food safety treatments, and said they had since been removed.
+In September 2024, it reached a settlement with prosecutors. A two million euro fine, plus payments and environmental repairs. No trial. And no verdict of guilt.
+Then, in May 2025, a French Senate inquiry published its report. It concluded that the government had known, and that the matter had been covered up, at the highest levels.
+President Macron said he had not been aware of it. Nestlé said it took note of the report.
+A consumer group estimated that around a third of the water sold in France had gone through treatments that weren't compliant.
+And it isn't only France. In 2003, Poland Spring's owner settled an American lawsuit over whether its water really came from a spring, for about twelve million dollars, without admitting anything. The company maintains that its water meets the federal standard.
+So how would you check? Here's something most people never learn.
+In America, your tap water is regulated by the Environmental Protection Agency. And every year, your water utility has to send you a report on what's in it.
+Bottled water is regulated by the Food and Drug Administration, as a food. And in 2009, the Government Accountability Office found that the agency had no specific authority to make bottlers report their test results, or use certified labs.
+The industry says its standards are as strict as those for tap. Maybe so. But you get a report on only one of them.
+In the ledger, a sixth line. The real product. Trust. And it's the only ingredient that's expensive.
+## the shuffle
+So if trust is the product, then watch what the people who know this business best are doing.
+In 2021, Nestlé, the biggest name in bottled water, sold its main North American brands. Poland Spring. Arrowhead. Deer Park. Ozarka. Pure Life. For four point three billion dollars, to private equity.
+Those brands later merged with Primo Water, and became Primo Brands.
+Then, in July 2026, Nestlé announced that it would sell half of what was left. Fifty percent of its waters business, including Perrier and San Pellegrino, to another investment firm, Platinum Equity.
+The new company is called Peranel. The deal values the whole business at four point nine billion euros. One analyst at Morningstar called that on the lower side.
+For Nestlé, waters had become about four percent of sales.
+And now, the number this channel is named after.
+Primo Brands is a real business, and a big one. Last year, it sold six point six billion dollars of water. It kept about two billion of that, after the direct cost of the goods. A gross margin of thirty point three percent.
+And most of that two billion then went on selling, and on running the company.
+That same year, Coca-Cola's gross margin was sixty one point six percent. Twice as much.
+Why? Because Coca-Cola mostly sells concentrate. A small, light thing that its bottling partners turn into soda near the customer.
+And you can't concentrate water. There's nothing to take out. Every liter you sell weighs a kilo, and every kilo has to ride in a truck.
+That's the trap. The product that costs almost nothing to make, is the one you can never make lighter.
+In the ledger, a seventh line. Gross margin. Primo, thirty percent. Coca-Cola, sixty one.
+## the weight
+And all that moving has a bill of its own, one that never shows up at the register.
+In 2009, two scientists from the Pacific Institute, Peter Gleick and Heather Cooley, calculated the energy behind a bottle of water. Making the plastic. Filling it. Shipping it. Cooling it.
+Their result was up to two thousand times the energy of the same amount of tap water.
+In 2007 alone, American bottled water took the equivalent of between thirty two and fifty four million barrels of oil.
+Gleick's image for the worst case was simple. Picture the bottle, up to a quarter full of oil.
+Take Fiji Water, back then. The plastic was shipped to the island. The plant ran on its own diesel generators. And then the full bottles crossed the Pacific.
+According to the 2007 investigation, half of the wholesale cost of a bottle was transport.
+Then, there's where the bottles go. In 2023, America's collection rate for that kind of plastic bottle was about thirty three percent. The highest since the nineties. And still, two out of three weren't collected.
+And in January 2024, researchers at Columbia and Rutgers tested three brands, which they didn't name. They found on average about two hundred and forty thousand plastic fragments per liter. Nine out of ten were nanoplastics, too small to see.
+What that does to the human body, nobody knows yet. The researchers said so themselves. And the bottled water industry objects to the study.
+In the ledger, an eighth line. Energy. Up to two thousand times the tap.
+## the other bill
+Up to now, this might sound like a simple story. People with good tap water, wasting their money.
+But that's only half of the world.
+According to the United Nations, two point one billion people still don't have safely managed drinking water at home.
+A hundred and six million drink straight from rivers, lakes and ponds.
+For a huge number of the people buying bottled water today, this isn't a lifestyle. It's the only water they trust. Indonesia alone spends twenty two billion dollars a year. China, around forty five.
+And the same bottle tells that story too. In 2007, the Fast Company report noted that more than half of the people in Fiji didn't have reliable safe water at the time, while the country's best known export sat on American shelves.
+Now here's the number from that United Nations University study that I can't get out of my head.
+The estimated cost of giving safe water to the people who lack it was about a hundred and fourteen billion dollars a year.
+The world spends two hundred and seventy billion on bottled water.
+More than twice as much. On the bottle. As it would take to fix the tap.
+In the ledger, a ninth line. Bottled water, two hundred and seventy billion. Safe taps, a hundred and fourteen.
 ## the verdict
 So let's close the books.
-A tournament that, for the first time, had no local partner to share the money.
-Tickets sold like airline seats, with a final that cost twenty times more than four years earlier.
-A resale market where the organizer got paid on every single trade.
-Cities that covered the security, the transport and the parties, and saw the biggest revenue walk out of town.
-A tourism boom that, for many hotels, never arrived.
-And at the center of it all, an association in Switzerland, that turned the world's favorite game into the most profitable event in sports history.
-The World Cup didn't really belong to the host cities this time.
-It was a product. And the cities were the venue.
+A product that falls from the sky.
+A permit that costs two hundred dollars a year.
+A bottle, a cap and the water, for about fifteen cents.
+A store, that takes half.
+A truck, that takes up to a third.
+A company, that keeps about a dime.
+So who's getting rich? Almost nobody you'd expect. The store that owns the corner. The seller who got out at the right time. And whoever owns the story.
+Because the water was never the business.
+The business was making you forget that it was already in your kitchen.
 ## worth
-So, was it worth it?
-For the fans in the stadium, it was a once in a lifetime experience. For a lot of them, at a once in a lifetime price.
-For the host cities, the answer will come slowly, in budget reports and audits, over the next few years.
-And for FIFA, the answer is already in the ledger.
-Just remember, nothing in this video is financial advice. Every number here comes from public sources, and some of them are still preliminary.
-The next World Cup, in 2030, will be spread across six countries, on three continents.
-So the next time a city tells you a World Cup will pay for itself, ask one simple question.
-Pay for whom?
-Next time on Gross Margin. It's the cheapest thing in the world. It falls from the sky. So why do we pay so much for a bottle of water?
+So, is bottled water a scam? No.
+It's cold. It's right there. It's safe, and when your tap isn't, it can save your life. Those are real things, and people pay for them gladly.
+Just know what you're paying for. Because at a dollar twenty nine, you're not buying water. You're buying a location, a truck, and a story.
+Just remember, nothing in this video is financial advice. Every number here comes from public sources, listed below. Some come from older investigations, and companies dispute some of these claims.
+There's nothing left to add to the ledger. Except one thing. The next time you pay five dollars at the gate, look at the label.
+Somebody, a long time ago, figured out how to sell you the rain.
+Next time on Gross Margin. They lose money flying you. They make it on your credit card. How airlines became banks that fly.
 Subscribe, so you don't miss it.
-And tell me in the comments. What would you have paid, to be in that stadium for the final?
+And tell me in the comments. What's the most you ever paid for a bottle of water? And was it worth it?
