@@ -12,11 +12,10 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install -q faster-whisper soundfile scipy
-      - run: python mezcla/atlas/revisar_voz.py mezcla/video | tee revision.txt
+      - run: python mezcla/atlas/revisar_cola.py | tee revision.txt
       - uses: actions/upload-artifact@v5
         with:
           name: revision
           path: |
             revision.txt
-            mezcla/video/voz/revision.json
           retention-days: 3
