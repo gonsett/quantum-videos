@@ -1,8 +1,8 @@
-# Revisión de voz con Whisper en la nube (no usa la RAM de la PC). Se dispara con cada push a revision-gm-mundial.
+# Revisión de voz con Whisper en la nube (no usa la RAM de la PC). Se dispara con cada push a revision-gm-agua.
 name: Revision voz
 on:
   push:
-    branches: [revision-gm-mundial]
+    branches: [revision-gm-mundial, revision-gm-agua]
 jobs:
   whisper:
     runs-on: ubuntu-latest

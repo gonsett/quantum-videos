@@ -1,59 +1,66 @@
 [
  {
   "sec": "gancho",
-  "texto": "On the nineteenth of July, in a stadium in New Jersey, Spain beat Argentina, one nil, after extra time, and became champion of the world.",
+  "texto": "In 2007, a reporter at Fast Company did a small piece of arithmetic.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 9.834667
+  "dur": 5.44
  },
  {
   "sec": "gancho",
-  "texto": "Over sixty million Americans watched the final. More than for almost any soccer match in the country's history.",
+  "texto": "Take one half liter bottle of Evian. At the time, it cost a dollar thirty five.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 6.848
+  "dur": 5.909333
  },
  {
   "sec": "gancho",
-  "texto": "It was the biggest World Cup ever played. Forty eight teams. A hundred and four matches. Sixteen stadiums, in three countries.",
+  "texto": "Now keep the bottle, and refill it once a day, from a kitchen tap in San Francisco.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 8.64
+  "dur": 5.312
  },
  {
   "sec": "gancho",
-  "texto": "And for the people who ran it, it was the most profitable sporting event ever staged.",
+  "texto": "How long until you've spent that same dollar thirty five on water?",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 5.184
+  "dur": 3.818667
  },
  {
   "sec": "gancho",
-  "texto": "The best seats for that final were listed at almost thirty three thousand dollars. Each.",
+  "texto": "Ten years. Five months. And twenty one days.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 5.418667
+  "dur": 2.901333
  },
  {
   "sec": "gancho",
-  "texto": "A train ticket to the stadium, a few miles away, was first priced at a hundred and fifty.",
+  "texto": "It's the cheapest thing in the world. It falls from the sky.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 5.845333
+  "dur": 3.584
  },
  {
   "sec": "gancho",
-  "texto": "And at the same time, cities across North America were sending bills to their own taxpayers, for hundreds of millions of dollars.",
+  "texto": "And last year, Americans spent fifty one billion dollars on it. The equivalent of about three hundred and eighty bottles, for every person in the country.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 8.298667
+  "dur": 9.898667
  },
  {
   "sec": "gancho",
-  "texto": "So here is the question. The biggest party on Earth just ended. Who really made money from it? And who paid the bill?",
+  "texto": "If you've ever poured out your water at airport security, and then paid five dollars for the same thing at the gate, you already know this feeling. Tell me in the comments the worst price you ever paid, and where.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 7.488
+  "dur": 13.205333
+ },
+ {
+  "sec": "gancho",
+  "texto": "So here is the question. If the water is almost free, who is getting rich? Because when you open the books, it isn't who you think.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 8.128
  },
  {
   "sec": "gancho",
@@ -71,675 +78,913 @@
  },
  {
   "sec": "the size",
-  "texto": "To understand who made money, start with how big this thing was.",
+  "texto": "To see how strange this business is, go back fifty years.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 3.882667
+  "dur": 3.818667
  },
  {
   "sec": "the size",
-  "texto": "The first World Cup with forty eight teams. Thirty nine days of football, from the eleventh of June to the nineteenth of July.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 8.106667
- },
- {
-  "sec": "the size",
-  "texto": "Eleven cities in the United States. Three in Mexico. Two in Canada.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 4.885333
- },
- {
-  "sec": "the size",
-  "texto": "The last time America hosted, in 1994, the tournament set an attendance record that stood for over thirty years. About three point six million fans.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 11.136
- },
- {
-  "sec": "the size",
-  "texto": "This time, that record fell before the group stage was even over.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 4.053333
- },
- {
-  "sec": "the size",
-  "texto": "By the end, according to FIFA's president, close to seven million tickets had been used.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 5.610667
- },
- {
-  "sec": "the size",
-  "texto": "Millions of fans. Billions of viewers. And a single organization standing in the middle of all of it.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 6.762667
- },
- {
-  "sec": "the size",
-  "texto": "FIFA. Technically, a non profit association, based in Switzerland.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 4.736
- },
- {
-  "sec": "the size",
-  "texto": "In the ledger, write the first line. The largest World Cup in history. And one organizer, in the middle of every dollar.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 7.872
- },
- {
-  "sec": "the new deal",
-  "texto": "Here is the part most fans never saw.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 2.346667
- },
- {
-  "sec": "the new deal",
-  "texto": "For almost a century, every World Cup worked the same way. The host country set up a local organizing committee.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 7.573333
- },
- {
-  "sec": "the new deal",
-  "texto": "That committee ran the tournament on the ground, and it shared in the money. Tickets. Local sponsors. Sometimes, even a cut of the food.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 8.704
- },
- {
-  "sec": "the new deal",
-  "texto": "In 1994, the American organizers ran the ticketing themselves, and the tournament ended with a surplus that helped build soccer in the United States.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 10.624
- },
- {
-  "sec": "the new deal",
-  "texto": "In 2026, that model was gone.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 3.328
- },
- {
-  "sec": "the new deal",
-  "texto": "For the first time, there was no local organizing committee with its own share of the money. FIFA ran the tournament itself, through its own subsidiary.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 9.813333
- },
- {
-  "sec": "the new deal",
-  "texto": "The television rights. The global sponsors. The tickets. The hospitality suites. The merchandise. All of it went to FIFA.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 8.106667
- },
- {
-  "sec": "the new deal",
-  "texto": "One business magazine described it as a franchise model. FIFA owns the brand, and the host cities run the stores.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 7.765333
- },
- {
-  "sec": "the new deal",
-  "texto": "But in this franchise, the stores pay for the rent, the security, and the electricity. And the brand keeps the sales.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 7.402667
- },
- {
-  "sec": "the new deal",
-  "texto": "The contracts the cities signed spelled it out. Security. Transport. Fan festivals. Stadium upgrades. Those were the host city's job.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 9.578667
- },
- {
-  "sec": "the new deal",
-  "texto": "FIFA also asked for something else. Broad exemptions from taxes. In Mexico, the government granted them. In the United States, ticket sales in host cities went untaxed.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 12.096
- },
- {
-  "sec": "the new deal",
-  "texto": "In the ledger, a second line. A tournament with no local partner. And every stream of revenue, flowing to one place.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 7.509333
- },
- {
-  "sec": "the tickets",
-  "texto": "Which brings us to the most visible part of the business. The tickets.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 4.245333
- },
- {
-  "sec": "the tickets",
-  "texto": "For the first time at a World Cup, FIFA used dynamic pricing. The same system airlines and concert promoters use.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 8.128
- },
- {
-  "sec": "the tickets",
-  "texto": "The price isn't fixed. It moves with demand. If a match is popular, the price goes up. And up.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 6.506667
- },
- {
-  "sec": "the tickets",
-  "texto": "FIFA advertised that tickets started at sixty dollars. In practice, those seats were few, and mostly sold through national federations, to their most loyal fans.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 11.370667
- },
- {
-  "sec": "the tickets",
-  "texto": "After heavy criticism, FIFA promised a thousand seats at that price for every match. In stadiums that hold sixty, seventy, eighty thousand people.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 10.538667
- },
- {
-  "sec": "the tickets",
-  "texto": "For the final, the numbers got surreal.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 2.282667
- },
- {
-  "sec": "the tickets",
-  "texto": "A top category seat at the final in Qatar, in 2022, cost about sixteen hundred dollars.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 7.466667
- },
- {
-  "sec": "the tickets",
-  "texto": "In 2026, FIFA's best category was first listed at just under eleven thousand.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 6.485333
- },
- {
-  "sec": "the tickets",
-  "texto": "Then, in May, FIFA tripled it. Thirty two thousand, nine hundred and seventy dollars. For one seat. At face value.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 7.850667
- },
- {
-  "sec": "the tickets",
-  "texto": "FIFA's president defended the prices. In the United States, he argued, you have to apply market rates.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 6.741333
- },
- {
-  "sec": "the tickets",
-  "texto": "The consumer groups were less impressed. Supporters' organizations calculated that following one team, from its first match to the final, would cost at least six thousand nine hundred dollars. In tickets alone.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 13.717333
- },
- {
-  "sec": "the tickets",
-  "texto": "Before a single flight, hotel, or meal.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 2.730667
- },
- {
-  "sec": "the tickets",
-  "texto": "And it didn't end there. The attorneys general of New York and New Jersey opened an investigation into how the tickets were priced, and how the seats were described.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 10.432
- },
- {
-  "sec": "the tickets",
-  "texto": "In the ledger, a third line. Tickets sold like airline seats. And a final that cost twenty times more than the last one.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 8.298667
- },
- {
-  "sec": "the resale",
-  "texto": "But the most elegant part of the business happened after the ticket was sold.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 4.394667
- },
- {
-  "sec": "the resale",
-  "texto": "FIFA ran its own official resale platform. If you couldn't go, you could sell your ticket there. If you missed out, you could buy one.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 8.746667
- },
- {
-  "sec": "the resale",
-  "texto": "And on every resale, FIFA took a cut. Fifteen percent from the buyer. And fifteen percent from the seller.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 6.634667
- },
- {
-  "sec": "the resale",
-  "texto": "Think about what that means. The same seat can be sold three, four, five times. And every time it changes hands, the organizer gets paid again.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 9.685333
- },
- {
-  "sec": "the resale",
-  "texto": "In the United States and Canada, there was no cap on resale prices. So the higher the market went, the bigger FIFA's slice.",
+  "texto": "In 1976, the average American drank about a gallon and a half of bottled water. Not a day. A year.",
   "voz": "am_michael",
   "idioma": "en-us",
   "dur": 8.448
  },
  {
-  "sec": "the resale",
-  "texto": "In other words, FIFA didn't just sell the ticket. It owned the toll booth on every road that ticket could travel.",
+  "sec": "the size",
+  "texto": "By 2006, it was twenty eight gallons.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 6.784
+  "dur": 3.221333
  },
  {
-  "sec": "the resale",
-  "texto": "In the ledger, a fourth line. Thirty percent on every resale. A ticket that pays its seller again, and again.",
+  "sec": "the size",
+  "texto": "Last year, it was forty seven point seven.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 7.125333
+  "dur": 2.624
  },
  {
-  "sec": "the bill",
-  "texto": "Now let's look at the other side of the ledger. The people who paid.",
+  "sec": "the size",
+  "texto": "In 2016, bottled water passed soda to become the biggest drink in America by volume. It has held that spot for ten years.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 3.797333
+  "dur": 9.514667
  },
  {
-  "sec": "the bill",
-  "texto": "Hosting a World Cup match is not cheap. Police, emergency services, transport, traffic control, cleaning, a fan festival for tens of thousands of people.",
+  "sec": "the size",
+  "texto": "And this isn't only an American habit. Across the world, people now buy about three hundred and fifty billion liters a year. More than a million bottles, every single minute.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 11.072
+  "dur": 11.456
  },
  {
-  "sec": "the bill",
-  "texto": "Host cities estimated the bill at between one hundred and two hundred million dollars each.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 5.717333
- },
- {
-  "sec": "the bill",
-  "texto": "The federal government stepped in with six hundred and twenty five million dollars for security. Split across eleven cities, that helped. But it didn't cover everything.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 10.176
- },
- {
-  "sec": "the bill",
-  "texto": "Kansas City reported a security gap of tens of millions of dollars.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 4.864
- },
- {
-  "sec": "the bill",
-  "texto": "In New York, the city's own comptroller estimated that the tournament would bring in less money than it cost to host.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 6.954667
- },
- {
-  "sec": "the bill",
-  "texto": "In Toronto, the price of hosting climbed into the hundreds of millions.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 4.437333
- },
- {
-  "sec": "the bill",
-  "texto": "Some cities spent around a million dollars a day, just to run their fan festivals.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 5.184
- },
- {
-  "sec": "the bill",
-  "texto": "And remember, the biggest revenue of the event, the tickets, went to FIFA. Not to the city that paid for the police outside the stadium.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 8.661333
- },
- {
-  "sec": "the bill",
-  "texto": "One sports economist put it simply. When you spend four hundred dollars on a World Cup ticket, that money goes to FIFA.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 7.701333
- },
- {
-  "sec": "the bill",
-  "texto": "In the ledger, a fifth line. The security, the roads, the trains, and the parties. Paid for by the people who live there.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 7.744
- },
- {
-  "sec": "the boom",
-  "texto": "But wait, the cities said. The money will come back. In tourism. In hotels. In restaurants.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 5.674667
- },
- {
-  "sec": "the boom",
-  "texto": "And FIFA had a number ready. A study it commissioned predicted the tournament would add tens of billions of dollars to the North American economy.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 9.002667
- },
- {
-  "sec": "the boom",
-  "texto": "Economists who study these events have heard that promise before. One academic review found that most recent World Cups ended with net economic losses for their hosts.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 11.370667
- },
- {
-  "sec": "the boom",
-  "texto": "And in 2026, the hotels told the story early.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 4.224
- },
- {
-  "sec": "the boom",
-  "texto": "In May, a survey by the American hotel industry found that most hotels in host cities were seeing bookings below expectations. Around eight in ten.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 10.346667
- },
- {
-  "sec": "the boom",
-  "texto": "Part of the reason was FIFA itself. It had reserved blocks of rooms in advance. Then it released many of them back to the market.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 8.490667
- },
- {
-  "sec": "the boom",
-  "texto": "Part of it was the cost of travel. Visa fees went up. Flights were expensive. And many international fans simply stayed home.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 8.576
- },
- {
-  "sec": "the boom",
-  "texto": "When the tournament came, the data was mixed. Some host cities saw record room rates on match days. In New York, one night set an all time record for a host market.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 10.88
- },
- {
-  "sec": "the boom",
-  "texto": "But in other cities, normal visitors stayed away. Business travelers, conventions, regular tourists, all avoided the chaos.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 8.234667
- },
- {
-  "sec": "the boom",
-  "texto": "In Seattle, hotel occupancy fell more than in any other major market.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 4.778667
- },
- {
-  "sec": "the boom",
-  "texto": "Across July, the number of international visitors to the United States barely moved. Overseas arrivals were actually down.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 8.661333
- },
- {
-  "sec": "the boom",
-  "texto": "The industry's verdict was clear. The World Cup was a story about prices, not about crowds.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 6.357333
- },
- {
-  "sec": "the boom",
-  "texto": "In the ledger, a sixth line. A boom that was promised. And fewer guests than expected.",
+  "sec": "the size",
+  "texto": "Between 2010 and 2020, sales grew by seventy three percent.",
   "voz": "am_michael",
   "idioma": "en-us",
   "dur": 5.546667
  },
  {
-  "sec": "the stadium",
-  "texto": "And then there was the experience of actually getting to a game.",
+  "sec": "the size",
+  "texto": "A United Nations University study valued the global market at two hundred and seventy billion dollars. And it could reach five hundred billion by 2030.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 3.733333
+  "dur": 10.986667
  },
  {
-  "sec": "the stadium",
-  "texto": "Take the final. The stadium in New Jersey sits in a marsh, a few miles from Manhattan.",
+  "sec": "the size",
+  "texto": "The same study compared prices. Liter for liter, bottled water costs between a hundred and fifty and a thousand times more than what comes out of the tap.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 5.994667
+  "dur": 9.92
  },
  {
-  "sec": "the stadium",
-  "texto": "New Jersey Transit announced a round trip train ticket of a hundred and fifty dollars. For a ride that normally costs a fraction of that.",
+  "sec": "the size",
+  "texto": "And yet, walk up to the cooler in any store, and water is the cheap option. Two point four cents an ounce. Soda is around seven. Juice, ten. An energy drink, twenty.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 9.152
+  "dur": 11.818667
  },
  {
-  "sec": "the stadium",
-  "texto": "After a public outcry, the price came down, to just under a hundred.",
+  "sec": "the size",
+  "texto": "So it's the cheapest drink in the store. And the most expensive thing that also runs in your kitchen.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 4.586667
+  "dur": 6.037333
  },
  {
-  "sec": "the stadium",
-  "texto": "The rail agency explained why it was so expensive. Running the trains for the tournament cost tens of millions of dollars. And only a small part of that was covered by FIFA or the organizers.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 12.949333
- },
- {
-  "sec": "the stadium",
-  "texto": "Driving wasn't much better. Parking passes near the stadium went for over two hundred dollars. And tailgating, the great American tradition, was banned.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 9.962667
- },
- {
-  "sec": "the stadium",
-  "texto": "Inside, a beer cost around thirteen dollars.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 2.901333
- },
- {
-  "sec": "the stadium",
-  "texto": "None of this was illegal. None of it was hidden. It was simply the business model, applied to every step between your front door and your seat.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 8.618667
- },
- {
-  "sec": "the stadium",
-  "texto": "In the ledger, a seventh line. A train ride, a parking spot, a beer. Each one, priced like a final.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 6.570667
- },
- {
-  "sec": "the winners",
-  "texto": "So who did make money?",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 1.642667
- },
- {
-  "sec": "the winners",
-  "texto": "Start on the field. FIFA paid out a record prize fund. Six hundred and fifty five million dollars for the tournament. About fifty percent more than in Qatar.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 10.581333
- },
- {
-  "sec": "the winners",
-  "texto": "Spain, the champions, took fifty million dollars. Argentina, the runners up, thirty three million.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 6.506667
- },
- {
-  "sec": "the winners",
-  "texto": "Even a team knocked out in the group stage went home with nine million dollars, plus a million and a half to help it prepare.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 7.530667
- },
- {
-  "sec": "the winners",
-  "texto": "For many smaller federations, that is more than their entire annual budget.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 4.821333
- },
- {
-  "sec": "the winners",
-  "texto": "Then there's television. In the United States, Fox and Telemundo paid for the rights, and got the audiences they had bet on. A final watched by more than sixty million people, in one country alone.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 13.568
- },
- {
-  "sec": "the winners",
-  "texto": "Then the sponsors. The global brands that pay FIFA for the right to be seen next to the trophy.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 5.866667
- },
- {
-  "sec": "the winners",
-  "texto": "And then the resellers, the hospitality companies, the luxury suites. Packages for a single match at some stadiums ran into the thousands of dollars per person. For the full tournament, tens of thousands.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 13.930667
- },
- {
-  "sec": "the winners",
-  "texto": "But all of these are slices. The pie belongs to one owner.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 3.84
- },
- {
-  "sec": "the winners",
-  "texto": "In the ledger, an eighth line. Fifty million for the champion. And a record bill paid, by the organizer, out of a record income.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 8.490667
- },
- {
-  "sec": "the total",
-  "texto": "Now, let's add up FIFA's side.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 2.048
- },
- {
-  "sec": "the total",
-  "texto": "FIFA works in four year cycles. Each cycle is built around one men's World Cup.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 5.76
- },
- {
-  "sec": "the total",
-  "texto": "For the cycle that ended with this tournament, FIFA's original budget was eleven billion dollars. It was later raised to thirteen.",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 8.405333
- },
- {
-  "sec": "the total",
-  "texto": "The day before the final, FIFA's president said he believed the total would top fifteen billion dollars.",
+  "sec": "the size",
+  "texto": "In the ledger, write the first line. Fifty one billion dollars. For something that's already in the pipes.",
   "voz": "am_michael",
   "idioma": "en-us",
   "dur": 6.464
  },
  {
-  "sec": "the total",
-  "texto": "For comparison, the cycle around the World Cup in Qatar brought in about seven and a half billion.",
+  "sec": "the dime",
+  "texto": "So the obvious theory goes like this. The water is free. The bottle costs a dollar twenty nine. Somebody, somewhere, is pocketing a dollar twenty nine.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 6.378667
+  "dur": 10.346667
  },
  {
-  "sec": "the total",
-  "texto": "So in one tournament, FIFA roughly doubled its money.",
+  "sec": "the dime",
+  "texto": "That's the theory. Now let's open the bottle.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 3.584
+  "dur": 2.922667
  },
  {
-  "sec": "the total",
-  "texto": "According to reports in the British press, tickets and hospitality alone may have brought in around five billion dollars. For a single tournament. More than five times what Qatar made from tickets.",
+  "sec": "the dime",
+  "texto": "In that same 2007 investigation, the reporter took a typical dollar twenty nine bottle, and asked where the money went.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 13.077333
+  "dur": 8.576
  },
  {
-  "sec": "the total",
-  "texto": "FIFA will publish its official figures in its next annual report. But even the conservative numbers are records.",
+  "sec": "the dime",
+  "texto": "First, the store. About half of the price. Sixty five cents, gone before anything else.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 7.232
+  "dur": 5.696
  },
  {
-  "sec": "the total",
-  "texto": "And because FIFA is a non profit association, it doesn't pay dividends to shareholders. The money goes back into football. Development programs for its two hundred and eleven member federations. Two point seven billion dollars promised for the next four years.",
+  "sec": "the dime",
+  "texto": "Then, the trucks and the distribution. Up to a third.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 17.024
+  "dur": 3.285333
  },
  {
-  "sec": "the total",
-  "texto": "Which also happens to be how its president is elected. One federation, one vote.",
+  "sec": "the dime",
+  "texto": "Then the things you can actually touch. The water, the plastic, and the cap. All of it together, twelve to fifteen cents.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 5.376
+  "dur": 7.338667
  },
  {
-  "sec": "the total",
-  "texto": "In the ledger, a ninth line. Over fifteen billion dollars in four years. And two hundred and eleven voters, waiting for their share.",
+  "sec": "the dime",
+  "texto": "And what's left over for the company whose name is on the label? About a dime.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 8.469333
+  "dur": 4.693333
+ },
+ {
+  "sec": "the dime",
+  "texto": "On a multipack, about two cents a bottle.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 2.794667
+ },
+ {
+  "sec": "the dime",
+  "texto": "Hear that again. The water itself is such a small part of the price that it barely gets its own line.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 6.442667
+ },
+ {
+  "sec": "the dime",
+  "texto": "So what are you actually paying for? You're paying for the cooler, and the corner it sits in. That's why the same bottle costs more in a movie theater than in a supermarket, and more at an airport than almost anywhere else.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 13.909333
+ },
+ {
+  "sec": "the dime",
+  "texto": "And you're paying for a truck. Because water is heavy, and it has to move.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 4.394667
+ },
+ {
+  "sec": "the dime",
+  "texto": "That same year, America was drinking about a billion bottles a week. Moving them took the equivalent of thirty seven thousand eight hundred eighteen wheelers. Every week.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 10.88
+ },
+ {
+  "sec": "the dime",
+  "texto": "Nestlé's plant in Hollis, Maine, kept twenty four million bottles stacked in a warehouse covering six acres. It looked like a permanent mountain. It was gone in five days.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 11.434667
+ },
+ {
+  "sec": "the dime",
+  "texto": "So this isn't really a water business. It's a shelf business. And a trucking business. With water in the middle.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 6.421333
+ },
+ {
+  "sec": "the dime",
+  "texto": "In the ledger, a second line. One dollar twenty nine at the register. About a dime for the bottler.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 6.336
+ },
+ {
+  "sec": "the invention",
+  "texto": "Which raises a bigger question. How do you convince a country with free, safe water coming out of every faucet, to pay for it?",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 8.170667
+ },
+ {
+  "sec": "the invention",
+  "texto": "The answer starts in 1977, with a French mineral water almost nobody in America had heard of.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 7.658667
+ },
+ {
+  "sec": "the invention",
+  "texto": "Perrier put an American executive named Bruce Nevins in charge of something that sounded absurd. Selling water to Americans.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 9.450667
+ },
+ {
+  "sec": "the invention",
+  "texto": "He cut the price of a large bottle, from a dollar nine, to sixty nine cents.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.034667
+ },
+ {
+  "sec": "the invention",
+  "texto": "He sponsored the New York City Marathon.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 2.538667
+ },
+ {
+  "sec": "the invention",
+  "texto": "And for the television commercials, he got one of the most famous voices in Hollywood. Orson Welles.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 6.4
+ },
+ {
+  "sec": "the invention",
+  "texto": "Think about that. The man who made Citizen Kane, talking about water from a spring in the south of France.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 6.613333
+ },
+ {
+  "sec": "the invention",
+  "texto": "It worked. It worked so well that Perrier stopped being a drink, and became a signal. You ordered it to say something about yourself.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 8.554667
+ },
+ {
+  "sec": "the invention",
+  "texto": "And everyone else noticed. Evian had its own story. A marquis, a spring in the Alps, and the year 1789.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 9.344
+ },
+ {
+  "sec": "the invention",
+  "texto": "The product was the same everywhere. Two hydrogen, one oxygen. What changed was the story.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 6.442667
+ },
+ {
+  "sec": "the invention",
+  "texto": "At the end of the seventies, Americans bought about three hundred and fifty million gallons a year. By 2008, it was almost nine billion.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 9.728
+ },
+ {
+  "sec": "the invention",
+  "texto": "And the story turned out to be worth far more than the water. In 2007, Coca-Cola paid four point one billion dollars for the company behind Vitaminwater and Smartwater.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 12.288
+ },
+ {
+  "sec": "the invention",
+  "texto": "In 2024, investors valued a brand called Liquid Death at one point four billion dollars. It sells water in a tall can, marketed like a heavy metal band.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 12.245333
+ },
+ {
+  "sec": "the invention",
+  "texto": "In the ledger, a third line. From a gallon and a half, to forty seven. And what changed was the story.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 6.698667
+ },
+ {
+  "sec": "the source",
+  "texto": "Now let's look at the one cost that really is close to zero. The water itself.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.013333
+ },
+ {
+  "sec": "the source",
+  "texto": "In Michigan, in the town of Evart, Nestlé asked the state for permission to pump more groundwater. From two hundred and fifty gallons a minute, to four hundred. The state approved it.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 11.904
+ },
+ {
+  "sec": "the source",
+  "texto": "And what did Michigan charge for that water? The state doesn't sell its groundwater. The company paid a five thousand dollar application fee. And about two hundred dollars a year, for the paperwork.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 12.757333
+ },
+ {
+  "sec": "the source",
+  "texto": "To be fair, the company also paid the local town for municipal water, it paid taxes, and it employed people. Everything here was legal. But that's the point. That's what the law charges.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 12.48
+ },
+ {
+  "sec": "the source",
+  "texto": "Now go to California. In the San Bernardino National Forest, pipelines have been carrying spring water to the Arrowhead brand for about a century.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 9.557333
+ },
+ {
+  "sec": "the source",
+  "texto": "The price of the federal permit for that pipeline? Twenty five hundred dollars a year.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.226667
+ },
+ {
+  "sec": "the source",
+  "texto": "In 2015, The Desert Sun reported that the permit had expired in 1988. And the water had kept flowing.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 8.789333
+ },
+ {
+  "sec": "the source",
+  "texto": "In 2023, California's water board ordered the company to stop taking water it said the company had no right to. The next year, the Forest Service denied its permit.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 12.586667
+ },
+ {
+  "sec": "the source",
+  "texto": "The company called that legally baseless, and went to court. In January 2025, a federal judge let it keep using the pipeline, for now. That May, a state judge threw out the water board's order.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 14.058667
+ },
+ {
+  "sec": "the source",
+  "texto": "The water, at the last public report, was still flowing.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 3.477333
+ },
+ {
+  "sec": "the source",
+  "texto": "And what happens when a government does try to charge real money? Fiji gives us the answer.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 6.016
+ },
+ {
+  "sec": "the source",
+  "texto": "In November 2010, Fiji raised its tax on the biggest water exporters, from a third of a cent per liter to fifteen Fijian cents.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 10.56
+ },
+ {
+  "sec": "the source",
+  "texto": "Fiji Water's response came within days. It closed its plant, and said it was laying off its workers. About four hundred people.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 9.237333
+ },
+ {
+  "sec": "the source",
+  "texto": "Two days later, it reopened. And it agreed to pay the tax.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 3.754667
+ },
+ {
+  "sec": "the source",
+  "texto": "In the ledger, a fourth line. The water, at the source. About two hundred dollars a year, in paperwork.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 6.592
+ },
+ {
+  "sec": "the tap",
+  "texto": "But sometimes, the source isn't a spring at all.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 2.922667
+ },
+ {
+  "sec": "the tap",
+  "texto": "In 2006, two of the best selling brands of bottled water in America were Aquafina and Dasani. Together, about a quarter of the market.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 10.837333
+ },
+ {
+  "sec": "the tap",
+  "texto": "Both start with municipal water. The same public supply that feeds the local taps, filtered and purified at the plant.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 8.341333
+ },
+ {
+  "sec": "the tap",
+  "texto": "To be clear, this is completely legal. It's safe. And the filtering is real. Dasani uses reverse osmosis, and adds back a small dose of minerals.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 11.114667
+ },
+ {
+  "sec": "the tap",
+  "texto": "But for years, the clue on an Aquafina label was three letters. P W S.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.952
+ },
+ {
+  "sec": "the tap",
+  "texto": "Almost nobody knew what they meant. In 2007, under pressure from an activist group, PepsiCo agreed to spell it out. Public water source.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 10.090667
+ },
+ {
+  "sec": "the tap",
+  "texto": "Coca-Cola said it didn't believe consumers were confused about Dasani.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.077333
+ },
+ {
+  "sec": "the tap",
+  "texto": "And then, there was Britain.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 1.6
+ },
+ {
+  "sec": "the tap",
+  "texto": "In February 2004, Coca-Cola launched Dasani in the United Kingdom. A big launch, and the word on the bottle was pure.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 9.578667
+ },
+ {
+  "sec": "the tap",
+  "texto": "Then the British press found out where it came from. A factory in Sidcup, in Kent. And the source was the local mains.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 7.573333
+ },
+ {
+  "sec": "the tap",
+  "texto": "To British viewers, this sounded familiar. One of their most beloved sitcoms had already done the joke. A market trader, filling bottles at the kitchen tap, and selling them as spring water.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 12.181333
+ },
+ {
+  "sec": "the tap",
+  "texto": "The Food Standards Agency asked local inspectors to look at the word pure.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 4.885333
+ },
+ {
+  "sec": "the tap",
+  "texto": "But the real blow came five weeks after the launch. On the nineteenth of March, Coca-Cola announced that some of the water contained bromate, above the British legal limit.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 11.285333
+ },
+ {
+  "sec": "the tap",
+  "texto": "Half a million bottles were pulled. The regulators said there was no immediate risk to health.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.930667
+ },
+ {
+  "sec": "the tap",
+  "texto": "And here's the part that should be in every business school. The tap water coming into the plant wasn't the problem. The bromate came from the company's own purification process.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 11.498667
+ },
+ {
+  "sec": "the tap",
+  "texto": "The water got worse by being purified.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 2.453333
+ },
+ {
+  "sec": "the tap",
+  "texto": "Coca-Cola took Dasani out of Britain, and cancelled the launch in the rest of Europe.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.824
+ },
+ {
+  "sec": "the tap",
+  "texto": "In the ledger, a fifth line. Tap water, filtered. About a quarter of the American market.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.653333
+ },
+ {
+  "sec": "the trust",
+  "texto": "Which brings us to what you're really buying. Because if the water costs nothing, and the bottle costs pennies, there's only one thing left.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 8.362667
+ },
+ {
+  "sec": "the trust",
+  "texto": "You're buying a promise. And a promise is the one thing that can go to zero overnight.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.44
+ },
+ {
+  "sec": "the trust",
+  "texto": "February 1990. American regulators found traces of benzene in bottles of Perrier, above the legal limit of five parts per billion.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 10.858667
+ },
+ {
+  "sec": "the trust",
+  "texto": "The company first blamed an employee's mistake. Then it said a filter hadn't been replaced.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.696
+ },
+ {
+  "sec": "the trust",
+  "texto": "It recalled one hundred and sixty million bottles, in a hundred and twenty countries. Worth about thirty five million dollars. Without insurance.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 9.344
+ },
+ {
+  "sec": "the trust",
+  "texto": "Two years later, Perrier belonged to Nestlé.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 3.136
+ },
+ {
+  "sec": "the trust",
+  "texto": "And for a while, that looked like history. Until January 2024.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.568
+ },
+ {
+  "sec": "the trust",
+  "texto": "In France, the words natural mineral water mean something very precise. Under the law, that water has to come out of the ground clean, and it can't be disinfected. That's the whole premium. That's why it costs more.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 13.824
+ },
+ {
+  "sec": "the trust",
+  "texto": "That month, Nestlé Waters told French reporters that some of its waters, including Perrier and Vittel, had been through treatments that weren't allowed. Ultraviolet light. Activated carbon filters.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 13.888
+ },
+ {
+  "sec": "the trust",
+  "texto": "The company called them food safety treatments, and said they had since been removed.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 4.949333
+ },
+ {
+  "sec": "the trust",
+  "texto": "In September 2024, it reached a settlement with prosecutors. A two million euro fine, plus payments and environmental repairs. No trial. And no verdict of guilt.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 12.906667
+ },
+ {
+  "sec": "the trust",
+  "texto": "Then, in May 2025, a French Senate inquiry published its report. It concluded that the government had known, and that the matter had been covered up, at the highest levels.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 12.032
+ },
+ {
+  "sec": "the trust",
+  "texto": "President Macron said he had not been aware of it. Nestlé said it took note of the report.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.674667
+ },
+ {
+  "sec": "the trust",
+  "texto": "A consumer group estimated that around a third of the water sold in France had gone through treatments that weren't compliant.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 7.765333
+ },
+ {
+  "sec": "the trust",
+  "texto": "And it isn't only France. In 2003, Poland Spring's owner settled an American lawsuit over whether its water really came from a spring, for about twelve million dollars, without admitting anything. The company maintains that its water meets the federal standard.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 17.514667
+ },
+ {
+  "sec": "the trust",
+  "texto": "So how would you check? Here's something most people never learn.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 3.626667
+ },
+ {
+  "sec": "the trust",
+  "texto": "In America, your tap water is regulated by the Environmental Protection Agency. And every year, your water utility has to send you a report on what's in it.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 10.858667
+ },
+ {
+  "sec": "the trust",
+  "texto": "Bottled water is regulated by the Food and Drug Administration, as a food. And in 2009, the Government Accountability Office found that the agency had no specific authority to make bottlers report their test results, or use certified labs.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 17.728
+ },
+ {
+  "sec": "the trust",
+  "texto": "The industry says its standards are as strict as those for tap. Maybe so. But you get a report on only one of them.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 7.424
+ },
+ {
+  "sec": "the trust",
+  "texto": "In the ledger, a sixth line. The real product. Trust. And it's the only ingredient that's expensive.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 6.72
+ },
+ {
+  "sec": "the shuffle",
+  "texto": "So if trust is the product, then watch what the people who know this business best are doing.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.866667
+ },
+ {
+  "sec": "the shuffle",
+  "texto": "In 2021, Nestlé, the biggest name in bottled water, sold its main North American brands. Poland Spring. Arrowhead. Deer Park. Ozarka. Pure Life. For four point three billion dollars, to private equity.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 16.512
+ },
+ {
+  "sec": "the shuffle",
+  "texto": "Those brands later merged with Primo Water, and became Primo Brands.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 4.672
+ },
+ {
+  "sec": "the shuffle",
+  "texto": "Then, in July 2026, Nestlé announced that it would sell half of what was left. Fifty percent of its waters business, including Perrier and San Pellegrino, to another investment firm, Platinum Equity.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 15.253333
+ },
+ {
+  "sec": "the shuffle",
+  "texto": "The new company is called Peranel. The deal values the whole business at four point nine billion euros. One analyst at Morningstar called that on the lower side.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 11.477333
+ },
+ {
+  "sec": "the shuffle",
+  "texto": "For Nestlé, waters had become about four percent of sales.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 3.712
+ },
+ {
+  "sec": "the shuffle",
+  "texto": "And now, the number this channel is named after.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 2.88
+ },
+ {
+  "sec": "the shuffle",
+  "texto": "Primo Brands is a real business, and a big one. Last year, it sold six point six billion dollars of water. It kept about two billion of that, after the direct cost of the goods. A gross margin of thirty point three percent.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 15.445333
+ },
+ {
+  "sec": "the shuffle",
+  "texto": "And most of that two billion then went on selling, and on running the company.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 4.458667
+ },
+ {
+  "sec": "the shuffle",
+  "texto": "That same year, Coca-Cola's gross margin was sixty one point six percent. Twice as much.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 6.464
+ },
+ {
+  "sec": "the shuffle",
+  "texto": "Why? Because Coca-Cola mostly sells concentrate. A small, light thing that its bottling partners turn into soda near the customer.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 8.618667
+ },
+ {
+  "sec": "the shuffle",
+  "texto": "And you can't concentrate water. There's nothing to take out. Every liter you sell weighs a kilo, and every kilo has to ride in a truck.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 8.896
+ },
+ {
+  "sec": "the shuffle",
+  "texto": "That's the trap. The product that costs almost nothing to make, is the one you can never make lighter.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 6.186667
+ },
+ {
+  "sec": "the shuffle",
+  "texto": "In the ledger, a seventh line. Gross margin. Primo, thirty percent. Coca-Cola, sixty one.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 6.592
+ },
+ {
+  "sec": "the weight",
+  "texto": "And all that moving has a bill of its own, one that never shows up at the register.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.248
+ },
+ {
+  "sec": "the weight",
+  "texto": "In 2009, two scientists from the Pacific Institute, Peter Gleick and Heather Cooley, calculated the energy behind a bottle of water. Making the plastic. Filling it. Shipping it. Cooling it.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 13.461333
+ },
+ {
+  "sec": "the weight",
+  "texto": "Their result was up to two thousand times the energy of the same amount of tap water.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.738667
+ },
+ {
+  "sec": "the weight",
+  "texto": "In 2007 alone, American bottled water took the equivalent of between thirty two and fifty four million barrels of oil.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 9.002667
+ },
+ {
+  "sec": "the weight",
+  "texto": "Gleick's image for the worst case was simple. Picture the bottle, up to a quarter full of oil.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 5.866667
+ },
+ {
+  "sec": "the weight",
+  "texto": "Take Fiji Water, back then. The plastic was shipped to the island. The plant ran on its own diesel generators. And then the full bottles crossed the Pacific.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 11.157333
+ },
+ {
+  "sec": "the weight",
+  "texto": "According to the 2007 investigation, half of the wholesale cost of a bottle was transport.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 7.104
+ },
+ {
+  "sec": "the weight",
+  "texto": "Then, there's where the bottles go. In 2023, America's collection rate for that kind of plastic bottle was about thirty three percent. The highest since the nineties. And still, two out of three weren't collected.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 14.826667
+ },
+ {
+  "sec": "the weight",
+  "texto": "And in January 2024, researchers at Columbia and Rutgers tested three brands, which they didn't name. They found on average about two hundred and forty thousand plastic fragments per liter. Nine out of ten were nanoplastics, too small to see.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 17.962667
+ },
+ {
+  "sec": "the weight",
+  "texto": "What that does to the human body, nobody knows yet. The researchers said so themselves. And the bottled water industry objects to the study.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 9.344
+ },
+ {
+  "sec": "the weight",
+  "texto": "In the ledger, an eighth line. Energy. Up to two thousand times the tap.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 4.842667
+ },
+ {
+  "sec": "the other bill",
+  "texto": "Up to now, this might sound like a simple story. People with good tap water, wasting their money.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 6.336
+ },
+ {
+  "sec": "the other bill",
+  "texto": "But that's only half of the world.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 1.941333
+ },
+ {
+  "sec": "the other bill",
+  "texto": "According to the United Nations, two point one billion people still don't have safely managed drinking water at home.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 7.850667
+ },
+ {
+  "sec": "the other bill",
+  "texto": "A hundred and six million drink straight from rivers, lakes and ponds.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 4.266667
+ },
+ {
+  "sec": "the other bill",
+  "texto": "For a huge number of the people buying bottled water today, this isn't a lifestyle. It's the only water they trust. Indonesia alone spends twenty two billion dollars a year. China, around forty five.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 14.144
+ },
+ {
+  "sec": "the other bill",
+  "texto": "And the same bottle tells that story too. In 2007, the Fast Company report noted that more than half of the people in Fiji didn't have reliable safe water at the time, while the country's best known export sat on American shelves.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 16.938667
+ },
+ {
+  "sec": "the other bill",
+  "texto": "Now here's the number from that United Nations University study that I can't get out of my head.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 6.122667
+ },
+ {
+  "sec": "the other bill",
+  "texto": "The estimated cost of giving safe water to the people who lack it was about a hundred and fourteen billion dollars a year.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 7.488
+ },
+ {
+  "sec": "the other bill",
+  "texto": "The world spends two hundred and seventy billion on bottled water.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 3.925333
+ },
+ {
+  "sec": "the other bill",
+  "texto": "More than twice as much. On the bottle. As it would take to fix the tap.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 4.629333
+ },
+ {
+  "sec": "the other bill",
+  "texto": "In the ledger, a ninth line. Bottled water, two hundred and seventy billion. Safe taps, a hundred and fourteen.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 7.338667
  },
  {
   "sec": "the verdict",
@@ -750,122 +995,115 @@
  },
  {
   "sec": "the verdict",
-  "texto": "A tournament that, for the first time, had no local partner to share the money.",
+  "texto": "A product that falls from the sky.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 4.736
+  "dur": 2.389333
  },
  {
   "sec": "the verdict",
-  "texto": "Tickets sold like airline seats, with a final that cost twenty times more than four years earlier.",
+  "texto": "A permit that costs two hundred dollars a year.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 6.293333
+  "dur": 2.773333
  },
  {
   "sec": "the verdict",
-  "texto": "A resale market where the organizer got paid on every single trade.",
+  "texto": "A bottle, a cap and the water, for about fifteen cents.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 4.714667
+  "dur": 3.456
  },
  {
   "sec": "the verdict",
-  "texto": "Cities that covered the security, the transport and the parties, and saw the biggest revenue walk out of town.",
+  "texto": "A store, that takes half.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 7.04
+  "dur": 1.728
  },
  {
   "sec": "the verdict",
-  "texto": "A tourism boom that, for many hotels, never arrived.",
+  "texto": "A truck, that takes up to a third.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 3.754667
+  "dur": 2.090667
  },
  {
   "sec": "the verdict",
-  "texto": "And at the center of it all, an association in Switzerland, that turned the world's favorite game into the most profitable event in sports history.",
+  "texto": "A company, that keeps about a dime.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 9.216
+  "dur": 2.325333
  },
  {
   "sec": "the verdict",
-  "texto": "The World Cup didn't really belong to the host cities this time.",
+  "texto": "So who's getting rich? Almost nobody you'd expect. The store that owns the corner. The seller who got out at the right time. And whoever owns the story.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 3.669333
+  "dur": 10.090667
  },
  {
   "sec": "the verdict",
-  "texto": "It was a product. And the cities were the venue.",
+  "texto": "Because the water was never the business.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 2.944
+  "dur": 2.261333
+ },
+ {
+  "sec": "the verdict",
+  "texto": "The business was making you forget that it was already in your kitchen.",
+  "voz": "am_michael",
+  "idioma": "en-us",
+  "dur": 4.053333
  },
  {
   "sec": "worth",
-  "texto": "So, was it worth it?",
+  "texto": "So, is bottled water a scam? No.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 1.450667
+  "dur": 2.56
  },
  {
   "sec": "worth",
-  "texto": "For the fans in the stadium, it was a once in a lifetime experience. For a lot of them, at a once in a lifetime price.",
+  "texto": "It's cold. It's right there. It's safe, and when your tap isn't, it can save your life. Those are real things, and people pay for them gladly.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 8.0
+  "dur": 8.938667
  },
  {
   "sec": "worth",
-  "texto": "For the host cities, the answer will come slowly, in budget reports and audits, over the next few years.",
+  "texto": "Just know what you're paying for. Because at a dollar twenty nine, you're not buying water. You're buying a location, a truck, and a story.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 6.784
+  "dur": 8.469333
  },
  {
   "sec": "worth",
-  "texto": "And for FIFA, the answer is already in the ledger.",
+  "texto": "Just remember, nothing in this video is financial advice. Every number here comes from public sources, listed below. Some come from older investigations, and companies dispute some of these claims.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 3.178667
+  "dur": 13.546667
  },
  {
   "sec": "worth",
-  "texto": "Just remember, nothing in this video is financial advice. Every number here comes from public sources, and some of them are still preliminary.",
+  "texto": "There's nothing left to add to the ledger. Except one thing. The next time you pay five dollars at the gate, look at the label.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 9.194667
+  "dur": 7.594667
  },
  {
   "sec": "worth",
-  "texto": "The next World Cup, in 2030, will be spread across six countries, on three continents.",
+  "texto": "Somebody, a long time ago, figured out how to sell you the rain.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 6.144
+  "dur": 4.074667
  },
  {
   "sec": "worth",
-  "texto": "So the next time a city tells you a World Cup will pay for itself, ask one simple question.",
+  "texto": "Next time on Gross Margin. They lose money flying you. They make it on your credit card. How airlines became banks that fly.",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 6.016
- },
- {
-  "sec": "worth",
-  "texto": "Pay for whom?",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 1.130667
- },
- {
-  "sec": "worth",
-  "texto": "Next time on Gross Margin. It's the cheapest thing in the world. It falls from the sky. So why do we pay so much for a bottle of water?",
-  "voz": "am_michael",
-  "idioma": "en-us",
-  "dur": 9.173333
+  "dur": 8.704
  },
  {
   "sec": "worth",
@@ -876,9 +1114,9 @@
  },
  {
   "sec": "worth",
-  "texto": "And tell me in the comments. What would you have paid, to be in that stadium for the final?",
+  "texto": "And tell me in the comments. What's the most you ever paid for a bottle of water? And was it worth it?",
   "voz": "am_michael",
   "idioma": "en-us",
-  "dur": 5.056
+  "dur": 6.037333
  }
 ]
