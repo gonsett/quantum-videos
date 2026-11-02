@@ -1,22 +1,29 @@
-ebon_atoll.jpg|EbonAtoll.jpg||NASA|Public domain|https://commons.wikimedia.org/wiki/File:EbonAtoll.jpg
-ebon_mapa.jpg|Ebon Atoll Map.jpg||EVS-Islands|CC BY 2.0|https://commons.wikimedia.org/wiki/File:Ebon_Atoll_Map.jpg
-majuro_pescador.jpg|A fisherman on Majuro, Marshall Islands, February 2012. Photo- Erin Magee - DFAT (12426170833).jpg||Erin Magee/DFAT|CC BY 2.0|https://commons.wikimedia.org/wiki/File:A_fisherman_on_Majuro,_Marshall_Islands,_February_2012._Photo-_Erin_Magee_-_DFAT_(12426170833).jpg
-majuro_satelite.jpg|Majuro Satellite.PNG||NASA|Public domain|https://commons.wikimedia.org/wiki/File:Majuro_Satellite.PNG
-marshall_atolon.jpg|Marshall Islands (9811274503).jpg||Keith Polya|CC BY 2.0|https://commons.wikimedia.org/wiki/File:Marshall_Islands_(9811274503).jpg
-kwajalein_aereo.jpg|Aerial view, Kwajalein Atoll, Marshall Islands.jpg||Matt Kieffer from London, United Kingdom|CC BY-SA 2.0|https://commons.wikimedia.org/wiki/File:Aerial_view,_Kwajalein_Atoll,_Marshall_Islands.jpg
-paredon_lanchas.jpg|Lanchas en Paredón, municipio de Tonalá, Chiapas..JPG||Néstor Fernando Hernández Candelaria|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Lanchas_en_Pared%C3%B3n,_municipio_de_Tonal%C3%A1,_Chiapas..JPG
-paredon_mirador.jpg|Arco-Mirador de Paredón (Chiapas).jpg||Ferdinandvs|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Arco-Mirador_de_Pared%C3%B3n_(Chiapas).jpg
-paredon_atardecer.jpg|Atardecer en la la Bahía de Paredón desde uno de sus muelles.jpg||Néstor Fernando Hernández Candelaria|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Atardecer_en_la_la_Bah%C3%ADa_de_Pared%C3%B3n_desde_uno_de_sus_muelles.jpg
-paredon_pesca.jpg|Producción pesquera en Paredón (Chiapas).jpg||Néstor Fernando Hernández Candelaria|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Producci%C3%B3n_pesquera_en_Pared%C3%B3n_(Chiapas).jpg
-paredon_laguna.jpg|Paredón visto desde la Laguna del Mar Muerto.JPG||Ferdinandvs|Attribution|https://commons.wikimedia.org/wiki/File:Pared%C3%B3n_visto_desde_la_Laguna_del_Mar_Muerto.JPG
-puerto_arista.jpg|Playa arista chiapas.jpg||Abraham lozano lopez|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Playa_arista_chiapas.jpg
-garita_palmera.jpg|Garita Palmera, El Salvador - panoramio.jpg||davidjoviera|CC BY 3.0|https://commons.wikimedia.org/wiki/File:Garita_Palmera,_El_Salvador_-_panoramio.jpg
-tortuga_golfina.jpg|Lepidochelys olivacea Puerto Escondido (1).jpg||Gzzz|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Lepidochelys_olivacea_Puerto_Escondido_(1).jpg
-piquero_vuelo.jpg|Brown booby Sula leucogaster skimming waves.jpg||Paul Harrison|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Brown_booby_Sula_leucogaster_skimming_waves.jpg
-piquero_vuelo2.jpg|Brown Booby in flight.jpg||Paul Harrison|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Brown_Booby_in_flight.jpg
-pez_ballesta.jpg|Black Triggerfish at Kauai.jpg||MrWhipple|CC0|https://commons.wikimedia.org/wiki/File:Black_Triggerfish_at_Kauai.jpg
-portacontenedores.jpg|Ocean Container Ship in Sarangani Bay (24805793916).jpg||Gary Todd from Xinzheng, China|CC0|https://commons.wikimedia.org/wiki/File:Ocean_Container_Ship_in_Sarangani_Bay_(24805793916).jpg
-portacontenedores_atardecer.jpg|SunSet And Maersk Container Ship - panoramio.jpg||---=XEON=---|CC BY 3.0|https://commons.wikimedia.org/wiki/File:SunSet_And_Maersk_Container_Ship_-_panoramio.jpg
-via_lactea_iss.jpg|The Milky Way spans the night sky above a bright orange-yellow airglow (iss073e0982679).jpg||NASA Johnson Space Center|Public domain|https://commons.wikimedia.org/wiki/File:The_Milky_Way_spans_the_night_sky_above_a_bright_orange-yellow_airglow_(iss073e0982679).jpg
-tiburon_captura.jpg|Portuguese shark catch.jpg||NOAA Rice Library of the NOAA Centers for Coastal Ocean Scie|Public domain|https://commons.wikimedia.org/wiki/File:Portuguese_shark_catch.jpg
-mercy_majuro.jpg|USNS Mercy arrives in Majuro, RMI (8096569).jpg||U.S. Navy photo by Grady Fontana|Public domain|https://commons.wikimedia.org/wiki/File:USNS_Mercy_arrives_in_Majuro,_RMI_(8096569).jpg
+sat_salvamento.jpg|US Navy 020723-N-7479T-002 Navy diver conducts deep sea salvage operations|https://commons.wikimedia.org/wiki/File:US_Navy_020723-N-7479T-002_Navy_diver_conducts_deep_sea_salvage_operations.jpg|U.S. Navy photo by Chief Photographer’s Mate Eric J. Tilford.|Public domain
+sat_dpaa.jpg|DPAA Diving Deep 23-4PG (7782578)|https://commons.wikimedia.org/wiki/File:DPAA_Diving_Deep_23-4PG_(7782578).jpg|U.S. Marine Corps photo by Sgt. Jack Rigsby|Public domain
+sat_exp.jpg|26-1PH Conducts Diving Operations (9648157)|https://commons.wikimedia.org/wiki/File:26-1PH_Conducts_Diving_Operations_(9648157).jpg|Staff Sgt. Taylor Crul|Public domain
+campana_baja.jpg|US Navy 101116-N-XXXXX-003 The bell handling system lowers the diving bell into the water during manned testing of the Saturation Fly-Away Diving S|https://commons.wikimedia.org/wiki/File:US_Navy_101116-N-XXXXX-003_The_bell_handling_system_lowers_the_diving_bell_into_the_water_during_manned_testing_of_the_Saturation_Fly-Away_Diving_S.jpg|U.S. Navy photo|Public domain
+campana_dsv.jpg|Subsea7 DSV Eagle, Three Man Diving Bell used on Kursk Proof Of Live Dives - 55334118556|https://commons.wikimedia.org/wiki/File:Subsea7_DSV_Eagle,_Three_Man_Diving_Bell_used_on_Kursk_Proof_Of_Live_Dives_-_55334118556.jpg|Tim Sheerman-Chase|CC BY 4.0
+campana_ptc.jpg|Personnel Transfer Capsule 2|https://commons.wikimedia.org/wiki/File:Personnel_Transfer_Capsule_2.tiff|U.S. Navy|Public domain
+campana_int.jpg|Closed diving bell 20151203 132202|https://commons.wikimedia.org/wiki/File:Closed_diving_bell_20151203_132202.jpg|Peter Southwood|CC BY-SA 4.0
+camara_int.jpg|2 weeks Inside the compression chanber|https://commons.wikimedia.org/wiki/File:2_weeks_Inside_the_compression_chanber.jpg|Shane T. McCoy|Public domain
+camara_ext.jpg|Deck decompression chamber PA197922|https://commons.wikimedia.org/wiki/File:Deck_decompression_chamber_PA197922.jpg|Peter Southwood|CC BY-SA 3.0
+camara_navy.jpg|US Navy 091117-N-1291E-102 Navy Diver 2nd Class Ryan Arnold monitors the decompression chamber during a simulated medical emergency|https://commons.wikimedia.org/wiki/File:US_Navy_091117-N-1291E-102_Navy_Diver_2nd_Class_Ryan_Arnold_monitors_the_decompression_chamber_during_a_simulated_medical_emergency.jpg|U.S. Navy photo by Mass Communication Specialist 2nd Class Daniel Edgington|Public domain
+naufragio_int.jpg|A scuba diver inside the shipwreck of the Chester A. Congdon. (7de9abff-1dd8-b71b-0b9a-280f7ad02dfb)|https://commons.wikimedia.org/wiki/File:A_scuba_diver_inside_the_shipwreck_of_the_Chester_A._Congdon._(7de9abff-1dd8-b71b-0b9a-280f7ad02dfb).jpg|National Park Service|Public domain
+naufragio_casco.jpg|Diver under the hull of the wreck of Miniya (El Mina wreck), Hurghada, Egypt|https://commons.wikimedia.org/wiki/File:Diver_under_the_hull_of_the_wreck_of_Miniya_(El_Mina_wreck),_Hurghada,_Egypt.jpg|Jouni Kuisma, DiveCodex|CC BY-SA 4.0
+buzo_rebreather.jpg|Diver using Inspiration rebreather at the wreck of the MV Orotava P6308040|https://commons.wikimedia.org/wiki/File:Diver_using_Inspiration_rebreather_at_the_wreck_of_the_MV_Orotava_P6308040.JPG|Peter Southwood|CC BY-SA 3.0
+buzo_navy.jpg|Flickr - Official U.S. Navy Imagery - Navy diver prepares to come to the surface after conducting diving operations|https://commons.wikimedia.org/wiki/File:Flickr_-_Official_U.S._Navy_Imagery_-_Navy_diver_prepares_to_come_to_the_surface_after_conducting_diving_operations.jpg|Official Navy Page from United States of America MC1 Jayme Pastoric/U.S. Navy|Public domain
+tug_kolga.jpg|Anchor Handling Vessel - Kolga - Noordzee - Nederland (19859469078)|https://commons.wikimedia.org/wiki/File:Anchor_Handling_Vessel_-_Kolga_-_Noordzee_-_Nederland_(19859469078).jpg|Frans Berkelaar|CC BY-SA 2.0
+tug_500a.jpg|Anchor Handling Tug Supply Vessel (172383031)|https://commons.wikimedia.org/wiki/File:Anchor_Handling_Tug_Supply_Vessel_(172383031).jpeg|Maksim Safiullin|CC BY 3.0
+tug_500b.jpg|Anchor Handling Tug Supply Vessel (172383033)|https://commons.wikimedia.org/wiki/File:Anchor_Handling_Tug_Supply_Vessel_(172383033).jpeg|Maksim Safiullin|CC BY 3.0
+spm_sokol.jpg|Single Point Mooring Spm Sokol (173409603)|https://commons.wikimedia.org/wiki/File:Single_Point_Mooring_Spm_Sokol_(173409603).jpeg|Maksim Safiullin|CC BY 3.0
+spm_whiddy.jpg|Whiddy Spim|https://commons.wikimedia.org/wiki/File:Whiddy_Spim.jpeg|Towel401|CC BY-SA 4.0
+delta_bodo.jpg|Bodo Creek|https://commons.wikimedia.org/wiki/File:Bodo_Creek.jpg|Ukpai Jeffrey|CC BY-SA 4.0
+delta_flare.jpg|Burning Gas Flare Nembe Creek, Nigeria|https://commons.wikimedia.org/wiki/File:Burning_Gas_Flare_Nembe_Creek,_Nigeria.tif|Sara Leigh Lewis|CC BY-SA 4.0
+off_tormenta.jpg|Offshore thunderstorm|https://commons.wikimedia.org/wiki/File:Offshore_thunderstorm.JPG|Swandau|CC BY-SA 3.0
+off_forcados.jpg|Forcados offshore Nigeria, shell oil field|https://commons.wikimedia.org/wiki/File:Forcados_offshore_Nigeria,_shell_oil_field.jpg|Chief Charles|CC BY-SA 4.0
+off_bonny_lng.jpg|LNG Terminal - panoramio|https://commons.wikimedia.org/wiki/File:LNG_Terminal_-_panoramio.jpg|---=XEON=---|CC BY 3.0
+galley_whalen.jpg|Galley Mary A Whalen 1|https://commons.wikimedia.org/wiki/File:Galley_Mary_A_Whalen_1.jpg|TMM322|CC BY-SA 4.0
+galley_hercules.jpg|Galley - Hercules - Hyde Street Pier - San Francisco, CA DSC02256|https://commons.wikimedia.org/wiki/File:Galley_-_Hercules_-_Hyde_Street_Pier_-_San_Francisco,_CA_DSC02256.jpg|Daderot|CC0
+galley_angoumois.jpg|Angoumois - Kitchen|https://commons.wikimedia.org/wiki/File:Angoumois_-_Kitchen.jpg|Rémi Kaupp|CC BY-SA 3.0
+pasillo_barco.jpg|Corridor aboard Viking Mariella|https://commons.wikimedia.org/wiki/File:Corridor_aboard_Viking_Mariella.jpg|JIP|CC BY-SA 3.0
+ola_tanquero.jpg|Wea03621 - Flickr - NOAA Photo Library|https://commons.wikimedia.org/wiki/File:Wea03621_-_Flickr_-_NOAA_Photo_Library.jpg|Captain Roger Wilson, Greenland, New Hampshire.|Public domain
