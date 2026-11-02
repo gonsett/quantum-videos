@@ -1,54 +1,57 @@
-campo-ultraprofundo.jpg|https://esahubble.org/images/heic0406a/|2600x2600|NASA, ESA, and S. Beckwith (STScI) and the HUDF Team|CC BY 4.0
-campo-profundo-webb.jpg|https://esawebb.org/images/weic2209a/|2600x2653|NASA, ESA, CSA, and STScI|CC BY 4.0
-fondo-microondas.jpg|Wikimedia Commons: File:Cosmic Microwave Background (CMB).jpeg|2600x1300|ESA and the Planck Collaboration|CC BY 4.0
-pilares.jpg|https://esawebb.org/images/weic2216a/|2600x2712|NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI).|CC BY 4.0
-via-lactea.jpg|https://www.eso.org/public/images/eso0932a/|2600x1300|ESO/S. Brunier|CC BY 4.0
-hawking.jpg|Wikimedia Commons: File:Stephen Hawking NASA 50th 200804210001HQ.jpg|2600x3242|NASA/Paul E. Alers|Public domain
-penrose.jpg|Wikimedia Commons: File:Roger Penrose June 2007.jpg|1200x1600|Andrej Bauer|CC BY-SA 2.5 si
-westerlund2.jpg|https://esahubble.org/images/heic1509a/|2600x1948|NASA, ESA, the Hubble Heritage Team (STScI/AURA), A. Nota (ESA/STScI), and the Westerlund 2 Science Team The original observations of Westerlund 2 were obtained by the science team: Antonella Nota (ESA/STScI), Elena Sabbi (STScI), Eva Grebel and Peter Zeidler (Astronomisches Rechen-Institut Heidelberg), Monica Tosi (INAF, Osservatorio Astronomico di Bologna), Alceste Bonanos (National Observatory of Athens, Astronomical Institute), Carol Christian (STScI/AURA) and Selma de Mink (University of Amsterdam). Follow-up observations were made by the Hubble Heritage team: Zoltan Levay (STScI), Max Mutchler, Jennifer Mack, Lisa Frattare, Shelly Meyett, Mario Livio, Carol Christian (STScI/AURA), and Keith Noll (NASA/GSFC).|CC BY 4.0
-acantilados-carina.jpg|https://esawebb.org/images/weic2205a/|2600x1506|NASA, ESA, CSA, and STScI|CC BY 4.0
-quinteto-stephan.jpg|https://esawebb.org/images/weic2208a/|2600x2493|NASA, ESA, CSA, and STScI|CC BY 4.0
-antenas.jpg|https://esahubble.org/images/heic0615a/|2600x2580|Credit: NASA, ESA, and the Hubble Heritage Team (STScI/AURA)-ESA/Hubble Collaboration. Acknowledgement: B. Whitmore ( Space Telescope Science Institute) and James Long (ESA/Hubble).|CC BY 4.0
-m87-agujero.jpg|https://www.eso.org/public/images/eso1907a/|2600x1515|EHT Collaboration|CC BY 4.0
-agujero-negro-disco.jpg|Wikimedia Commons: File:Black hole's accretion disk blank.jpg|2600x1462|NASA’s Goddard Space Flight Center/Jeremy Schnittman, cmglee|CC BY-SA 4.0
-eniac.jpg|https://commons.wikimedia.org/wiki/File:Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg|1340x1024|U.S. Army|Dominio público
-nebulosa-anillo.jpg|https://esawebb.org/images/weic2320a/|2600x2175|ESA/Webb, NASA, CSA, M. Barlow, N. Cox, R. Wesson|CC BY 4.0
-tarantula.jpg|https://esawebb.org/images/weic2212a/|2600x1504|NASA, ESA, CSA, and STScI|CC BY 4.0
-rho-ophiuchi.jpg|https://esawebb.org/images/weic2316a/|2600x2435|NASA, ESA, CSA, STScI, K. Pontoppidan (STScI), A. Pagan (STScI)|CC BY 4.0
-cumulo-pandora.jpg|https://esawebb.org/images/weic2220c/|9714x3999|NASA, ESA, CSA, T. Treu (UCLA)|CC BY 4.0
-asimov.jpg|Wikimedia Commons: File:Isaac.Asimov01.jpg|2530x3671|Phillip Leonian [1] from New York World-Telegram &amp; Sun.[2]|Public domain
-tierra-apollo17.jpg|Wikimedia Commons: File:The Blue Marble, AS17-148-22727.jpg|2600x2600|Harrison Schmitt / Apollo 17|Public domain
-trumpler14.jpg|https://esahubble.org/images/heic1601a/|2600x2600|NASA &amp; ESA, Jesús Maíz Apellániz (Centro de Astrobiología, CSIC-INTA, Spain)|CC BY 4.0
-rueda-de-carro.jpg|https://esawebb.org/images/weic2211a/|2600x2393|NASA, ESA, CSA, STScI|CC BY 4.0
-helix.jpg|Wikimedia Commons: File:NGC7293 (2004).jpg|2600x2802|NASA, ESA, C.R. O'Dell (Vanderbilt University), M. Meixner and P. McCullough (STScI)|Public domain
-ngc602.jpg|https://esawebb.org/images/weic2425a/|2600x1701|ESA/Webb, NASA &amp; CSA, P. Zeidler, E. Sabbi, A. Nota, M. Zamani (ESA/Webb)|CC BY 4.0
-andromeda.jpg|https://esahubble.org/images/heic1502a/|2600x831|NASA, ESA, J. Dalcanton (University of Washington, USA), B. F. Williams (University of Washington, USA), L. C. Johnson (University of Washington, USA), the PHAT team, and R. Gendler.|CC BY 4.0
-agustin.jpg|Wikimedia Commons: File:Saint Augustine by Philippe de Champaigne.jpg|2600x3317|Philippe de Champaigne|Public domain
-einstein.jpg|Wikimedia Commons: File:Albert Einstein Head.jpg|2600x3466|Photograph by Orren Jack Turner, Princeton, N.J. Modified with Photoshop by PM_Poon and later by Dantadd.|Public domain
-hubble-retrato.jpg|Wikimedia Commons: File:Studio portrait photograph of Edwin Powell Hubble.JPG|1413x2040|Johan Hagemeyer|Public domain
-hooker.jpg|Wikimedia Commons: File:Hooker Telescope Mount Wilson 2019.jpg|1920x2560|Antony-22|CC BY-SA 4.0
-hoyle.jpg|Wikimedia Commons: File:Fred Hoyle 1967.jpg|2386x3007|AIP Emilio Segrè Visual Archives, Clayton Collection|Attribution
-antena-holmdel.jpg|Wikimedia Commons: File:Horn Antenna-in Holmdel, New Jersey - restoration1.jpg|2600x2045|NASA, restored by Bammesk|Public domain
-penzias-wilson.jpg|Wikimedia Commons: File:Horn Antenna-in Holmdel, New Jersey - restoration1.jpg|2600x2045|NASA, restored by Bammesk|Public domain
-cobe.jpg|Wikimedia Commons: File:COBE Celebrates 35th Launch Anniversary (SVS14715 - COBE satellite diagram no labels).jpg|2600x3058|NASA's Scientific Visualization Studio - NASA/GSFC/David Leisawitz, University of Maryland College Park/Francis Reddy|Public domain
-wmap-mapa.jpg|Wikimedia Commons: File:WMAP 2012.png|2600x1300|NASA / WMAP Science Team|Public domain
-planck-satelite.jpg|Wikimedia Commons: File:Model of the Planck Satellite.jpg|2569x2569|Photograph by Mike Peel (www.mikepeel.net).|CC BY-SA 4.0
-linea-tiempo.jpg|Wikimedia Commons: File:CMB Timeline300 no WMAP.jpg|2600x1716|NASA/WMAP Science Team|Public domain
-campo-extremo.jpg|Wikimedia Commons: File:The Hubble eXtreme Deep Field.jpg|2382x2078|NASA, ESA, G. Illingworth, D. Magee, and P. Oesch (University of California, Santa Cruz), R. Bouwens (Leiden University), and the HUDF09 Team|Public domain
-lhc.jpg|Wikimedia Commons: File:Views of the LHC tunnel sector 3-4, tirage 2.jpg|2600x1730|Maximilien Brice (CERN)|CC BY-SA 3.0
-atlas-detector.jpg|Wikimedia Commons: File:CERN ATLAS Detector.jpg|2600x1300|SimonWaldherr|CC BY-SA 4.0
-guth.jpg|Wikimedia Commons: File:AlanGuthCambridge.jpg|747x951|Betsy Devine aka Betsythedevine|CC BY-SA 3.0
-bicep2.jpg|Wikimedia Commons: File:South pole spt dsl.jpg|2600x1950|Amble|CC BY-SA 3.0
-antartida.jpg|Wikimedia Commons: File:Antarctica 6400px from Blue Marble.jpg|2600x2600|Dave Pape|Public domain
-hartle.jpg|Wikimedia Commons: File:JimHartle1.jpg|360x480|User:Lumidek|Public domain
-vilenkin.jpg|Wikimedia Commons: File:AlexanderVilenkin.JPG|766x864|Lubos Motl, Lumidek (talk)|CC BY 3.0
-steinhardt.jpg|Wikimedia Commons: File:Paul J. Steinhardt.jpg|1654x1286|Sleepy Geek|CC BY-SA 4.0
-turok.jpg|Wikimedia Commons: File:Neil Turok AIMS.jpg|442x609|AIMS - Next Einstein Initiative African Institute for Mathematical Sciences|CC BY-SA 2.0
-weinberg.jpg|Wikimedia Commons: File:Steven Weinberg 2010.jpg|629x787|Larry D. Moore|CC BY 4.0
-leibniz.jpg|Wikimedia Commons: File:Gottfried Wilhelm Leibniz, Bernhard Christoph Francke.jpg|2600x3210|Christoph Bernhard Francke|Public domain
-ashtekar.jpg|Wikimedia Commons: File:Abhay Ashtekar.png|2142x2196|Abhay Ashtekar|CC0
-lemaitre.jpg|Wikimedia Commons: File:Lemaitre (cropped).jpg|251x371|unknown photographer, probably a CalTech employee. Cropped by Artistosteles|Public domain
-lemaitre-einstein.jpg|Wikimedia Commons: File:MillikanLemaitreEinstein.jpg|703x573|unknown photographer, probably a Caltech employee|Public domain
-jades.jpg|Wikimedia Commons: File:Webb finds most distant known galaxy (JADES-GS-z14-0 environment NIRCam image) (jades5).jpg|2600x2540|NASA, ESA, CSA, J. Olmsted (STScI), S. Carniani (Scuola Normale Superiore), JADES Collaboration|CC BY 4.0
-jades-zoom.jpg|Wikimedia Commons: File:JADES-GS-z14-0 Pullout (NIRCam) (01HZ083EXXCJNE64ERAH2ER2FM).png|2600x2540|Image: NASA, ESA, CSA, STScI, Brant Robertson (UC Santa Cruz), Ben Johnson (CfA), Sandro Tacchella (Cambridge), Phill Cargile (CfA)|Public domain
-linde.jpg|Wikimedia Commons: File:Andrei Linde 2018.jpg|1702x2268|Hypermultiplet|CC BY-SA 4.0
+evian_postal.jpg | Collection de la Source Cachat 110 - EVIAN-les-BAINS - Le Funiculaire du Royal-Hotel.JPG | https://commons.wikimedia.org/wiki/File:Collection_de_la_Source_Cachat_110_-_EVIAN-les-BAINS_-_Le_Funiculaire_du_Royal-Hotel.JPG | Scanné par Claude_villetaneuse | Public domain | 1635x1049
+evian_cachat.jpg | Evian - Batiment de la Source Cachat - panoramio.jpg | https://commons.wikimedia.org/wiki/File:Evian_-_Batiment_de_la_Source_Cachat_-_panoramio.jpg | Patrick Nouhailler's… | CC BY-SA 3.0 | 3648x2736
+canilla_nino.jpg | Son of James Robert Howard washes his hands before supper. Mr. Howard installed running water in his kitchen but... - NARA - 540778.jpg | https://commons.wikimedia.org/wiki/File:Son_of_James_Robert_Howard_washes_his_hands_before_supper._Mr._Howard_installed_running_water_in_his_kitchen_but..._-_NARA_-_540778.jpg | Russell Lee | Public domain | 2398x3000
+canilla_cocina.jpg | Daughter of the Elige Hicks washing in the kitchen of their four room house for which they pay $10.50 monthly. They... - NARA - 541035.jpg | https://commons.wikimedia.org/wiki/File:Daughter_of_the_Elige_Hicks_washing_in_the_kitchen_of_their_four_room_house_for_which_they_pay_$10.50_monthly._They..._-_NARA_-_541035.jpg | Russell Lee | Public domain | 3000x2311
+tsa.jpg | TSA Security Checkpoint at Airport.jpg | https://commons.wikimedia.org/wiki/File:TSA_Security_Checkpoint_at_Airport.jpg | Tony Webster | CC BY 2.0 | 4032x3024
+camion_cisterna.jpg | Highway 5 (23907406419).jpg | https://commons.wikimedia.org/wiki/File:Highway_5_(23907406419).jpg | Carlos ZGZ from Paris, France | CC0 | 3773x2515
+camion_peterbilt.jpg | Peterbilt, Along the Highway, Semi-Retired, AZ 7-31-13 (11501438143).jpg | https://commons.wikimedia.org/wiki/File:Peterbilt,_Along_the_Highway,_Semi-Retired,_AZ_7-31-13_(11501438143).jpg | inkknife_2000 (7.5 million views +) | CC BY-SA 2.0 | 1750x1511
+i95.jpg | 2019-07-16 11 19 07 View south along Interstate 95 (John F. Kennedy Memorial Highway) from the overpass for Maxa Road in Chapel, Harford County, Maryland.jpg | https://commons.wikimedia.org/wiki/File:2019-07-16_11_19_07_View_south_along_Interstate_95_(John_F._Kennedy_Memorial_Highway)_from_the_overpass_for_Maxa_Road_in_Chapel,_Harford_County,_Maryland.jpg | Famartin | CC BY-SA 4.0 | 4032x3024
+deposito.jpg | 100119-F-7049G-014 (4293460935).jpg | https://commons.wikimedia.org/wiki/File:100119-F-7049G-014_(4293460935).jpg | US Air Force from USA | Public domain | 4256x2832
+trailer_agua.jpg | 100119-F-7049G-043 (4294198616).jpg | https://commons.wikimedia.org/wiki/File:100119-F-7049G-043_(4294198616).jpg | US Air Force from USA | Public domain | 4256x2832
+perrier.jpg | PERRIER (14).jpg | https://commons.wikimedia.org/wiki/File:PERRIER_(14).jpg | Dinkun Chen | CC BY-SA 4.0 | 4640x6960
+perrier2.jpg | PERRIER (13).jpg | https://commons.wikimedia.org/wiki/File:PERRIER_(13).jpg | Dinkun Chen | CC BY-SA 4.0 | 4640x6960
+welles.jpg | Orson-Welles-Show-1941.jpg | https://commons.wikimedia.org/wiki/File:Orson-Welles-Show-1941.jpg | CBS Radio and photographer unknown | Public domain | 1500x1800
+maraton.jpg | Runners waiting at the starting village of the 2017 New York City Marathon.jpg | https://commons.wikimedia.org/wiki/File:Runners_waiting_at_the_starting_village_of_the_2017_New_York_City_Marathon.jpg | GhostDust | CC BY-SA 4.0 | 3264x2448
+vitaminwater.jpg | Glacéau vitaminwater.jpg | https://commons.wikimedia.org/wiki/File:Glac%C3%A9au_vitaminwater.jpg | Coca Cola Enterprises Sverige AB | CC BY 3.0 | 4040x3359
+smartwater.jpg | Glaceau Smartwater 20oz bottle.jpg | https://commons.wikimedia.org/wiki/File:Glaceau_Smartwater_20oz_bottle.jpg | Benjamin Ikuta | CC BY-SA 4.0 | 1440x2560
+liquid_death.jpg | Liquid Death (canned water).jpg | https://commons.wikimedia.org/wiki/File:Liquid_Death_(canned_water).jpg | Викидим | CC0 | 2056x3420
+evart.jpg | Evart, Michigan (July 2026).jpg | https://commons.wikimedia.org/wiki/File:Evart,_Michigan_(July_2026).jpg | Notorious4life (talk) (Uploads) | CC0 | 4000x2250
+evart_city.jpg | Evart, MI city hall.jpg | https://commons.wikimedia.org/wiki/File:Evart,_MI_city_hall.jpg | Notorious4life (talk) (Uploads) | CC0 | 4000x2667
+sanber.jpg | San Bernardino National Forest scenic overlook.jpg | https://commons.wikimedia.org/wiki/File:San_Bernardino_National_Forest_scenic_overlook.jpg | APK | CC BY-SA 4.0 | 2235x1406
+sanber2.jpg | San Bernardino National Forest (4120379506).jpg | https://commons.wikimedia.org/wiki/File:San_Bernardino_National_Forest_(4120379506).jpg | Pacific Southwest Region 5 | Public domain | 3008x2000
+fiji.jpg | Fiji Water 1.jpg | https://commons.wikimedia.org/wiki/File:Fiji_Water_1.jpg | Connor J Williams | CC BY 2.0 | 5594x3937
+fiji_aeropuerto.jpg | Fiji Waters bottles at an airport.jpg | https://commons.wikimedia.org/wiki/File:Fiji_Waters_bottles_at_an_airport.jpg | Jon Roig | CC BY 2.0 | 3264x2448
+aquafina.jpg | Aquafina - Bottled Water (47109162561).jpg | https://commons.wikimedia.org/wiki/File:Aquafina_-_Bottled_Water_(47109162561).jpg | Tony Webster from Minneapolis, Minnesota, United States | CC BY 2.0 | 7952x5304
+agua_yyz.jpg | Bottled water at Pearson YYZ - 20251018.jpg | https://commons.wikimedia.org/wiki/File:Bottled_water_at_Pearson_YYZ_-_20251018.jpg | Sikander | CC BY-SA 4.0 | 4032x2268
+sidcup.jpg | High Street, Sidcup - geograph.org.uk - 4619961.jpg | https://commons.wikimedia.org/wiki/File:High_Street,_Sidcup_-_geograph.org.uk_-_4619961.jpg | Chris Whippet | CC BY-SA 2.0 | 2272x1704
+sidcup2.jpg | Sidcup High Street August 2026.jpg | https://commons.wikimedia.org/wiki/File:Sidcup_High_Street_August_2026.jpg | Eddie Johnston | CC BY-SA 4.0 | 4032x3024
+coca_botella.jpg | 2013.01.26.113703 World of Coca Cola Atlanta Georgia.jpg | https://commons.wikimedia.org/wiki/File:2013.01.26.113703_World_of_Coca_Cola_Atlanta_Georgia.jpg | Hermann Luyken | CC0 | 1920x1280
+coca_atlanta.jpg | World-of-Coca-Cola-Atlanta.jpg | https://commons.wikimedia.org/wiki/File:World-of-Coca-Cola-Atlanta.jpg | Rundvald | Public domain | 2592x1944
+nestle_vevey.jpg | The Nestlé Headquarters, Vevey (6110127652).jpg | https://commons.wikimedia.org/wiki/File:The_Nestl%C3%A9_Headquarters,_Vevey_(6110127652).jpg | Robert Cutts from Bristol, England, UK | CC BY 2.0 | 1738x1147
+vittel_1914.jpg | Advertisement for Vittel.jpg | https://commons.wikimedia.org/wiki/File:Advertisement_for_Vittel.jpg | Tangopaso | Public domain | 3312x4416
+vittel_termas.jpg | Vittel - Établissement thermal 06.jpg | https://commons.wikimedia.org/wiki/File:Vittel_-_%C3%89tablissement_thermal_06.jpg | Pymouss | CC BY-SA 4.0 | 5373x3582
+senado.jpg | Palais du Luxembourg, South View 140116 1.jpg | https://commons.wikimedia.org/wiki/File:Palais_du_Luxembourg,_South_View_140116_1.jpg | DXR | CC BY-SA 3.0 | 7294x3201
+senado_galeria.jpg | Palais du Luxembourg, Sénat, galerie des conférences.jpg | https://commons.wikimedia.org/wiki/File:Palais_du_Luxembourg,_S%C3%A9nat,_galerie_des_conf%C3%A9rences.jpg | Soleil1409 | CC BY-SA 4.0 | 4032x3024
+macron.jpg | Ursula von der Leyen & Emmanuel Macron - February 2025.jpg | https://commons.wikimedia.org/wiki/File:Ursula_von_der_Leyen_%26_Emmanuel_Macron_-_February_2025.jpg | Aurore Martignoni / European Union, 2025 / EC - Audiovisual Service | CC BY 4.0 | 4000x2667
+poland_pallet.jpg | Poland Spring Bottles Water (49416790203).jpg | https://commons.wikimedia.org/wiki/File:Poland_Spring_Bottles_Water_(49416790203).jpg | Mike Mozart from Funny YouTube, USA | CC BY 2.0 | 3264x2448
+poland.jpg | Poland Spring (49321731673).jpg | https://commons.wikimedia.org/wiki/File:Poland_Spring_(49321731673).jpg | Mike Mozart from Funny YouTube, USA | CC BY 2.0 | 3264x2448
+pellegrino.jpg | San Pellegrino 500ml bottle.jpg | https://commons.wikimedia.org/wiki/File:San_Pellegrino_500ml_bottle.jpg | Philafrenzy | CC BY-SA 4.0 | 3456x4608
+pellegrino_terme.jpg | San Pellegrino Terme - Casinò Municipale di San Pellegrino Terme - 202108241656.jpeg | https://commons.wikimedia.org/wiki/File:San_Pellegrino_Terme_-_Casin%C3%B2_Municipale_di_San_Pellegrino_Terme_-_202108241656.jpeg | Tommasopaiano | CC BY-SA 4.0 | 3096x4128
+gleick.jpg | Peter Gleick Yosemite.jpg | https://commons.wikimedia.org/wiki/File:Peter_Gleick_Yosemite.jpg | PGleick | CC BY-SA 4.0 | 2128x2012
+fardos_pet.jpg | Bales of PET bottles closeup.jpg | https://commons.wikimedia.org/wiki/File:Bales_of_PET_bottles_closeup.jpg | Grendelkhan | CC BY-SA 4.0 | 4048x3036
+orilla_plastico.jpg | Bord de l’eau saturé.jpg | https://commons.wikimedia.org/wiki/File:Bord_de_l%E2%80%99eau_satur%C3%A9.jpg | Merstel007 | CC0 | 3000x4000
+microscopio.jpg | Win Cowger Microscope.jpg | https://commons.wikimedia.org/wiki/File:Win_Cowger_Microscope.jpg | WincowgerDEV | CC BY-SA 4.0 | 1667x2500
+laboratorio.jpg | Analyse d'échantillons (Ifremer 00702-81374 - 33892).jpg | https://commons.wikimedia.org/wiki/File:Analyse_d%27%C3%A9chantillons_(Ifremer_00702-81374_-_33892).jpg | Stephane Lesbats | CC BY 4.0 | 8256x5504
+acarreo.jpg | Water fetch.jpg | https://commons.wikimedia.org/wiki/File:Water_fetch.jpg | Sagiomhza | CC BY-SA 4.0 | 5184x3456
+acarreo2.jpg | A man carrying Water.JPG | https://commons.wikimedia.org/wiki/File:A_man_carrying_Water.JPG | Thamizhpparithi Maari | CC BY-SA 3.0 | 3240x4320
+bomba.jpg | Fetching water in the community.jpg | https://commons.wikimedia.org/wiki/File:Fetching_water_in_the_community.jpg | Rasheedhrasheed | CC BY-SA 4.0 | 4574x3267
+bidones.jpg | A man hold two gallons of water of 20 litre each.jpg | https://commons.wikimedia.org/wiki/File:A_man_hold_two_gallons_of_water_of_20_litre_each.jpg | KelvinJM | CC BY-SA 4.0 | 5184x3456
+preforma.jpg | PETling.jpg | https://commons.wikimedia.org/wiki/File:PETling.jpg | Frank Murmann | CC BY 3.0 | 2162x1441
+preformas.jpg | 20220807 PET preform 2.jpg | https://commons.wikimedia.org/wiki/File:20220807_PET_preform_2.jpg | 01x07x2022000 | CC0 | 5664x4248
+lluvia_agua.jpg | RAIN DROPS (3029827142).jpg | https://commons.wikimedia.org/wiki/File:RAIN_DROPS_(3029827142).jpg | KNOW MALTA by Peter Grima | CC BY-SA 2.0 | 1277x513
+lluvia.jpg | Regenschauer mit Bindfadenregen.jpg | https://commons.wikimedia.org/wiki/File:Regenschauer_mit_Bindfadenregen.jpg | Rhetos | CC0 | 2992x2992
+gondola.jpg | Полка с питьевой водой в магазине.jpg | https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D0%BB%D0%BA%D0%B0_%D1%81_%D0%BF%D0%B8%D1%82%D1%8C%D0%B5%D0%B2%D0%BE%D0%B9_%D0%B2%D0%BE%D0%B4%D0%BE%D0%B9_%D0%B2_%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B5.jpg | JustKronos | CC0 | 2362x1689
+heladera_noche.jpg | Santorin (GR), Akrotiri, Supermarkt -- 2017 -- 2877-83.jpg | https://commons.wikimedia.org/wiki/File:Santorin_(GR),_Akrotiri,_Supermarkt_--_2017_--_2877-83.jpg | Dietmar Rabich | CC BY-SA 4.0 | 5471x3647
+linea_embotellado.jpg | Kangso Yaksu Mineral Water Bottling Plant (11360552806).jpg | https://commons.wikimedia.org/wiki/File:Kangso_Yaksu_Mineral_Water_Bottling_Plant_(11360552806).jpg | Clay Gilliland | CC BY-SA 2.0 | 4608x2592
+canilla_vaso.jpg | Filling a glass with water in a kitchen sink closeup.jpg | https://commons.wikimedia.org/wiki/File:Filling_a_glass_with_water_in_a_kitchen_sink_closeup.jpg | Shixart1985 | CC BY 2.0 | 6048x4032
+canilla_vaso2.jpg | Person fills glass with water at kitchen sink closeup.jpg | https://commons.wikimedia.org/wiki/File:Person_fills_glass_with_water_at_kitchen_sink_closeup.jpg | Shixart1985 | CC BY 2.0 | 6048x4032
