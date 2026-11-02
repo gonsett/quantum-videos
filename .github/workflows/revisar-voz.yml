@@ -1,0 +1,22 @@
+# Control de la voz con Whisper en la nube (no usa la RAM de la PC).
+name: Revisar voz
+on:
+  push:
+    branches: [revisar-atlas-paraguay]
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q faster-whisper soundfile scipy
+      - run: python mezcla/atlas/revisar_voz.py mezcla/video | tee revision.txt
+      - uses: actions/upload-artifact@v5
+        with:
+          name: revision
+          path: |
+            revision.txt
+            mezcla/video/voz/revision.json
+          retention-days: 3
