@@ -2,7 +2,7 @@
 name: Voz Atlas
 on:
   push:
-    branches: [voz-atlas, voz-nr-largo02]
+    branches: [voz-norescue-03]
 jobs:
   voz:
     runs-on: ubuntu-latest

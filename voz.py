@@ -15,7 +15,8 @@ VOZ, IDIOMA, VEL = os.environ.get("VOZ", "am_michael"), os.environ.get("IDIOMA",
 PARTE = os.environ.get("PARTE")
 LISTA = set(json.loads(os.environ["LISTA"])) if os.environ.get("LISTA") else None   # en la nube: solo estas frases
 # pronunciación: solo cambia lo que se le pasa a Kokoro (el guion y la pantalla quedan con la grafía real); probado con Whisper
-PRON = {"Uriburu": "Ooreebooroo", "Díaz Alejandro": "Dee-as Ah-leh-HAHN-dro", "Milei": "Mee-LAY",
+PRON = {"Harrison Odjegba Okene": "Harrison Oh-JEG-bah Oh-KEH-neh", "Okene": "Oh-KEH-neh", "Jascon-4": "JAS-kon Four", "Jascon": "JAS-kon", "Escravos": "Es-KRAH-vos", "Warri": "WAH-ree", "Akpovona": "Ak-poh-VOH-nah", "Umansky": "Oo-MAN-skee", "Denoble": "Deh-NOH-bul", "van Heerden": "van HEER-den", "Hexdall": "HEX-dahl", "Petar": "PEH-tar", "Maxim": "MAK-sim",
+        "Uriburu": "Ooreebooroo", "Díaz Alejandro": "Dee-as Ah-leh-HAHN-dro", "Milei": "Mee-LAY",
         "Louverture": "Loo-vair-TOOR", "Dessalines": "Dess-ah-LEEN", "Vertières": "Vair-TYAIR", "Saint-Domingue": "San Doh-MANG",
         "Duvalier": "Doo-vahl-YAY", "Trujillo": "Troo-HEE-yo", "Taíno": "Tah-EE-no", "Péralte": "Pay-RALT", "Boyer": "Bwah-YAY",
         "Balaguer": "Bah-lah-GHERR", "Moïse": "Moh-EEZ", "Macoutes": "Mah-KOOTS", "Joaquín": "Hwah-KEEN", "Sancak": "SAHN-jahk",
@@ -47,7 +48,12 @@ PRON = {"Uriburu": "Ooreebooroo", "Díaz Alejandro": "Dee-as Ah-leh-HAHN-dro", "
         "Ezequiel Córdoba": "Eh-seh-kee-EL KOR-doh-bah", "Garita Palmera": "Gah-REE-tah Pahl-MEH-rah", "Costa Azul": "KOHS-tah Ah-SOOL",
         "Alvarenga": "Ahl-vah-REN-gah", "Ezequiel": "Eh-seh-kee-EL", "Chiapas": "Chee-AH-pahs", "Cirilo": "See-REE-loh", "Fátima": "FAH-tee-mah",
         "a norte": "a NOR-teh", "Ebon": "EE-bon", "Majuro": "Mah-JOO-roh", "Libokmeto": "Lee-bok-MEH-toh", "Laikidrik": "Lie-KID-rik",
-        "Maximenko": "Mak-see-MEN-ko", "van Sebille": "van Seh-BEE-yeh"}
+        "Maximenko": "Mak-see-MEN-ko", "van Sebille": "van Seh-BEE-yeh",
+        # Gross Margin 04 (agua)
+        "San Pellegrino": "San Pel-leh-GREE-no", "Vitaminwater": "Vitamin water", "Smartwater": "Smart water", "Nestlé": "NESS-lay", "Evian": "EV-ee-on",
+        "Perrier": "Perry-AY", "Dasani": "Dah-SAH-nee", "Aquafina": "Ah-kwah-FEE-nah", "Vittel": "Vee-TEL", "Peranel": "Peh-rah-NEL", "Evart": "EE-vert",
+        "Ozarka": "Oh-ZAR-kah", "Gleick": "Glike", "Nevins": "NEV-inz", "Fijian": "Fee-JEE-an", "Fiji": "FEE-jee", "bromate": "BRO-mate", "Macron": "Mah-KRON",
+        "marquis": "mar-KEE", "P W S": "P, W, S", "Primo": "PREE-mo"}
 
 carpeta = Path(sys.argv[1]).resolve() / "voz"
 solo = set(int(x) for x in sys.argv[2:])
