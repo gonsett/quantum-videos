@@ -2,7 +2,7 @@
 name: Mezcla
 on:
   push:
-    branches: [mezcla-gm-agua]
+    branches: [mezcla-gm-short-agua]
 jobs:
   mezcla:
     runs-on: ubuntu-latest
