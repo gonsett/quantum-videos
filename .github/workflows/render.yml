@@ -3,7 +3,7 @@
 name: Render Atlas
 on:
   push:
-    branches: [render-gm-agua]
+    branches: [render-gm-short-agua]
 
 jobs:
   plan:
