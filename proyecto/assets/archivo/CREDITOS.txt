@@ -1,6 +1,3 @@
-ebon_atoll.jpg|EbonAtoll.jpg||NASA|Public domain|https://commons.wikimedia.org/wiki/File:EbonAtoll.jpg
-paredon_lanchas.jpg|Lanchas en Paredón, municipio de Tonalá, Chiapas..JPG||Néstor Fernando Hernández Candelaria|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Lanchas_en_Pared%C3%B3n,_municipio_de_Tonal%C3%A1,_Chiapas..JPG
-tortuga_golfina.jpg|Lepidochelys olivacea Puerto Escondido (1).jpg||Gzzz|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Lepidochelys_olivacea_Puerto_Escondido_(1).jpg
-piquero_vuelo.jpg|Brown booby Sula leucogaster skimming waves.jpg||Paul Harrison|CC BY-SA 4.0|https://commons.wikimedia.org/wiki/File:Brown_booby_Sula_leucogaster_skimming_waves.jpg
-pez_ballesta.jpg|Black Triggerfish at Kauai.jpg||MrWhipple|CC0|https://commons.wikimedia.org/wiki/File:Black_Triggerfish_at_Kauai.jpg
-portacontenedores_atardecer.jpg|SunSet And Maersk Container Ship - panoramio.jpg||---=XEON=---|CC BY 3.0|https://commons.wikimedia.org/wiki/File:SunSet_And_Maersk_Container_Ship_-_panoramio.jpg
+sat_salvamento.jpg|US Navy 020723-N-7479T-002 Navy diver conducts deep sea salvage operations|https://commons.wikimedia.org/wiki/File:US_Navy_020723-N-7479T-002_Navy_diver_conducts_deep_sea_salvage_operations.jpg|U.S. Navy photo by Chief Photographer’s Mate Eric J. Tilford.|Public domain
+campana_baja.jpg|US Navy 101116-N-XXXXX-003 The bell handling system lowers the diving bell into the water during manned testing of the Saturation Fly-Away Diving S|https://commons.wikimedia.org/wiki/File:US_Navy_101116-N-XXXXX-003_The_bell_handling_system_lowers_the_diving_bell_into_the_water_during_manned_testing_of_the_Saturation_Fly-Away_Diving_S.jpg|U.S. Navy photo|Public domain
+ola_tanquero.jpg|Wea03621 - Flickr - NOAA Photo Library|https://commons.wikimedia.org/wiki/File:Wea03621_-_Flickr_-_NOAA_Photo_Library.jpg|Captain Roger Wilson, Greenland, New Hampshire.|Public domain
