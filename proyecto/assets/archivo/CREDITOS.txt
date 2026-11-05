@@ -1,29 +1,17 @@
-sat_salvamento.jpg|US Navy 020723-N-7479T-002 Navy diver conducts deep sea salvage operations|https://commons.wikimedia.org/wiki/File:US_Navy_020723-N-7479T-002_Navy_diver_conducts_deep_sea_salvage_operations.jpg|U.S. Navy photo by Chief Photographer’s Mate Eric J. Tilford.|Public domain
-sat_dpaa.jpg|DPAA Diving Deep 23-4PG (7782578)|https://commons.wikimedia.org/wiki/File:DPAA_Diving_Deep_23-4PG_(7782578).jpg|U.S. Marine Corps photo by Sgt. Jack Rigsby|Public domain
-sat_exp.jpg|26-1PH Conducts Diving Operations (9648157)|https://commons.wikimedia.org/wiki/File:26-1PH_Conducts_Diving_Operations_(9648157).jpg|Staff Sgt. Taylor Crul|Public domain
-campana_baja.jpg|US Navy 101116-N-XXXXX-003 The bell handling system lowers the diving bell into the water during manned testing of the Saturation Fly-Away Diving S|https://commons.wikimedia.org/wiki/File:US_Navy_101116-N-XXXXX-003_The_bell_handling_system_lowers_the_diving_bell_into_the_water_during_manned_testing_of_the_Saturation_Fly-Away_Diving_S.jpg|U.S. Navy photo|Public domain
-campana_dsv.jpg|Subsea7 DSV Eagle, Three Man Diving Bell used on Kursk Proof Of Live Dives - 55334118556|https://commons.wikimedia.org/wiki/File:Subsea7_DSV_Eagle,_Three_Man_Diving_Bell_used_on_Kursk_Proof_Of_Live_Dives_-_55334118556.jpg|Tim Sheerman-Chase|CC BY 4.0
-campana_ptc.jpg|Personnel Transfer Capsule 2|https://commons.wikimedia.org/wiki/File:Personnel_Transfer_Capsule_2.tiff|U.S. Navy|Public domain
-campana_int.jpg|Closed diving bell 20151203 132202|https://commons.wikimedia.org/wiki/File:Closed_diving_bell_20151203_132202.jpg|Peter Southwood|CC BY-SA 4.0
-camara_int.jpg|2 weeks Inside the compression chanber|https://commons.wikimedia.org/wiki/File:2_weeks_Inside_the_compression_chanber.jpg|Shane T. McCoy|Public domain
-camara_ext.jpg|Deck decompression chamber PA197922|https://commons.wikimedia.org/wiki/File:Deck_decompression_chamber_PA197922.jpg|Peter Southwood|CC BY-SA 3.0
-camara_navy.jpg|US Navy 091117-N-1291E-102 Navy Diver 2nd Class Ryan Arnold monitors the decompression chamber during a simulated medical emergency|https://commons.wikimedia.org/wiki/File:US_Navy_091117-N-1291E-102_Navy_Diver_2nd_Class_Ryan_Arnold_monitors_the_decompression_chamber_during_a_simulated_medical_emergency.jpg|U.S. Navy photo by Mass Communication Specialist 2nd Class Daniel Edgington|Public domain
-naufragio_int.jpg|A scuba diver inside the shipwreck of the Chester A. Congdon. (7de9abff-1dd8-b71b-0b9a-280f7ad02dfb)|https://commons.wikimedia.org/wiki/File:A_scuba_diver_inside_the_shipwreck_of_the_Chester_A._Congdon._(7de9abff-1dd8-b71b-0b9a-280f7ad02dfb).jpg|National Park Service|Public domain
-naufragio_casco.jpg|Diver under the hull of the wreck of Miniya (El Mina wreck), Hurghada, Egypt|https://commons.wikimedia.org/wiki/File:Diver_under_the_hull_of_the_wreck_of_Miniya_(El_Mina_wreck),_Hurghada,_Egypt.jpg|Jouni Kuisma, DiveCodex|CC BY-SA 4.0
-buzo_rebreather.jpg|Diver using Inspiration rebreather at the wreck of the MV Orotava P6308040|https://commons.wikimedia.org/wiki/File:Diver_using_Inspiration_rebreather_at_the_wreck_of_the_MV_Orotava_P6308040.JPG|Peter Southwood|CC BY-SA 3.0
-buzo_navy.jpg|Flickr - Official U.S. Navy Imagery - Navy diver prepares to come to the surface after conducting diving operations|https://commons.wikimedia.org/wiki/File:Flickr_-_Official_U.S._Navy_Imagery_-_Navy_diver_prepares_to_come_to_the_surface_after_conducting_diving_operations.jpg|Official Navy Page from United States of America MC1 Jayme Pastoric/U.S. Navy|Public domain
-tug_kolga.jpg|Anchor Handling Vessel - Kolga - Noordzee - Nederland (19859469078)|https://commons.wikimedia.org/wiki/File:Anchor_Handling_Vessel_-_Kolga_-_Noordzee_-_Nederland_(19859469078).jpg|Frans Berkelaar|CC BY-SA 2.0
-tug_500a.jpg|Anchor Handling Tug Supply Vessel (172383031)|https://commons.wikimedia.org/wiki/File:Anchor_Handling_Tug_Supply_Vessel_(172383031).jpeg|Maksim Safiullin|CC BY 3.0
-tug_500b.jpg|Anchor Handling Tug Supply Vessel (172383033)|https://commons.wikimedia.org/wiki/File:Anchor_Handling_Tug_Supply_Vessel_(172383033).jpeg|Maksim Safiullin|CC BY 3.0
-spm_sokol.jpg|Single Point Mooring Spm Sokol (173409603)|https://commons.wikimedia.org/wiki/File:Single_Point_Mooring_Spm_Sokol_(173409603).jpeg|Maksim Safiullin|CC BY 3.0
-spm_whiddy.jpg|Whiddy Spim|https://commons.wikimedia.org/wiki/File:Whiddy_Spim.jpeg|Towel401|CC BY-SA 4.0
-delta_bodo.jpg|Bodo Creek|https://commons.wikimedia.org/wiki/File:Bodo_Creek.jpg|Ukpai Jeffrey|CC BY-SA 4.0
-delta_flare.jpg|Burning Gas Flare Nembe Creek, Nigeria|https://commons.wikimedia.org/wiki/File:Burning_Gas_Flare_Nembe_Creek,_Nigeria.tif|Sara Leigh Lewis|CC BY-SA 4.0
-off_tormenta.jpg|Offshore thunderstorm|https://commons.wikimedia.org/wiki/File:Offshore_thunderstorm.JPG|Swandau|CC BY-SA 3.0
-off_forcados.jpg|Forcados offshore Nigeria, shell oil field|https://commons.wikimedia.org/wiki/File:Forcados_offshore_Nigeria,_shell_oil_field.jpg|Chief Charles|CC BY-SA 4.0
-off_bonny_lng.jpg|LNG Terminal - panoramio|https://commons.wikimedia.org/wiki/File:LNG_Terminal_-_panoramio.jpg|---=XEON=---|CC BY 3.0
-galley_whalen.jpg|Galley Mary A Whalen 1|https://commons.wikimedia.org/wiki/File:Galley_Mary_A_Whalen_1.jpg|TMM322|CC BY-SA 4.0
-galley_hercules.jpg|Galley - Hercules - Hyde Street Pier - San Francisco, CA DSC02256|https://commons.wikimedia.org/wiki/File:Galley_-_Hercules_-_Hyde_Street_Pier_-_San_Francisco,_CA_DSC02256.jpg|Daderot|CC0
-galley_angoumois.jpg|Angoumois - Kitchen|https://commons.wikimedia.org/wiki/File:Angoumois_-_Kitchen.jpg|Rémi Kaupp|CC BY-SA 3.0
-pasillo_barco.jpg|Corridor aboard Viking Mariella|https://commons.wikimedia.org/wiki/File:Corridor_aboard_Viking_Mariella.jpg|JIP|CC BY-SA 3.0
-ola_tanquero.jpg|Wea03621 - Flickr - NOAA Photo Library|https://commons.wikimedia.org/wiki/File:Wea03621_-_Flickr_-_NOAA_Photo_Library.jpg|Captain Roger Wilson, Greenland, New Hampshire.|Public domain
+rey_ret.jpg|George Tupou I, c. 1880s.jpg|https://commons.wikimedia.org/wiki/File:George_Tupou_I,_c._1880s.jpg||Public domain
+rey_pal.jpg|George Tupou I, King of Tonga, outside his palace in Neiafu, 1884, Hocken Collections.jpg|https://commons.wikimedia.org/wiki/File:George_Tupou_I,_King_of_Tonga,_outside_his_palace_in_Neiafu,_1884,_Hocken_Collections.jpg|Burton Brothers|Public domain
+eua_iss.jpg|ʻEuaFromTheISS(Cropped).jpg|https://commons.wikimedia.org/wiki/File:%CA%BBEuaFromTheISS(Cropped).jpg|NASA/Chris Hadfield (originally)|Public domain
+eua_horno.jpg|Earth oven on 'Eua island, Tonga.jpg|https://commons.wikimedia.org/wiki/File:Earth_oven_on_%27Eua_island,_Tonga.jpg|JIRCAS Library|CC BY 2.0
+coco1.jpg|Isla del Coco 01.jpg|https://commons.wikimedia.org/wiki/File:Isla_del_Coco_01.jpg|Ministerio de Ambiente y Energía del Gobierno de Costa Rica|Public domain
+coco3.jpg|Isla del Coco 03.jpg|https://commons.wikimedia.org/wiki/File:Isla_del_Coco_03.jpg|Ministerio de Ambiente y Energía del Gobierno de Costa Rica|Public domain
+paita.jpg|1827 - Puerto de Paita, Piura, Perú.jpg|https://commons.wikimedia.org/wiki/File:1827_-_Puerto_de_Paita,_Piura,_Per%C3%BA.jpg|MI PERÚ|Public domain
+taro_hoja.jpg|Taro leaf underside, backlit by sun.jpg|https://commons.wikimedia.org/wiki/File:Taro_leaf_underside,_backlit_by_sun.jpg|Avenue|CC BY-SA 3.0
+pan_fru.jpg|Artocarpus altilis (fruit).jpg|https://commons.wikimedia.org/wiki/File:Artocarpus_altilis_(fruit).jpg|Hans Hillewaert|CC BY-SA 3.0
+pan_dib.jpg|Artocarpus incisus Blanco2.267-cropped.jpg|https://commons.wikimedia.org/wiki/File:Artocarpus_incisus_Blanco2.267-cropped.jpg|Francisco Manuel Blanco (O.S.A.)|Public domain
+golding.jpg|William Golding 1983 (cropped).jpg|https://commons.wikimedia.org/wiki/File:William_Golding_1983_(cropped).jpg||CC BY-SA 3.0 nl
+gallo.jpg|Red Junglefowl Bandhavgarh.jpg|https://commons.wikimedia.org/wiki/File:Red_Junglefowl_Bandhavgarh.jpg|Brian Gratwicke from DC, USA|CC BY 2.0
+ballena.jpg|Whaleship Niantic.JPG|https://commons.wikimedia.org/wiki/File:Whaleship_Niantic.JPG|Photo by Robert Harris-Stoertz. Painting by unknown Chinese artist (Ch|Public domain
+callao_pr.jpg|Combate del 2 de mayo en la prensa española 2.jpg|https://commons.wikimedia.org/wiki/File:Combate_del_2_de_mayo_en_la_prensa_espa%C3%B1ola_2.jpg||Public domain
+nuku_7.jpg|Nukualofa Tonga 7.jpg|https://commons.wikimedia.org/wiki/File:Nukualofa_Tonga_7.jpg|Arne Müseler|CC BY-SA 3.0 de
+palacio.jpg|Royal Palace, Nuku'alofa, Nov 18.jpg|https://commons.wikimedia.org/wiki/File:Royal_Palace,_Nuku%27alofa,_Nov_18.jpg|Uhooep|CC BY-SA 4.0
+tofua.jpg|First Stop- Tofua (153437).jpg|https://commons.wikimedia.org/wiki/File:First_Stop-_Tofua_(153437).jpg|NASA Earth Observatory image by Lauren Dauphin, using Landsat data fro|Public domain
