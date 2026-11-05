@@ -58,7 +58,7 @@ PRON = {"Uriburu": "Ooreebooroo", "Díaz Alejandro": "Dee-as Ah-leh-HAHN-dro", "
         "Fekitoa": "Fecky toe ah", "Fataua": "Fah tah oo ah", "Totau": "Toe tah oo", "Taniela Uhila": "Tah nee ella Oo heela",
         "Kolomaile": "Kolo my lay", "Gesa-Fatafehi": "Ghessa Fah tah fehee", "Meleika": "Melaika", "Aualiitia": "Ow ah lee eetia",
         "Tahlea": "Tah lay ah", "Tupou": "Too poe oo", "Callao": "Ka yow", "Paita": "Pie tah", "Taika Waititi": "Tie kah Why tee tee",
-        "Sione": "See oh nay", " Eua": " EH-oo-ah"}
+        "Sione": "See oh nay", "Mano": "Mah no", " Eua": " EH-oo-ah"}
 
 carpeta = Path(sys.argv[1]).resolve() / "voz"
 solo = set(int(x) for x in sys.argv[2:])
