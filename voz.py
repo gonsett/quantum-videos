@@ -15,8 +15,7 @@ VOZ, IDIOMA, VEL = os.environ.get("VOZ", "am_michael"), os.environ.get("IDIOMA",
 PARTE = os.environ.get("PARTE")
 LISTA = set(json.loads(os.environ["LISTA"])) if os.environ.get("LISTA") else None   # en la nube: solo estas frases
 # pronunciación: solo cambia lo que se le pasa a Kokoro (el guion y la pantalla quedan con la grafía real); probado con Whisper
-PRON = {"Harrison Odjegba Okene": "Harrison Oh-JEG-bah Oh-KEH-neh", "Okene": "Oh-KEH-neh", "Jascon-4": "JAS-kon Four", "Jascon": "JAS-kon", "Escravos": "Es-KRAH-vos", "Warri": "WAH-ree", "Akpovona": "Ak-poh-VOH-nah", "Umansky": "Oo-MAN-skee", "Denoble": "Deh-NOH-bul", "van Heerden": "van HEER-den", "Hexdall": "HEX-dahl", "Petar": "PEH-tar", "Maxim": "MAK-sim",
-        "Uriburu": "Ooreebooroo", "Díaz Alejandro": "Dee-as Ah-leh-HAHN-dro", "Milei": "Mee-LAY",
+PRON = {"Uriburu": "Ooreebooroo", "Díaz Alejandro": "Dee-as Ah-leh-HAHN-dro", "Milei": "Mee-LAY",
         "Louverture": "Loo-vair-TOOR", "Dessalines": "Dess-ah-LEEN", "Vertières": "Vair-TYAIR", "Saint-Domingue": "San Doh-MANG",
         "Duvalier": "Doo-vahl-YAY", "Trujillo": "Troo-HEE-yo", "Taíno": "Tah-EE-no", "Péralte": "Pay-RALT", "Boyer": "Bwah-YAY",
         "Balaguer": "Bah-lah-GHERR", "Moïse": "Moh-EEZ", "Macoutes": "Mah-KOOTS", "Joaquín": "Hwah-KEEN", "Sancak": "SAHN-jahk",
@@ -49,11 +48,17 @@ PRON = {"Harrison Odjegba Okene": "Harrison Oh-JEG-bah Oh-KEH-neh", "Okene": "Oh
         "Alvarenga": "Ahl-vah-REN-gah", "Ezequiel": "Eh-seh-kee-EL", "Chiapas": "Chee-AH-pahs", "Cirilo": "See-REE-loh", "Fátima": "FAH-tee-mah",
         "a norte": "a NOR-teh", "Ebon": "EE-bon", "Majuro": "Mah-JOO-roh", "Libokmeto": "Lee-bok-MEH-toh", "Laikidrik": "Lie-KID-rik",
         "Maximenko": "Mak-see-MEN-ko", "van Sebille": "van Seh-BEE-yeh",
-        # Gross Margin 04 (agua)
-        "San Pellegrino": "San Pel-leh-GREE-no", "Vitaminwater": "Vitamin water", "Smartwater": "Smart water", "Nestlé": "NESS-lay", "Evian": "EV-ee-on",
-        "Perrier": "Perry-AY", "Dasani": "Dah-SAH-nee", "Aquafina": "Ah-kwah-FEE-nah", "Vittel": "Vee-TEL", "Peranel": "Peh-rah-NEL", "Evart": "EE-vert",
-        "Ozarka": "Oh-ZAR-kah", "Gleick": "Glike", "Nevins": "NEV-inz", "Fijian": "Fee-JEE-an", "Fiji": "FEE-jee", "bromate": "BRO-mate", "Macron": "Mah-KRON",
-        "marquis": "mar-KEE", "P W S": "P, W, S", "Primo": "PREE-mo"}
+        # Gross Margin 04 (agua). OJO: en mayúsculas el fonetizador DELETREA (Dah-SAH-nee = "S, A, H"): probar siempre con phonemizer
+        "Vitaminwater": "Vitamin water", "Smartwater": "Smart water", "Nestlé": "NESS-lay",
+        "Aquafina": "Aqua feena", "Vittel": "Vee tell", "Peranel": "Perra nell", "Evart": "Eevert",
+        "Ozarka": "Oh zarka", "Gleick": "Glike", "bromate": "bro mate", "Macron": "Mah-KRON",
+        "marquis": "mar kee", "P W S": "P, W, S", "Primo": "PREE-mo",
+        # No Rescue 04 (Tonga). Mayúsculas con H se deletrean: van en minúscula, probadas con phonemizer. "Ata" y "Bregman" salen bien solos
+        "Nuku'alofa": "Noo koo ah lofa", "Niuafo'ou": "Nee oo ah fo oh oo", "Siola'a": "See oh lah ah", "Veikoso": "Vay koso",
+        "Fekitoa": "Fecky toe ah", "Fataua": "Fah tah oo ah", "Totau": "Toe tah oo", "Taniela Uhila": "Tah nee ella Oo heela",
+        "Kolomaile": "Kolo my lay", "Gesa-Fatafehi": "Ghessa Fah tah fehee", "Meleika": "Melaika", "Aualiitia": "Ow ah lee eetia",
+        "Tahlea": "Tah lay ah", "Tupou": "Too poe oo", "Callao": "Ka yow", "Paita": "Pie tah", "Taika Waititi": "Tie kah Why tee tee",
+        "Sione": "See oh nay", " Eua": " EH-oo-ah"}
 
 carpeta = Path(sys.argv[1]).resolve() / "voz"
 solo = set(int(x) for x in sys.argv[2:])
