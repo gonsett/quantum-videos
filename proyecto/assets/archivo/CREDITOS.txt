@@ -10,8 +10,8 @@ pan_fru.jpg|Artocarpus altilis (fruit).jpg|https://commons.wikimedia.org/wiki/Fi
 pan_dib.jpg|Artocarpus incisus Blanco2.267-cropped.jpg|https://commons.wikimedia.org/wiki/File:Artocarpus_incisus_Blanco2.267-cropped.jpg|Francisco Manuel Blanco (O.S.A.)|Public domain
 golding.jpg|William Golding 1983 (cropped).jpg|https://commons.wikimedia.org/wiki/File:William_Golding_1983_(cropped).jpg||CC BY-SA 3.0 nl
 gallo.jpg|Red Junglefowl Bandhavgarh.jpg|https://commons.wikimedia.org/wiki/File:Red_Junglefowl_Bandhavgarh.jpg|Brian Gratwicke from DC, USA|CC BY 2.0
-ballena.jpg|Whaleship Niantic.JPG|https://commons.wikimedia.org/wiki/File:Whaleship_Niantic.JPG|Photo by Robert Harris-Stoertz. Painting by unknown Chinese artist (Ch|Public domain
+ballena.jpg|Whaleship Niantic.JPG|https://commons.wikimedia.org/wiki/File:Whaleship_Niantic.JPG|Painting, photo by Robert Harris-Stoertz|Public domain
 callao_pr.jpg|Combate del 2 de mayo en la prensa española 2.jpg|https://commons.wikimedia.org/wiki/File:Combate_del_2_de_mayo_en_la_prensa_espa%C3%B1ola_2.jpg||Public domain
 nuku_7.jpg|Nukualofa Tonga 7.jpg|https://commons.wikimedia.org/wiki/File:Nukualofa_Tonga_7.jpg|Arne Müseler|CC BY-SA 3.0 de
 palacio.jpg|Royal Palace, Nuku'alofa, Nov 18.jpg|https://commons.wikimedia.org/wiki/File:Royal_Palace,_Nuku%27alofa,_Nov_18.jpg|Uhooep|CC BY-SA 4.0
-tofua.jpg|First Stop- Tofua (153437).jpg|https://commons.wikimedia.org/wiki/File:First_Stop-_Tofua_(153437).jpg|NASA Earth Observatory image by Lauren Dauphin, using Landsat data fro|Public domain
+tofua.jpg|First Stop- Tofua (153437).jpg|https://commons.wikimedia.org/wiki/File:First_Stop-_Tofua_(153437).jpg|NASA Earth Observatory / Lauren Dauphin (Landsat)|Public domain
