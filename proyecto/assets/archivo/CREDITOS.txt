@@ -1,54 +1,17 @@
-campo-ultraprofundo.jpg|https://esahubble.org/images/heic0406a/|2600x2600|NASA, ESA, and S. Beckwith (STScI) and the HUDF Team|CC BY 4.0
-campo-profundo-webb.jpg|https://esawebb.org/images/weic2209a/|2600x2653|NASA, ESA, CSA, and STScI|CC BY 4.0
-fondo-microondas.jpg|Wikimedia Commons: File:Cosmic Microwave Background (CMB).jpeg|2600x1300|ESA and the Planck Collaboration|CC BY 4.0
-pilares.jpg|https://esawebb.org/images/weic2216a/|2600x2712|NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI).|CC BY 4.0
-via-lactea.jpg|https://www.eso.org/public/images/eso0932a/|2600x1300|ESO/S. Brunier|CC BY 4.0
-hawking.jpg|Wikimedia Commons: File:Stephen Hawking NASA 50th 200804210001HQ.jpg|2600x3242|NASA/Paul E. Alers|Public domain
-penrose.jpg|Wikimedia Commons: File:Roger Penrose June 2007.jpg|1200x1600|Andrej Bauer|CC BY-SA 2.5 si
-westerlund2.jpg|https://esahubble.org/images/heic1509a/|2600x1948|NASA, ESA, the Hubble Heritage Team (STScI/AURA), A. Nota (ESA/STScI), and the Westerlund 2 Science Team The original observations of Westerlund 2 were obtained by the science team: Antonella Nota (ESA/STScI), Elena Sabbi (STScI), Eva Grebel and Peter Zeidler (Astronomisches Rechen-Institut Heidelberg), Monica Tosi (INAF, Osservatorio Astronomico di Bologna), Alceste Bonanos (National Observatory of Athens, Astronomical Institute), Carol Christian (STScI/AURA) and Selma de Mink (University of Amsterdam). Follow-up observations were made by the Hubble Heritage team: Zoltan Levay (STScI), Max Mutchler, Jennifer Mack, Lisa Frattare, Shelly Meyett, Mario Livio, Carol Christian (STScI/AURA), and Keith Noll (NASA/GSFC).|CC BY 4.0
-acantilados-carina.jpg|https://esawebb.org/images/weic2205a/|2600x1506|NASA, ESA, CSA, and STScI|CC BY 4.0
-quinteto-stephan.jpg|https://esawebb.org/images/weic2208a/|2600x2493|NASA, ESA, CSA, and STScI|CC BY 4.0
-antenas.jpg|https://esahubble.org/images/heic0615a/|2600x2580|Credit: NASA, ESA, and the Hubble Heritage Team (STScI/AURA)-ESA/Hubble Collaboration. Acknowledgement: B. Whitmore ( Space Telescope Science Institute) and James Long (ESA/Hubble).|CC BY 4.0
-m87-agujero.jpg|https://www.eso.org/public/images/eso1907a/|2600x1515|EHT Collaboration|CC BY 4.0
-agujero-negro-disco.jpg|Wikimedia Commons: File:Black hole's accretion disk blank.jpg|2600x1462|NASA’s Goddard Space Flight Center/Jeremy Schnittman, cmglee|CC BY-SA 4.0
-eniac.jpg|https://commons.wikimedia.org/wiki/File:Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg|1340x1024|U.S. Army|Dominio público
-nebulosa-anillo.jpg|https://esawebb.org/images/weic2320a/|2600x2175|ESA/Webb, NASA, CSA, M. Barlow, N. Cox, R. Wesson|CC BY 4.0
-tarantula.jpg|https://esawebb.org/images/weic2212a/|2600x1504|NASA, ESA, CSA, and STScI|CC BY 4.0
-rho-ophiuchi.jpg|https://esawebb.org/images/weic2316a/|2600x2435|NASA, ESA, CSA, STScI, K. Pontoppidan (STScI), A. Pagan (STScI)|CC BY 4.0
-cumulo-pandora.jpg|https://esawebb.org/images/weic2220c/|9714x3999|NASA, ESA, CSA, T. Treu (UCLA)|CC BY 4.0
-asimov.jpg|Wikimedia Commons: File:Isaac.Asimov01.jpg|2530x3671|Phillip Leonian [1] from New York World-Telegram &amp; Sun.[2]|Public domain
-tierra-apollo17.jpg|Wikimedia Commons: File:The Blue Marble, AS17-148-22727.jpg|2600x2600|Harrison Schmitt / Apollo 17|Public domain
-trumpler14.jpg|https://esahubble.org/images/heic1601a/|2600x2600|NASA &amp; ESA, Jesús Maíz Apellániz (Centro de Astrobiología, CSIC-INTA, Spain)|CC BY 4.0
-rueda-de-carro.jpg|https://esawebb.org/images/weic2211a/|2600x2393|NASA, ESA, CSA, STScI|CC BY 4.0
-helix.jpg|Wikimedia Commons: File:NGC7293 (2004).jpg|2600x2802|NASA, ESA, C.R. O'Dell (Vanderbilt University), M. Meixner and P. McCullough (STScI)|Public domain
-ngc602.jpg|https://esawebb.org/images/weic2425a/|2600x1701|ESA/Webb, NASA &amp; CSA, P. Zeidler, E. Sabbi, A. Nota, M. Zamani (ESA/Webb)|CC BY 4.0
-andromeda.jpg|https://esahubble.org/images/heic1502a/|2600x831|NASA, ESA, J. Dalcanton (University of Washington, USA), B. F. Williams (University of Washington, USA), L. C. Johnson (University of Washington, USA), the PHAT team, and R. Gendler.|CC BY 4.0
-agustin.jpg|Wikimedia Commons: File:Saint Augustine by Philippe de Champaigne.jpg|2600x3317|Philippe de Champaigne|Public domain
-einstein.jpg|Wikimedia Commons: File:Albert Einstein Head.jpg|2600x3466|Photograph by Orren Jack Turner, Princeton, N.J. Modified with Photoshop by PM_Poon and later by Dantadd.|Public domain
-hubble-retrato.jpg|Wikimedia Commons: File:Studio portrait photograph of Edwin Powell Hubble.JPG|1413x2040|Johan Hagemeyer|Public domain
-hooker.jpg|Wikimedia Commons: File:Hooker Telescope Mount Wilson 2019.jpg|1920x2560|Antony-22|CC BY-SA 4.0
-hoyle.jpg|Wikimedia Commons: File:Fred Hoyle 1967.jpg|2386x3007|AIP Emilio Segrè Visual Archives, Clayton Collection|Attribution
-antena-holmdel.jpg|Wikimedia Commons: File:Horn Antenna-in Holmdel, New Jersey - restoration1.jpg|2600x2045|NASA, restored by Bammesk|Public domain
-penzias-wilson.jpg|Wikimedia Commons: File:Horn Antenna-in Holmdel, New Jersey - restoration1.jpg|2600x2045|NASA, restored by Bammesk|Public domain
-cobe.jpg|Wikimedia Commons: File:COBE Celebrates 35th Launch Anniversary (SVS14715 - COBE satellite diagram no labels).jpg|2600x3058|NASA's Scientific Visualization Studio - NASA/GSFC/David Leisawitz, University of Maryland College Park/Francis Reddy|Public domain
-wmap-mapa.jpg|Wikimedia Commons: File:WMAP 2012.png|2600x1300|NASA / WMAP Science Team|Public domain
-planck-satelite.jpg|Wikimedia Commons: File:Model of the Planck Satellite.jpg|2569x2569|Photograph by Mike Peel (www.mikepeel.net).|CC BY-SA 4.0
-linea-tiempo.jpg|Wikimedia Commons: File:CMB Timeline300 no WMAP.jpg|2600x1716|NASA/WMAP Science Team|Public domain
-campo-extremo.jpg|Wikimedia Commons: File:The Hubble eXtreme Deep Field.jpg|2382x2078|NASA, ESA, G. Illingworth, D. Magee, and P. Oesch (University of California, Santa Cruz), R. Bouwens (Leiden University), and the HUDF09 Team|Public domain
-lhc.jpg|Wikimedia Commons: File:Views of the LHC tunnel sector 3-4, tirage 2.jpg|2600x1730|Maximilien Brice (CERN)|CC BY-SA 3.0
-atlas-detector.jpg|Wikimedia Commons: File:CERN ATLAS Detector.jpg|2600x1300|SimonWaldherr|CC BY-SA 4.0
-guth.jpg|Wikimedia Commons: File:AlanGuthCambridge.jpg|747x951|Betsy Devine aka Betsythedevine|CC BY-SA 3.0
-bicep2.jpg|Wikimedia Commons: File:South pole spt dsl.jpg|2600x1950|Amble|CC BY-SA 3.0
-antartida.jpg|Wikimedia Commons: File:Antarctica 6400px from Blue Marble.jpg|2600x2600|Dave Pape|Public domain
-hartle.jpg|Wikimedia Commons: File:JimHartle1.jpg|360x480|User:Lumidek|Public domain
-vilenkin.jpg|Wikimedia Commons: File:AlexanderVilenkin.JPG|766x864|Lubos Motl, Lumidek (talk)|CC BY 3.0
-steinhardt.jpg|Wikimedia Commons: File:Paul J. Steinhardt.jpg|1654x1286|Sleepy Geek|CC BY-SA 4.0
-turok.jpg|Wikimedia Commons: File:Neil Turok AIMS.jpg|442x609|AIMS - Next Einstein Initiative African Institute for Mathematical Sciences|CC BY-SA 2.0
-weinberg.jpg|Wikimedia Commons: File:Steven Weinberg 2010.jpg|629x787|Larry D. Moore|CC BY 4.0
-leibniz.jpg|Wikimedia Commons: File:Gottfried Wilhelm Leibniz, Bernhard Christoph Francke.jpg|2600x3210|Christoph Bernhard Francke|Public domain
-ashtekar.jpg|Wikimedia Commons: File:Abhay Ashtekar.png|2142x2196|Abhay Ashtekar|CC0
-lemaitre.jpg|Wikimedia Commons: File:Lemaitre (cropped).jpg|251x371|unknown photographer, probably a CalTech employee. Cropped by Artistosteles|Public domain
-lemaitre-einstein.jpg|Wikimedia Commons: File:MillikanLemaitreEinstein.jpg|703x573|unknown photographer, probably a Caltech employee|Public domain
-jades.jpg|Wikimedia Commons: File:Webb finds most distant known galaxy (JADES-GS-z14-0 environment NIRCam image) (jades5).jpg|2600x2540|NASA, ESA, CSA, J. Olmsted (STScI), S. Carniani (Scuola Normale Superiore), JADES Collaboration|CC BY 4.0
-jades-zoom.jpg|Wikimedia Commons: File:JADES-GS-z14-0 Pullout (NIRCam) (01HZ083EXXCJNE64ERAH2ER2FM).png|2600x2540|Image: NASA, ESA, CSA, STScI, Brant Robertson (UC Santa Cruz), Ben Johnson (CfA), Sandro Tacchella (Cambridge), Phill Cargile (CfA)|Public domain
-linde.jpg|Wikimedia Commons: File:Andrei Linde 2018.jpg|1702x2268|Hypermultiplet|CC BY-SA 4.0
+rey_ret.jpg|George Tupou I, c. 1880s.jpg|https://commons.wikimedia.org/wiki/File:George_Tupou_I,_c._1880s.jpg||Public domain
+rey_pal.jpg|George Tupou I, King of Tonga, outside his palace in Neiafu, 1884, Hocken Collections.jpg|https://commons.wikimedia.org/wiki/File:George_Tupou_I,_King_of_Tonga,_outside_his_palace_in_Neiafu,_1884,_Hocken_Collections.jpg|Burton Brothers|Public domain
+eua_iss.jpg|ʻEuaFromTheISS(Cropped).jpg|https://commons.wikimedia.org/wiki/File:%CA%BBEuaFromTheISS(Cropped).jpg|NASA/Chris Hadfield (originally)|Public domain
+eua_horno.jpg|Earth oven on 'Eua island, Tonga.jpg|https://commons.wikimedia.org/wiki/File:Earth_oven_on_%27Eua_island,_Tonga.jpg|JIRCAS Library|CC BY 2.0
+coco1.jpg|Isla del Coco 01.jpg|https://commons.wikimedia.org/wiki/File:Isla_del_Coco_01.jpg|Ministerio de Ambiente y Energía del Gobierno de Costa Rica|Public domain
+coco3.jpg|Isla del Coco 03.jpg|https://commons.wikimedia.org/wiki/File:Isla_del_Coco_03.jpg|Ministerio de Ambiente y Energía del Gobierno de Costa Rica|Public domain
+paita.jpg|1827 - Puerto de Paita, Piura, Perú.jpg|https://commons.wikimedia.org/wiki/File:1827_-_Puerto_de_Paita,_Piura,_Per%C3%BA.jpg|MI PERÚ|Public domain
+taro_hoja.jpg|Taro leaf underside, backlit by sun.jpg|https://commons.wikimedia.org/wiki/File:Taro_leaf_underside,_backlit_by_sun.jpg|Avenue|CC BY-SA 3.0
+pan_fru.jpg|Artocarpus altilis (fruit).jpg|https://commons.wikimedia.org/wiki/File:Artocarpus_altilis_(fruit).jpg|Hans Hillewaert|CC BY-SA 3.0
+pan_dib.jpg|Artocarpus incisus Blanco2.267-cropped.jpg|https://commons.wikimedia.org/wiki/File:Artocarpus_incisus_Blanco2.267-cropped.jpg|Francisco Manuel Blanco (O.S.A.)|Public domain
+golding.jpg|William Golding 1983 (cropped).jpg|https://commons.wikimedia.org/wiki/File:William_Golding_1983_(cropped).jpg||CC BY-SA 3.0 nl
+gallo.jpg|Red Junglefowl Bandhavgarh.jpg|https://commons.wikimedia.org/wiki/File:Red_Junglefowl_Bandhavgarh.jpg|Brian Gratwicke from DC, USA|CC BY 2.0
+ballena.jpg|Whaleship Niantic.JPG|https://commons.wikimedia.org/wiki/File:Whaleship_Niantic.JPG|Painting, photo by Robert Harris-Stoertz|Public domain
+callao_pr.jpg|Combate del 2 de mayo en la prensa española 2.jpg|https://commons.wikimedia.org/wiki/File:Combate_del_2_de_mayo_en_la_prensa_espa%C3%B1ola_2.jpg||Public domain
+nuku_7.jpg|Nukualofa Tonga 7.jpg|https://commons.wikimedia.org/wiki/File:Nukualofa_Tonga_7.jpg|Arne Müseler|CC BY-SA 3.0 de
+palacio.jpg|Royal Palace, Nuku'alofa, Nov 18.jpg|https://commons.wikimedia.org/wiki/File:Royal_Palace,_Nuku%27alofa,_Nov_18.jpg|Uhooep|CC BY-SA 4.0
+tofua.jpg|First Stop- Tofua (153437).jpg|https://commons.wikimedia.org/wiki/File:First_Stop-_Tofua_(153437).jpg|NASA Earth Observatory / Lauren Dauphin (Landsat)|Public domain
