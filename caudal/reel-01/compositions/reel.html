@@ -1,0 +1,170 @@
+<template>
+<style>
+@font-face { font-family: 'Satoshi'; src: url('assets/fonts/Satoshi-Variable.woff2') format('woff2'); font-weight: 300 900; }
+#root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #0a0705; font-family: 'Satoshi', sans-serif; }
+#miel { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; object-fit: cover; }
+#vineta { position: absolute; inset: 0; background: radial-gradient(120% 74% at 50% 46%, transparent 52%, #0603028f 100%); }
+#grano { position: absolute; inset: 0; background: url('assets/miel/grano.png') repeat; opacity: .075; mix-blend-mode: overlay; z-index: 30; }
+#regla { position: absolute; left: 110px; right: 110px; top: 196px; height: 1px; background: #fbf6ec; opacity: .42; transform-origin: 0 50%; z-index: 20; }
+.micro { position: absolute; top: 212px; font-size: 27px; font-weight: 400; letter-spacing: .16em; color: #fbf6ec; opacity: 0; z-index: 20; }
+#mi { left: 110px; } #md, #me { right: 110px; }
+.t { position: absolute; opacity: 0; z-index: 10; }
+#tel { position: absolute; left: 175px; top: 323px; width: 729px; height: 1385px; z-index: 5; }
+#telZoom { position: absolute; inset: 0; transform-origin: 50% 31%; }
+#celu { position: absolute; inset: 0; width: 729px; height: 1385px; }
+#pant { position: absolute; left: 162px; top: 127.4px; width: 484px; height: 1047.4px; overflow: hidden; border-radius: 12%/5.5%; background: #fbf6ec; }
+#pant img { position: absolute; }
+#base { left: 0; top: 0; width: 484px; height: 1047.4px; }
+#refl { position: absolute; inset: 0; background: linear-gradient(118deg, rgb(255 255 255/.075), rgb(255 255 255/.022) 24%, transparent 40%); }
+#moneda { position: absolute; left: 230px; top: 420px; width: 620px; height: 620px; opacity: 0; z-index: 8; }
+#monedaY { position: absolute; inset: 0; }
+#moneda img { position: absolute; inset: 0; width: 620px; height: 620px; }
+#sombra { position: absolute; left: 270px; top: 880px; width: 540px; height: 220px; border-radius: 50%; background: radial-gradient(closest-side, #3a2408a6, transparent); opacity: 0; z-index: 7; }
+#marca { position: absolute; left: 0; right: 0; top: 1050px; text-align: center; font-size: 118px; font-weight: 500; letter-spacing: -.035em; color: #fdf8ee; opacity: 0; z-index: 10; }
+#url { position: absolute; left: 0; right: 0; top: 1378px; text-align: center; font-size: 36px; font-weight: 400; letter-spacing: .02em; color: #fdf8ee; opacity: 0; z-index: 10; }
+</style>
+<div id="root" data-composition-id="reel" data-start="0" data-duration="15.3" data-width="1080" data-height="1920" data-layout-allow-overlap data-layout-allow-overflow>
+  <video id="miel" class="clip" src="assets/miel/miel.mp4" muted playsinline data-start="0" data-duration="15.3" data-track-index="0"></video>
+  <div id="vineta"></div>
+  <div id="regla"></div>
+  <div id="mi" class="micro">caudal</div>
+  <div id="md" class="micro">EL MES, DÍA A DÍA</div>
+  <div id="me" class="micro">DATOS DE EJEMPLO</div>
+  <div id="tel"><div id="telZoom">
+    <div id="pant">
+      <img id="base" src="assets/pantalla/base.png" alt="">
+      <img id="numLleno" src="assets/pantalla/num.png" style="left:18.62px;top:263.71px;width:341.28px;height:77.56px" alt="">
+      <img id="barLlena" src="assets/pantalla/bar.png" style="left:24.82px;top:374.16px;width:434.35px;height:17.99px" alt="">
+      <div id="refl"></div>
+    </div>
+    <img id="celu" src="assets/celu.png" alt="">
+  </div></div>
+  <img id="cobras" class="t" src="assets/tipo/cobras.png" style="left:314px;top:236px;width:452px;height:186px" alt="">
+  <img id="uno" class="t" src="assets/tipo/uno.png" style="left:369px;top:330px;width:342px;height:793px" alt="">
+  <img id="cuatro" class="t" src="assets/tipo/cuatro.png" style="left:444px;top:330px;width:421px;height:793px" alt="">
+  <img id="el" class="t" src="assets/tipo/el.png" style="left:444px;top:236px;width:193px;height:186px" alt="">
+  <img id="yano" class="t" src="assets/tipo/yano.png" style="left:213px;top:1020px;width:654px;height:156px" alt="">
+  <img id="concaudal" class="t" src="assets/tipo/concaudal.png" style="left:324px;top:236px;width:431px;height:156px" alt="">
+  <img id="elseis" class="t" src="assets/tipo/elseis.png" style="left:317px;top:236px;width:446px;height:156px" alt="">
+  <img id="cuanto" class="t" src="assets/tipo/cuanto.png" style="left:194px;top:240px;width:693px;height:151px" alt="">
+  <img id="cada" class="t" src="assets/tipo/cada.png" style="left:288px;top:1404px;width:504px;height:186px" alt="">
+  <img id="nombre" class="t" src="assets/tipo/nombre.png" style="left:223px;top:1516px;width:634px;height:156px" alt="">
+  <img id="casa" class="t" src="assets/tipo/casa.png" style="left:238px;top:760px;width:224px;height:144px" alt="">
+  <img id="casaN" class="t" src="assets/tipo/casaN.png" style="left:238px;top:834px;width:242px;height:121px" alt="">
+  <img id="comida" class="t" src="assets/tipo/comida.png" style="left:543px;top:760px;width:287px;height:144px" alt="">
+  <img id="comidaN" class="t" src="assets/tipo/comidaN.png" style="left:543px;top:834px;width:238px;height:121px" alt="">
+  <img id="cafe" class="t" src="assets/tipo/cafe.png" style="left:828px;top:760px;width:215px;height:144px" alt="">
+  <img id="cafeN" class="t" src="assets/tipo/cafeN.png" style="left:828px;top:834px;width:222px;height:121px" alt="">
+  <img id="queel" class="t" src="assets/tipo/queel.png" style="left:368px;top:300px;width:345px;height:186px" alt="">
+  <img id="treinta" class="t" src="assets/tipo/treinta.png" style="left:180px;top:410px;width:719px;height:793px" alt="">
+  <img id="teencuentre" class="t" src="assets/tipo/teencuentre.png" style="left:261px;top:1130px;width:558px;height:186px" alt="">
+  <img id="conplata" class="t" src="assets/tipo/conplata.png" style="left:305px;top:1244px;width:470px;height:186px" alt="">
+  <img id="probala" class="t" src="assets/tipo/probala.png" style="left:332px;top:1200px;width:417px;height:186px" alt="">
+  <div id="sombra"></div>
+  <div id="moneda"><div id="monedaY">
+      <img src="assets/giro/m000.png" style="opacity:1" alt="">
+      <img src="assets/giro/m001.png" style="opacity:0" alt="">
+      <img src="assets/giro/m002.png" style="opacity:0" alt="">
+      <img src="assets/giro/m003.png" style="opacity:0" alt="">
+      <img src="assets/giro/m004.png" style="opacity:0" alt="">
+      <img src="assets/giro/m005.png" style="opacity:0" alt="">
+      <img src="assets/giro/m006.png" style="opacity:0" alt="">
+      <img src="assets/giro/m007.png" style="opacity:0" alt="">
+      <img src="assets/giro/m008.png" style="opacity:0" alt="">
+      <img src="assets/giro/m009.png" style="opacity:0" alt="">
+      <img src="assets/giro/m010.png" style="opacity:0" alt="">
+      <img src="assets/giro/m011.png" style="opacity:0" alt="">
+      <img src="assets/giro/m012.png" style="opacity:0" alt="">
+      <img src="assets/giro/m013.png" style="opacity:0" alt="">
+      <img src="assets/giro/m014.png" style="opacity:0" alt="">
+      <img src="assets/giro/m015.png" style="opacity:0" alt="">
+      <img src="assets/giro/m016.png" style="opacity:0" alt="">
+      <img src="assets/giro/m017.png" style="opacity:0" alt="">
+      <img src="assets/giro/m018.png" style="opacity:0" alt="">
+      <img src="assets/giro/m019.png" style="opacity:0" alt="">
+      <img src="assets/giro/m020.png" style="opacity:0" alt="">
+      <img src="assets/giro/m021.png" style="opacity:0" alt="">
+      <img src="assets/giro/m022.png" style="opacity:0" alt="">
+      <img src="assets/giro/m023.png" style="opacity:0" alt="">
+  </div></div>
+  <div id="marca">caudal</div>
+  <div id="url">caudal.quantumcoffee.xyz</div>
+  <div id="grano"></div>
+</div>
+<script>
+(function () {
+  var tl = gsap.timeline({ paused: true });
+  var E = 'power3.out', I = 'power2.in';
+  function entra(id, t, d, y) { tl.fromTo(id, { opacity: 0, y: y === undefined ? 16 : y }, { opacity: 1, y: 0, duration: d || .42, ease: E }, t); }
+  function sale(id, t, d) { tl.to(id, { opacity: 0, duration: d || .2, ease: I }, t); }
+  // marco fijo, como la landing
+  tl.fromTo('#regla', { scaleX: 0 }, { scaleX: 1, duration: .9, ease: E }, .1);
+  tl.to('#mi', { opacity: .9, duration: .5, ease: 'power2.out' }, .35);
+  tl.to('#md', { opacity: .9, duration: .4, ease: 'power2.out' }, 1.75);
+  tl.to('#md', { opacity: 0, duration: .2 }, 3.95);
+  tl.to('#me', { opacity: .9, duration: .4, ease: 'power2.out' }, 4.25);
+  tl.to(['#regla', '#mi', '#me'], { opacity: 0, duration: .3 }, 13.1);
+
+  // 1. Cobrás el 1: el número llega con el golpe de la gota
+  entra('#cobras', .42);
+  tl.fromTo('#uno', { opacity: 0, scale: .94, transformOrigin: '50% 60%' }, { opacity: 1, scale: 1, duration: .55, ease: E }, .76);
+  // 2. El 14: el 1 se corre y llega el 4; el oro pierde luz cuando la miel se va
+  sale('#cobras', 1.52, .14);
+  entra('#el', 1.69, .3, 10);
+  tl.to('#uno', { x: -120, duration: .42, ease: 'power3.inOut' }, 1.6);
+  tl.fromTo('#cuatro', { opacity: 0, x: 44 }, { opacity: 1, x: 0, duration: .42, ease: E }, 1.74);
+  tl.to(['#uno', '#cuatro'], { opacity: .34, duration: 1.2, ease: 'power1.inOut' }, 2.1);
+  entra('#yano', 2.42, .4);
+  sale(['#el', '#uno', '#cuatro', '#yano'], 3.84, .24);
+
+  // 3. Con Caudal: la pantalla real. La cifra y la barra se llenan hasta «el treinta»
+  tl.fromTo('#tel', { y: 1500 }, { y: 0, duration: .92, ease: 'power4.out' }, 4.08);
+  entra('#concaudal', 4.17, .3);
+  sale('#concaudal', 4.86, .12);
+  entra('#elseis', 4.98, .3);
+  sale('#elseis', 6.16, .14);
+  entra('#cuanto', 6.3, .32);
+  tl.fromTo('#numLleno', { clipPath: 'inset(100% 0 0 0)' }, { clipPath: 'inset(0% 0 0 0)', duration: 2.3, ease: 'power1.inOut' }, 5.25);
+  tl.fromTo('#barLlena', { clipPath: 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0% 0 0)', duration: 2.3, ease: 'power1.inOut' }, 5.25);
+  tl.fromTo('#telZoom', { scale: 1 }, { scale: 1.13, duration: 2.2, ease: 'sine.inOut' }, 5.6);
+  sale('#cuanto', 8.0, .16);
+  tl.to('#tel', { y: 1700, duration: .46, ease: 'power3.in' }, 7.86);
+
+  // 4. Cada peso: cada hilo llega y recibe su nombre
+  entra('#cada', 8.31, .36);
+  entra('#nombre', 9.54, .36);
+  var rot = [['#casa', '#casaN', 8.72], ['#comida', '#comidaN', 9.16], ['#cafe', '#cafeN', 9.6]];
+  rot.forEach(function (r) { entra(r[0], r[2], .36, 10); entra(r[1], r[2] + .1, .36, 10); });
+  sale(['#cada', '#nombre', '#casa', '#casaN', '#comida', '#comidaN', '#cafe', '#cafeN'], 11.0, .24);
+
+  // 5. Que el 30 te encuentre con plata: la miel llena todo
+  entra('#queel', 11.32);
+  tl.fromTo('#treinta', { opacity: 0, scale: .92, transformOrigin: '50% 55%' }, { opacity: 1, scale: 1, duration: .7, ease: E }, 11.7);
+  entra('#teencuentre', 12.12);
+  entra('#conplata', 12.38);
+  sale(['#queel', '#treinta', '#teencuentre', '#conplata'], 13.12, .22);
+
+  // 6. La moneda gira y se asienta; Caudal, Probala y la dirección
+  var c = { f: 0 }, imgs = document.querySelectorAll('#moneda img'), NF = imgs.length;
+  tl.to('#moneda', { opacity: 1, duration: .1 }, 13.3);
+  tl.fromTo('#sombra', { opacity: 0 }, { opacity: .55, duration: .6, ease: 'power2.out' }, 13.34);
+  tl.fromTo(c, { f: 0 }, { f: NF - 1, duration: .8, ease: 'none', onUpdate: function () {
+    var a = Math.floor(c.f), k = c.f - a;
+    for (var i = 0; i < NF; i++) imgs[i].style.opacity = i === a ? 1 : (i === a + 1 ? k : 0);
+  } }, 13.32);
+  tl.fromTo('#monedaY', { y: -46 }, { y: 0, duration: .8, ease: E }, 13.32);
+  entra('#marca', 13.46, .4);
+  entra('#probala', 14.62, .3, 10);
+  entra('#url', 14.72, .3, 8);
+
+  // grano vivo: cambia de lugar 24 veces por segundo, siempre igual en cada render
+  var g = { t: 0 };
+  tl.to(g, { t: 15.3, duration: 15.3, ease: 'none', onUpdate: function () {
+    var k = Math.floor(g.t * 24);
+    document.getElementById('grano').style.backgroundPosition = ((k * 197) % 512) + 'px ' + ((k * 311) % 512) + 'px';
+  } }, 0);
+  window.__timelines = window.__timelines || {};
+  window.__timelines['reel'] = tl;
+})();
+</script>
+</template>
