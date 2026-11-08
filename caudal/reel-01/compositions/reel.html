@@ -8,6 +8,7 @@
 #regla { position: absolute; left: 110px; right: 110px; top: 196px; height: 1px; background: #fbf6ec; opacity: .42; transform-origin: 0 50%; z-index: 20; }
 .micro { position: absolute; top: 212px; font-size: 27px; font-weight: 400; letter-spacing: .16em; color: #fbf6ec; opacity: 0; z-index: 20; }
 #mi { left: 110px; } #md, #me { right: 110px; }
+#me2 { top: 1612px; left: 0; right: 0; text-align: center; }
 .t { position: absolute; opacity: 0; z-index: 10; }
 #tel { position: absolute; left: 175px; top: 323px; width: 729px; height: 1385px; z-index: 5; }
 #telZoom { position: absolute; inset: 0; transform-origin: 50% 31%; }
@@ -30,6 +31,7 @@
   <div id="mi" class="micro">caudal</div>
   <div id="md" class="micro">EL MES, DÍA A DÍA</div>
   <div id="me" class="micro">DATOS DE EJEMPLO</div>
+  <div id="me2" class="micro">MONTOS DE EJEMPLO</div>
   <div id="tel"><div id="telZoom">
     <div id="pant">
       <img id="base" src="assets/pantalla/base.png" alt="">
@@ -103,7 +105,10 @@
   tl.to('#md', { opacity: .9, duration: .4, ease: 'power2.out' }, 1.75);
   tl.to('#md', { opacity: 0, duration: .2 }, 3.95);
   tl.to('#me', { opacity: .9, duration: .4, ease: 'power2.out' }, 4.25);
-  tl.to(['#regla', '#mi', '#me'], { opacity: 0, duration: .3 }, 13.1);
+  tl.to('#me', { opacity: 0, duration: .2 }, 7.82);
+  tl.to('#me2', { opacity: .85, duration: .36, ease: 'power2.out' }, 8.72);
+  tl.to('#me2', { opacity: 0, duration: .24 }, 11.0);
+  tl.to(['#regla', '#mi'], { opacity: 0, duration: .3 }, 13.1);
 
   // 1. Cobrás el 1: el número llega con el golpe de la gota
   entra('#cobras', .42);
