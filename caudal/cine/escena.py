@@ -355,6 +355,8 @@ for clave, tam, x, y, z, t0, t1 in ln.TEXTOS:
         o = palabra(clave, ORO_T, tam, .05, .008)
     else:
         o = palabra(clave, MARFIL, tam, .045, .006)
+    if clave in ('caudal', 'probala'):
+        o.visible_glossy = False  # sin reflejo al revés en la miel: debajo va la dirección web
     TEXTOS[clave] = (o, (x, y, z), t0, t1)
 
 N1 = palabra('n1', ORO, ln.TAM_CIFRA, .16, .014)
