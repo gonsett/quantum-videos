@@ -1,0 +1,118 @@
+# Render en Blender (Cycles CPU) repartido en tramos: malla de miel + escena + terminación + codificado por tramo,
+# y al final se unen los tramos sin recodificar y se mezcla el audio aprobado.
+# Prueba de cuadros sueltos: gh workflow run render-blender.yml --ref <rama> -f solo=0,400,720
+name: Render Blender
+on:
+  workflow_dispatch:
+    inputs:
+      carpeta: { description: "carpeta del proyecto", default: "caudal/cine" }
+      total: { description: "cuadros a 60 fps de la línea de tiempo", default: "918" }
+      fps: { description: "fps de salida (60 o 30)", default: "30" }
+      partes: { description: "tramos en paralelo (máx. 19)", default: "19" }
+      muestras: { description: "muestras de Cycles", default: "32" }
+      pct: { description: "porcentaje de resolución", default: "100" }
+      detalle: { description: "detalle de la malla de miel", default: "0.8" }
+      solo: { description: "lista de cuadros (60 fps) para prueba; vacío = video completo", default: "" }
+      salida: { description: "nombre del mp4", default: "video.mp4" }
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      tramos: ${{ steps.p.outputs.tramos }}
+    steps:
+      - id: p
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_OUTPUT"
+          import json
+          solo = "${{ inputs.solo }}".strip()
+          if solo:
+              print("tramos=" + json.dumps([{"i": "00", "c": solo}]))
+          else:
+              paso = 60 // int("${{ inputs.fps }}")
+              cuadros = list(range(0, int("${{ inputs.total }}"), paso))
+              n = min(int("${{ inputs.partes }}"), len(cuadros))
+              t = []
+              for i in range(n):
+                  p = cuadros[len(cuadros) * i // n: len(cuadros) * (i + 1) // n]
+                  if p:
+                      t.append({"i": "%02d" % i, "c": ",".join(map(str, p))})
+              print("tramos=" + json.dumps(t))
+          EOF
+
+  tramo:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix:
+        tramo: ${{ fromJson(needs.plan.outputs.tramos) }}
+    steps:
+      - uses: actions/checkout@v5
+        with: { sparse-checkout: "${{ inputs.carpeta }}" }
+      - uses: actions/cache@v4
+        id: cb
+        with: { path: blender, key: blender-4.5.3-linux }
+      - name: Blender 4.5.3
+        if: steps.cb.outputs.cache-hit != 'true'
+        run: |
+          curl -sL https://download.blender.org/release/Blender4.5/blender-4.5.3-linux-x64.tar.xz | tar xJ
+          mv blender-4.5.3-linux-x64 blender
+      - name: Dependencias
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 libxkbcommon0 libsm6 libice6 libegl1 > /dev/null
+          pip install -q numpy scipy scikit-image opencv-python-headless pillow
+      - name: Malla de miel
+        run: |
+          cd "${{ inputs.carpeta }}"
+          HILOS=4 python3 liquido.py "$GITHUB_WORKSPACE/mallas" "${{ matrix.tramo.c }}" "${{ inputs.detalle }}" | tail -3
+      - name: Render ${{ matrix.tramo.i }}
+        run: |
+          cd "${{ inputs.carpeta }}"
+          inicio=$(date +%s)
+          "$GITHUB_WORKSPACE/blender/blender" -b -P escena.py -- "${{ matrix.tramo.c }}" "${{ inputs.pct }}" "${{ inputs.muestras }}" \
+            "$GITHUB_WORKSPACE/mallas" "$GITHUB_WORKSPACE/render" 2>&1 | grep -E "CUADRO|Error|rror:" | tail -60
+          n=$(ls "$GITHUB_WORKSPACE/render" | wc -l)
+          echo "cuadros: $n, segundos: $(( $(date +%s) - inicio )), s/cuadro: $(( ($(date +%s) - inicio) / (n > 0 ? n : 1) ))"
+          test "$n" -eq "$(echo '${{ matrix.tramo.c }}' | tr ',' '\n' | wc -l)"
+      - name: Terminación
+        run: |
+          cd "${{ inputs.carpeta }}"
+          FPS="${{ inputs.fps }}"; if [ -n "${{ inputs.solo }}" ]; then FPS=60; fi
+          python3 post.py "$GITHUB_WORKSPACE/render" "$GITHUB_WORKSPACE/post" "$FPS"
+      - name: Codificar tramo
+        if: inputs.solo == ''
+        run: |
+          primero=$(ls post | head -1 | sed 's/p0*\([0-9]*\)\.png/\1/'); primero=${primero:-0}
+          ffmpeg -hide_banner -loglevel error -framerate "${{ inputs.fps }}" -start_number "$primero" -i post/p%04d.png \
+            -c:v libx264 -preset slow -crf 13 -pix_fmt yuv420p -profile:v high -x264-params "keyint=${{ inputs.fps }}" \
+            "tramo-${{ matrix.tramo.i }}.mp4"
+      - uses: actions/upload-artifact@v5
+        if: inputs.solo == ''
+        with: { name: "tramo-${{ matrix.tramo.i }}", path: "tramo-${{ matrix.tramo.i }}.mp4", retention-days: 2, compression-level: 0 }
+      - uses: actions/upload-artifact@v5
+        if: inputs.solo != ''
+        with: { name: "prueba", path: "post/*.png", retention-days: 3, compression-level: 0 }
+
+  unir:
+    needs: tramo
+    if: inputs.solo == ''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with: { sparse-checkout: "${{ inputs.carpeta }}" }
+      - uses: actions/download-artifact@v5
+        with: { path: piezas, pattern: "tramo-*", merge-multiple: true }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Unir tramos y mezclar el audio aprobado
+        run: |
+          cd piezas
+          ls tramo-*.mp4 | sort | sed "s/.*/file '&'/" > lista.txt
+          ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i lista.txt -c copy mudo.mp4
+          ffmpeg -hide_banner -loglevel error -i mudo.mp4 -i "$GITHUB_WORKSPACE/${{ inputs.carpeta }}/sonido.wav" -map 0:v -map 1:a \
+            -c:v copy -c:a aac -b:a 320k -movflags +faststart "../${{ inputs.salida }}"
+          ffprobe -v error -show_entries format=duration:stream=codec_name,width,height,r_frame_rate,nb_frames -of compact "../${{ inputs.salida }}"
+      - uses: actions/upload-artifact@v5
+        with: { name: final, path: "${{ inputs.salida }}", retention-days: 7, compression-level: 0 }
