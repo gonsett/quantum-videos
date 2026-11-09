@@ -12,6 +12,7 @@ on:
       muestras: { description: "muestras de Cycles", default: "32" }
       pct: { description: "porcentaje de resolución", default: "100" }
       detalle: { description: "detalle de la malla de miel", default: "0.8" }
+      desde: { description: "primer cuadro (60 fps) a renderizar", default: "0" }
       solo: { description: "lista de cuadros (60 fps) para prueba; vacío = video completo", default: "" }
       salida: { description: "nombre del mp4", default: "video.mp4" }
 
@@ -30,7 +31,7 @@ jobs:
               print("tramos=" + json.dumps([{"i": "00", "c": solo}]))
           else:
               paso = 60 // int("${{ inputs.fps }}")
-              cuadros = list(range(0, int("${{ inputs.total }}"), paso))
+              cuadros = list(range(int("${{ inputs.desde }}"), int("${{ inputs.total }}"), paso))
               n = min(int("${{ inputs.partes }}"), len(cuadros))
               t = []
               for i in range(n):
