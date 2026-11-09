@@ -1,0 +1,197 @@
+<template>
+  <style>
+    @font-face { font-family: "Jost"; src: url(assets/fonts/jost.woff2) format("woff2"); font-weight: 100 900; }
+    #root { position: absolute; inset: 0; overflow: hidden; color: #f3e9da; font-family: "Jost", sans-serif; background: #070403; }
+    .capa { position: absolute; inset: 0; }
+
+    /* Sala café casi negra con el pozo de luz lacre donde está el sillón */
+    #sala { background:
+      radial-gradient(70% 34% at 50% 74%, #3a1a0c 0, #22120a 38%, transparent 72%),
+      radial-gradient(120% 70% at 50% 60%, #17100c 0, #0c0806 62%, #050302 100%); }
+
+    /* El haz del foco: nace arriba, fuera de cuadro, y cae sobre el sillón */
+    #haz { position: absolute; left: 90px; top: -140px; width: 900px; height: 2040px; opacity: 0; mix-blend-mode: screen;
+      background: linear-gradient(180deg, #ffd3a822 0, #ffbf8a30 40%, #de5a2218 78%, transparent 100%);
+      clip-path: polygon(41% 0, 59% 0, 100% 100%, 0 100%);
+      -webkit-mask: radial-gradient(60% 52% at 50% 70%, #000 30%, transparent 100%); mask: radial-gradient(60% 52% at 50% 70%, #000 30%, transparent 100%);
+      filter: blur(14px); }
+    #charco { position: absolute; left: 140px; top: 1660px; width: 800px; height: 210px; border-radius: 50%; opacity: 0;
+      background: radial-gradient(closest-side, #ffb47a55 0, #de5a2230 48%, transparent 100%); }
+    #sombra { position: absolute; left: 250px; top: 1724px; width: 560px; height: 92px; border-radius: 50%; opacity: 0;
+      background: radial-gradient(closest-side, #000000e0 0, #00000080 52%, transparent 100%); filter: blur(6px); }
+
+    /* El sillón: 1424×1788 nativos, se muestra a 820 de ancho */
+    #sillon { position: absolute; left: 130px; top: 772px; width: 820px; height: 1030px; transform-origin: 50% 64%; will-change: transform; }
+    #sillon > * { position: absolute; inset: 0; width: 100%; height: 100%; }
+    .msk { -webkit-mask: url(assets/objetos/sillon.webp) 0 0 / 100% 100% no-repeat; mask: url(assets/objetos/sillon.webp) 0 0 / 100% 100% no-repeat; }
+    #s-osc { background: #050302; }
+    #s-calor { background: radial-gradient(60% 40% at 50% 30%, #ff9a5844 0, #de5a2222 50%, transparent 100%); }
+    #s-brillo {
+      -webkit-mask: url(assets/objetos/sillon-mascara.webp) 0 0 / 100% 100% no-repeat; mask: url(assets/objetos/sillon-mascara.webp) 0 0 / 100% 100% no-repeat;
+      background: linear-gradient(104deg, transparent 42%, #fff1dcd0 50%, transparent 58%) no-repeat; background-size: 320% 320%; background-position: 130% 0%; }
+    #s-luz { opacity: 0; }
+
+    canvas { position: absolute; left: 0; top: 0; }
+    #atras { z-index: 1; }
+    #frente { z-index: 6; }
+
+    /* Tipografía: la misma voz de los reels 01 y 02 */
+    .t { position: absolute; font-weight: 300; letter-spacing: -.04em; line-height: 1; white-space: nowrap; padding: .08em .08em .24em 0; margin-top: -.08em;
+      background: linear-gradient(176deg, #fffaf1 10%, #f3e9da 56%, #c2ad93 96%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .ac { background: linear-gradient(176deg, #ff9a63 8%, #de5a22 58%, #a83c14 98%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .linea { position: absolute; left: 96px; width: 960px; overflow: hidden; z-index: 7; }
+    #regla { position: absolute; left: 70px; right: 70px; top: 196px; height: 1px; z-index: 7; background: linear-gradient(90deg, #f3e9da88, #f3e9da22); transform-origin: 0 0; }
+    .micro { position: absolute; top: 212px; z-index: 7; font-size: 27px; letter-spacing: .16em; color: #f3e9dab8; font-weight: 400; white-space: nowrap; }
+    #m1 { left: 72px; }
+    #m2 { right: 72px; letter-spacing: .06em; }
+
+    .destello { position: absolute; left: -540px; width: 2160px; height: 8px; border-radius: 50%; z-index: 5; opacity: 0;
+      background: linear-gradient(90deg, transparent, #ff8a4a66 22%, #fff3e2 50%, #ff8a4a66 78%, transparent); box-shadow: 0 0 40px 10px #ff8a4a44; }
+    #vin { z-index: 10; background: radial-gradient(120% 74% at 50% 52%, transparent 48%, #030201b8 100%); pointer-events: none; }
+    #grano { z-index: 11; background: url(assets/objetos/grano.png); opacity: .075; mix-blend-mode: overlay; pointer-events: none; }
+  </style>
+
+  <div id="root" data-composition-id="arranque" data-width="1080" data-height="1920" data-layout-allow-overlap data-layout-allow-overflow>
+    <div class="capa" id="sala"></div>
+    <div id="haz"></div>
+    <canvas id="atras" width="1080" height="1920"></canvas>
+    <div id="charco"></div>
+    <div id="sombra"></div>
+
+    <div id="sillon">
+      <img src="assets/objetos/sillon.webp" />
+      <div class="msk" id="s-calor"></div>
+      <div id="s-brillo"></div>
+      <img id="s-luz" src="assets/objetos/sillon-luz.webp" />
+      <div class="msk" id="s-osc"></div>
+    </div>
+
+    <canvas id="frente" width="1080" height="1920"></canvas>
+    <div class="destello" id="fl"></div>
+
+    <div id="regla"></div>
+    <div class="micro" id="m1">ANTES DE ABRIR RESERVAS</div>
+    <div class="micro" id="m2">Tupé</div>
+    <div class="linea" id="l1" style="top:318px;height:170px"><div class="t" id="t1" style="left:0;top:14px;font-size:136px">Antes de abrir</div></div>
+    <div class="linea" id="l2" style="top:458px;height:170px"><div class="t" id="t2" style="left:0;top:14px;font-size:136px">reservas,</div></div>
+    <div class="linea" id="l3" style="top:598px;height:170px"><div class="t ac" id="t3" style="left:0;top:14px;font-size:136px">hacé esto.</div></div>
+
+    <div class="capa" id="vin"></div>
+    <div class="capa" id="grano"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <script>
+    window.__timelines = window.__timelines || {};
+    const DUR = 3;
+    const R = document.querySelector('[data-composition-id="arranque"]');
+    const $ = (s) => R.querySelector(s);
+
+    // Estado de cámara y luz; todo se dibuja desde aquí, sin azar en tiempo real
+    const C = { s: 1.9, x: 0, y: -60, luz: 0, haz: 0 };
+    const FL = { o: 0, sx: .4 };
+    const reloj = { t: 0 };
+
+    // Azar sembrado (mismo resultado en cada cuadro y en cada render)
+    let semilla = 20261109;
+    const az = () => { semilla = (semilla + 0x6D2B79F5) | 0; let z = Math.imul(semilla ^ (semilla >>> 15), 1 | semilla); z = (z + Math.imul(z ^ (z >>> 7), 61 | z)) ^ z; return ((z ^ (z >>> 14)) >>> 0) / 4294967296; };
+
+    // Polvo en el haz y pocas fibras de pelo cortas que cruzan la luz: alguien acaba de atender
+    const polvo = Array.from({ length: 90 }, () => ({ x: 300 + az() * 480, y: az() * 1920, v: 10 + az() * 30, r: az() < .14 ? 8 + az() * 18 : .7 + az() * 1.7, a: az(), f: az() * 6.28 }));
+    const fibras = Array.from({ length: 16 }, (_, i) => ({
+      t: .95 + i * .07 + az() * .05, capa: az() < .55 ? 0 : (az() < .8 ? 1 : 2),
+      x0: 380 + az() * 320, y0: 640 + az() * 160, vx: (az() - .5) * 90, g: 520 + az() * 260,
+      largo: 22 + az() * 30, ang: az() * 6.28, w: (az() - .5) * 2.4, curva: (az() - .5) * .3,
+      ancho: .9 + az() * 1.0, tono: az(), fase: az() * 6.28,
+    }));
+    fibras.forEach((f) => { if (f.capa === 2) { f.largo *= 2; f.ancho = 3.4 + az() * 2.4; } });
+
+    const atras = $("#atras").getContext("2d"), frente = $("#frente").getContext("2d");
+    const luzBlanda = document.createElement("canvas"); luzBlanda.width = luzBlanda.height = 128;
+    { const g = luzBlanda.getContext("2d"), r = g.createRadialGradient(64, 64, 0, 64, 64, 64);
+      r.addColorStop(0, "rgba(255,207,166,1)"); r.addColorStop(.35, "rgba(255,207,166,.45)"); r.addColorStop(1, "rgba(255,207,166,0)");
+      g.fillStyle = r; g.fillRect(0, 0, 128, 128); }
+    // cuánto ilumina el haz un punto (cono desde arriba al centro)
+    const enHaz = (x, y) => { const ancho = 80 + y * .22; return Math.max(0, 1 - Math.abs(x - 540) / ancho) * C.haz; };
+
+    const SEG = 7;
+    function fibra(ctx, f, t) {
+      const e = t - f.t; if (e < 0) return;
+      const x = f.x0 + f.vx * e + Math.sin(f.fase + e * 2.6) * 22;
+      const y = f.y0 + 140 * e + .5 * f.g * e * e;
+      if (y > 1760) return;
+      const a = f.ang + f.w * e, c = Math.cos(a), s = Math.sin(a);
+      const L = f.largo / 2, kx = -s * f.curva * f.largo, ky = c * f.curva * f.largo;
+      const punto = (u) => [x - c * L + c * 2 * L * u + kx * 4 * u * (1 - u), y - s * L + s * 2 * L * u + ky * 4 * u * (1 - u)];
+      ctx.globalAlpha = Math.min(1, .25 + enHaz(x, y) * 1.2) * (f.capa === 2 ? .45 : 1);
+      if (f.capa === 2) {
+        ctx.lineWidth = f.ancho; ctx.beginPath();
+        for (let i = 0; i <= SEG; i++) { const [px, py] = punto(i / SEG); if (i) ctx.lineTo(px, py); else ctx.moveTo(px, py); }
+        ctx.stroke(); return;
+      }
+      let [px, py] = punto(0);
+      for (let i = 1; i <= SEG; i++) {
+        const [qx, qy] = punto(i / SEG);
+        ctx.lineWidth = f.ancho * Math.pow(Math.sin(Math.PI * (i - .5) / SEG), .7);
+        ctx.beginPath(); ctx.moveTo(px, py); ctx.lineTo(qx, qy); ctx.stroke();
+        px = qx; py = qy;
+      }
+    }
+
+    const grano = $("#grano"), sillon = $("#sillon"), fl = $("#fl");
+    function dibujar() {
+      const t = reloj.t, cu = Math.floor(t * 24);
+      grano.style.backgroundPosition = ((cu * 197) % 512) + "px " + ((cu * 311) % 512) + "px";
+      sillon.style.transform = `translate(${C.x}px, ${C.y}px) scale(${C.s})`;
+      const l = Math.max(0, Math.min(1, C.luz));
+      $("#s-osc").style.opacity = (1 - l) * .93;
+      $("#s-luz").style.opacity = l * .9;
+      $("#s-calor").style.opacity = l;
+      $("#haz").style.opacity = C.haz;
+      $("#charco").style.opacity = l;
+      $("#sombra").style.opacity = l * Math.max(0, Math.min(1, (1.9 - C.s) / .8));
+      $("#sala").style.opacity = .35 + l * .65;
+      fl.style.top = "930px"; fl.style.opacity = FL.o; fl.style.transform = `scaleX(${FL.sx})`;
+
+      atras.clearRect(0, 0, 1080, 1920); frente.clearRect(0, 0, 1080, 1920);
+      atras.fillStyle = "#ffcfa6";
+      for (const q of polvo) {
+        const y = ((q.y - q.v * t) % 1920 + 1920) % 1920, x = q.x + Math.sin(q.f + t * .7) * 14;
+        const i = enHaz(x, y); if (i < .03) continue;
+        if (q.r > 5) { atras.globalAlpha = i * (.06 + q.a * .08); const d = q.r * 3.4; atras.drawImage(luzBlanda, x - d / 2, y - d / 2, d, d); continue; }
+        atras.globalAlpha = i * (.3 + q.a * .55); atras.beginPath(); atras.arc(x, y, q.r, 0, 6.2832); atras.fill();
+      }
+      atras.lineCap = frente.lineCap = "round";
+      for (const f of fibras) {
+        const ctx = f.capa === 0 ? atras : frente;
+        ctx.strokeStyle = f.capa === 0 ? (f.tono < .6 ? "#8a6245" : "#b18a66") : (f.tono < .55 ? "#d8b18c" : f.tono < .86 ? "#a87a56" : "#f0d4b4");
+        ctx.filter = f.capa === 2 ? "blur(5px)" : "none";
+        fibra(ctx, f, t);
+      }
+      atras.filter = frente.filter = "none"; atras.globalAlpha = frente.globalAlpha = 1;
+    }
+
+    const tl = gsap.timeline({ paused: true, onUpdate: dibujar });
+    tl.to(reloj, { t: DUR, duration: DUR, ease: "none" }, 0);
+
+    // 1. Oscuro. El foco se enciende a los tirones sobre el bronce, en macro.
+    tl.set(C, { luz: .55, haz: .5 }, .05).set(C, { luz: .1, haz: .1 }, .1).set(C, { luz: .8, haz: .8 }, .15)
+      .set(C, { luz: .35, haz: .3 }, .2).to(C, { luz: 1, haz: 1, duration: .08 }, .24);
+    tl.fromTo("#s-brillo", { backgroundPosition: "130% 0%" }, { backgroundPosition: "-30% 0%", duration: .7, ease: "power1.inOut" }, .2);
+
+    // 2. La cámara se aleja y el sillón queda solo, entero, bajo su luz.
+    tl.to(C, { s: 1, x: 0, y: 0, duration: 1.05, ease: "expo.inOut" }, .3);
+    tl.to(C, { s: 1.035, y: -8, duration: DUR - 1.35, ease: "none" }, 1.35);
+
+    // 3. El gancho entra línea por línea mientras cae el pelo en el haz.
+    tl.from("#regla", { scaleX: 0, duration: .7, ease: "expo.out" }, .5);
+    tl.from(["#m1", "#m2"], { opacity: 0, duration: .35 }, .65);
+    tl.fromTo("#t1", { yPercent: 118 }, { yPercent: 0, duration: .5, ease: "expo.out" }, .78);
+    tl.fromTo("#t2", { yPercent: 118 }, { yPercent: 0, duration: .5, ease: "expo.out" }, 1.08);
+    tl.fromTo("#t3", { yPercent: 118 }, { yPercent: 0, duration: .55, ease: "expo.out" }, 1.5);
+    tl.fromTo("#s-brillo", { backgroundPosition: "130% 0%" }, { backgroundPosition: "-30% 0%", immediateRender: false, duration: .8, ease: "power1.inOut" }, 1.75);
+
+    window.__timelines["arranque"] = tl;
+    dibujar();
+  </script>
+</template>

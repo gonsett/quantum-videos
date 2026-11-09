@@ -1,0 +1,9 @@
+Create an image. Vertical 2:3 photograph, ultra realistic, cinematic film still, high-end editorial.
+
+Scene: a quiet, luxurious, dimly lit barbershop at night. A single warm overhead pool of light falls on one vintage barber chair (dark oxblood leather, brushed brass details). A client sits in the chair wrapped in a dark charcoal cutting cape, seen three-quarters from behind: we see the back and side of his head, short dark hair being cut, his face NOT visible. Standing beside him, a barber in a dark coffee-brown leather apron over a cream linen shirt with rolled sleeves, seen in profile from the waist up, face turned down and mostly lost in shadow, his hands in sharp focus holding polished steel scissors and a black comb at the client's temple, mid-cut. A few tiny fine hairs falling, catching the light.
+
+Light and color: deep coffee-black background (#17100c) that falls off to almost pure black at the edges, warm amber key light from above, subtle cream highlights on skin and fabric, a faint burnt-orange glow (#de5a22) rim light on the steel of the scissors. Light haze in the air. Very sober, elegant, expensive, quiet. Rich textures: leather grain, linen weave, brass patina, individual hairs.
+
+Camera: shot on 50mm full-frame, f/2, shallow depth of field, slight film grain, cinematic contrast like a Netflix drama still. Subjects occupy the lower 60% of the frame; the top 40% is dark, empty, out-of-focus space for a title.
+
+No text, no logos, no mirrors showing faces, no other people, no bright colors, no illustration style, no 3D render look.
