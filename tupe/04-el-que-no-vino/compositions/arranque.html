@@ -1,0 +1,239 @@
+<template>
+  <style>
+    @font-face { font-family: "Jost"; src: url(assets/fonts/jost.woff2) format("woff2"); font-weight: 100 900; }
+    #root { position: absolute; inset: 0; overflow: hidden; color: #f3e9da; font-family: "Jost", sans-serif; background: #0f0a07; }
+    .capa { position: absolute; inset: 0; }
+    #fondo { background:
+      radial-gradient(70% 40% at 58% 54%, #3a2316 0, #21140d 42%, transparent 78%),
+      radial-gradient(90% 40% at 12% 12%, #2a1a11 0, transparent 70%),
+      #0f0a07; }
+    .regla { position: absolute; left: 70px; right: 70px; top: 196px; height: 1px; background: linear-gradient(90deg, #f3e9da88, #f3e9da22); }
+    .micro { position: absolute; top: 212px; font-size: 27px; letter-spacing: .16em; color: #f3e9dab8; font-weight: 400; white-space: nowrap; }
+    #m1 { left: 72px; }
+    #m2 { right: 72px; letter-spacing: .06em; }
+
+    /* Excusas: cada una son dos copias recortadas por la línea del tajo */
+    .ex { position: absolute; inset: 0; z-index: 4; }
+    .mitad { position: absolute; inset: 0; }
+    .t { position: absolute; left: 70px; font-weight: 300; letter-spacing: -.04em; line-height: 1; white-space: nowrap; padding: .2em .06em .24em 0; margin-top: -.2em;
+      background: linear-gradient(176deg, #fffaf1 10%, #f3e9da 56%, #c2ad93 96%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .comilla { color: #de5a22; -webkit-text-fill-color: #de5a22; }
+    #e1 .t { font-size: 196px; }
+    #e1 .l1 { top: 770px; }
+    #e1 .l2 { top: 976px; }
+    #e2 .t { font-size: 236px; top: 830px; }
+
+    /* La pregunta */
+    #preg { position: absolute; inset: 0; z-index: 4; }
+    #pq0 { position: absolute; left: 76px; top: 610px; font-size: 92px; font-weight: 300; letter-spacing: -.02em; line-height: 1; color: #f3e9da; white-space: nowrap; }
+    .pg { position: absolute; left: 66px; font-size: 214px; font-weight: 300; letter-spacing: -.045em; line-height: 1; white-space: nowrap; padding: .2em .06em .24em 0; margin-top: -.2em;
+      background: linear-gradient(176deg, #fffaf1 10%, #f3e9da 56%, #c2ad93 96%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    #pq1 { top: 728px; }
+    #pq2 { top: 948px; background-image: linear-gradient(176deg, #ff9a63 8%, #de5a22 58%, #a83c14 98%); }
+
+    /* La navaja: hoja detrás del mango, las dos giran en el perno */
+    #nav { position: absolute; z-index: 6; left: 0; top: 0; width: 1300px; height: 867px; }
+    #nav .pieza { position: absolute; left: 0; top: 0; width: 1300px; height: 867px; }
+    #nav img { position: absolute; left: 0; top: 0; width: 1300px; height: 867px; display: block; }
+    .luz { opacity: .3; }
+    .brillo { position: absolute; left: 0; top: 0; width: 1300px; height: 867px;
+      background: linear-gradient(112deg, transparent 44%, #fff4e4c0 50%, transparent 56%) no-repeat; background-size: 320% 320%; background-position: 130% 0%; }
+    #bH { -webkit-mask: url(assets/objetos/hoja.webp) 0 0 / 100% 100% no-repeat; mask: url(assets/objetos/hoja.webp) 0 0 / 100% 100% no-repeat; }
+    #bM { -webkit-mask: url(assets/objetos/mango.webp) 0 0 / 100% 100% no-repeat; mask: url(assets/objetos/mango.webp) 0 0 / 100% 100% no-repeat; }
+
+    .tajo { z-index: 8; position: absolute; left: 0; height: 6px; margin-top: -3px; background: #fff6e8; box-shadow: 0 0 34px 8px #ffd9b8aa; transform-origin: 100% 50%; }
+    #chispa { z-index: 9; position: absolute; width: 600px; height: 600px; margin: -300px 0 0 -300px; background:
+      radial-gradient(closest-side, #fff8ecf0 0, #ffe2c066 7%, transparent 26%),
+      linear-gradient(90deg, transparent 8%, #fff6e8cc 50%, transparent 92%) 0 50% / 100% 3px no-repeat,
+      linear-gradient(0deg, transparent 22%, #fff6e8aa 50%, transparent 78%) 50% 0 / 3px 100% no-repeat; }
+    #destello { z-index: 9; background: radial-gradient(60% 34% at 53% 52%, #ffd9b833 0, transparent 70%); pointer-events: none; }
+    #chispas { z-index: 9; position: absolute; left: 0; top: 0; }
+    #vin { z-index: 10; background: radial-gradient(120% 74% at 50% 46%, transparent 52%, #0603028f 100%); pointer-events: none; }
+    #grano { z-index: 11; background: url(assets/objetos/grano.png); opacity: .075; mix-blend-mode: overlay; pointer-events: none; }
+  </style>
+
+  <div id="root" data-composition-id="arranque" data-width="1080" data-height="1920" data-layout-allow-overlap data-layout-allow-overflow>
+    <div class="capa" id="fondo"></div>
+    <div id="cab">
+      <div class="regla"></div>
+      <p class="micro" id="m1">LO QUE TE DICEN</p>
+      <p class="micro" id="m2">Tupé · Faltas</p>
+    </div>
+
+    <div class="ex" id="e1">
+      <div class="mitad a"><p class="t l1"><span class="comilla">«</span>Me quedé</p><p class="t l2">dormido.<span class="comilla">»</span></p></div>
+      <div class="mitad b"><p class="t l1"><span class="comilla">«</span>Me quedé</p><p class="t l2">dormido.<span class="comilla">»</span></p></div>
+    </div>
+    <div class="ex" id="e2">
+      <div class="mitad a"><p class="t"><span class="comilla">«</span>Ya llego.<span class="comilla">»</span></p></div>
+      <div class="mitad b"><p class="t"><span class="comilla">«</span>Ya llego.<span class="comilla">»</span></p></div>
+    </div>
+
+    <div id="preg">
+      <p id="pq0">¿Cuánto te costó</p>
+      <p class="pg" id="pq1">el que</p>
+      <p class="pg" id="pq2">no vino?</p>
+    </div>
+
+    <div id="nav">
+      <div class="pieza" id="hoja">
+        <img src="assets/objetos/hoja.webp" alt="" />
+        <img class="luz" src="assets/objetos/hoja-luz.webp" alt="" />
+        <div class="brillo" id="bH"></div>
+      </div>
+      <div class="pieza" id="mango">
+        <img src="assets/objetos/mango.webp" alt="" />
+        <img class="luz" src="assets/objetos/mango-luz.webp" alt="" />
+        <div class="brillo" id="bM"></div>
+      </div>
+    </div>
+
+    <div class="tajo" id="tj1"></div>
+    <div class="tajo" id="tj2"></div>
+    <canvas id="chispas" width="1080" height="1920"></canvas>
+    <div id="chispa"></div>
+    <div class="capa" id="destello"></div>
+    <div class="capa" id="vin"></div>
+    <div class="capa" id="grano"></div>
+  </div>
+
+  <script>
+    // Tiempos compartidos con sonido/mezcla.py.
+    const T_ABRE = .62, T_SALE = 1.08, T_EX1 = 1.35, T_CORTE1 = 2.05, T_EX2 = 2.62, T_CORTE2 = 3.18;
+    const T_PREG = 3.64, T_CIERRA = 4.42, DUR = 4.9;
+    const PV = [1213 * 1300 / 1536, 428 * 867 / 1024]; // el perno, en px del elemento
+    const ORIGEN = PV[0] + "px " + PV[1] + "px";
+    const CERRADA = -9, ABIERTA = 180;
+    const pose = (px, py, r, s) => ({ x: px - PV[0], y: py - PV[1], rotation: r, scale: s });
+    const rad = Math.PI / 180;
+
+    // Líneas de corte: de (0, y0) a (1080, y1).
+    const L1 = [1062, 858], L2 = [902, 1002];
+    const ang = (L) => Math.atan2(L[1] - L[0], 1080) / rad;
+    const yEn = (L, x) => L[0] + (L[1] - L[0]) * x / 1080;
+
+    gsap.set(["#nav", "#hoja", "#mango"], { transformOrigin: ORIGEN });
+    gsap.set("#hoja", { rotation: CERRADA });
+    gsap.set("#nav", { ...pose(840, 1000, -14, .74), opacity: 0 });
+    gsap.set("#cab", { opacity: 0 });
+    gsap.set(["#e1", "#e2", "#preg", "#chispa", ".tajo"], { opacity: 0 });
+    gsap.set("#destello", { opacity: 0 });
+
+    // Recorte de cada mitad y la línea del tajo, según la línea.
+    [["#e1", L1, "#tj1"], ["#e2", L2, "#tj2"]].forEach(([e, L, tj]) => {
+      gsap.set(e + " .a", { clipPath: `polygon(0px 0px, 1080px 0px, 1080px ${L[1]}px, 0px ${L[0]}px)` });
+      gsap.set(e + " .b", { clipPath: `polygon(0px ${L[0]}px, 1080px ${L[1]}px, 1080px 1920px, 0px 1920px)` });
+      const largo = Math.hypot(1080, L[1] - L[0]) + 40;
+      gsap.set(tj, { width: largo, left: -20, top: L[0], rotation: ang(L), transformOrigin: "20px 50%", scaleX: 0 });
+    });
+
+    const tl = gsap.timeline({ paused: true });
+
+    // Aparece cerrada, en la oscuridad; la luz le recorre el mango.
+    tl.to("#nav", { opacity: 1, duration: .4, ease: "power1.out" }, 0);
+    tl.to("#nav", { scale: .78, duration: T_ABRE, ease: "sine.inOut" }, 0);
+    tl.to("#cab", { opacity: 1, duration: .4, ease: "power1.out" }, .12);
+    tl.fromTo("#bM", { backgroundPosition: "130% 0%" }, { backgroundPosition: "-20% 100%", duration: .55, ease: "power1.inOut" }, .08);
+
+    // Se abre de un golpe: la hoja da media vuelta en el perno, pasa de largo y vuelve.
+    tl.to("#hoja", { rotation: ABIERTA + 9, duration: .17, ease: "power3.out" }, T_ABRE);
+    tl.to("#hoja", { rotation: ABIERTA, duration: .3, ease: "back.out(2)" }, T_ABRE + .17);
+    tl.to("#nav", { ...pose(560, 1000, -6, .52), duration: .5, ease: "expo.out" }, T_ABRE);
+    tl.fromTo("#bH", { backgroundPosition: "130% 0%" }, { backgroundPosition: "-20% 100%", duration: .4, ease: "power1.out" }, T_ABRE + .14);
+    tl.fromTo(".luz", { opacity: 1 }, { opacity: .3, duration: .3, ease: "power2.out" }, T_ABRE + .1);
+    tl.set("#chispa", { left: 575, top: 1000, opacity: 1, scale: 0 }, T_ABRE + .12);
+    tl.to("#chispa", { scale: 1, rotation: 20, duration: .12, ease: "power2.out" }, T_ABRE + .12);
+    tl.to("#chispa", { scale: 0, rotation: 34, duration: .3, ease: "power2.in" }, T_ABRE + .24);
+    tl.to("#destello", { opacity: 1, duration: .06, ease: "none" }, T_ABRE + .12);
+    tl.to("#destello", { opacity: 0, duration: .5, ease: "power2.out" }, T_ABRE + .18);
+    tl.to("#nav", { scale: .54, duration: T_SALE - T_ABRE - .5, ease: "none" }, T_ABRE + .5);
+
+    // Sale por la derecha, girando hasta quedar con la hoja adelante.
+    tl.to("#nav", { ...pose(1950, 760, 180 + ang(L1) - 20, .74), duration: .24, ease: "power3.in" }, T_SALE);
+
+    // Pasada de corte: el perno viaja por la línea, la hoja adelante, el filo sobre el tajo.
+    const S_CORTE = .74, PUNTA = (1213 - 150) * 1300 / 1536 * S_CORTE, BAJO = 64 * S_CORTE, VEL = 7600;
+    function pasada(t0, L, ex, tj) {
+      const a = ang(L), n = [-Math.sin(a * rad), Math.cos(a * rad)];
+      const punto = (x) => { const y = yEn(L, x); return [x + n[0] * BAJO, y + n[1] * BAJO]; };
+      const x0 = 1080 + PUNTA + 420, x1 = -1400;
+      const [ax, ay] = punto(x0), [bx, by] = punto(x1);
+      const dura = (x0 - x1) / VEL;
+      tl.set("#nav", { ...pose(ax, ay, 180 + a, S_CORTE) }, t0);
+      tl.to("#nav", { x: bx - PV[0], y: by - PV[1], duration: dura, ease: "none" }, t0);
+      const entra = t0 + (x0 - PUNTA - 1080) / VEL, cruza = 1080 / VEL; // la punta entra a la pantalla y la cruza
+      tl.set(tj, { opacity: 1, transformOrigin: "100% 50%" }, entra);
+      tl.to(tj, { scaleX: 1, duration: cruza, ease: "none" }, entra);
+      tl.to(tj, { opacity: 0, scaleY: .15, duration: .16, ease: "power2.out" }, entra + cruza + .02);
+      tl.fromTo("#bH", { backgroundPosition: "130% 0%" }, { backgroundPosition: "-20% 100%", duration: .3, ease: "none" }, t0);
+      // Las dos mitades se separan en perpendicular y caen.
+      const fin = entra + cruza;
+      tl.to(ex + " .a", { x: n[0] * -70 - 30, y: n[1] * -70, rotation: -1.6, duration: .5, ease: "power3.out" }, fin);
+      tl.to(ex + " .b", { x: n[0] * 70 + 30, y: n[1] * 70, rotation: 1.6, duration: .5, ease: "power3.out" }, fin);
+      tl.to(ex + " .a", { y: "-=40", opacity: 0, duration: .14, ease: "power2.in" }, fin + .1);
+      tl.to(ex + " .b", { y: "+=140", opacity: 0, duration: .14, ease: "power2.in" }, fin + .1);
+      return { entra, cruza, L };
+    }
+
+    // Primera excusa.
+    tl.set("#e1", { opacity: 1 }, T_EX1);
+    tl.fromTo("#e1 .l1", { y: 70, opacity: 0 }, { y: 0, opacity: 1, duration: .4, ease: "expo.out" }, T_EX1);
+    tl.fromTo("#e1 .l2", { y: 70, opacity: 0 }, { y: 0, opacity: 1, duration: .4, ease: "expo.out" }, T_EX1 + .08);
+    tl.to("#e1 .t", { scale: 1.02, transformOrigin: "0% 50%", duration: T_CORTE1 - T_EX1, ease: "none" }, T_EX1 + .1);
+    const c1 = pasada(T_CORTE1, L1, "#e1", "#tj1");
+
+    // Segunda excusa.
+    tl.set("#e2", { opacity: 1 }, T_EX2);
+    tl.fromTo("#e2 .t", { y: 70, opacity: 0 }, { y: 0, opacity: 1, duration: .4, ease: "expo.out" }, T_EX2);
+    tl.to("#e2 .t", { scale: 1.02, transformOrigin: "0% 50%", duration: T_CORTE2 - T_EX2, ease: "none" }, T_EX2 + .1);
+    const c2 = pasada(T_CORTE2, L2, "#e2", "#tj2");
+
+    // La pregunta; la navaja vuelve abierta debajo y se cierra de golpe.
+    tl.set("#preg", { opacity: 1 }, T_PREG);
+    tl.fromTo("#pq0", { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: .4, ease: "expo.out" }, T_PREG);
+    tl.fromTo("#pq1", { y: 70, opacity: 0 }, { y: 0, opacity: 1, duration: .42, ease: "expo.out" }, T_PREG + .1);
+    tl.fromTo("#pq2", { y: 70, opacity: 0 }, { y: 0, opacity: 1, duration: .42, ease: "expo.out" }, T_PREG + .2);
+    tl.set("#nav", pose(1800, 1500, 180, .5), T_PREG - .05);
+    tl.to("#nav", { ...pose(430, 1500, 180, .5), duration: .6, ease: "expo.out" }, T_PREG + .05);
+    tl.to("#hoja", { rotation: CERRADA, duration: .16, ease: "power3.in" }, T_CIERRA - .16);
+    tl.to("#nav", { rotation: 176, duration: .1, ease: "power2.out" }, T_CIERRA);
+    tl.to("#nav", { rotation: 180, duration: .3, ease: "sine.inOut" }, T_CIERRA + .1);
+    tl.fromTo("#bM", { backgroundPosition: "130% 0%" }, { backgroundPosition: "-20% 100%", duration: .4, ease: "power1.out" }, T_CIERRA);
+    tl.fromTo(".luz", { opacity: .8 }, { opacity: .3, duration: .3, ease: "power2.out" }, T_CIERRA);
+
+    // Chispas del filo: nacen donde pasa la punta y caen con gravedad.
+    let semilla = 20261111;
+    const az = () => { semilla = (semilla + 0x6D2B79F5) | 0; let z = Math.imul(semilla ^ (semilla >>> 15), 1 | semilla); z = (z + Math.imul(z ^ (z >>> 7), 61 | z)) ^ z; return ((z ^ (z >>> 14)) >>> 0) / 4294967296; };
+    const ch = [];
+    [c1, c2].forEach(({ entra, cruza, L }) => {
+      const a = ang(L) * rad;
+      for (let i = 0; i < 70; i++) {
+        const u = az(), x = 1080 * (1 - u), sp = 300 + az() * 900, d = a + Math.PI + (az() - .5) * 1.1 + (az() < .5 ? -.5 : .5);
+        ch.push({ t: entra + cruza * u, x, y: yEn(L, x), vx: Math.cos(d) * sp, vy: Math.sin(d) * sp - 120, vida: .25 + az() * .45, w: .8 + az() * 1.6 });
+      }
+    });
+    const ctx = document.getElementById("chispas").getContext("2d");
+    const grano = document.getElementById("grano");
+    const reloj = { t: 0 };
+    function dibujar() {
+      const t = reloj.t, c = Math.floor(t * 24);
+      grano.style.backgroundPosition = ((c * 197) % 512) + "px " + ((c * 311) % 512) + "px";
+      ctx.clearRect(0, 0, 1080, 1920);
+      ctx.lineCap = "round";
+      for (const p of ch) {
+        const e = t - p.t; if (e < 0 || e > p.vida) continue;
+        const k = 1 - e / p.vida;
+        const x = p.x + p.vx * e, y = p.y + p.vy * e + 900 * e * e;
+        const tx = p.vx * .022, ty = (p.vy + 1800 * e) * .022;
+        ctx.globalAlpha = k;
+        ctx.strokeStyle = k > .55 ? "#fff3e2" : "#ffb57d";
+        ctx.lineWidth = p.w * (.5 + k * .8);
+        ctx.beginPath(); ctx.moveTo(x - tx, y - ty); ctx.lineTo(x, y); ctx.stroke();
+      }
+      ctx.globalAlpha = 1;
+    }
+    tl.to(reloj, { t: DUR, duration: DUR, ease: "none", onUpdate: dibujar }, 0);
+    dibujar();
+    window.__timelines["arranque"] = tl;
+  </script>
+</template>

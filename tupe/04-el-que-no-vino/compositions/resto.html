@@ -1,0 +1,336 @@
+<template>
+  <style>
+    @font-face { font-family: "Jost"; src: url(assets/fonts/jost.woff2) format("woff2"); font-weight: 100 900; }
+    #root { position: absolute; inset: 0; overflow: hidden; color: #f3e9da; font-family: "Jost", sans-serif; background: #0f0a07; }
+    .capa { position: absolute; inset: 0; }
+    #fondo { background:
+      radial-gradient(70% 40% at 58% 54%, #3a2316 0, #21140d 42%, transparent 78%),
+      radial-gradient(90% 40% at 12% 12%, #2a1a11 0, transparent 70%),
+      #0f0a07; }
+    .regla { position: absolute; left: 70px; right: 70px; top: 196px; height: 1px; z-index: 7; background: linear-gradient(90deg, #f3e9da88, #f3e9da22); }
+    .micro { position: absolute; top: 212px; z-index: 7; font-size: 27px; letter-spacing: .16em; color: #f3e9dab8; font-weight: 400; white-space: nowrap; }
+    .m1 { left: 72px; }
+    #m2 { right: 72px; letter-spacing: .06em; }
+    #muestra { position: absolute; left: 0; right: 0; top: 1806px; z-index: 7; text-align: center; font-size: 23px; letter-spacing: .2em; color: #f3e9da80; font-weight: 400; opacity: 0; }
+
+    /* Cada escena son dos copias recortadas por la línea del tajo */
+    .esc { position: absolute; inset: 0; z-index: 4; opacity: 0; }
+    .mitad { position: absolute; inset: 0; }
+    .t { position: absolute; font-weight: 300; letter-spacing: -.04em; line-height: 1; white-space: nowrap; padding: .08em .08em .24em 0; margin-top: -.08em;
+      background: linear-gradient(176deg, #fffaf1 10%, #f3e9da 56%, #c2ad93 96%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .ac { background: linear-gradient(176deg, #ff9a63 8%, #de5a22 58%, #a83c14 98%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .linea { position: absolute; left: 76px; width: 980px; overflow: hidden; }
+
+    /* La pregunta del arranque, igual que como quedó */
+    #pq0 { position: absolute; left: 76px; top: 610px; font-size: 92px; font-weight: 300; letter-spacing: -.02em; line-height: 1; color: #f3e9da; white-space: nowrap; }
+    .pg { position: absolute; left: 66px; font-size: 214px; font-weight: 300; letter-spacing: -.045em; line-height: 1; white-space: nowrap; padding: .2em .06em .24em 0; margin-top: -.2em;
+      background: linear-gradient(176deg, #fffaf1 10%, #f3e9da 56%, #c2ad93 96%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .pq1 { top: 728px; }
+    .pq2 { top: 948px; background-image: linear-gradient(176deg, #ff9a63 8%, #de5a22 58%, #a83c14 98%); }
+
+    /* Pantalla real, de frente, como un objeto con luz propia */
+    .card { position: absolute; overflow: hidden; box-shadow: 0 70px 140px -20px #000000f0, 0 30px 60px -30px #000, 0 0 0 1.5px #f3e9da30; background: #f3e9da; will-change: transform, opacity, filter; }
+    .lienzo { position: absolute; left: 0; top: 0; transform-origin: 50% 50%; }
+    .lienzo img { position: absolute; display: block; }
+    .reflejo { position: absolute; inset: 0; pointer-events: none; z-index: 3;
+      background: linear-gradient(112deg, transparent 38%, #fff8ec66 48%, #fff8ec10 54%, transparent 62%) no-repeat; background-size: 300% 300%; background-position: 140% 0; mix-blend-mode: soft-light; }
+    .tibio { position: absolute; inset: 0; z-index: 2; pointer-events: none; background: linear-gradient(180deg, #ffffff10 0, transparent 30%, #2a140820 100%); }
+    .anillo { position: absolute; border: 3px solid #de5a22; border-radius: 24px; opacity: 0; z-index: 2;
+      box-shadow: 0 0 0 7px #de5a221f, 0 0 34px 4px #de5a2255, inset 0 0 18px #de5a2230; }
+    .toque { position: absolute; width: 120px; height: 120px; margin: -60px 0 0 -60px; border-radius: 50%; opacity: 0; z-index: 2;
+      background: radial-gradient(closest-side, #fff6ea 0, #fff6eaa0 40%, #fff6ea00 100%); }
+
+    /* Cierre */
+    #fin { position: absolute; inset: 0; z-index: 4; }
+    #fin .ln { position: absolute; left: 66px; overflow: hidden; padding-bottom: 10px; }
+    #f0 { top: 560px; font-size: 92px; letter-spacing: -.02em; }
+    #f1 { top: 690px; font-size: 168px; }
+    #f2 { top: 880px; font-size: 250px; }
+    #fin .ln > p { font-weight: 300; line-height: 1; white-space: nowrap; letter-spacing: -.045em; padding: .14em .06em .2em 0; margin-top: -.14em;
+      background: linear-gradient(176deg, #fffaf1 10%, #f3e9da 56%, #c2ad93 96%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    #f0 > p { letter-spacing: -.02em; }
+    #f2 > p { background-image: linear-gradient(176deg, #ff9a63 8%, #de5a22 58%, #a83c14 98%); }
+    #logo { position: absolute; left: 300px; width: 480px; top: 700px; z-index: 7; opacity: 0; }
+    #url { position: absolute; left: 0; right: 0; top: 1040px; text-align: center; z-index: 7; font-size: 34px; letter-spacing: .14em; color: #f3e9dad0; font-weight: 400; opacity: 0; }
+
+    /* La navaja: hoja detrás del mango, las dos giran en el perno */
+    #nav { position: absolute; z-index: 6; left: 0; top: 0; width: 1300px; height: 867px; }
+    #nav .pieza { position: absolute; left: 0; top: 0; width: 1300px; height: 867px; }
+    #nav img { position: absolute; left: 0; top: 0; width: 1300px; height: 867px; display: block; }
+    .luz { opacity: .3; }
+    .brillo { position: absolute; left: 0; top: 0; width: 1300px; height: 867px;
+      background: linear-gradient(112deg, transparent 44%, #fff4e4c0 50%, transparent 56%) no-repeat; background-size: 320% 320%; background-position: 130% 0%; }
+    #bH { -webkit-mask: url(assets/objetos/hoja.webp) 0 0 / 100% 100% no-repeat; mask: url(assets/objetos/hoja.webp) 0 0 / 100% 100% no-repeat; }
+    #bM { -webkit-mask: url(assets/objetos/mango.webp) 0 0 / 100% 100% no-repeat; mask: url(assets/objetos/mango.webp) 0 0 / 100% 100% no-repeat; }
+
+    .tajo { z-index: 8; position: absolute; left: 0; height: 6px; margin-top: -3px; background: #fff6e8; box-shadow: 0 0 34px 8px #ffd9b8aa; opacity: 0; }
+    #chispa { z-index: 9; position: absolute; width: 600px; height: 600px; margin: -300px 0 0 -300px; opacity: 0; background:
+      radial-gradient(closest-side, #fff8ecf0 0, #ffe2c066 7%, transparent 26%),
+      linear-gradient(90deg, transparent 8%, #fff6e8cc 50%, transparent 92%) 0 50% / 100% 3px no-repeat,
+      linear-gradient(0deg, transparent 22%, #fff6e8aa 50%, transparent 78%) 50% 0 / 3px 100% no-repeat; }
+    #destello { z-index: 9; opacity: 0; background: radial-gradient(60% 34% at 50% 52%, #ffd9b833 0, transparent 70%); pointer-events: none; }
+    #chispas { z-index: 9; position: absolute; left: 0; top: 0; }
+    #vin { z-index: 10; background: radial-gradient(120% 74% at 50% 46%, transparent 52%, #0603028f 100%); pointer-events: none; }
+    #grano { z-index: 11; background: url(assets/objetos/grano.png); opacity: .075; mix-blend-mode: overlay; pointer-events: none; }
+  </style>
+
+  <div id="root" data-composition-id="resto" data-width="1080" data-height="1920" data-layout-allow-overlap data-layout-allow-overflow>
+    <div class="capa" id="fondo"></div>
+    <div class="regla"></div>
+    <p class="micro m1" id="mm0">LO QUE TE DICEN</p>
+    <p class="micro m1" id="mm1" style="opacity:0">EN LA AGENDA</p>
+    <p class="micro m1" id="mm2" style="opacity:0">EN MÉTRICAS</p>
+    <p class="micro m1" id="mm3" style="opacity:0">EL LINK DEL CLIENTE</p>
+    <p class="micro m1" id="mm4" style="opacity:0">LA RESERVA</p>
+    <p class="micro m1" id="mm5" style="opacity:0">PARA TERMINAR</p>
+    <p class="micro" id="m2">Tupé · Faltas</p>
+    <p id="muestra">DATOS DE MUESTRA</p>
+
+    <div id="escenas"></div>
+
+    <div id="fin">
+      <div class="ln" id="f0"><p>Que el que no viene,</p></div>
+      <div class="ln" id="f1"><p>por lo menos</p></div>
+      <div class="ln" id="f2"><p>avise.</p></div>
+    </div>
+    <img id="logo" src="assets/tupe-logo-horizontal-crema.svg" alt="Tupé" />
+    <div id="url">TUPE.QUANTUMCOFFEE.XYZ</div>
+
+    <div id="nav">
+      <div class="pieza" id="hoja">
+        <img src="assets/objetos/hoja.webp" alt="" />
+        <img class="luz" src="assets/objetos/hoja-luz.webp" alt="" />
+        <div class="brillo" id="bH"></div>
+      </div>
+      <div class="pieza" id="mango">
+        <img src="assets/objetos/mango.webp" alt="" />
+        <img class="luz" src="assets/objetos/mango-luz.webp" alt="" />
+        <div class="brillo" id="bM"></div>
+      </div>
+    </div>
+
+    <div id="tajos"></div>
+    <canvas id="chispas" width="1080" height="1920"></canvas>
+    <div id="chispa"></div>
+    <div class="capa" id="destello"></div>
+    <div class="capa" id="vin"></div>
+    <div class="capa" id="grano"></div>
+  </div>
+
+  <script>
+    window.__timelines = window.__timelines || {};
+    const R = document.querySelector('[data-composition-id="resto"]');
+    const $ = (s) => R.querySelector(s);
+
+    // Tiempos en segundos desde el inicio de esta composición (reel = esto + 4,9). Compartidos con sonido/mezcla.py.
+    // La voz arranca en el reel 3,7: tiempo acá = tiempo de la voz − 1,2.
+    const T = { abre: .1, c0: .55, c1: 4.45, c2: 7.85, c3: 13.25, c4: 16.0, novino: 3.72, tocaNV: 4.12,
+      plata: 4.95, quien: 5.9, cal: 9.9, cambia: 11.75, cancela: 12.5, libre: 14.95,
+      f0: 16.38, f1: 17.38, f2: 17.7, entraNav: 17.62, cierra: 18.3, logo: 18.62, DUR: 21.4 };
+    const DUR = T.DUR;
+
+    // ---------- escenas ----------
+    const P = "assets/pantallas/";
+    const ESC = [
+      { id: "s1", tit: ["Tupé te lo dice", "en plata."], card: { src: "hoja.png", w: 1062, rec: [0, 1281], ancho: 860, pad: 44, top: 690, radio: 46, fondo: "#f3e9da",
+        anillos: [[0, 1145, 518, 1280]], toque: [259, 1212], tapa: [900, 0, 1062, 120] } },
+      { id: "s2", tit: ["Lo suma,", "y te dice quién."], card: { src: "faltas.png", w: 1110, rec: [0, 840], ancho: 880, top: 790, radio: 44,
+        anillos: [[30, 150, 470, 272], [24, 458, 1086, 802]] } },
+      { id: "s3", tit: ["Tu cliente", "tiene su link."], card: { src: "ticket.png", w: 1086, rec: [0, 1722], ancho: 700, top: 630, radio: 44,
+        anillos: [[66, 1165, 1020, 1331], [66, 1360, 1020, 1496], [66, 1525, 1020, 1661]] } },
+      { id: "s4", tit: ["Y el horario", "vuelve a quedar libre."], size2: 84, card: { src: "cuando-ocupado.png", src2: "cuando-libre.png", w: 1110, rec: [0, 1160], ancho: 820, top: 700, radio: 56,
+        anillos: [[49, 732, 284, 867]] } },
+    ];
+
+    function tarjeta(c) {
+      const pad = c.pad || 0, k = (c.ancho - 2 * pad) / c.w, h = (c.rec[1] - c.rec[0]) * k + 2 * pad;
+      c.k = k; c.h = h; c.left = (1080 - c.ancho) / 2;
+      const X = (x) => pad + x * k, Y = (y) => pad + (y - c.rec[0]) * k;
+      let html = `<div class="card" style="left:${c.left}px;top:${c.top}px;width:${c.ancho}px;height:${h}px;border-radius:${c.radio}px;${c.fondo ? "background:" + c.fondo : ""}">`;
+      html += `<div class="lienzo" style="width:${c.ancho}px;height:${h}px">`;
+      html += `<img src="${P + c.src}" style="left:${pad}px;top:${pad - c.rec[0] * k}px;width:${c.w * k}px" />`;
+      if (c.src2) html += `<img class="dos" src="${P + c.src2}" style="left:${pad}px;top:${pad - c.rec[0] * k}px;width:${c.w * k}px;opacity:0" />`;
+      if (c.tapa) html += `<div style="position:absolute;left:${X(c.tapa[0])}px;top:${Y(c.tapa[1])}px;width:${(c.tapa[2] - c.tapa[0]) * k + pad}px;height:${(c.tapa[3] - c.tapa[1]) * k}px;background:${c.fondo}"></div>`;
+      (c.anillos || []).forEach((a, i) => {
+        html += `<div class="anillo a${i}" style="left:${X(a[0]) - 8}px;top:${Y(a[1]) - 8}px;width:${(a[2] - a[0]) * k + 16}px;height:${(a[3] - a[1]) * k + 16}px"></div>`;
+      });
+      if (c.toque) html += `<div class="toque" style="left:${X(c.toque[0])}px;top:${Y(c.toque[1])}px"></div>`;
+      return html + `</div><div class="tibio"></div><div class="reflejo"></div></div>`;
+    }
+    function titulos(e) {
+      return e.tit.map((txt, i) => {
+        const s = i > 0 && e.size2 ? e.size2 : 104;
+        return `<div class="linea" style="top:${300 + i * 121}px;height:${s * 1.25}px"><div class="t l${i}${i === 1 ? " ac" : ""}" style="left:0;top:${s * .1}px;font-size:${s}px">${txt}</div></div>`;
+      }).join("");
+    }
+    const pregunta = `<p id="pq0x" style="position:absolute;left:76px;top:610px;font-size:92px;font-weight:300;letter-spacing:-.02em;line-height:1;color:#f3e9da;white-space:nowrap">¿Cuánto te costó</p><p class="pg pq1">el que</p><p class="pg pq2">no vino?</p>`;
+    let html = `<div class="esc" id="s0" style="opacity:1"><div class="mitad a">${pregunta}</div><div class="mitad b">${pregunta}</div></div>`;
+    for (const e of ESC) {
+      const dentroH = titulos(e) + tarjeta(e.card);
+      html += `<div class="esc" id="${e.id}"><div class="mitad a">${dentroH}</div><div class="mitad b">${dentroH}</div></div>`;
+    }
+    $("#escenas").innerHTML = html;
+
+    // ---------- navaja ----------
+    const PV = [1213 * 1300 / 1536, 428 * 867 / 1024];
+    const ORIGEN = PV[0] + "px " + PV[1] + "px";
+    const CERRADA = -9, ABIERTA = 180;
+    const pose = (px, py, r, s) => ({ x: px - PV[0], y: py - PV[1], rotation: r, scale: s });
+    const rad = Math.PI / 180;
+    const ang = (L) => Math.atan2(L[1] - L[0], 1080) / rad;
+    const yEn = (L, x) => L[0] + (L[1] - L[0]) * x / 1080;
+
+    // Líneas de corte de cada escena: de (0, y0) a (1080, y1)
+    const LIN = { s0: [1040, 880], s1: [1290, 1100], s2: [1040, 1210], s3: [1330, 1150], s4: [1060, 1230] };
+
+    gsap.set(["#nav", "#hoja", "#mango"], { transformOrigin: ORIGEN });
+    gsap.set("#hoja", { rotation: CERRADA });
+    gsap.set("#nav", pose(430, 1500, 180, .5));
+
+    for (const [id, L] of Object.entries(LIN)) {
+      gsap.set(`#${id} .b`, { clipPath: `polygon(0px ${L[0]}px, 1080px ${L[1]}px, 1080px 1920px, 0px 1920px)`, visibility: "hidden" });
+      const d = document.createElement("div"); d.className = "tajo"; d.id = "tj-" + id; $("#tajos").appendChild(d);
+      gsap.set(d, { width: Math.hypot(1080, L[1] - L[0]) + 40, left: -20, top: L[0], rotation: ang(L), transformOrigin: "100% 50%", scaleX: 0 });
+    }
+    gsap.set("#fin .ln > p", { yPercent: 118 });
+
+    const tl = gsap.timeline({ paused: true });
+
+    const S_CORTE = .74, PUNTA = (1213 - 150) * 1300 / 1536 * S_CORTE, BAJO = 64 * S_CORTE, VEL = 7600;
+    const cortes = [];
+    function pasada(t0, id) {
+      const L = LIN[id], a = ang(L), n = [-Math.sin(a * rad), Math.cos(a * rad)];
+      const punto = (x) => { const y = yEn(L, x); return [x + n[0] * BAJO, y + n[1] * BAJO]; };
+      const x0 = 1080 + PUNTA + 420, x1 = -1400;
+      const [ax, ay] = punto(x0), [bx, by] = punto(x1);
+      tl.set("#nav", { ...pose(ax, ay, 180 + a, S_CORTE) }, t0);
+      tl.to("#nav", { x: bx - PV[0], y: by - PV[1], duration: (x0 - x1) / VEL, ease: "none" }, t0);
+      const entra = t0 + (x0 - PUNTA - 1080) / VEL, cruza = 1080 / VEL, fin = entra + cruza;
+      const tj = "#tj-" + id;
+      tl.set(tj, { opacity: 1 }, entra);
+      tl.set(`#${id} .a`, { clipPath: `polygon(0px 0px, 1080px 0px, 1080px ${L[1]}px, 0px ${L[0]}px)` }, entra);
+      tl.set(`#${id} .b`, { visibility: "visible" }, entra);
+      tl.to(tj, { scaleX: 1, duration: cruza, ease: "none" }, entra);
+      tl.to(tj, { opacity: 0, scaleY: .15, duration: .16, ease: "power2.out" }, fin + .02);
+      tl.fromTo("#bH", { backgroundPosition: "130% 0%" }, { backgroundPosition: "-20% 100%", duration: .3, ease: "none", immediateRender: false }, t0);
+      // las dos mitades se separan en perpendicular y caen
+      tl.to(`#${id} .a`, { x: n[0] * -70 - 30, y: n[1] * -70, rotation: -1.6, duration: .5, ease: "power3.out" }, fin);
+      tl.to(`#${id} .b`, { x: n[0] * 70 + 30, y: n[1] * 70, rotation: 1.6, duration: .5, ease: "power3.out" }, fin);
+      tl.to(`#${id} .a`, { y: "-=40", opacity: 0, duration: .13, ease: "power2.in" }, fin + .06);
+      tl.to(`#${id} .b`, { y: "+=140", opacity: 0, duration: .13, ease: "power2.in" }, fin + .06);
+      tl.set("#" + id, { opacity: 0, visibility: "hidden" }, fin + .2);
+      tl.to("#destello", { opacity: 1, duration: .05, ease: "none" }, fin - .02);
+      tl.to("#destello", { opacity: 0, duration: .45, ease: "power2.out" }, fin + .03);
+      cortes.push({ entra, cruza, L });
+      return fin;
+    }
+
+    // una escena llega por detrás del tajo: títulos que suben y la pantalla que se enfoca
+    function llega(id, at) {
+      tl.set("#" + id, { opacity: 1 }, at);
+      tl.fromTo(`#${id} .t`, { yPercent: 118 }, { yPercent: 0, duration: .55, ease: "expo.out", stagger: .09 }, at + .02);
+      tl.fromTo(`#${id} .card`, { opacity: 0, y: 90, scale: 1.05, filter: "blur(16px) brightness(1.6)" },
+        { opacity: 1, y: 0, scale: 1, filter: "blur(0px) brightness(1)", duration: .7, ease: "expo.out" }, at);
+      tl.fromTo(`#${id} .reflejo`, { backgroundPosition: "140% 0" }, { backgroundPosition: "-40% 0", duration: 1.1, ease: "power1.inOut" }, at + .15);
+      tl.fromTo(`#${id} .lienzo`, { scale: 1 }, { scale: 1.03, duration: 4, ease: "none" }, at);
+    }
+    const marca = (sel, at) => tl.fromTo(sel, { opacity: 0, scale: 1.12 }, { opacity: 1, scale: 1, duration: .45, ease: "back.out(2)" }, at);
+    const suelta = (sel, at) => tl.to(sel, { opacity: 0, duration: .3, ease: "power1.out" }, at);
+    const micro = (de, a, at) => { tl.to(de, { opacity: 0, duration: .2 }, at); tl.fromTo(a, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: .35, ease: "power2.out" }, at + .1); };
+
+    // ---------- 0. la navaja se abre bajo la pregunta y la corta ----------
+    tl.to("#hoja", { rotation: ABIERTA + 9, duration: .17, ease: "power3.out" }, T.abre);
+    tl.to("#hoja", { rotation: ABIERTA, duration: .25, ease: "back.out(2)" }, T.abre + .17);
+    tl.fromTo("#bH", { backgroundPosition: "130% 0%" }, { backgroundPosition: "-20% 100%", duration: .35, ease: "power1.out" }, T.abre + .1);
+    tl.to("#nav", { ...pose(1950, 900, 180 + ang(LIN.s0) - 20, .74), duration: .26, ease: "power3.in" }, T.abre + .2);
+    let f = pasada(T.c0, "s0");
+    micro("#mm0", "#mm1", f);
+    tl.fromTo("#muestra", { opacity: 0 }, { opacity: 1, duration: .5 }, f + .3);
+
+    // ---------- 1. la hoja del turno: «No vino» ----------
+    llega("s1", f + .06);
+    marca("#s1 .a0", T.novino);
+    tl.fromTo("#s1 .toque", { opacity: .95, scale: .2 }, { opacity: 0, scale: 2.4, duration: .6, ease: "power2.out" }, T.tocaNV);
+    tl.to("#s1 .card", { scale: .985, duration: .08, ease: "power2.out", yoyo: true, repeat: 1 }, T.tocaNV);
+
+    // ---------- 2. métricas: la plata y quién faltó dos veces ----------
+    f = pasada(T.c1, "s1");
+    micro("#mm1", "#mm2", f);
+    llega("s2", f + .06);
+    marca("#s2 .a0", T.plata);
+    suelta("#s2 .a0", T.quien - .25);
+    marca("#s2 .a1", T.quien);
+
+    // ---------- 3. el link del cliente ----------
+    f = pasada(T.c2, "s2");
+    micro("#mm2", "#mm3", f);
+    llega("s3", f + .06);
+    marca("#s3 .a0", T.cal);
+    suelta("#s3 .a0", T.cambia - .25);
+    marca("#s3 .a1", T.cambia);
+    marca("#s3 .a2", T.cancela);
+
+    // ---------- 4. la reserva: el horario vuelve a quedar libre ----------
+    f = pasada(T.c3, "s3");
+    micro("#mm3", "#mm4", f);
+    llega("s4", f + .06);
+    tl.to("#s4 .dos", { opacity: 1, duration: .28, ease: "power1.inOut" }, T.libre - .1);
+    marca("#s4 .a0", T.libre);
+
+    // ---------- cierre ----------
+    f = pasada(T.c4, "s4");
+    micro("#mm4", "#mm5", f);
+    tl.to("#muestra", { opacity: 0, duration: .3 }, f);
+    tl.to("#f0 > p", { yPercent: 0, duration: .6, ease: "expo.out" }, T.f0);
+    tl.to("#f1 > p", { yPercent: 0, duration: .6, ease: "expo.out" }, T.f1);
+    tl.to("#f2 > p", { yPercent: 0, duration: .62, ease: "expo.out" }, T.f2);
+    // la navaja vuelve abierta por debajo y se cierra de golpe
+    tl.set("#nav", pose(1800, 1520, 180, .5), T.entraNav - .02);
+    tl.to("#nav", { ...pose(470, 1520, 180, .5), duration: .6, ease: "expo.out" }, T.entraNav);
+    tl.to("#hoja", { rotation: CERRADA, duration: .16, ease: "power3.in" }, T.cierra - .16);
+    tl.to("#nav", { rotation: 176, duration: .1, ease: "power2.out" }, T.cierra);
+    tl.to("#nav", { rotation: 180, duration: .3, ease: "sine.inOut" }, T.cierra + .1);
+    tl.fromTo("#bM", { backgroundPosition: "130% 0%" }, { backgroundPosition: "-20% 100%", duration: .4, ease: "power1.out" }, T.cierra);
+    tl.fromTo(".luz", { opacity: .8 }, { opacity: .3, duration: .3, ease: "power2.out", immediateRender: false }, T.cierra);
+    tl.to("#fin .ln > p", { yPercent: -140, opacity: 0, duration: .34, ease: "power3.in", stagger: .03 }, T.logo - .5);
+    tl.fromTo("#logo", { opacity: 0, y: 30, filter: "blur(10px)" }, { opacity: 1, y: 0, filter: "blur(0px)", duration: .8, ease: "expo.out" }, T.logo);
+    tl.fromTo("#url", { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: .6, ease: "power2.out" }, T.logo + .4);
+    tl.to("#nav", { scale: .53, duration: DUR - T.cierra - .4, ease: "none" }, T.cierra + .4);
+    tl.fromTo("#bM", { backgroundPosition: "130% 0%" }, { backgroundPosition: "-20% 100%", duration: .9, ease: "power1.inOut", immediateRender: false }, T.logo + .5);
+
+    // ---------- chispas del filo ----------
+    let semilla = 20261112;
+    const az = () => { semilla = (semilla + 0x6D2B79F5) | 0; let z = Math.imul(semilla ^ (semilla >>> 15), 1 | semilla); z = (z + Math.imul(z ^ (z >>> 7), 61 | z)) ^ z; return ((z ^ (z >>> 14)) >>> 0) / 4294967296; };
+    const ch = [];
+    cortes.forEach(({ entra, cruza, L }) => {
+      const a = ang(L) * rad;
+      for (let i = 0; i < 60; i++) {
+        const u = az(), x = 1080 * (1 - u), sp = 300 + az() * 900, d = a + Math.PI + (az() - .5) * 1.1 + (az() < .5 ? -.5 : .5);
+        ch.push({ t: entra + cruza * u, x, y: yEn(L, x), vx: Math.cos(d) * sp, vy: Math.sin(d) * sp - 120, vida: .25 + az() * .45, w: .8 + az() * 1.6 });
+      }
+    });
+    const ctx = $("#chispas").getContext("2d");
+    const grano = $("#grano");
+    const reloj = { t: 0 };
+    function dibujar() {
+      const t = reloj.t, c = Math.floor((t + 4.9) * 24);
+      grano.style.backgroundPosition = ((c * 197) % 512) + "px " + ((c * 311) % 512) + "px";
+      ctx.clearRect(0, 0, 1080, 1920);
+      ctx.lineCap = "round";
+      for (const p of ch) {
+        const e = t - p.t; if (e < 0 || e > p.vida) continue;
+        const k = 1 - e / p.vida;
+        const x = p.x + p.vx * e, y = p.y + p.vy * e + 900 * e * e;
+        const tx = p.vx * .022, ty = (p.vy + 1800 * e) * .022;
+        ctx.globalAlpha = k;
+        ctx.strokeStyle = k > .55 ? "#fff3e2" : "#ffb57d";
+        ctx.lineWidth = p.w * (.5 + k * .8);
+        ctx.beginPath(); ctx.moveTo(x - tx, y - ty); ctx.lineTo(x, y); ctx.stroke();
+      }
+      ctx.globalAlpha = 1;
+    }
+    tl.to(reloj, { t: DUR, duration: DUR, ease: "none", onUpdate: dibujar }, 0);
+    dibujar();
+    window.__timelines["resto"] = tl;
+  </script>
+</template>
