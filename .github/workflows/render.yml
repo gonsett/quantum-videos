@@ -15,7 +15,7 @@ jobs:
           sudo apt-get install -y -qq libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 libegl1 libxkbcommon0 libsm6 > /dev/null
       - name: Render
         run: |
-          P=${{ matrix.parte }}; S=$((319 + P*22)); E=$((S+21)); [ $E -gt 751 ] && E=751
+          P=${{ matrix.parte }}; S=$((61 + P*35)); E=$((S+34)); [ $E -gt 751 ] && E=751
           ./blender-4.5.3-linux-x64/blender -b capa.blend -P rapido.py -o //out/f#### -F PNG -t 0 -s $S -e $E -a | grep -E "Saved|rror"
       - uses: actions/upload-artifact@v4
         with:
