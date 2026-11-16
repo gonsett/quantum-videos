@@ -189,6 +189,7 @@ def cuadro(f, cam_override=None):
     # cámara: acercamiento lento
     u = ez(t / 12.4)
     cl = np.array([5.9, 9.0, 0.5]) * (1 - u) + np.array([4.9, 7.7, 0.8]) * u
+    _mira = np.array([.45, 1.6, 1.75]); cl = _mira + (cl - _mira) * float(os.environ.get('LEJOS', '1.4'))   # 16/11: plano más abierto
     cam.location = cl.tolist()
     cam.rotation_euler = (mathutils.Vector((.45, 1.6, 1.75)) - mathutils.Vector(cl.tolist())).to_track_quat('-Z', 'Y').to_euler()
     cam.data.dof.focus_distance = float(np.linalg.norm(cl - np.array([.6, 1.75, 1.5])))
