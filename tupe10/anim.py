@@ -57,8 +57,8 @@ def estado(t):
             sal = 1 - ez((u - .55) / .45)
             return x + (x2 - x) * ez(u), Z1 + (Z0 - Z1) * ez(u / .8), max(sal, 0.0)
     a, b, x = PAS[-1]
-    u = (t - b) / 1.4      # el celular vibra: la mano frena y baja la máquina
-    return x, Z1 + (Z0 + .5 - Z1) * ez(u), 1.0
+    u = (t - b) / 1.4      # el celular vibra: la mano frena y saca la máquina del cuadro
+    return x, Z1 + (Z0 + .5 - Z1) * ez(u), 1.0 + 3.5 * ez(u)
 
 
 fac_hecho = degrade(R)
@@ -84,7 +84,7 @@ def largos(t):
             continue
         u = min(1.0, (t - a) / (b - a))
         dx = np.abs(R[:, 0] - x)
-        lado = np.clip((ANCHO * .95 - dx) / (ANCHO * .6), 0, 1)          # borde lateral suave
+        lado = np.clip((ANCHO * 1.05 - dx) / (ANCHO * .22), 0, 1)        # borde lateral corto: escalón limpio, sin mechón a medias
         alto = np.clip((altura(u) + .9 - R[:, 2]) / .9, 0, 1)           # salida de muñeca: se esfuma hacia arriba
         k = lado * alto * atras
         en = k > 0
@@ -170,7 +170,7 @@ def cuadro(f, cam_override=None):
     x, z, sal = estado(t)
     p, n = punto(x, z)
     up = np.array([0, 0, 1.0]); tg = up - n * (n @ up); tg /= np.linalg.norm(tg)
-    ang = math.radians(30 + 25 * sal)
+    ang = math.radians(30 + 25 * min(sal, 1.0))
     Z = tg * math.cos(ang) - n * math.sin(ang)     # cuchilla contra la piel, cuerpo hacia afuera
     Y = -(n * math.cos(ang) + tg * math.sin(ang))
     X = np.cross(Y, Z)
